@@ -6,40 +6,48 @@
   ],
   "decision_questions": [
     {
+      "id": "outdoor",
       "prompt": "Do you need to use the launch monitor outdoors?",
       "outcomes": [
         {
-          "when": "yes",
+          "answer": true,
+          "label": "yes",
           "product_id": "mlm2pro",
           "reason": "Rapsodo explicitly supports indoor and outdoor use; Square Home is positioned for indoor use"
         }
       ]
     },
     {
+      "id": "tight_space",
       "prompt": "Is room depth tight?",
       "outcomes": [
         {
-          "when": "yes",
+          "answer": true,
+          "label": "yes",
           "product_id": "square-home",
           "reason": "the side-mounted camera layout is much friendlier to short indoor rooms"
         }
       ]
     },
     {
+      "id": "avoid_subscription",
       "prompt": "Do you strongly dislike paying a platform subscription?",
       "outcomes": [
         {
-          "when": "yes",
+          "answer": true,
+          "label": "yes",
           "product_id": "square-home",
           "reason": "Square advertises no subscription fee while key MLM2PRO features and third-party compatibility sit behind Premium"
         }
       ]
     },
     {
+      "id": "impact_feedback",
       "prompt": "Is impact video and structured practice feedback a major reason you are buying?",
       "outcomes": [
         {
-          "when": "yes",
+          "answer": true,
+          "label": "yes",
           "product_id": "mlm2pro",
           "reason": "Impact Vision, swing replay, and Rapsodo practice features are central parts of the product"
         }
