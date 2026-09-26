@@ -1,0 +1,29 @@
+name: Review Pirate
+
+on:
+  pull_request:
+    paths:
+      - "Projects/ReviewPirate/**"
+      - ".github/workflows/review-pirate.yml"
+  push:
+    branches:
+      - main
+    paths:
+      - "Projects/ReviewPirate/**"
+      - ".github/workflows/review-pirate.yml"
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: Projects/ReviewPirate
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Unit tests
+        run: python -m unittest -v
+      - name: Generate live comparison report
+        run: python review_pirate.py data/mlm2pro-vs-square.json > /tmp/mlm2pro-vs-square.md
