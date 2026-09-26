@@ -4,6 +4,10 @@
 
 done
 
+- vidIQ connected for discovery research
+- seed keyword opportunity mapped
+- competitor / adjacent-channel scan completed
+- episode title tested with vidIQ
 - deep research threshold crossed
 - 30+ source ledger
 - reviewer methodology matrix
@@ -17,7 +21,7 @@ done
 next
 
 - final pre-record research refresh
-- tighten script for spoken rhythm
+- final spoken-rhythm pass
 - create narration sample
 - build the first 60 seconds visually
 - test thumbnail concepts
