@@ -2,7 +2,7 @@
 
 working title
 
-**8 Experts. 8 Different "Best" Robot Vacuums.**
+**Best Robot Vacuum 2026? Why the Experts Don’t Agree**
 
 ## cold open
 
