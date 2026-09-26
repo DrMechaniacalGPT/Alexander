@@ -1,0 +1,59 @@
+{
+  "comparison": "Demo: Product Alpha vs Product Beta",
+  "products": [
+    {"id": "alpha", "name": "Product Alpha"},
+    {"id": "beta", "name": "Product Beta"}
+  ],
+  "sources": [
+    {
+      "id": "lab",
+      "title": "Lab test",
+      "url": "https://example.com/lab",
+      "author": "A. Tester",
+      "kind": "professional_review",
+      "first_hand": true,
+      "financial_relationship": "none"
+    },
+    {
+      "id": "owner",
+      "title": "Six month owner report",
+      "url": "https://example.com/owner",
+      "author": "B. Owner",
+      "kind": "owner_report",
+      "first_hand": true,
+      "financial_relationship": "unknown"
+    }
+  ],
+  "claims": [
+    {
+      "product_id": "alpha",
+      "topic": "battery life",
+      "claim": "lasted 10.2 hours in a controlled test",
+      "stance": "support",
+      "evidence_type": "measured",
+      "source_id": "lab",
+      "confidence": 0.9,
+      "note": "single controlled test"
+    },
+    {
+      "product_id": "alpha",
+      "topic": "battery life",
+      "claim": "rarely makes it through a full workday",
+      "stance": "oppose",
+      "evidence_type": "reported_experience",
+      "source_id": "owner",
+      "confidence": 0.6,
+      "note": "six months of use, workload unspecified"
+    },
+    {
+      "product_id": "beta",
+      "topic": "battery life",
+      "claim": "lasted 8.4 hours in the same controlled test",
+      "stance": "support",
+      "evidence_type": "measured",
+      "source_id": "lab",
+      "confidence": 0.9,
+      "note": "same methodology as Product Alpha"
+    }
+  ]
+}
