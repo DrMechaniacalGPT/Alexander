@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Review Pirate</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="shell">
+    <header class="hero">
+      <div class="eyebrow">Review Pirate</div>
+      <h1 id="title">Loading comparison…</h1>
+      <p class="lede">
+        Answer the questions that change the decision.
+        Then inspect the evidence instead of trusting a magic score.
+      </p>
+    </header>
+
+    <section class="panel">
+      <div class="section-heading">
+        <h2>What matters to you?</h2>
+        <button id="reset" class="text-button" type="button">reset</button>
+      </div>
+      <div id="questions" class="questions"></div>
+    </section>
+
+    <section class="panel">
+      <h2>For you</h2>
+      <div id="fit" class="fit-grid">
+        <p class="muted">Answer a question above. The useful differences will show up here.</p>
+      </div>
+    </section>
+
+    <section class="panel">
+      <div class="section-heading">
+        <h2>Evidence</h2>
+        <label class="compact-control">
+          <span>show</span>
+          <select id="product-filter">
+            <option value="all">all products</option>
+          </select>
+        </label>
+      </div>
+      <div id="evidence"></div>
+    </section>
+
+    <section class="panel">
+      <h2>Sources</h2>
+      <p class="muted">
+        Manufacturer, reviewer, retailer, and owner evidence are not the same thing.
+        They are all allowed in the room; they just have to wear name tags.
+      </p>
+      <div id="sources" class="source-list"></div>
+    </section>
+  </main>
+
+  <template id="question-template">
+    <label class="question">
+      <input type="checkbox">
+      <span>
+        <strong class="question-text"></strong>
+        <small>yes</small>
+      </span>
+    </label>
+  </template>
+
+  <script src="app.js"></script>
+</body>
+</html>
