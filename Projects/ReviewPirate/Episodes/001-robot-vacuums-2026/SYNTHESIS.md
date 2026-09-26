@@ -65,6 +65,106 @@ that category choice
 is itself evidence
 about why rankings differ
 
+## evidence matrix
+
+the matrix
+may be the core
+Review Pirate artifact
+
+products
+
+across the top
+
+sources
+
+down the side
+
+cells capture
+
+- substantive coverage
+- evidence depth
+- verdict direction
+
+a separate layer captures
+
+- unit source
+- sponsorship
+- affiliate path
+- commercial context
+
+the first lesson
+is visible immediately
+
+different reviewers
+have different candidate sets
+
+blank cells
+are not negative evidence
+
+they are
+
+**not in this verified evidence set**
+
+this turns
+candidate-set bias
+from an invisible caveat
+
+into a picture
+
+current files
+
+`MATRIX.md`
+
+`data/source_product_matrix.csv`
+
+`data/source_incentives.csv`
+
+`data/brand_affiliate_rates.csv`
+
+## commercial incentives
+
+affiliate economics
+are now part
+of the research model
+
+public programs
+currently advertise
+different commission ranges
+
+but
+
+program availability
+does not establish
+
+reviewer participation
+
+reviewer rate
+
+or influence
+on a conclusion
+
+the useful research question
+is not
+
+who is biased
+
+it is
+
+**does verified commercial context
+predict coverage
+or recommendations
+after controlling for
+the obvious product variables**
+
+that requires
+a much larger dataset
+
+episode 001
+should introduce
+the idea briefly
+
+not prosecute anyone
+
 ## what explains the disagreement
 
 ### candidate set
