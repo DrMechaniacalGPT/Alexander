@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 
+import argparse
 import json
 import sys
 from collections import defaultdict
@@ -21,6 +22,7 @@ def validate(data):
     errors = []
     product_ids = {p.get("id") for p in data.get("products", [])}
     source_ids = {s.get("id") for s in data.get("sources", [])}
+    question_ids = set()
 
     for index, claim in enumerate(data.get("claims", []), start=1):
         if claim.get("product_id") not in product_ids:
@@ -29,14 +31,35 @@ def validate(data):
             errors.append(f"claim {index}: unknown source_id {claim.get('source_id')!r}")
 
     for q_index, question in enumerate(data.get("decision_questions", []), start=1):
+        qid = question.get("id")
+        if not qid:
+            errors.append(f"decision question {q_index}: missing id")
+        elif qid in question_ids:
+            errors.append(f"decision question {q_index}: duplicate id {qid!r}")
+        else:
+            question_ids.add(qid)
+
         for o_index, outcome in enumerate(question.get("outcomes", []), start=1):
             if outcome.get("product_id") not in product_ids:
                 errors.append(
                     f"decision question {q_index}, outcome {o_index}: "
                     f"unknown product_id {outcome.get('product_id')!r}"
                 )
+            if "answer" not in outcome:
+                errors.append(
+                    f"decision question {q_index}, outcome {o_index}: missing answer"
+                )
 
     return errors
+
+
+def validate_profile(data, profile):
+    known = {q.get("id") for q in data.get("decision_questions", [])}
+    return [
+        f"profile: unknown question id {key!r}"
+        for key in profile
+        if key not in known
+    ]
 
 
 def source_label(source):
@@ -59,11 +82,52 @@ def render_decision_questions(data, products):
         lines.append("")
         for outcome in question.get("outcomes", []):
             product = products.get(outcome.get("product_id"), outcome.get("product_id"))
-            when = outcome.get("when", "if this matters")
+            answer = outcome.get("label", str(outcome.get("answer")).lower())
             reason = outcome.get("reason", "")
-            lines.append(f"- **{when}** → **{product}** — {reason}")
+            lines.append(f"- **{answer}** -> **{product}** — {reason}")
         lines.append("")
 
+    return lines
+
+
+def render_profile(data, products, profile):
+    if profile is None:
+        return []
+
+    questions = {q.get("id"): q for q in data.get("decision_questions", [])}
+    matches = []
+
+    for qid, answer in profile.items():
+        question = questions.get(qid)
+        if not question:
+            continue
+
+        for outcome in question.get("outcomes", []):
+            if outcome.get("answer") == answer:
+                matches.append(
+                    (
+                        question.get("prompt", qid),
+                        products.get(outcome.get("product_id"), outcome.get("product_id")),
+                        outcome.get("reason", ""),
+                    )
+                )
+
+    lines = ["## For this buyer", ""]
+
+    if not matches:
+        lines += [
+            "none of the current decision rules fire",
+            "",
+            "that is useful information too",
+            "",
+        ]
+        return lines
+
+    for prompt, product, reason in matches:
+        lines.append(f"- **{product}** — {reason}")
+        lines.append(f"  - because: {prompt}")
+
+    lines.append("")
     return lines
 
 
@@ -87,8 +151,10 @@ def render_sources(data):
     return lines
 
 
-def render(data):
+def render(data, profile=None):
     errors = validate(data)
+    if profile is not None:
+        errors += validate_profile(data, profile)
     if errors:
         raise ValueError("\n".join(errors))
 
@@ -100,6 +166,7 @@ def render(data):
         grouped[claim["product_id"]][claim["topic"]].append(claim)
 
     lines = [f"# {data.get('comparison', 'Review Pirate report')}", ""]
+    lines += render_profile(data, products, profile)
     lines += render_decision_questions(data, products)
     lines += ["## Evidence map", ""]
 
@@ -141,14 +208,25 @@ def render(data):
     return "\n".join(lines).rstrip() + "\n"
 
 
+def parse_args():
+    parser = argparse.ArgumentParser(
+        description="turn structured review evidence into a readable map"
+    )
+    parser.add_argument("data", help="comparison JSON")
+    parser.add_argument(
+        "--profile",
+        help="optional buyer profile JSON keyed by decision-question id",
+    )
+    return parser.parse_args()
+
+
 def main():
-    if len(sys.argv) != 2:
-        print("usage: python3 review_pirate.py path/to/data.json", file=sys.stderr)
-        raise SystemExit(2)
+    args = parse_args()
 
     try:
-        data = load(sys.argv[1])
-        output = render(data)
+        data = load(args.data)
+        profile = load(args.profile) if args.profile else None
+        output = render(data, profile)
     except (OSError, json.JSONDecodeError, ValueError) as exc:
         print(f"review pirate sank: {exc}", file=sys.stderr)
         raise SystemExit(1)
