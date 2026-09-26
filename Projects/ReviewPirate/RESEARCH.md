@@ -93,6 +93,68 @@ best for discovering
 terrible for estimating prevalence
 without a denominator
 
+### retailer reviews
+
+Amazon
+Best Buy
+brand stores
+and similar
+
+can reveal
+
+- recurring failure modes
+- packaging / shipping issues
+- setup friction
+- support problems
+- long-tail ownership complaints
+
+but
+
+retailer reviews
+are unusually easy
+to cherry-pick
+
+for a product-level sample
+
+record
+
+- total rating distribution
+- review date
+- verified-purchase status if available
+- incentivized / Vine badge if available
+- ownership duration if stated
+- firmware / version if stated
+- recurring themes
+
+sample across
+
+- recent positive
+- recent critical
+- most helpful positive
+- most helpful critical
+
+do not
+
+read five one-star reviews
+and call it
+failure-rate research
+
+star averages
+are context
+
+not a verdict
+
+compare retailer themes
+with Reddit
+support forums
+and long-term creator reports
+
+if the same failure mode
+appears independently
+across ecosystems
+
+that is more interesting
+
 ### secondary summaries
 
 useful for discovery
