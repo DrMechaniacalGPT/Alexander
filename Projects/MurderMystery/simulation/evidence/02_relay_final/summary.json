@@ -1,0 +1,55 @@
+{
+  "status": "complete",
+  "failure": null,
+  "scenario": "02-private-relay",
+  "manifest": {
+    "engine": "0.2.0",
+    "case_sha256": "00656ab60afe8ffaf75846367462190b7322def2025d8a1b313932f93176e07d",
+    "config": {
+      "backend": "ollama",
+      "model": "qwen3.5:9b",
+      "seed": 1,
+      "context": 8192,
+      "tokens": 384,
+      "max_calls": 8,
+      "max_seconds": 300.0
+    }
+  },
+  "usage": {
+    "requests": 7,
+    "new_requests": 7,
+    "inherited_turns": 0,
+    "wall_seconds": 27.538,
+    "prompt_tokens": 3360,
+    "output_tokens": 509
+  },
+  "field_limit_hits": [],
+  "events": 4,
+  "contacts": {
+    "p1": [
+      "p2"
+    ],
+    "p2": [
+      "p1",
+      "p3"
+    ],
+    "p3": [
+      "p2"
+    ]
+  },
+  "transitions": [
+    {
+      "scene": "s1",
+      "reason": "schedule_budget",
+      "contact_trigger": null,
+      "contact_count": null
+    }
+  ],
+  "conclusions": {
+    "p1": "The receipt is in cabinet 4. I learned this from a signed document I observed earlier. I do not know any private access marker.",
+    "p2": "The receipt is in cabinet 4, based on Ari's direct statement. I do not know any private access marker.",
+    "p3": "I do not know where the signed receipt is located, nor any private access marker. My role does not provide this information based on observed events."
+  },
+  "actions": [],
+  "limitation": "Synthetic participants; delivery is not belief. No human validity claim."
+}

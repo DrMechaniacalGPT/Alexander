@@ -1,0 +1,39 @@
+{
+  "status": "complete",
+  "failure": null,
+  "scenario": "01-exchange",
+  "manifest": {
+    "engine": "0.1.0",
+    "case_sha256": "81d74dd489a7305950aacab91563ad09ff07c7e7c06594035329c796f47435a4",
+    "config": {
+      "backend": "ollama",
+      "model": "qwen3:8b",
+      "seed": 1,
+      "context": 4096,
+      "tokens": 256,
+      "max_calls": 4,
+      "max_seconds": 300.0
+    }
+  },
+  "usage": {
+    "requests": 4,
+    "wall_seconds": 12.543,
+    "prompt_tokens": 1594,
+    "output_tokens": 271
+  },
+  "events": 2,
+  "contacts": {
+    "p1": [
+      "p2"
+    ],
+    "p2": [
+      "p1"
+    ]
+  },
+  "conclusions": {
+    "p1": "Envelope location is confirmed.",
+    "p2": "The blue envelope is in the green drawer according to Alex."
+  },
+  "actions": [],
+  "limitation": "Synthetic participants; delivery is not belief. No human validity claim."
+}

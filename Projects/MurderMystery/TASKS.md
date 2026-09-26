@@ -2,9 +2,20 @@
 
 Status: `[ ]` not started, `[~]` in progress, `[x]` completed. A task is complete only when its evidence and synthesis are committed, with limitations visible.
 
+## Implementation checkpoint — September 26
+
+The owner approved coding, explicitly favoring a trivial exchange before a four-role situation. Six conversation windows and eight roles are loose ideas, not defaults. [Results](simulation/RESULTS.md) and [implementation scope](simulation/README.md) are authoritative for what actually exists.
+
+- [x] **I01 — Small local runner and incremental fixtures.** Two-person exchange, three-person private relay, four-role dilemma; separately built contexts, bounded local generation, finite schedules, private assessments and explicit failures. Raw synthetic traces retained.
+- [x] **I02 — Integrity and recovery.** Automated isolation, replay/resume, continuation provenance, schema, transition and budget tests. Exact verification count and limitations in RESULTS.md.
+- [x] **I03 — Complete text-adaptation milestone.** Private source extraction and full-phase text adaptation; see [the external run](simulation/external-run.md) for actual completion, failures, digital-hunt assumptions and model behavior. This checkbox does not certify faithful physical play or source-game quality.
+- [ ] **I04 — Improve behavioral fidelity from observed failures.** Distinguish unsupported claims, repetitive conversation, premature consensus and cautious uncertainty. Compare one model/prompt/policy change at a time; do not optimize the scenario against a confused agent.
+
+W01 is partially covered by the original dilemma, not a full set of authored variants. W02/W03 have working scoped implementations; physical inventory and general gesture recognition are not implemented. W04 has real local runs. W06 has fixed/random-pair schedules and optional contact-based transitions, not initiative-driven matching or organic group formation. W08 has an initial external adaptation with source-derived assets kept private. W05/W07 controlled policy sweeps, W09 actual-play coding and W10–W12 product/human/commercial work remain open.
+
 ## Current design and simulation work packages
 
-**Current gate: review this blueprint, then choose an execution slice.** These are proposed implementation tasks, not processes already running. The owner's latest instruction makes this pass planning/research, before building the simulator. IDs W01–W12 refine D01/D02/D03 rather than creating a second task system. The integrating agent owns implementation/integration; the owner supplies taste, people access and spending decisions when needed. A separate reviewer may audit outputs, but no reviewer or persona substitutes for a customer.
+**Original design-stage work packages, retained for scope tracking.** Subsequent implementation is reported above; these broader completion criteria are not silently treated as satisfied. IDs W01–W12 refine D01/D02/D03 rather than creating a second task system. The integrating agent owns implementation/integration; the owner supplies taste, people access and spending decisions when needed. A separate reviewer may audit outputs, but no reviewer or persona substitutes for a customer.
 
 - [x] **P01 — Refine intent and research the design.** Read collaboration guidance; integrate primary agency/design sources and independent critique. Output: `design/DESIGN.md`, `design/RESEARCH.md`, `design/DECISIONS.md`. Done: coherent proposal distinguishes established practice, empirical transfer limits and our hypotheses.
 - [x] **P02 — Expand experience and benchmark evidence.** Add six coded first-person accounts and compare five free/external candidates with actual access and terms. Output: `design/EXPERIENCE.md`, `design/BENCHMARKS.md`, `design/SOCIAL_DEDUCTION.md`. Done: contradictory preferences and free-versus-open distinction visible; no prevalence or human-behavior claim.
@@ -37,7 +48,7 @@ Status: `[ ]` not started, `[~]` in progress, `[x]` completed. A task is complet
   - Run the bounded E3 continuations. Classify actions afterward; retain “other,” ambiguous and failed cases. Inspect supporting observations and effects on others.
   - Output: paired trace report and proposed writing revisions. Acceptance: distinguishes random variety, context-sensitive choice and mechanical failure. Do not require equal branches or infer internal causation from generated rationales. Stop automated expansion if the traces are not interpretable.
 - [ ] **W06 — Add encounter scheduling.** Depends on W04; informed by W05. Owner: integrating agent.
-  - Implement random-pair baseline and initiative-led matching with explicit attendance, occupancy, continuation length and unmatched approaches. Vary windows rather than hardcode six as human truth.
+  - Implement random-pair baseline and initiative-led matching with explicit attendance, occupancy, continuation length and unmatched approaches. Compare explicit encounter budgets and scene-transition policies without a six-window default.
   - Test no double-booking and no information from future or missed windows. Add group membership/speaker routing only after pair mode passes; compare formats separately.
   - Output: schedule tests and visible encounter timeline. Acceptance: schedule assumptions and idle opportunities are explicit; forced pairing is not presented as spontaneous mingling.
 - [ ] **W07 — Stress roles and imperfect play.** Depends on W05–W06. Owner: integrating agent and reviewer.
@@ -67,7 +78,7 @@ Status: `[ ]` not started, `[~]` in progress, `[x]` completed. A task is complet
   - Rebuild economics including simulator maintenance, video production and acquisition labor. Measure qualified hosts and transactions separately from views/developer interest.
   - Output: launch/recruitment proposal and bounded measurement plan. Acceptance: no unsupported perfect-game claim, no assumption of virality, no third-party NC content silently used in commercial materials. No publication implied by this task list.
 
-**Next proposed action after review:** execute W01–W04 only, inspect the concrete output, then select the next experiments. Research W09 may proceed independently if authorized. This avoids building a full game and full simulator simultaneously while still co-designing a meaningful situation.
+**Original proposed starting slice:** W01–W04. The owner subsequently authorized a smaller incremental start and an external-scenario execution milestone; see the implementation checkpoint above. Research W09 may proceed independently if authorized. This avoids building a full game and full simulator simultaneously while still co-designing a meaningful situation.
 
 
 ## Historical discovery scope
@@ -114,6 +125,6 @@ No task status implies an agent is continuing in the background.
 
 - [x] **F01 — Decision-stage technical assessment.** Document separate engineering, design-validation and distribution bets; alternatives, isolation architecture, costs, effort and stop rules. Output: `research/FEASIBILITY.md`, `research/DOJO_SKETCH.md`, `research/FEASIBILITY_SOURCES.md`.
 - [x] **F02 — User-requested local connectivity probe.** Three short Python/Ollama calls and separate-input marker checks passed; timings and exact prompts saved. This is not a game simulation or a privacy proof.
-- [~] **F03 — Agree next scope.** Direction clarified through the owner’s discussion: co-design a creative local experiment and small original situation. The blueprint and W01–W04 now specify the proposed investment; execution review remains open. The former narrow defect-detection gate is superseded.
+- [x] **F03 — Agree next scope.** The owner approved incremental coding through simple fixtures and an existing-scenario execution milestone. The implementation checkpoint above records delivery and remaining scope. The former narrow defect-detection gate is superseded.
 
 The discovery checkpoint remains open for product discussion. The proposed dojo is not evidence of human enjoyment or an established acquisition channel.

@@ -7,13 +7,13 @@ September 26 revision: the owner wants a creative simulation-and-game experiment
 | Gate | Question | Evidence / output | Status |
 |---|---|---|---|
 | 1. Market and experience | What problems and competing formats deserve attention? | Seller map, purposive reviews, mechanics and scenario economics | Bounded discovery delivered; coverage limits retained |
-| 2. Research design | What experience are we exploring, and what will we build first? | Coherent blueprint, card sketch, architecture and dependent tasks | This pass delivered; first execution slice proposed |
-| 3. Local research fixture | Can we inspect coherent private conversations and consequential choices? | W01–W04: four reciprocal roles, event routing, recorded runner, realistic local calls | Proposed, no implementation yet |
-| 4. Design exploration | What do contextual information, participant policies and encounter rules change? | W05–W08: traceable comparisons, stress cases and external mapping | Proposed; inspect each bounded stage |
+| 2. Research design | What experience are we exploring, and what will we build first? | Coherent blueprint, card sketch, architecture and dependent tasks | Blueprint reviewed; incremental implementation authorized |
+| 3. Local research fixture | Can we inspect coherent private conversations and consequential choices? | W01–W04: four reciprocal roles, event routing, recorded runner, realistic local calls | Working scoped runner and fixtures delivered; behavioral failures recorded |
+| 4. Design exploration | What do contextual information, participant policies and encounter rules change? | W05–W08: traceable comparisons, stress cases and external mapping | Initial external and diagnostic runs delivered; broader policy sweeps remain |
 | 5. Original playable slice | Which theme and one-scene experience are worth extending? | W10 plus reader checks; expand toward eight roles before full three-act writing | Owner taste decision remains open |
 | 6. Human and commercial learning | Do actual guests enjoy it, and will hosts buy at viable cost? | W11/W12: sessions, revisions, positioning and measured commercial experiment | Later; no recruitment or publication authorized by this plan |
 
-Gates organize decisions; they do not require stopping between every routine subtask. The current user request ends at planning. Later execution should progress through its agreed slice without repeatedly asking for parameters that the agent can reasonably choose.
+Gates organize decisions; they do not require stopping between every routine subtask. The owner subsequently approved incremental implementation through trivial fixtures and an existing-scenario run. The [implementation results](simulation/RESULTS.md) are the current checkpoint; the stages below retain future scope rather than implying every design feature was implemented.
 
 ## First execution slice
 

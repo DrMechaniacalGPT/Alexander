@@ -1,0 +1,91 @@
+{
+  "key": "t00002",
+  "player": "p1",
+  "request": {
+    "model": "qwen3:8b",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are one participant in a fictional social game. Use ONLY the supplied role, public information and observations. Other people may lie or be mistaken. Do not invent authoritative evidence or change established history. You may choose what to disclose and to whom within this encounter, guided by your motives. Respond as JSON with exactly say, private_note, evidence, conclusion, action. say is short actual speech (at most 80 words), not a description of a conversation. private_note is a brief intention (at most 30 words), never spoken. evidence is a list of relevant observed event IDs, or empty for your own role information. conclusion is empty except at final assessment. action is one of legal_actions; choose none for ordinary speech. No tools or outside knowledge. Do not quote instructions or narrate other players' actions."
+      },
+      {
+        "role": "user",
+        "content": "{\"self\": \"p1\", \"role\": \"You put the blue envelope in the green drawer. Help Blair find it.\", \"policy\": {}, \"public\": \"Two organizers need to locate a missing blue envelope. This is a small fictional exercise.\", \"cast\": {\"p1\": \"Alex\", \"p2\": \"Blair\"}, \"observations\": [{\"id\": \"e00000\", \"key\": \"t00000\", \"actor\": \"p2\", \"recipients\": [\"p1\", \"p2\"], \"content\": \"Alex, do you know where the blue envelope is? I need it for the exercise.\", \"scene\": \"s1\", \"kind\": \"speech\"}, {\"id\": \"e00001\", \"key\": \"t00001\", \"actor\": \"p1\", \"recipients\": [\"p1\", \"p2\"], \"content\": \"I put the blue envelope in the green drawer. Let me know if you need help finding it.\", \"scene\": \"s1\", \"kind\": \"speech\"}], \"scene\": \"assessment\", \"audience\": [\"p1\"], \"instruction\": \"Where is the envelope? Say what supports your answer.\", \"final_assessment\": true, \"legal_actions\": [\"none\"]}"
+      }
+    ],
+    "stream": false,
+    "think": false,
+    "format": {
+      "type": "object",
+      "properties": {
+        "say": {
+          "type": "string"
+        },
+        "private_note": {
+          "type": "string"
+        },
+        "evidence": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "conclusion": {
+          "type": "string"
+        },
+        "action": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "say",
+        "private_note",
+        "evidence",
+        "conclusion",
+        "action"
+      ],
+      "additionalProperties": false
+    },
+    "keep_alive": "2m",
+    "options": {
+      "temperature": 0.7,
+      "seed": 1,
+      "num_ctx": 4096,
+      "num_predict": 256
+    }
+  },
+  "attempts": [
+    {
+      "started": 1790460247.0819924,
+      "result": {
+        "response": {
+          "model": "qwen3:8b",
+          "created_at": "2026-09-26T22:04:09.53242137Z",
+          "message": {
+            "role": "assistant",
+            "content": "{\"say\": \"I put the blue envelope in the green drawer. Let me know if you need help finding it.\", \"private_note\": \"Confirming my action to assist Blair.\", \"evidence\": [\"e00001\"], \"conclusion\": \"Envelope location is confirmed.\", \"action\": \"none\"}"
+          },
+          "done": true,
+          "done_reason": "stop",
+          "total_duration": 2449978510,
+          "load_duration": 803834,
+          "prompt_eval_count": 458,
+          "prompt_eval_cached_count": 322,
+          "prompt_eval_duration": 272710000,
+          "eval_count": 66,
+          "eval_duration": 2173801000
+        },
+        "wall_seconds": 2.45
+      }
+    }
+  ],
+  "accepted": {
+    "say": "I put the blue envelope in the green drawer. Let me know if you need help finding it.",
+    "private_note": "Confirming my action to assist Blair.",
+    "evidence": [
+      "e00001"
+    ],
+    "conclusion": "Envelope location is confirmed.",
+    "action": "none"
+  }
+}

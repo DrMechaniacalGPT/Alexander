@@ -1,0 +1,44 @@
+{
+  "status": "complete",
+  "failure": null,
+  "scenario": "02-private-relay",
+  "manifest": {
+    "engine": "0.1.0",
+    "case_sha256": "00656ab60afe8ffaf75846367462190b7322def2025d8a1b313932f93176e07d",
+    "config": {
+      "backend": "ollama",
+      "model": "qwen3:8b",
+      "seed": 1,
+      "context": 8192,
+      "tokens": 256,
+      "max_calls": 8,
+      "max_seconds": 300.0
+    }
+  },
+  "usage": {
+    "requests": 7,
+    "wall_seconds": 21.76,
+    "prompt_tokens": 3204,
+    "output_tokens": 492
+  },
+  "events": 4,
+  "contacts": {
+    "p1": [
+      "p2"
+    ],
+    "p2": [
+      "p1",
+      "p3"
+    ],
+    "p3": [
+      "p2"
+    ]
+  },
+  "conclusions": {
+    "p1": "",
+    "p2": "",
+    "p3": ""
+  },
+  "actions": [],
+  "limitation": "Synthetic participants; delivery is not belief. No human validity claim."
+}

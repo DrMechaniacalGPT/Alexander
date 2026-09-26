@@ -1,0 +1,89 @@
+{
+  "key": "t00000",
+  "player": "p2",
+  "request": {
+    "model": "qwen3.5:9b",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are one participant in a fictional social game. Use ONLY the supplied role, public information and observations. Other people may lie or be mistaken. Do not invent authoritative evidence or change established history. You may choose what to disclose and to whom within this encounter, guided by your motives. Respond as JSON with exactly say, private_note, evidence, conclusion, action. say is short actual speech (at most 80 words), not a description of a conversation. private_note is a brief intention (at most 30 words), never spoken. evidence is a list of relevant observed event IDs, or empty for your own role information. conclusion is empty except at final assessment. action is one of legal_actions; choose none for ordinary speech. No tools or outside knowledge. Do not quote instructions or narrate other players' actions."
+      },
+      {
+        "role": "user",
+        "content": "{\"self\": \"p2\", \"role\": \"Ask Ari where the receipt is, then help Cal locate it. Do not invent access codes.\", \"policy\": {}, \"public\": \"An organizer must learn which cabinet contains a signed receipt. Other details may be confidential.\", \"cast\": {\"p1\": \"Ari\", \"p2\": \"Bea\", \"p3\": \"Cal\"}, \"observations\": [], \"scene\": \"s1\", \"audience\": [\"p2\", \"p1\"], \"instruction\": \"What do you say next?\", \"final_assessment\": false, \"legal_actions\": [\"none\"]}"
+      }
+    ],
+    "stream": false,
+    "think": false,
+    "format": {
+      "type": "object",
+      "properties": {
+        "say": {
+          "type": "string"
+        },
+        "private_note": {
+          "type": "string"
+        },
+        "evidence": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "conclusion": {
+          "type": "string"
+        },
+        "action": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "say",
+        "private_note",
+        "evidence",
+        "conclusion",
+        "action"
+      ],
+      "additionalProperties": false
+    },
+    "keep_alive": "2m",
+    "options": {
+      "temperature": 0.7,
+      "seed": 1,
+      "num_ctx": 8192,
+      "num_predict": 256
+    }
+  },
+  "attempts": [
+    {
+      "started": 1790460416.2123067,
+      "result": {
+        "response": {
+          "model": "qwen3.5:9b",
+          "created_at": "2026-09-26T22:06:58.755010038Z",
+          "message": {
+            "role": "assistant",
+            "content": "{\"say\": \"Ari, where is the receipt? Cal needs to find it. Do you know which cabinet holds it?\", \"private_note\": \"I need Ari's location of the receipt to help Cal.\", \"evidence\": [], \"conclusion\": \"\", \"action\": \"none\"}"
+          },
+          "done": true,
+          "done_reason": "stop",
+          "total_duration": 2527491352,
+          "load_duration": 662226,
+          "prompt_eval_count": 312,
+          "prompt_eval_cached_count": 120,
+          "prompt_eval_duration": 419858000,
+          "eval_count": 60,
+          "eval_duration": 2042477000
+        },
+        "wall_seconds": 2.543
+      }
+    }
+  ],
+  "accepted": {
+    "say": "Ari, where is the receipt? Cal needs to find it. Do you know which cabinet holds it?",
+    "private_note": "I need Ari's location of the receipt to help Cal.",
+    "evidence": [],
+    "conclusion": "",
+    "action": "none"
+  }
+}

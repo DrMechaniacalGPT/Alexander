@@ -1,0 +1,26 @@
+[
+  {
+    "id": "e00000",
+    "key": "t00000",
+    "actor": "p2",
+    "recipients": [
+      "p1",
+      "p2"
+    ],
+    "content": "Alex, do you know where the blue envelope is? I need it for the exercise.",
+    "scene": "s1",
+    "kind": "speech"
+  },
+  {
+    "id": "e00001",
+    "key": "t00001",
+    "actor": "p1",
+    "recipients": [
+      "p1",
+      "p2"
+    ],
+    "content": "I put the blue envelope in the green drawer. Let me know if you need help finding it.",
+    "scene": "s1",
+    "kind": "speech"
+  }
+]

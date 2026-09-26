@@ -1,5 +1,7 @@
 # Design proposal: a mystery with choices worth making
 
+> **Implementation update:** the owner approved incremental coding after this proposal. See [current results](../simulation/RESULTS.md). Six windows and eight players are not requirements; start with trivial exchanges and compare explicit transition policies.
+
 September 26, 2026. **Recommendation: develop a small local simulation and an experimental social situation together, then expand toward a complete party game.** The immediate deliverable is a design laboratory: inspectable conversations and consequential choices, with understandable variation between runs. Human predictive accuracy is a later question; it is not a prerequisite for exploring the design.
 
 This supersedes the earlier feasibility memo's narrower requirement that dialogue must first beat static checks at defect detection. Simpler checks remain useful diagnostics. The owner values the creative experiment itself, alongside the eventual game and possible public account of the work. No commercial theme, complete game, simulator implementation or public launch is selected by this document.
@@ -30,11 +32,11 @@ This points toward **fewer, richer, reachable opportunities**, not maximizing th
 
 | Working default | Why start here | When to change it |
 |---|---|---|
-| Eight roles eventually; four in the first experimental fixture | Makes local perspectives inspectable | Expand after one dilemma produces coherent downstream effects |
+| Role count follows the experiment; two in the first trivial exchange | Makes local perspectives inspectable | Expand after one dilemma produces coherent downstream effects |
 | Up to two highlighted disclosures per role | Keeps important guidance findable | Change when the role needs fewer/more, not to force symmetry |
 | Two possible opening approaches | Reduces the blank-start problem | Remove redundancy or add an alternative for missing players |
 | Optional portrayal cue | Helps a guest start acting without demanding performance | Replace anything tiring, embarrassing or necessary to solve the case |
-| Six conversation windows per scene in the later scheduler | A bounded time model | Vary windows and duration; do not equate them with real minutes |
+| Explicit finite encounter budget; optional contact or narrative trigger | Explore limited opportunity without everyone meeting everyone | Compare conditions; no preferred count or validated real-time conversion |
 | Short actual dialogue, then per-player summaries | Preserves misunderstanding, persuasion and evasion | Use summaries for cheap broad sweeps only after comparing information loss |
 | Ollama first | Local Python/model calls already work | Change model/backend if realistic-context tests expose limits |
 

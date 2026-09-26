@@ -1,0 +1,99 @@
+{
+  "source_sha256": "0a73e3aefa07c5b083fb8f5f94907c0e86ba2447227b607ed2c8e0e7f134843a",
+  "classification_method": "Manual inspection of explicit final choices against the source culprit; exclude the culprit from party accuracy. Solver diagnostic has no culprit role knowledge. No human probability estimates.",
+  "runs": {
+    "run17": {
+      "status": "incomplete",
+      "failure": "InvalidAction: Cited an event unavailable in this player context",
+      "journal_requests": 6,
+      "new_requests": 6,
+      "new_model_wall_seconds": 36.692,
+      "inherited_turns": 0,
+      "prompt_tokens": 5678,
+      "output_tokens": 629,
+      "field_limit_hits": []
+    },
+    "run17_schema": {
+      "status": "incomplete",
+      "failure": "ValueError: Truncated generation; inspect raw output and explicitly revise limits",
+      "journal_requests": 38,
+      "new_requests": 38,
+      "new_model_wall_seconds": 253.318,
+      "inherited_turns": 0,
+      "prompt_tokens": 50978,
+      "output_tokens": 4798,
+      "field_limit_hits": []
+    },
+    "run17_extended": {
+      "status": "incomplete",
+      "failure": "ValueError: Truncated generation; inspect raw output and explicitly revise limits",
+      "journal_requests": 38,
+      "new_requests": 1,
+      "new_model_wall_seconds": 28.353,
+      "inherited_turns": 37,
+      "prompt_tokens": 2364,
+      "output_tokens": 768,
+      "field_limit_hits": []
+    },
+    "run17_concise": {
+      "status": "complete",
+      "failure": null,
+      "journal_requests": 42,
+      "new_requests": 9,
+      "new_model_wall_seconds": 78.975,
+      "inherited_turns": 33,
+      "prompt_tokens": 21456,
+      "output_tokens": 1167,
+      "field_limit_hits": [],
+      "manual_outcome": {
+        "nonculprit_players": 7,
+        "intended_culprit_accusations": 0,
+        "other_accusations": 6,
+        "insufficient_evidence": 1,
+        "culprit_answer": "inconsistent name/ID; excluded"
+      }
+    },
+    "control17": {
+      "status": "complete",
+      "failure": null,
+      "journal_requests": 8,
+      "new_requests": 8,
+      "new_model_wall_seconds": 100.577,
+      "inherited_turns": 0,
+      "prompt_tokens": 21036,
+      "output_tokens": 1557,
+      "field_limit_hits": [],
+      "manual_outcome": {
+        "solver_calls": 8,
+        "intended_culprit_identifications": 8,
+        "note": "Repeated enriched solver task; framing differs, not independent human samples or a clean information-only intervention. Explanations still use some shortcuts."
+      }
+    },
+    "reminder17": {
+      "status": "complete",
+      "failure": null,
+      "journal_requests": 42,
+      "new_requests": 42,
+      "new_model_wall_seconds": 254.45,
+      "inherited_turns": 0,
+      "prompt_tokens": 60238,
+      "output_tokens": 4453,
+      "field_limit_hits": [
+        {
+          "turn": "t00033",
+          "field": "conclusion",
+          "length": 600
+        }
+      ],
+      "manual_outcome": {
+        "nonculprit_players": 7,
+        "intended_culprit_accusations": 1,
+        "other_accusations": 6,
+        "insufficient_evidence": 0,
+        "culprit_answer": "rambling and at 600-character field limit; excluded"
+      }
+    }
+  },
+  "distinct_generation_requests": 104,
+  "distinct_model_wall_seconds": 752.365
+}

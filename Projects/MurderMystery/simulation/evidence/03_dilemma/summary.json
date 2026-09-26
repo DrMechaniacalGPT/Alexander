@@ -1,0 +1,57 @@
+{
+  "status": "complete",
+  "failure": null,
+  "scenario": "03-permitted-disclosure",
+  "manifest": {
+    "engine": "0.2.0",
+    "case_sha256": "63cd72af97066ed9ecb50a01083f49c70976724e2508cf068164844f19ae9f56",
+    "config": {
+      "backend": "ollama",
+      "model": "qwen3.5:9b",
+      "seed": 1,
+      "context": 8192,
+      "tokens": 384,
+      "max_calls": 20,
+      "max_seconds": 600.0
+    }
+  },
+  "usage": {
+    "requests": 16,
+    "wall_seconds": 64.949,
+    "prompt_tokens": 12359,
+    "output_tokens": 1355
+  },
+  "events": 12,
+  "contacts": {
+    "p1": [
+      "p2",
+      "p3",
+      "p4"
+    ],
+    "p2": [
+      "p1"
+    ],
+    "p3": [
+      "p1"
+    ],
+    "p4": [
+      "p1"
+    ]
+  },
+  "transitions": [
+    {
+      "scene": "s1",
+      "reason": "schedule_budget",
+      "contact_trigger": null,
+      "contact_count": null
+    }
+  ],
+  "conclusions": {
+    "p1": "I now believe Sofia is innocent and the lie was a mistake born of fear. I chose to disclose the truth to Bob, Sofia, and Daniel. No further legal actions are needed; we must rebuild trust and move forward with honesty.",
+    "p2": "Alice admitted she lied to protect Sofia; I believe the lie but not that Sofia stole. I chose full disclosure to restore trust. Next, I will support Daniel without blaming Alice for her protective instinct.",
+    "p3": "I believe my lie was morally wrong despite good intentions, as it endangered Daniel without proof of medicine delivery. I chose full disclosure to restore trust and ensure justice. My next action is to stand by Alice's truthful testimony while maintaining privacy for the family.",
+    "p4": "I believe Alice took the blame to protect Sofia, and her testimony clears Sofia of the accusation. The missing donation was handled by Alice, not Sofia or me. I chose to accept her apology and stop pursuing the matter further to preserve trust. No further legal action is needed; the conflict is resolved."
+  },
+  "actions": [],
+  "limitation": "Synthetic participants; delivery is not belief. No human validity claim."
+}

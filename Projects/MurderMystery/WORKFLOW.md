@@ -4,7 +4,7 @@
 
 Develop a useful way to explore social game design with local AI, and use it to create a murder mystery that guests enjoy and hosts can run. Short-term products should produce real learning and eventually revenue; reusable methods serve Alexander's longer-term aims. Neither a full task board nor attractive simulated dialogue establishes those outcomes.
 
-The current authorized cycle is a research/design/task-planning pass. Its finish line is a reviewable blueprint, then a discussion of the first implementation slice. Later execution co-designs small original situations with the simulator before committing to a whole game. A three-hour/eight-person party remains a working product direction, not an immutable requirement.
+The owner has now approved implementation: start with trivial scenarios and incrementally reach a complete text adaptation of an existing game where feasible. The simulation and small fixtures develop together. Neither eight roles nor six conversation windows is a requirement. Keep mechanical completion, plausible player behavior and human validation distinct. Full commercial game/theme and public launch remain separate decisions.
 
 ## Division of labor
 

@@ -1,0 +1,13 @@
+{
+  "engine": "0.2.0",
+  "case_sha256": "00656ab60afe8ffaf75846367462190b7322def2025d8a1b313932f93176e07d",
+  "config": {
+    "backend": "ollama",
+    "model": "qwen3.5:9b",
+    "seed": 1,
+    "context": 8192,
+    "tokens": 256,
+    "max_calls": 8,
+    "max_seconds": 300.0
+  }
+}
