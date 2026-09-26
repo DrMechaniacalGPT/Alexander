@@ -117,6 +117,87 @@ for every important claim record
 - confidence
 - notes
 
+## coverage matrix
+
+for every episode
+
+build a source-product matrix
+
+record
+
+- source
+- product
+- substantive coverage
+- depth
+- verdict direction
+- evidence link
+- date
+
+blank cells
+must remain blank
+
+do not infer
+
+not reviewed
+
+as
+
+negative
+
+the matrix
+is both
+
+a research QA tool
+
+and
+
+a recurring visual asset
+
+## incentives
+
+for every professional source
+also record
+
+- bought / supplied / loaned / unknown
+- sponsored / not sponsored / unknown
+- affiliate route
+- direct-brand affiliate if verified
+- publisher versus personal incentive
+- editorial-firewall policy
+- evidence for each field
+
+for brands
+
+record public
+affiliate economics
+
+but never assume
+
+a reviewer participates
+in a public program
+
+or receives
+the headline rate
+
+possible incentive
+
+is not
+
+proven influence
+
+over time
+
+test relationships
+between
+
+coverage
+recommendations
+and economics
+
+instead of
+assigning
+a vibes-based bias score
+
 ## independence
 
 five sources
