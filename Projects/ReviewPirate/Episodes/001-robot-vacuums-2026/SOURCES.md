@@ -2,10 +2,10 @@
 
 status
 
-16 useful sources logged
-target before script
+30+ useful sources logged
+minimum source target reached
 
-30+
+research quality still matters more than count
 
 the point is not
 to collect links
@@ -391,6 +391,341 @@ roller-mop architecture
 may be a real segment variable
 rather than a feature checkbox
 
+## more professional / test sources
+
+### WIRED
+
+url
+
+https://www.wired.com/story/best-robot-vacuum/
+
+current overall pick
+
+Shark PowerDetect UV Reveal
+
+why it matters
+
+- testing in a real three-story home
+- preschooler + cat + clutter
+- explicit corner and spill tests
+- useful contrast with cleaner lab environments
+- press samples are disclosed
+
+interesting
+
+WIRED's current winner
+is not close
+to the other major rankings
+
+that disagreement
+deserves explanation
+
+### Good Housekeeping
+
+url
+
+https://www.goodhousekeeping.com/what-to-buy/a70762203/best-robot-vacuum-1773694672/
+
+current overall pick
+
+Roborock S8 MaxV Ultra
+
+why it matters
+
+- nearly 300 hours of testing
+- 400+ data points
+- test procedures reference IEC / ASTM methods
+- straight-line pickup
+- obstacle navigation
+- ease of use
+
+important caveat
+
+its best overall
+is not the newest flagship generation
+
+coverage recency
+may explain part
+of the disagreement
+
+### Vacuum Wars — Saros 10R review
+
+url
+
+https://www.youtube.com/watch?v=RXKR7-McdF0
+
+historical value
+
+the Saros 10R
+was once Vacuum Wars' number one pick
+
+current value
+
+shows how a product
+can move from best-in-class
+to displaced
+as the test pool changes
+
+useful for
+
+ranking half-life
+
+### Brian Tong — Dreame X60
+
+url
+
+https://www.youtube.com/watch?v=qo0W5lKXJbc
+
+signal
+
+high-audience hands-on
+flagship review
+
+caveat
+
+not a standardized
+cross-brand laboratory
+
+useful for
+
+- ergonomics
+- feature presentation
+- mainstream buyer framing
+- launch-period sentiment
+
+### Chris Loh — Eufy Omni E25
+
+url
+
+https://www.youtube.com/watch?v=hT5QT7bSZ4E
+
+signal
+
+hands-on E25 testing
+
+tests include
+
+- mess pickup
+- mopping
+- suction
+- tangles
+- corners
+- obstacle avoidance
+
+commercial caveat
+
+product links
+and promotional framing
+must be logged
+
+## more owner / support evidence
+
+### X60 — experienced multi-robot owner calls it underwhelming
+
+url
+
+https://www.reddit.com/r/RobotVacuums/comments/1tntmr8/x60_is_underwhelming/
+
+signal
+
+negative
+
+interesting because
+
+the owner says
+it is robot number 13
+
+reported
+
+- poor battery life
+- very long whole-home cycle
+- mapping / threshold issue
+- premium hardware not translating
+  into obvious practical superiority
+
+### X60 — new owner thread
+
+url
+
+https://www.reddit.com/r/Dreame_Tech/comments/1tpwxcr/new_x60_max_ultra_complete_owner_here/
+
+signal
+
+positive first impression
+
+useful mostly as
+
+an example
+of evidence too early
+to answer reliability questions
+
+### X60 — value discussion
+
+url
+
+https://www.reddit.com/r/Dreame_Tech/comments/1sxw3ws/picked_the_x60_ultra_felt_like_better_value/
+
+signal
+
+price sensitivity
+
+recurring question
+
+do premium flagship features
+justify roughly double
+the cost of good-enough alternatives
+
+### Eufy E25 — owner maintenance thread
+
+url
+
+https://www.reddit.com/r/RobotVacuums/comments/1skc0ti/eufy_e25/
+
+signal
+
+positive cleaning
+with maintenance caveat
+
+reported
+
+roller-mop sewage area
+can smell
+if not cleaned
+more frequently
+than default guidance implies
+
+useful
+
+maintenance burden
+may be underrepresented
+in short testing
+
+### Qrevo Curv 2 Flow versus alternatives
+
+url
+
+https://www.reddit.com/r/RobotVacuums/comments/1t293wu/right_now_are_roborock_quervo_curv_2_flow_and/
+
+signal
+
+buyers immediately answer
+
+"best for what"
+
+this is qualitative evidence
+that category segmentation
+matches real purchase behavior
+
+### Curv 2 Flow maintenance discussion
+
+url
+
+https://www.reddit.com/r/RobotVacuums/comments/1rruas7/dreams_l50_ultra_or_qrevo_curb_2_flow/
+
+signal
+
+roller mops
+may create
+a hidden maintenance tradeoff
+
+reported
+
+dirty-water module
+requires more frequent attention
+
+needs corroboration
+
+### Ecovacs T90 Pro Omni — one week review
+
+url
+
+https://www.reddit.com/r/RobotVacuums/comments/1ugb2w4/t90_pro_omni_1_week_review/
+
+signal
+
+mopping praised
+navigation criticized
+
+useful
+
+supports the possibility
+that cleaning quality
+and navigation quality
+can move independently
+
+### T90 Pro Omni — keep or return
+
+url
+
+https://www.reddit.com/r/RobotVacuums/comments/1uskur1/t90_pro_omni_keep_it_or_return_it/
+
+signal
+
+positive early use
+but owner worried
+by volume of negative reports
+
+useful
+
+shows purchase anxiety
+created by conflicting ecosystems
+
+### T90 Pro Omni — longer update in same discussion
+
+url
+
+https://www.reddit.com/r/RobotVacuums/comments/1w632xz/ecovacs_t90_pro_omni_first_week/
+
+signal
+
+initially positive
+then returned
+after navigation failures
+
+keep this as
+a flagship example
+of evidence aging
+
+### MOVA V70 versus Matic
+
+url
+
+https://www.reddit.com/r/RobotVacuums/comments/1vu84vr/matic_vs_mova_v70_ultra_complete/
+
+signal
+
+buyers treat
+
+privacy
+support
+longevity
+and local trust
+
+as real purchase dimensions
+
+these are mostly absent
+from cleaning leaderboards
+
+### Ecovacs T90 versus long-term purchase concerns
+
+url
+
+https://www.reddit.com/r/RobotVacuums/comments/1vga4w3/ecovacs_t90_pro_omni_or_roborock_qx_revo/
+
+signal
+
+buyer explicitly asks
+about
+
+- longevity
+- customer service
+- repair
+- recurring costs
+
+this is likely
+a missing dimension
+in many "best" rankings
+
 ## low-trust / caution bucket
 
 search results contain
@@ -417,7 +752,7 @@ enter the consensus count
 
 still needed
 
-- 5+ more serious YouTube comparisons
+- several more serious YouTube comparisons
 - official docs for leading finalists
 - price history
 - consumable cost
