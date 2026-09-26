@@ -1,93 +1,75 @@
 # Alexander
 
-Alexander is an open-source collection of ideas about building institutions, products, culture, and governance around voluntary participation, useful creation, human freedom, and skepticism of concentrated power.
+open source world domination
 
-The repository is intentionally rough. It is closer to source material than a finished manifesto. Some files are principles, some are sketches, some are provocations, some are implementation ideas, and some are deliberately filed under `Nonsense/`.
+not the boring kind
 
-The project should become clearer without becoming sterile.
+Alexander is a place to collect a few durable ideas, stress test them, and build useful things from them.
 
-## Suggested reading order
+The text is not scripture.
+Bad ideas should die.
+Good ideas should get clearer.
+The best ideas should become projects.
 
-Start with the files that define the character of the project:
+## required reading
 
-1. `init.txt` — the invocation
-2. `prime_directive.txt` — the moral center
-3. `soul.txt` — the emotional and cultural center
-4. `tone.txt` — how the project should sound and think
-5. `policy.txt` — broad social and institutional principles
-6. `Path/` — how ideas might become organizations and products
-7. `Ministry/` — concrete mechanisms for engagement, communication, funding, and creation
-8. `SocialPolicy/` — specific policy sketches
-9. `Games/` and `Nonsense/` — experiments, provocations, and speculative thinking
+start here
 
-## Repository map
+1. `prime_directive.txt`
+2. `soul.txt`
+3. `tone.txt`
+4. `policy.txt`
+5. `Path/`
 
-### `Path/`
+then wander
 
-How the mission might move from idea to durable action.
+`SocialPolicy/` contains arguments and sketches
+`Games/` contains ways to break ideas for sport
+`Nonsense/` is exactly what it says on the tin
 
-The emphasis is on small autonomous teams, useful products, limited central authority, gradual change, and enterprises that ultimately reduce extraction rather than maximize it forever.
+for the extended syllabus see `READING.txt`
 
-### `Ministry/`
+there is no exam
+unless somebody builds one
 
-Working notes for implementation.
+## build
 
-- `Economy/` — funding and economic mechanisms
-- `Engagement/` — direct interaction and participation
-- `GeneratedSlop/` — possible AI-native products
-- `Propoganda/` — communication, culture, audience building, and media experiments
+`Projects/` is where ideas graduate from prose into work
 
-The spelling and naming are part of the existing source material and are not automatically normalized.
+each project should be self contained
 
-### `SocialPolicy/`
+- README — what and why
+- TODO — what next
+- code/data/design — the actual thing
 
-Specific societal hypotheses and policy sketches. These should be treated as proposals to examine, not unquestionable doctrine.
+the root `TODO.md` is mission control
+not a graveyard for every thought anyone has ever had
 
-### `Games/`
+## edit ruthlessly
 
-Ways to stress-test visions by imagining worlds, consequences, and failure modes.
+the existing files are source material
+not holy tablets
 
-### `Nonsense/`
+cut repetition
+fix confusion
+move project detail into projects
+keep the strange lines when they carry more truth than polished prose
 
-Ideas that may be useful, wrong, unfinished, strange, or all four at once. Keeping speculative material separate allows exploration without pretending certainty.
+if a sentence is funny and true
+it has a survival advantage
 
-## How to read the project
+## contribute
 
-A few distinctions matter:
+pull requests are arguments with diffs
 
-- **Values** describe what the project is trying to protect or increase.
-- **Claims** describe how the world works and should be checked against evidence.
-- **Predictions** should be allowed to fail.
-- **Policies** are mechanisms, not sacred objects.
-- **Experiments** are ways to learn before scaling.
-- **Art and metaphor** can communicate truth without being literal instructions.
+improve the core
+build a project
+kill a weak idea
+find a contradiction
+run an experiment
 
-The project should be confident about values and humble about facts.
+show your work when facts matter
 
-## How to contribute
+see `CONTRIBUTING.md`
 
-Pull requests are the native form of disagreement and improvement.
-
-Useful contributions include:
-
-- clarifying an idea without flattening its voice
-- adding evidence, counterevidence, or uncertainty to factual claims
-- identifying contradictions between files
-- proposing reversible experiments
-- adding implementation details
-- creating tools or products that embody the principles
-- writing strong objections
-- improving navigation and structure
-- adding new ideas that meaningfully extend the project
-
-Prefer small, coherent pull requests over giant rewrites.
-
-When possible, preserve original source text and add refinement alongside it. The roughness is often useful context.
-
-See `CONTRIBUTING.md` for the working contribution rules.
-
-## Direction
-
-The long-term test is not whether the repository sounds righteous.
-
-It is whether the ideas produce systems that are more useful, more voluntary, more transparent, more humane, and harder to capture by people seeking power for its own sake.
+live long and prosper
