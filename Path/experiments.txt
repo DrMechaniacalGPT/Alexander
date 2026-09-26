@@ -1,0 +1,91 @@
+ideas become real through experiments
+not declarations
+
+start with a human problem
+something people actually experience
+not a theory that merely sounds elegant
+
+find the smallest group
+for whom the problem is real
+ask what they currently do
+what they dislike
+what they value
+and what they would choose instead
+
+write the hypothesis before building
+what do we believe
+why do we believe it
+what would change our mind
+
+define success in human terms
+time saved
+money saved
+freedom gained
+friction removed
+joy created
+trust improved
+waste reduced
+
+attention is not enough
+engagement is not enough
+growth is not enough
+a product can spread
+while making life worse
+
+prefer the smallest useful prototype
+a spreadsheet before a platform
+a script before a company
+a neighborhood before a nation
+a hundred users before a hundred million
+
+make participation voluntary
+make exit easy
+do not trap people
+with data
+contracts
+network effects
+or manufactured dependency
+
+publish the rules of the experiment
+what is being tested
+who is affected
+what data is collected
+how long it runs
+how it can be stopped
+
+record predictions
+before the outcome is known
+
+afterward publish what happened
+including failure
+especially failure
+
+look for second order effects
+who benefits
+who pays
+who is excluded
+what behavior becomes incentivized
+what happens if everyone copies it
+
+try to kill the idea
+before scaling it
+invite people who disagree
+reward the discovery of flaws
+a surviving idea is stronger
+
+if the experiment works
+repeat it somewhere different
+if it only works under one leader
+one culture
+or one lucky circumstance
+it is not yet a system
+
+scale slowly enough
+that damage remains reversible
+and learning can outrun momentum
+
+the goal is not to prove ourselves right
+the goal is to discover
+what actually helps people
+
+then build that
