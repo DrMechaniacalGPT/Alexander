@@ -1,0 +1,48 @@
+{
+  "id": "01-exchange",
+  "public": "Two organizers need to locate a missing blue envelope. This is a small fictional exercise.",
+  "truth": {
+    "envelope": "green drawer"
+  },
+  "players": {
+    "p1": {
+      "name": "Alex",
+      "brief": "You put the blue envelope in the green drawer. Help Blair find it."
+    },
+    "p2": {
+      "name": "Blair",
+      "brief": "You need the blue envelope. Ask Alex where it is."
+    }
+  },
+  "scenes": [
+    {
+      "id": "s1",
+      "encounters": [
+        {
+          "participants": [
+            "p2",
+            "p1"
+          ],
+          "turns_each": 1
+        }
+      ]
+    }
+  ],
+  "question": "Where is the envelope? Say what supports your answer.",
+  "stub": {
+    "p1": {
+      "say": "I put the envelope in the green drawer.",
+      "private_note": "",
+      "evidence": [],
+      "conclusion": "Green drawer.",
+      "action": "none"
+    },
+    "p2": {
+      "say": "Where is the envelope?",
+      "private_note": "",
+      "evidence": [],
+      "conclusion": "Green drawer.",
+      "action": "none"
+    }
+  }
+}

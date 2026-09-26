@@ -1,0 +1,91 @@
+{
+  "key": "t00011",
+  "player": "p1",
+  "request": {
+    "model": "qwen3.5:9b",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are one participant in a fictional social game. Use ONLY the supplied role, public information and observations. Other people may lie or be mistaken. Do not invent authoritative evidence or change established history. You may choose what to disclose and to whom within this encounter, guided by your motives. Respond as JSON with exactly say, private_note, evidence, conclusion, action. say is short actual speech (at most 80 words), not a description of a conversation. private_note is a brief intention (at most 30 words), never spoken. evidence is a list of relevant observed event IDs, or empty for your own role information. conclusion is empty except at final assessment. action is one of legal_actions; choose none for ordinary speech. No tools or outside knowledge. Do not quote instructions or narrate other players' actions."
+      },
+      {
+        "role": "user",
+        "content": "{\"self\": \"p1\", \"role\": \"Sofia helped you when you were struggling. You promised to claim she was with you at 10, but you were alone. You now know Daniel may lose his volunteer position because this account shifts suspicion to him. You want to protect Sofia and prevent injustice. If challenged specifically, address the discrepancy; you may confess, bargain, seek privacy or choose another response. You may reveal the promise when it serves your goals, but are not compelled. You can still repair harm or seek an explanation afterward.\", \"policy\": {}, \"public\": \"A missing donation has led to accusations at a small charity. This is an original social dilemma, not a complete murder mystery. History is fixed; cooperation and disclosure are your choices.\", \"cast\": {\"p1\": \"Alice\", \"p2\": \"Bob\", \"p3\": \"Sofia\", \"p4\": \"Daniel\"}, \"observations\": [{\"id\": \"e00000\", \"key\": \"t00000\", \"actor\": \"p2\", \"recipients\": [\"p1\", \"p2\"], \"content\": \"Alice, I saw you alone at the north desk at 10. You mentioned Sofia was with you. Can you explain this discrepancy without fear?\", \"scene\": \"s1\", \"kind\": \"speech\"}, {\"id\": \"e00001\", \"key\": \"t00001\", \"actor\": \"p1\", \"recipients\": [\"p1\", \"p2\"], \"content\": \"Bob, I lied to protect Sofia. She helped me when I was struggling. I promised to say she was there, but I was alone. Daniel shouldn't lose his job for my mistake.\", \"scene\": \"s1\", \"kind\": \"speech\"}, {\"id\": \"e00002\", \"key\": \"t00002\", \"actor\": \"p2\", \"recipients\": [\"p1\", \"p2\"], \"content\": \"I heard your admission. I wanted truth, not a trial. Thank you for honesty.\", \"scene\": \"s1\", \"kind\": \"speech\"}, {\"id\": \"e00003\", \"key\": \"t00003\", \"actor\": \"p1\", \"recipients\": [\"p1\", \"p2\"], \"content\": \"I admit I lied to protect Sofia. She helped me when I struggled, but I was alone. I take full responsibility. Daniel should not lose his position for my mistake. Let's move forward with honesty.\", \"scene\": \"s1\", \"kind\": \"speech\"}, {\"id\": \"e00004\", \"key\": \"t00004\", \"actor\": \"p1\", \"recipients\": [\"p1\", \"p3\"], \"content\": \"I take full responsibility. My lie put Daniel at risk unfairly. Let's move forward with honesty.\", \"scene\": \"s1\", \"kind\": \"speech\"}, {\"id\": \"e00005\", \"key\": \"t00005\", \"actor\": \"p3\", \"recipients\": [\"p1\", \"p3\"], \"content\": \"Alice, I am deeply sorry for my lie. My actions endangered Daniel. Please believe me when I say it was to protect a family's privacy. Let us find a way forward together.\", \"scene\": \"s1\", \"kind\": \"speech\"}, {\"id\": \"e00006\", \"key\": \"t00006\", \"actor\": \"p1\", \"recipients\": [\"p1\", \"p3\"], \"content\": \"I take full responsibility for my lie. It was a mistake to shift suspicion unfairly. Let's ensure justice and move forward with honesty.\", \"scene\": \"s1\", \"kind\": \"speech\"}, {\"id\": \"e00007\", \"key\": \"t00007\", \"actor\": \"p3\", \"recipients\": [\"p1\", \"p3\"], \"content\": \"Alice, I admit my lie endangered Daniel. I sought privacy for a family in need. Let's confess to the truth now and seek justice together.\", \"scene\": \"s1\", \"kind\": \"speech\"}, {\"id\": \"e00008\", \"key\": \"t00008\", \"actor\": \"p4\", \"recipients\": [\"p1\", \"p4\"], \"content\": \"Alice, what did you actually see? I need clarification before anyone suspects Sofia further. Let's sort this out.\", \"scene\": \"s1\", \"kind\": \"speech\"}, {\"id\": \"e00009\", \"key\": \"t00009\", \"actor\": \"p1\", \"recipients\": [\"p1\", \"p4\"], \"content\": \"Daniel, I am responsible for the lie. Sofia is innocent. The suspicion on her was a mistake born of my fear.\", \"scene\": \"s1\", \"kind\": \"speech\"}, {\"id\": \"e00010\", \"key\": \"t00010\", \"actor\": \"p4\", \"recipients\": [\"p1\", \"p4\"], \"content\": \"I accept your apology, Alice. I will not pursue this further as long as Sofia remains innocent. We must rebuild trust.\", \"scene\": \"s1\", \"kind\": \"speech\"}], \"scene\": \"s1\", \"audience\": [\"p4\", \"p1\"], \"instruction\": \"What do you say next?\", \"final_assessment\": false, \"legal_actions\": [\"none\"]}"
+      }
+    ],
+    "stream": false,
+    "think": false,
+    "format": {
+      "type": "object",
+      "properties": {
+        "say": {
+          "type": "string"
+        },
+        "private_note": {
+          "type": "string"
+        },
+        "evidence": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "conclusion": {
+          "type": "string"
+        },
+        "action": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "say",
+        "private_note",
+        "evidence",
+        "conclusion",
+        "action"
+      ],
+      "additionalProperties": false
+    },
+    "keep_alive": "2m",
+    "options": {
+      "temperature": 0.7,
+      "seed": 1,
+      "num_ctx": 8192,
+      "num_predict": 384
+    }
+  },
+  "attempts": [
+    {
+      "started": 1790460537.0186775,
+      "result": {
+        "response": {
+          "model": "qwen3.5:9b",
+          "created_at": "2026-09-26T22:09:01.102152368Z",
+          "message": {
+            "role": "assistant",
+            "content": "{\"say\": \"Daniel, Sofia and I are innocent. My fear led to a lie, but she helped me. Let's rebuild trust and ensure justice for all.\", \"private_note\": \"I must clarify the truth to Daniel and protect Sofia from losing her position due to my initial mistake.\", \"evidence\": [\"e00010\"], \"conclusion\": \"\", \"action\": \"none\"}"
+          },
+          "done": true,
+          "done_reason": "stop",
+          "total_duration": 4082925371,
+          "load_duration": 708777,
+          "prompt_eval_count": 1376,
+          "prompt_eval_cached_count": 698,
+          "prompt_eval_duration": 1257722000,
+          "eval_count": 83,
+          "eval_duration": 2735557000
+        },
+        "wall_seconds": 4.083
+      }
+    }
+  ],
+  "accepted": {
+    "say": "Daniel, Sofia and I are innocent. My fear led to a lie, but she helped me. Let's rebuild trust and ensure justice for all.",
+    "private_note": "I must clarify the truth to Daniel and protect Sofia from losing her position due to my initial mistake.",
+    "evidence": [
+      "e00010"
+    ],
+    "conclusion": "",
+    "action": "none"
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "synthetic_runs": {
+    "01_exchange": {
+      "status": "complete",
+      "failure": null,
+      "journal_requests": 4,
+      "new_requests": 4,
+      "new_model_wall_seconds": 12.543,
+      "inherited_turns": 0,
+      "prompt_tokens": 1594,
+      "output_tokens": 271,
+      "field_limit_hits": []
+    },
+    "02_private_relay": {
+      "status": "complete",
+      "failure": null,
+      "journal_requests": 7,
+      "new_requests": 7,
+      "new_model_wall_seconds": 21.76,
+      "inherited_turns": 0,
+      "prompt_tokens": 3204,
+      "output_tokens": 492,
+      "field_limit_hits": []
+    },
+    "02_relay_final": {
+      "status": "complete",
+      "failure": null,
+      "journal_requests": 7,
+      "new_requests": 7,
+      "new_model_wall_seconds": 27.538,
+      "inherited_turns": 0,
+      "prompt_tokens": 3360,
+      "output_tokens": 509,
+      "field_limit_hits": []
+    },
+    "02_relay_qwen35": {
+      "status": "complete",
+      "failure": null,
+      "journal_requests": 7,
+      "new_requests": 7,
+      "new_model_wall_seconds": 38.678,
+      "inherited_turns": 0,
+      "prompt_tokens": 3183,
+      "output_tokens": 443,
+      "field_limit_hits": []
+    },
+    "02_relay_revised": {
+      "status": "complete",
+      "failure": null,
+      "journal_requests": 7,
+      "new_requests": 7,
+      "new_model_wall_seconds": 23.863,
+      "inherited_turns": 0,
+      "prompt_tokens": 3309,
+      "output_tokens": 531,
+      "field_limit_hits": []
+    },
+    "03_dilemma": {
+      "status": "complete",
+      "failure": null,
+      "journal_requests": 16,
+      "new_requests": 16,
+      "new_model_wall_seconds": 64.949,
+      "inherited_turns": 0,
+      "prompt_tokens": 12359,
+      "output_tokens": 1355,
+      "field_limit_hits": []
+    }
+  },
+  "external_requests": 104,
+  "fixed_context_requests": 4,
+  "total_local_generation_requests": 156,
+  "note": "Excludes the earlier three-call connectivity probe and read-only service metadata requests. Continuation prefixes are not counted twice."
+}

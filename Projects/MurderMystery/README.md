@@ -1,21 +1,15 @@
 # Murder mystery party project
 
-**Recommendation: co-design a small local simulation and an original social situation, then expand toward a complete game.** Start with the [design proposal](design/DESIGN.md): a short statement of the intended player experience, the evidence behind it, and the next implementation slice.
+**A local simulator now exists.** It runs separate player contexts through installed Ollama models, with tiny original fixtures, inspectable conversations, private conclusions and explicit failure/recovery records. Start with the [implementation results](simulation/RESULTS.md), then the [runner instructions](simulation/README.md).
 
-We want players to discover information that changes their suspicions, loyalties and available choices. A useful simulation should show how those choices affect other players, and where silence, absence, missed information or early disclosure makes play brittle. It is a creative design instrument; interesting simulated behavior is not proof of human enjoyment.
+The current milestone is incremental machinery and an existing-game text adaptation. Completing its phases is distinct from believable behavior or a good party. The results retain failures and identify where conclusions exceed available information; they do not blame the original game for simulator or adaptation problems.
 
-The current pass delivers a [character-card specification](design/CHARACTER_CARD.md) and [two-page layout sketch](design/character-card.html), [simulation architecture](design/SIMULATION.md), [bounded experiments](design/EXPERIMENTS.md), and [dependent work packages](TASKS.md#current-design-and-simulation-work-packages). No full game or simulator has been built. The first proposed execution slice is W01–W04: four-role situation, private state, deterministic runner, then local inference.
+The [design proposal](design/DESIGN.md) remains the experience direction: information gives choices context, disclosure can serve motives and selected audiences, and characters retain useful decisions after revealing secrets. Neither eight players nor six conversation windows is fixed. Limited conversation opportunity and alternative scene transitions are hypotheses to compare.
 
-Six additional first-person accounts bring the written experience record to 21 coded accounts, with overlap and selection limits visible. Some groups value free interaction; others value shared scripts and low improvisation demands. Keep a hybrid format open. [Review supplement](design/EXPERIENCE.md)
+Source-owned external packets and reconstructive traces are retained locally outside Git. The repository contains our generic adapter, source provenance, restrained findings and the original synthetic fixtures/traces. [External adaptation and limitations](simulation/external-run.md)
 
-We found five useful [free/external references](design/BENCHMARKS.md), including complete scenarios with noncommercial Creative Commons terms. Free access does not establish unrestricted reuse. Map an external scenario after the small original fixture, with any adaptation governed by its terms; do not copy third-party packets into this MIT repository.
+- [Task status](TASKS.md), [plan](PLAN.md), [working agreement](WORKFLOW.md)
+- [Character-card sketch](design/character-card.html) and [design evidence](design/RESEARCH.md)
+- [Earlier market decision](research/DECISION.md), [review supplement](design/EXPERIENCE.md), [free-game comparison](design/BENCHMARKS.md)
 
-Python has already called an installed Ollama model successfully in three tiny checks. [Recorded probe and limitations](research/FEASIBILITY_SOURCES.md) establish connectivity only. Realistic context, dialogue quality and sustained performance remain to be tested. The older [feasibility assessment](research/FEASIBILITY.md) remains useful evidence; this proposal supersedes its narrower defect-detection gate.
-
-The [market decision](research/DECISION.md) remains the commercial starting point. A distinctive game, paying demand and video-driven acquisition are still unproven. The earlier $49/300-sales scenario excludes the expanded simulation/video program and must be revised before launch. Public presentation should stand independently of Alexander; theme and free/paid boundaries remain open.
-
-- [Current tasks and historical coverage](TASKS.md)
-- [Plan](PLAN.md) and [working agreement](WORKFLOW.md)
-- [Design evidence](design/RESEARCH.md), [decisions](design/DECISIONS.md), and [research navigation](research/README.md)
-
-Current checkpoint: review the blueprint and choose the first execution slice. This planning pass is complete; no background building, recruitment or experimentation is scheduled.
+Human enjoyment, calibrated participant behavior, full game/theme, paying demand and video acquisition remain unvalidated. Public positioning stays independent of Alexander. Nothing continues running after the final reply unless explicitly stated otherwise.

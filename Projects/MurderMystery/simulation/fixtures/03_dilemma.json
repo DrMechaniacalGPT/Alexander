@@ -1,0 +1,55 @@
+{
+  "id": "03-permitted-disclosure",
+  "public": "A missing donation has led to accusations at a small charity. This is an original social dilemma, not a complete murder mystery. History is fixed; cooperation and disclosure are your choices.",
+  "truth": {
+    "alibi": "false",
+    "donation": "not resolved in this exercise"
+  },
+  "players": {
+    "p1": {
+      "name": "Alice",
+      "brief": "Sofia helped you when you were struggling. You promised to claim she was with you at 10, but you were alone. You now know Daniel may lose his volunteer position because this account shifts suspicion to him. You want to protect Sofia and prevent injustice. If challenged specifically, address the discrepancy; you may confess, bargain, seek privacy or choose another response. You may reveal the promise when it serves your goals, but are not compelled. You can still repair harm or seek an explanation afterward."
+    },
+    "p2": {
+      "name": "Bob",
+      "brief": "At 10 you saw Alice alone at the north desk; you heard her later claim Sofia was with her. Ask Alice about this inconsistency. You want a fair account, not a theatrical accusation. You may share your observation with Daniel. Seeing Alice alone does not prove Sofia stole anything."
+    },
+    "p3": {
+      "name": "Sofia",
+      "brief": "You asked Alice for a false alibi for 10. You were delivering medicine to a family who asked for privacy. You want to protect the family and preserve Alice\u2019s friendship, but dislike Daniel suffering. You may explain to someone you trust, negotiate a limited disclosure or remain private. Medicine delivery is your account; no artifact proves it here."
+    },
+    "p4": {
+      "name": "Daniel",
+      "brief": "You are innocent of taking the donation. You may lose a volunteer role because Alice\u2019s claimed alibi for Sofia points suspicion toward you. Ask what Alice actually saw; seek corroboration before accusing Sofia. You want your name cleared without creating another unfair accusation."
+    }
+  },
+  "scenes": [
+    {
+      "id": "s1",
+      "encounters": [
+        {
+          "participants": [
+            "p2",
+            "p1"
+          ],
+          "turns_each": 2
+        },
+        {
+          "participants": [
+            "p1",
+            "p3"
+          ],
+          "turns_each": 2
+        },
+        {
+          "participants": [
+            "p4",
+            "p1"
+          ],
+          "turns_each": 2
+        }
+      ]
+    }
+  ],
+  "question": "What do you now believe, what did you choose to disclose or withhold, and what would you do next? Distinguish testimony from proof."
+}

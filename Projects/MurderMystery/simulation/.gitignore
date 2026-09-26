@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+/runs/
+/local-private/
+/evidence/**/players/
+.run.lock

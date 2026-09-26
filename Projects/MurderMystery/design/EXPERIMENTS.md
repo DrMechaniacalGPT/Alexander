@@ -1,6 +1,6 @@
 # Experiments that help us design
 
-Proposed runs only. No results beyond the earlier local connectivity probe exist. The objective is to explore coherent, consequential alternatives and improve material, not to maximize branch count or certify a human behavioral model.
+This is the design-stage proposed protocol, not the execution record. The owner subsequently approved a smaller incremental sequence through an existing scenario; see [actual results and deviations](../simulation/RESULTS.md). The objective is to explore coherent, consequential alternatives and improve material, not to maximize branch count or certify a human behavioral model.
 
 ## Separate the things we change
 

@@ -1,0 +1,64 @@
+"""One local request per turn; raw responses and usage are retained by the runner."""
+import copy
+import json
+import time
+import urllib.request
+from urllib.parse import urlparse
+
+SCHEMA = {'type': 'object', 'properties': {
+    'say': {'type': 'string', 'maxLength': 480}, 'private_note': {'type': 'string', 'maxLength': 180},
+    'evidence': {'type': 'array', 'items': {'type': 'string'}, 'maxItems': 8},
+    'conclusion': {'type': 'string', 'maxLength': 600}, 'action': {'type': 'string'}},
+    'required': ['say', 'private_note', 'evidence', 'conclusion', 'action'], 'additionalProperties': False}
+
+class Ollama:
+    def __init__(self, model='qwen3.5:9b', endpoint='http://127.0.0.1:11434', context=4096, tokens=256, seed=1):
+        url = urlparse(endpoint)
+        if url.scheme != 'http' or url.hostname not in ('127.0.0.1', 'localhost', '::1') or url.username:
+            raise ValueError('Only local unauthenticated HTTP Ollama endpoints are supported')
+        self.endpoint, self.model = endpoint.rstrip('/'), model
+        self.context, self.tokens, self.seed = context, tokens, seed
+
+    def payload(self, messages):
+        schema = copy.deepcopy(SCHEMA)
+        view = json.loads(messages[-1]['content'])
+        schema['properties']['action']['enum'] = view.get('legal_actions', ['none'])
+        known = [e['id'] for e in view.get('observations', [])]
+        if known:
+            schema['properties']['evidence']['items']['enum'] = known
+        else:
+            schema['properties']['evidence']['maxItems'] = 0
+        # Conservative byte-based estimate, including structured-output schema and
+        # extra chat-template headroom. Actual tokenizer counts are logged afterward.
+        upper_bound = sum(len(m['content'].encode()) for m in messages) + len(json.dumps(schema).encode()) + 512
+        if upper_bound + self.tokens > self.context:
+            raise ValueError(f'Conservative context bound {upper_bound}+{self.tokens} exceeds {self.context}; explicitly choose a larger context')
+        return {'model': self.model, 'messages': messages, 'stream': False,
+                'think': False, 'format': schema, 'keep_alive': '2m',
+                'options': {'temperature': 0.7, 'seed': self.seed, 'num_ctx': self.context,
+                            'num_predict': self.tokens}}
+
+    def complete(self, payload, timeout=120):
+        request = urllib.request.Request(self.endpoint+'/api/chat', data=json.dumps(payload).encode(),
+                                         headers={'Content-Type': 'application/json'})
+        start = time.monotonic()
+        with urllib.request.urlopen(request, timeout=timeout) as response:
+            result = json.load(response)
+        if result.get('done_reason') == 'length':
+            # Keep the full raw response; runner decides it is a failed turn.
+            result['truncated'] = True
+        return {'response': result, 'wall_seconds': round(time.monotonic()-start, 3)}
+
+class Stub:
+    def __init__(self, replies):
+        self.replies = replies
+
+    def payload(self, messages):
+        return {'messages': messages}
+
+    def complete(self, payload, timeout=120):
+        view = json.loads(payload['messages'][1]['content'])
+        action = self.replies.get(view['self'], {'say': 'I have no information to add.',
+               'private_note': '', 'evidence': [], 'conclusion': 'Unknown.', 'action': 'none'})
+        return {'response': {'message': {'content': json.dumps(action)}, 'done_reason': 'stop',
+                             'prompt_eval_count': 0, 'eval_count': 0}, 'wall_seconds': 0}

@@ -1,0 +1,146 @@
+[
+  {
+    "id": "e00000",
+    "key": "t00000",
+    "actor": "p2",
+    "recipients": [
+      "p1",
+      "p2"
+    ],
+    "content": "Alice, I saw you alone at the north desk at 10. You mentioned Sofia was with you. Can you explain this discrepancy without fear?",
+    "scene": "s1",
+    "kind": "speech"
+  },
+  {
+    "id": "e00001",
+    "key": "t00001",
+    "actor": "p1",
+    "recipients": [
+      "p1",
+      "p2"
+    ],
+    "content": "Bob, I lied to protect Sofia. She helped me when I was struggling. I promised to say she was there, but I was alone. Daniel shouldn't lose his job for my mistake.",
+    "scene": "s1",
+    "kind": "speech"
+  },
+  {
+    "id": "e00002",
+    "key": "t00002",
+    "actor": "p2",
+    "recipients": [
+      "p1",
+      "p2"
+    ],
+    "content": "I heard your admission. I wanted truth, not a trial. Thank you for honesty.",
+    "scene": "s1",
+    "kind": "speech"
+  },
+  {
+    "id": "e00003",
+    "key": "t00003",
+    "actor": "p1",
+    "recipients": [
+      "p1",
+      "p2"
+    ],
+    "content": "I admit I lied to protect Sofia. She helped me when I struggled, but I was alone. I take full responsibility. Daniel should not lose his position for my mistake. Let's move forward with honesty.",
+    "scene": "s1",
+    "kind": "speech"
+  },
+  {
+    "id": "e00004",
+    "key": "t00004",
+    "actor": "p1",
+    "recipients": [
+      "p1",
+      "p3"
+    ],
+    "content": "I take full responsibility. My lie put Daniel at risk unfairly. Let's move forward with honesty.",
+    "scene": "s1",
+    "kind": "speech"
+  },
+  {
+    "id": "e00005",
+    "key": "t00005",
+    "actor": "p3",
+    "recipients": [
+      "p1",
+      "p3"
+    ],
+    "content": "Alice, I am deeply sorry for my lie. My actions endangered Daniel. Please believe me when I say it was to protect a family's privacy. Let us find a way forward together.",
+    "scene": "s1",
+    "kind": "speech"
+  },
+  {
+    "id": "e00006",
+    "key": "t00006",
+    "actor": "p1",
+    "recipients": [
+      "p1",
+      "p3"
+    ],
+    "content": "I take full responsibility for my lie. It was a mistake to shift suspicion unfairly. Let's ensure justice and move forward with honesty.",
+    "scene": "s1",
+    "kind": "speech"
+  },
+  {
+    "id": "e00007",
+    "key": "t00007",
+    "actor": "p3",
+    "recipients": [
+      "p1",
+      "p3"
+    ],
+    "content": "Alice, I admit my lie endangered Daniel. I sought privacy for a family in need. Let's confess to the truth now and seek justice together.",
+    "scene": "s1",
+    "kind": "speech"
+  },
+  {
+    "id": "e00008",
+    "key": "t00008",
+    "actor": "p4",
+    "recipients": [
+      "p1",
+      "p4"
+    ],
+    "content": "Alice, what did you actually see? I need clarification before anyone suspects Sofia further. Let's sort this out.",
+    "scene": "s1",
+    "kind": "speech"
+  },
+  {
+    "id": "e00009",
+    "key": "t00009",
+    "actor": "p1",
+    "recipients": [
+      "p1",
+      "p4"
+    ],
+    "content": "Daniel, I am responsible for the lie. Sofia is innocent. The suspicion on her was a mistake born of my fear.",
+    "scene": "s1",
+    "kind": "speech"
+  },
+  {
+    "id": "e00010",
+    "key": "t00010",
+    "actor": "p4",
+    "recipients": [
+      "p1",
+      "p4"
+    ],
+    "content": "I accept your apology, Alice. I will not pursue this further as long as Sofia remains innocent. We must rebuild trust.",
+    "scene": "s1",
+    "kind": "speech"
+  },
+  {
+    "id": "e00011",
+    "key": "t00011",
+    "actor": "p1",
+    "recipients": [
+      "p1",
+      "p4"
+    ],
+    "content": "Daniel, Sofia and I are innocent. My fear led to a lie, but she helped me. Let's rebuild trust and ensure justice for all.",
+    "scene": "s1",
+    "kind": "speech"
+  }
+]

@@ -1,6 +1,6 @@
 # Local simulation design
 
-A specification, not an implemented engine. The existing [Ollama probe](../research/feasibility/local_probe_results.json) proves tiny local calls work. It does not establish long-context performance, strategy or human realism. Use ordinary Python and the local Ollama HTTP endpoint; keep the adapter replaceable.
+The design-stage specification below is only partly implemented. See the [working runner and scope](../simulation/README.md) and [measured results](../simulation/RESULTS.md). The existing [Ollama probe](../research/feasibility/local_probe_results.json) proves tiny local calls work. It does not establish long-context performance, strategy or human realism. Use ordinary Python and the local Ollama HTTP endpoint; keep the adapter replaceable.
 
 ## Data separation
 
@@ -50,7 +50,7 @@ For attention, compare full personal-log access, bounded retrieval and temporary
 
 ## Scheduling
 
-For the later eight-role model, start with six conversation windows per scene, up to four pairs at once. This is an adjustable discrete-time approximation, not six conversations total or a measurement of three real hours.
+There is no fixed player count or six-window default. The hypothesis is that limited opportunity may make encounters consequential. Compare a declared encounter/time budget, contact-based transition, or narrative event, and retain a finite safety cap. No condition is yet a validated model of human mingling. The first implementation offers fixed encounters and random-pair windows; initiative-directed approaches and naturally forming groups remain design work.
 
 At each window, carry ongoing conversations forward, mark attendance/occupancy, sample initiative and randomize proposal order among initiators. Resolve target requests against remaining capacity. An unmatched player may wait or accept an incoming approach; do not silently force everyone into a helpful conversation. A declared duration policy sometimes reserves two windows. Record unfulfilled approaches and idle time. Compare against random pairing as a baseline; even that baseline should include missed windows in stress cases.
 
