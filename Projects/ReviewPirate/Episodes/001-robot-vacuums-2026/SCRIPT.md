@@ -1,269 +1,189 @@
-# Script Draft 01
+# Script Draft 02
 
 working title
 
-**Best Robot Vacuum 2026? I Compared the Expert Rankings**
+**8 Experts. 8 Different "Best" Robot Vacuums.**
 
 ## cold open
 
-On September 25th
+On September 25
 I checked eight serious
 robot-vacuum review sources.
 
 They gave me
 eight different answers
-to "what is the best robot vacuum?"
+to one extremely normal question.
 
-RTINGS says Roborock Saros 10R.
+What is
+the best robot vacuum?
 
-Vacuum Wars says MOVA V70 Ultra Complete.
+RTINGS:
+Roborock Saros 10R.
 
-Tom's Guide says Dreame X60 Max Ultra Complete.
+Vacuum Wars:
+MOVA V70 Ultra Complete.
 
-WIRED says Shark PowerDetect UV Reveal.
+Tom's Guide:
+Dreame X60 Max Ultra Complete.
 
-Expert Reviews says Eufy Omni E25.
+WIRED:
+Shark PowerDetect UV Reveal.
 
-The Hook Up says Roborock Qrevo Curv 2 Flow.
+Expert Reviews:
+Eufy Omni E25.
 
-TechRadar says the older Qrevo Curv.
+The Hook Up:
+Roborock Qrevo Curv 2 Flow.
 
-Good Housekeeping says the S8 MaxV Ultra.
+TechRadar:
+the older Qrevo Curv.
+
+Good Housekeeping:
+S8 MaxV Ultra.
 
 At this point
 "best robot vacuum"
-has become less of an award
+is less of an award
 and more of a group project.
 
 So I went through
-the testing systems
-the comparisons
-the long-term owner reports
-and the fine print
-
+more than thirty sources
 to figure out
+who is wrong.
 
-who is wrong
+The annoying answer is:
 
-and the annoying answer is
+mostly nobody.
 
-mostly
-
-nobody.
-
-They are quietly answering
+They're answering
 different questions.
 
-## intro
+## what does "best" even mean
 
-This is Review Pirate.
+First problem:
 
-The idea is simple.
-
-Instead of buying one vacuum
-using it for three days
-and adding review number 4,001
-to the internet
-
-we review
-the reviews.
-
-For this first one
-I pulled together
-more than thirty sources
-
-including
-
-large standardized test databases
-
-professional home testing
-
-YouTube comparisons
-
-and long-term owners
-who have had enough time
-for the robot
-to become either
-
-a beloved appliance
-
-or a $1,500
-mobile argument.
-
-Links to the sources
-are below.
-
-Let's start with
-why the experts disagree.
-
-## section one — best among what
-
-The first problem
-is almost embarrassingly simple.
-
-You cannot choose
+you cannot choose
 a vacuum
 you did not test.
 
 Vacuum Wars
-has tested more than 200
-robot vacuums
-and continually reranks
-new models.
-
-And "continually"
-is doing work there.
+has tested more than 200 models
+and keeps reranking new ones.
 
 On September 16
 its robot-vacuum hub
-showed the Dreame X60 Max
+had the Dreame X60 Max
 at number one.
 
 Eight days later
-the Top 20 page
-showed the new MOVA V70
+its Top 20
+had the new MOVA V70
 at number one.
 
-That is not a scandal.
+That isn't scandal.
 
-It is the half-life
+That's the half-life
 of a leaderboard.
 
-A new product
-entered the test pool
-and the answer changed.
+A new candidate arrived.
+The answer changed.
 
 RTINGS
 has tested around 100
 and currently prefers
-the Roborock Saros 10R.
+the Saros 10R.
 
-Good Housekeeping's
-current best overall
-is the older S8 MaxV Ultra.
-
-That does not mean
-one lab
-forgot how vacuums work.
-
-Their candidate pools
-are different.
-
-This matters more
-than review sites
-usually admit.
+Good Housekeeping
+still prefers
+the older S8 MaxV Ultra.
 
 "Best"
-actually means
+really means:
 
 best among
-the products
-this reviewer tested
+the products we tested,
 
-using this methodology
+with our method,
 
-at this point in time
+at today's prices,
 
 in this market.
 
-Which is a much uglier headline.
+Which is
+a much uglier headline.
 
-## section two — best at what
+## the tests are asking different questions
 
-Then there is
-the scoring problem.
+Consumer Reports
+makes the problem obvious.
 
-Consider Consumer Reports.
-
-Their current
+Its current
 "best robot vacuum" guide
-is specifically
-vacuum-only robots.
+is for vacuum-only robots.
 
-Robot vacuum-and-mop combos
-live in a different category.
+Vacuum-and-mop combos
+live somewhere else.
 
-They also test
-privacy and security
-
-and use member surveys
-for reliability
+It also considers
+privacy,
+security,
+predicted reliability,
 and owner satisfaction.
 
-That is a very different question
-from
-
-which $1,500 flagship
-has the strongest mopping dock.
-
 The Hook Up
-includes things like
+cares about
 local control
 and app behavior.
 
 Expert Reviews
-runs robots
-through the same
-58-square-meter home layout
-
-and measures standardized
-rice
-flour
-and pet-hair pickup
-
-while also caring
-about price and setup.
+runs robots through
+the same 58-square-meter home
+with standardized
+rice,
+flour,
+and pet hair.
 
 WIRED
-tests in a real home
-with three adults
-a preschooler
+tests in a real house
+with three adults,
+a preschooler,
 and a cat.
 
-Which is possibly
-the most scientifically rigorous way
-to manufacture floor debris.
+Which may be
+the most efficient known method
+for generating floor debris.
 
-None of these methods
+None of those methods
 is obviously wrong.
 
-But once you change
-the weights
+But change the weights
+and you change the winner.
 
-you change the winner.
+## fake precision
 
-## section three — the fake precision problem
+Then there are
+the giant suction numbers.
 
-This is where
-the giant spec numbers
-start getting suspicious.
+19,000 Pa.
 
-Modern robot vacuums
-advertise suction numbers
-that look like
-they are competing
-for a mortgage rate.
+36,000 Pa.
 
-18,000 Pa.
+Numbers large enough
+to make the box
+feel professionally vacuumy.
 
-35,000 Pa.
-
-42,000 Pa.
-
-And we now have
-a wonderfully rude example
-of why the number
-is not a cross-brand score.
+But here's
+a wonderfully rude example.
 
 MOVA advertises
 one model
-at about 19,000 Pa
+around 19,000 Pa
 
 and another
-at about 13,000.
+around 13,000.
 
 In Vacuum Wars'
-own sealed suction test
+sealed suction test,
 
 the 13,000-Pa model
 measured higher.
@@ -283,51 +203,22 @@ category-average suction
 
 and still cleaned well.
 
-So manufacturer Pa
-is measuring something.
+So Pa
+is not meaningless.
 
-It is just not
-a universal conversion chart
+It's just not
+a universal exchange rate
 from bigger number
 to cleaner floor.
 
-So one thing
-Review Pirate
-is going to track
-over time
+## time is a test too
 
-is whether these
-marketing metrics
-actually predict
-anything useful
-across brands.
+The other thing
+most launch reviews
+cannot measure
 
-For now
-
-treat Pa
-as a clue
-
-not a verdict.
-
-## section four — launch reviews have a time problem
-
-This was
-the most interesting part
-of the research.
-
-A lot of robot vacuums
-look great
-for the first week.
-
-Of course they do.
-
-They are clean.
-
-The brushes are new.
-
-The firmware
-has not yet discovered
-its artistic phase.
+is Tuesday
+six months from now.
 
 One Ecovacs T90 owner
 posted a very positive
@@ -335,345 +226,225 @@ first-week review.
 
 Then updated it.
 
-In week two
-the robot started
-getting stuck
-losing its way
-and leaving areas uncleaned.
+In week two,
+navigation problems appeared,
+areas went uncleaned,
+and they returned it.
 
-They returned it.
-
-That single post
+That one owner
 does not prove
 the T90 is unreliable.
 
-It proves something
-more useful.
-
-A one-week review
+It proves
+a one-week review
 cannot answer
 a one-year question.
 
 The Saros 10R
 has the opposite advantage.
 
-It has been around
-long enough
-that we now have
-three-month
-one-year
-positive
-negative
+It's old enough
+to have
+three-month,
+one-year,
+positive,
+negative,
 and extremely annoyed
 owner reports.
 
-Some owners love
-the low maintenance
-navigation
-and mopping.
+Some love it.
 
-Others complain
-about rug fringe
-small-object avoidance
-dock failures
-or weak vacuuming
-relative to older models.
+Others report
+rug-fringe problems,
+small-object failures,
+dock issues,
+or disappointing vacuuming.
 
-That disagreement
-is not noise
-to delete.
+That's not noise.
 
-It tells us
-which homes
-stress the system differently.
+That's where
+the hidden variables live.
 
-## section five — obstacle avoidance is not one thing
+## your house is part of the test
 
-This comes up constantly.
+Take obstacle avoidance.
 
-A reviewer
-can run a beautiful
-repeatable obstacle course.
+A repeatable lab course
+with cables,
+shoes,
+toys,
+and fake pet waste
 
-Cables.
-
-Shoes.
-
-Fake pet waste.
-
-Toys.
-
-And that test
 is genuinely useful.
 
-But a family home
-with a one-year-old
-a four-year-old
-rug fringe
-reflective floors
-and toys that migrate
+But a home
+with little kids,
+rug fringe,
+reflective floors,
+cords,
+and toys
+that migrate
 while the robot is running
 
-is a different distribution.
+is a different experiment.
 
-One long-term Saros 10R owner
-basically gave up
-using it
-outside the kitchen
+One long-term Saros owner
+basically restricted it
+to the kitchen.
 
-because the rest
-of the home
-was too chaotic.
+Another runs theirs daily
+and loves the avoidance.
 
-Another owner
-runs theirs every day
-and reports
-excellent object avoidance.
-
-Those reports
-can both be true.
+Both can be true.
 
 "Obstacle avoidance"
-is not one scalar number.
+is not one number.
 
-The hidden variable
-is the house.
+The house matters.
 
-## section six — so what actually matters
-
-After reading all this
-
-I would not start
-with a brand.
-
-I would start
-with your failure mode.
-
-If your floors
-are mostly hard surfaces
-and mopping quality
-is the reason
-you want a robot
-
-the roller-mop systems
-deserve extra attention.
-
-If your house
-is full of kids
-pets
-cords
-and floor clutter
-
-obstacle avoidance
-matters more
-than theoretical suction.
-
-If your house
-is carpet-heavy
-
-the best mopping system
-on Earth
-is not the center
-of your problem.
-
-If you hate maintenance
-
-look at the dock
-
-the dirty-water path
-
-the hair handling
-
-and what owners say
-after three months.
-
-If privacy
-and cloud dependence
-matter
-
-Consumer Reports
-and reviewers
-who test local control
-become much more useful
-than a cleaning-only leaderboard.
-
-And if value matters
-
-use the current street price
-
-not the launch price.
-
-A $1,300 robot
-discounted to $700
-
-is a different product decision
-without changing
-a single screw.
-
-## section seven — the useful shortlist
-
-So.
-
-What is
-the best robot vacuum
-of 2026?
+## so what should you actually buy
 
 I am not going
 to manufacture
-a ninth winner
-just to finish the video.
+a ninth overall winner.
 
-That would be
-extremely traditional
-review-site behavior.
-
-But
-"it depends"
+But "it depends"
 is not a buying guide either.
 
-So here is
-where I would start
-based on the evidence.
+So start
+with your failure mode.
 
 If you want
-a mature premium generalist
+a mature premium generalist,
 
 the Saros 10R
-is still the benchmark
-I would research first.
+is still
+a useful benchmark.
 
-RTINGS
-has it at number one overall
-and for hard floors
+RTINGS has it
+at number one overall
+and for hard floors,
 
 and it has enough
-time in actual homes
-that we can see
-both the praise
-and the failure modes.
+owner history
+to expose both
+the good
+and the annoying.
 
 If carpet
 is the center
-of your house
+of your house,
 
-do not start
-with the overall list.
+start with
+Dreame X50,
+Shark PowerDetect,
+and Saros 20.
 
-Start with
-
-Dreame X50
-
-Shark PowerDetect
-
-and Saros 20
-
-because serious testers
-are explicitly pulling
-those products forward
-for carpet.
+Different serious reviewers
+pull those forward
+specifically for carpet.
 
 If pet hair
-is the center
-of your life
+is the problem,
 
-the shortlist changes again.
+look at
+Saros Z70,
+Saros 20,
+Dreame L40,
+and the current
+MOVA and Ecovacs leaders.
 
-Saros Z70.
-
-Saros 20.
-
-Dreame L40.
-
-And the current
-MOVA / Ecovacs models
-that are scoring strongly
-on hair pickup
-and tangle tests.
-
-The important question
-then becomes
-
+But separate
 hair pickup
+from
+pet-waste avoidance.
 
-or
-
-pet-waste avoidance
-
-because those
-are not always
-the same winner.
+Those are not
+the same test.
 
 If mopping
-is why you are spending
-flagship money
+is why you're spending
+flagship money,
 
-look hard
-at the newer roller systems
+look at
+the newer roller systems
 
 and pay attention
-to the dirty-water path
+to the dirty-water path,
 
-not just the stain test.
+dock hygiene,
 
-And if value
-is the goal
+and maintenance,
 
-ignore every launch MSRP.
+not just
+the beautiful stain test
+on day one.
+
+And if value matters,
+
+ignore launch MSRP.
 
 Use today's price.
 
-Vacuum Wars'
-current value picks
-Ecovacs T90 and T80S
+A robot discounted
+from $1,300
+to $700
 
-Expert Reviews'
-Eufy E25
+became
+a different buying decision
 
-and TechRadar's
-Q7 M5 budget pick
-
-are all reminders
-that price
-changes the ranking
 without changing
-the robot.
-
-So the useful conclusion
-is not
-
-everyone is right.
-
-It is
-
-**start with your failure mode.**
-
-Then use
-the reviewer
-whose test
-actually resembles
-your house.
-
-That gets the list
-a lot shorter.
+a single screw.
 
 ## close
 
+So why did
+eight serious reviewers
+pick eight different winners?
+
+Different candidate pools.
+
+Different tests.
+
+Different weights.
+
+Different prices.
+
+Different dates.
+
+Different homes.
+
+The disagreement
+is not the failure
+of the review ecosystem.
+
+It's the part
+the buyer actually needs.
+
+Start with
+what would make
+a robot fail
+in your house.
+
+Then listen hardest
+to the reviewer
+who actually tests that.
+
 I put
-every serious source
-I used
+the serious sources
 in the description.
 
-Not just
-the products.
+Not just the products.
 
 The reviewers too.
 
-If this format
-is useful
+If you want
+another category pirated,
 
-tell me
-what category
-you want pirated next.
+tell me which one
+has turned buying
+a normal object
+into graduate school.
 
 Headphones.
 
@@ -682,12 +453,6 @@ TVs.
 Air purifiers.
 
 Mattresses.
-
-Whatever corner
-of the internet
-has turned buying
-a normal object
-into graduate school.
 
 I'll go read it.
 
