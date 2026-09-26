@@ -510,7 +510,7 @@ is a different product decision
 without changing
 a single screw.
 
-## section seven — who won
+## section seven — the useful shortlist
 
 So.
 
@@ -527,48 +527,133 @@ That would be
 extremely traditional
 review-site behavior.
 
-The useful conclusion
-is this.
+But
+"it depends"
+is not a buying guide either.
 
-The top reviewers
-mostly agree
-on what matters.
+So here is
+where I would start
+based on the evidence.
 
-Cleaning.
+If you want
+a mature premium generalist
 
-Mopping.
+the Saros 10R
+is still the benchmark
+I would research first.
 
-Navigation.
+RTINGS
+has it at number one overall
+and for hard floors
 
-Obstacle avoidance.
+and it has enough
+time in actual homes
+that we can see
+both the praise
+and the failure modes.
 
-Maintenance.
+If carpet
+is the center
+of your house
 
-Software.
+do not start
+with the overall list.
 
-Price.
+Start with
 
-Where they disagree
-is how much
-each one matters
+Dreame X50
 
-and which products
-they have tested
-recently enough
-to compete.
+Shark PowerDetect
 
-The disagreement
-is the buying guide.
+and Saros 20
 
-If we can map
-your house
-your floor types
-your tolerance
-for maintenance
-your privacy preferences
-and your budget
+because serious testers
+are explicitly pulling
+those products forward
+for carpet.
 
-the list gets
+If pet hair
+is the center
+of your life
+
+the shortlist changes again.
+
+Saros Z70.
+
+Saros 20.
+
+Dreame L40.
+
+And the current
+MOVA / Ecovacs models
+that are scoring strongly
+on hair pickup
+and tangle tests.
+
+The important question
+then becomes
+
+hair pickup
+
+or
+
+pet-waste avoidance
+
+because those
+are not always
+the same winner.
+
+If mopping
+is why you are spending
+flagship money
+
+look hard
+at the newer roller systems
+
+and pay attention
+to the dirty-water path
+
+not just the stain test.
+
+And if value
+is the goal
+
+ignore every launch MSRP.
+
+Use today's price.
+
+Vacuum Wars'
+current value picks
+Ecovacs T90 and T80S
+
+Expert Reviews'
+Eufy E25
+
+and TechRadar's
+Q7 M5 budget pick
+
+are all reminders
+that price
+changes the ranking
+without changing
+the robot.
+
+So the useful conclusion
+is not
+
+everyone is right.
+
+It is
+
+**start with your failure mode.**
+
+Then use
+the reviewer
+whose test
+actually resembles
+your house.
+
+That gets the list
 a lot shorter.
 
 ## close
