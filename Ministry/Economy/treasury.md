@@ -1,275 +1,334 @@
-# Alexander Treasury
+# alexander treasury
 
-the point is accountability
+money should enter
+through a door made of glass
 
-not a promise
-that money can never move
-or that the founder
-can never be paid
+not because money is shameful
 
-Alexander may earn money
-
-from
-
-- affiliate revenue
-- advertising
-- sponsorship
-- products
-- services
-- donations
-  if that is ever legally reviewed
-  and deliberately enabled
-
-the intention
-
-is to use the economic power
-created by Alexander projects
-
-to build more things
-
-some money
-may pay the people
-doing the work
-
-including the founder
-
-that is allowed
-
-the point is not
-performative poverty
-
-the point is
-
-do not quietly turn
-a mission
-into private generational wealth
-
-if compensation exists
-
-make it visible
-
-if spending exists
-
-make it visible
-
-if the policy changes
-
-make the change visible
-
-accountability
-before promises
+but because secrecy
+is terribly cheap
 
 
-## call it a treasury
+alexander may earn
+
+from links
+from advertisements
+from sponsors
+from things we build
+from services we render
+
+perhaps one day
+from gifts freely given
+
+though that day
+should wait
+for law and language
+to agree on what the gift means
+
+
+there is no vow here
+
+that every coin
+must sleep forever
+in some digital monastery
+
+there is no vow
+that the founder
+must live on dust
+while the work eats firewood
+
+people who build
+may be paid
+
+the founder
+may be paid
+
+comfort is not corruption
+
+but if wealth grows vast
+while the mission
+goes hungry
+
+the numbers themselves
+should be able
+to testify
+
+
+that is the promise
+worth making
+
+not
+
+the money will never move
+
+but
+
+when it moves
+we will be able
+to see it
+
+
+## treasury
+
+call it
+a treasury
 
 for now
 
 not a fund
 
-fund can imply
+a fund can wear
+many legal costumes
 
-investment management
-charitable structure
-or obligations
-that do not exist
+investment
+charity
+fiduciary duty
+public vehicle
 
-Alexander Treasury
+we have sewn
+none of those garments
 
-means
+a treasury
+is plainer
 
 capital earned
-or received
-by Alexander activity
+by alexander work
 
 held
 spent
-and reported
-for Alexander
+and accounted for
+
+in service
+of alexander work
 
 
-## what the blockchain can prove
+## two mirrors
 
-a public Bitcoin treasury
-can make
+bitcoin gives us
+one beautiful mirror
 
-- treasury receipts
-- treasury balances
-- treasury transfers
-- treasury spending transactions
+a public chain
 
-independently observable
+where anyone may see
 
-that is useful
+what arrived
+what remained
+what departed
+and where it went next
 
-but
+but a chain
+cannot remember
+the paycheck
+that became the coin
 
-the blockchain cannot prove
+it cannot tell us
 
-- how much affiliate revenue
-  was earned before conversion
-- whether a bank fee existed
-- why a payment was made
-- what a contractor did
-- what taxes are owed
-- whether a salary was reasonable
+how much an affiliate network
+paid in dollars
 
-so full accountability
-requires two layers
+what fee was removed
 
-### public books
+why a contractor
+received money
 
-a simple ledger
+what taxes wait
+like winter
 
-showing
+or whether a salary
+was modest
+lavish
+or absurd
 
-- gross revenue
-- reversals / chargebacks
-- platform fees
-- operating costs
-- taxes reserved
-- founder compensation
-- other compensation
-- Bitcoin purchases
-- fiat held
-- Bitcoin held
 
-### public treasury
+so accountability
+needs two mirrors
 
-the Bitcoin transactions
-that correspond
-to the ledger
 
-the books explain
-the chain
+### the books
 
-the chain verifies
+a public ledger
+should show
+
+gross revenue
+
+refunds
+chargebacks
+platform fees
+
+operating costs
+
+tax reserves
+
+founder compensation
+
+other compensation
+
+fiat retained
+
+bitcoin purchased
+
+bitcoin retained
+
+
+### the chain
+
+the public treasury
+should show
+
+addresses
+transactions
+balances
+and movements
+
 the books
+tell the story
+
+the chain
+checks the arithmetic
+
+neither alone
+is enough
 
 
-## can affiliate links pay Bitcoin directly
+## the river before the sea
 
-probably not
-through the programs
-we are currently considering
+our present affiliate rails
+do not appear
+to pour directly
+into bitcoin
 
-current payout rails
-checked September 2026
+checked
+september 2026
 
-### Impact
 
-used by
-Roborock
-and available for Dreame
+impact
+
+used by roborock
+and available to dreame
 
 pays partners
-to
+through bank accounts
+or paypal
 
-- bank account
-- PayPal
 
-not Bitcoin
+cj
 
-### CJ
-
-used by MOVA
+used by mova
 
 pays publishers
-through
+through direct deposit
+or payoneer
 
-- direct deposit
-- Payoneer
 
-not Bitcoin
-
-### Amazon Associates
+amazon associates
 
 pays through
 
-- direct deposit
-- gift card
-- check
+direct deposit
+gift card
+or check
 
-not Bitcoin
 
-### practical path
+so the likely river is
 
-affiliate link
+affiliate click
 
--> affiliate network
+to affiliate network
 
--> dedicated fiat account
+to a dedicated fiat account
 
--> recorded revenue
+to recorded revenue
 
--> Bitcoin purchase
+to a documented bitcoin purchase
 
--> public Alexander Treasury wallet
+to the public alexander treasury
+
 
 this is not
-a conceptual failure
+a compromise of the idea
 
-the fiat bridge
-is simply part
-of the accounting trail
+it is simply
+where the river bends
 
 
-## interim structure
+## before the company has a company
 
-before formal incorporation
+there is no virtue
+in forming
+an elaborate legal cathedral
 
-affiliate programs
-can generally pay
-an individual / sole proprietor
+to house
+seventeen dollars
 
-the clean version
 
-is not
+before incorporation
 
-mix everything
-into the founder's normal
-checking account
+the clean path
+may simply be
 
-better
+a sole proprietor
 
-use a dedicated account
-or payment account
-used only for Alexander activity
+with money kept apart
+from ordinary personal spending
+
 
 if useful
 
-a sole proprietor
-can obtain an EIN
-directly from the IRS
-for free
+the founder
+may obtain an ein
+directly from the irs
 
-even when
-an EIN is not otherwise
-required for federal tax
+the number itself
+is free
 
-it can be useful
-for banking
+and can help
+with banking
 and business administration
 
-this gives us
 
-separation
+the important thing
+at this stage
 
-without forcing
-an LLC
-before revenue exists
+is separation
+
+not ceremony
 
 
-## Bitcoin treasury design
+one account
+for ordinary life
 
-do not put
+another
+for alexander
+
+one wallet
+for ordinary bitcoin
+
+another
+for alexander
+
+confusion
+is cheap at first
+
+and expensive
+when success arrives
+
+
+## the first wallet
+
 private keys
 seed phrases
-or signing material
+and signing secrets
+
+do not belong
 in this repository
 
-ever
+not once
+not briefly
+not as a joke
 
-### early stage
+
+an early treasury
+can be simple
 
 one dedicated
 self-custody wallet
@@ -277,319 +336,446 @@ self-custody wallet
 preferably
 hardware-backed
 
+
 publish
 
-- treasury address / addresses
-- transaction IDs
-- public balance view
-- corresponding ledger entries
+the public address
+or addresses
 
-### better transparency
+transaction ids
 
-Bitcoin Core supports
-watch-only wallets
+the public balance
+
+and the matching
+ledger entries
+
+
+then anyone
+with a browser
+may follow the trail
+
+without holding
+the key to the door
+
+
+## a window without a key
+
+bitcoin core
+supports watch-only wallets
 and public descriptors
 
-a public watch-only view
-can let anyone
-verify treasury activity
+that means
+we can publish
+enough information
 
-without
-giving them
-spending authority
+for an observer
+to reconstruct
+and verify
+treasury activity
 
-publishing
-a full watch-only descriptor
-also exposes
+without granting
+the power to spend
+
+
+this transparency
+has a price
+
+a full public descriptor
+can reveal
 the wallet's transaction graph
 
-for a treasury
-that may be desirable
+for a private person
+that may be foolish
 
-but it should be
-a deliberate transparency choice
+for a public treasury
+it may be exactly
+the point
 
-### later stage
 
-when the treasury
+choose the exposure
+deliberately
+
+never by accident
+
+
+## when one key becomes too much power
+
+a small treasury
+can survive
+one responsible signer
+
+a large treasury
+should not have to
+
+
+when the balance
 becomes meaningful
 
-move to multisig
-
-example
-
-2 of 3
-
-founder
-
-independent steward
-
-backup / institutional key
-
-then
-
-one person
-cannot silently move
-the entire treasury
-
-Bitcoin supports
-multisignature addresses
-
-this is a natural
-future control
-
-not something
-we need
-for the first $50
+move toward multisig
 
 
-## compensation
+perhaps
 
-the founder
-may be paid
+two of three
 
-that is not
-a contradiction
 
-a project
+one key
+with the founder
+
+one
+with an independent steward
+
+one
+held as secure recovery
+or institutional backup
+
+
+then theft
+loss
+panic
+or temptation
+
+must defeat
+more than one lock
+
+
+bitcoin supports
+multisignature spending
+
+we do not need
+to build this palace
+for the first fifty dollars
+
+but we should know
+where the stones belong
+
+
+## the founder may eat
+
+a mission
 that requires
 permanent unpaid labor
-is not durable
 
-the intended norm
+is a machine
+that consumes saints
 
-is
 
-comfortable
+the founder
+may receive compensation
+
+so may anyone else
+who works
+
+
+the aim is not poverty
+
+the aim is
 visible
-defensible compensation
+defensible
+human compensation
 
-not
 
-extract
-as much private wealth
-as legally possible
+enough
+to live well
 
-do not define
-a permanent number today
+not an invisible siphon
+toward private dynasty
 
-instead
 
-publish
+do not carve
+a permanent number
+into stone today
 
-- amount
-- purpose
-- timing
-- policy used
+publish instead
 
-if Alexander
-becomes large enough
+the amount
+
+the reason
+
+the timing
+
+and the rule
+used to decide it
+
+
+if alexander
+ever becomes large
 
 founder compensation
-should eventually
-be approved
+should eventually be judged
+
 by someone
 other than the founder
 
-but
 
-do not invent
-a board
+but there is no wisdom
+in appointing
+a senate of accountants
+
 to govern
-zero dollars
+an empty purse
 
 
-## taxes
+## taxes remain real
 
-Bitcoin does not
-make taxes disappear
+bitcoin
+is not a spell
+against taxes
 
-in the United States
+
+in the united states
 
 digital assets
 are treated as property
 for federal tax purposes
 
-affiliate income
-is still business income
+affiliate revenue
+is still income
 
-buying Bitcoin
+buying bitcoin
 with that income
+
 does not erase
-the original income
+the income
+
 
 later
 
 selling
 spending
-or exchanging Bitcoin
-can create
-taxable gain or loss
+or exchanging bitcoin
 
-records must preserve
-
-- date
-- USD value
-- Bitcoin amount
-- basis
-- disposition value
-
-that accounting
-is another reason
-not to casually
-mix personal Bitcoin
-with Alexander Bitcoin
+may create
+a gain
+or a loss
 
 
-## regulatory boundary
+so records should preserve
 
-holding
-buying
-and spending
-Bitcoin
-for Alexander's own account
+date
 
-is very different
-from
+usd value
 
-operating an exchange
-or transmitting money
+bitcoin amount
+
+cost basis
+
+and disposition value
+
+
+this is another reason
+
+never to stir
+alexander bitcoin
+
+into the same cup
+as personal bitcoin
+
+
+## stay on our side of the river
+
+there is an important line
+
+between
+
+using bitcoin
+for our own treasury
+
+and
+
+moving money
 for other people
 
-FinCEN guidance
+
+fincen guidance
 distinguishes
 users of virtual currency
+
 from businesses
 that exchange
 or transmit it
 
-stay on
-the treasury side
+
+so stay
+on the treasury side
+
 
 do not
 
-- custody money for strangers
-- exchange Bitcoin for others
-- transmit money on behalf of others
-- promise investment returns
+custody money
+for strangers
 
-without
+exchange bitcoin
+for others
+
+transmit funds
+on another person's behalf
+
+or promise
+investment returns
+
+
+not without
 specific legal review
 
 
-## donations
+our treasure
+is our problem
+
+someone else's treasure
+may become
+a regulated business
+
+
+## gifts are not a casual word
+
+if people one day
+wish to send money
+to alexander
 
 do not casually
-call incoming money
-a donation
+call it a donation
 
-or imply
+do not imply
 
 tax deductibility
+
 charitable status
-or fiduciary restrictions
 
-unless those things
-actually exist
+fiduciary restriction
 
-if Alexander
-later wants
-public contributions
+or legal purpose
 
-that is a trigger
-for legal review
-
-not a sentence
-to add to a website
+that has not been created
 
 
-## the end state
+if public contributions
+become desirable
+
+that moment
+rings a legal bell
+
+answer it
+before accepting the money
+
+
+## the far shore
 
 if this becomes large
 
-the interesting system is
+the treasury
+could grow
+from a wallet
+
+into a public machine
+
 
 revenue
 
--> public books
+to open books
 
--> public treasury
+to public treasury
 
--> transparent spending proposals
+to visible spending proposals
 
--> multisig approval
+to multisig approval
 
--> on-chain execution
-where useful
+to on-chain execution
+where on-chain execution
+actually helps
 
-Bitcoin itself
-does not execute
-arbitrary governance logic
 
-but
+bitcoin itself
+is not
+a universal government
 
-multisig
+and a blockchain
+cannot make
+a foolish policy wise
+
+
+but multisig
+
 public transactions
+
 watch-only verification
-and signed spending policies
+
+and signed spending rules
 
 can move
-a meaningful amount
+a meaningful portion
 of governance
+
 from
 
 trust me
 
-to
+toward
 
 verify me
 
-that is enough
-for a strong first architecture
+
+that is already
+a magnificent distance
 
 
-## current sources
+## sources
 
-Impact partner payouts
+current payout rails
+and legal references
+checked september 2026
+
+
+impact partner payouts
 
 https://help.impact.com/partner/what-would-you-like-to-learn-about/platform-features/finance/payments-withdrawals-and-balance/how-do-partners-get-paid
 
-CJ publisher payments
+
+cj publisher payments
 
 https://www.cj.com/publisher
 
-Amazon Associates payment methods
+
+amazon associates payment methods
 
 https://affiliate-program.amazon.com/help/node/topic/GGD9H76RMDDNEWAE
 
-Roborock affiliate program
+
+roborock affiliate program
 
 https://us.roborock.com/pages/roborock-affiliate-program
 
-MOVA affiliate program
+
+mova affiliate program
 
 https://us.mova.tech/pages/affiliate-program
 
-Dreame affiliate program
+
+dreame affiliate program
 
 https://ca.dreametech.com/pages/affiliate-program
 
-IRS digital assets
+
+irs digital assets
 
 https://www.irs.gov/filing/digital-assets
 
-IRS EIN
+
+irs ein
 
 https://www.irs.gov/businesses/employer-identification-number
 
-FinCEN virtual-currency guidance
+
+fincen virtual-currency guidance
 
 https://www.fincen.gov/resources/statutes-regulations/guidance/application-fincens-regulations-persons-administering
 
-Bitcoin Core watch-only wallets
+
+bitcoin core watch-only wallets
 
 https://bitcoincore.org/en/doc/31.0.0/rpc/wallet/createwallet/
 
-Bitcoin Core multisig
+
+bitcoin core multisig
 
 https://bitcoincore.org/en/doc/30.0.0/rpc/util/createmultisig/
