@@ -1,0 +1,275 @@
+worldcraft
+
+a game for people who think
+they know how the world should work
+
+the point is not to win the argument
+the point is to discover
+what breaks
+
+players
+
+one or more builders
+one or more adversaries
+one recorder
+
+the builder proposes a world
+the adversary tries to destroy it
+the recorder tracks assumptions
+failures
+and surviving principles
+
+round one
+the dream
+
+describe the world you want
+
+who has power
+how people live
+how people work
+how people trade
+how people disagree
+how children grow up
+how outsiders enter
+how people leave
+how rules change
+what happens when someone refuses
+
+do not begin with institutions
+begin with daily life
+
+what does a good ordinary tuesday feel like
+
+round two
+constraints
+
+add reality
+
+limited attention
+limited resources
+unequal ability
+different values
+bad luck
+crime
+corruption
+disease
+natural disaster
+technical failure
+migration
+aging
+scarcity
+jealousy
+ambition
+ignorance
+
+the dream must continue
+without assuming these disappear
+
+round three
+the villain
+
+give the system
+to someone you dislike
+
+they are selfish
+clever
+patient
+popular
+and willing to exploit every rule
+that is technically allowed
+
+what can they capture
+what can they hide
+what can they centralize
+what can they make irreversible
+
+if the answer is
+the right people must stay in charge
+the system failed
+
+round four
+the saint
+
+give the system
+to someone sincere
+competent
+and convinced they are right
+
+this may be more dangerous
+
+what harm can be done
+with good intentions
+certainty
+urgency
+and broad support
+
+round five
+the generations
+
+advance twenty five years
+
+the founders are gone
+the original crisis is forgotten
+the rituals remain
+the incentives remain
+the bureaucracy remains
+
+what still makes sense
+what has become theater
+what institutions now exist
+only to preserve themselves
+
+advance again
+
+structural integrity
+must survive memory loss
+
+round six
+the edge cases
+
+test the person
+who does not fit
+
+the dissenter
+the eccentric
+the poor
+the rich
+the disabled
+the genius
+the fool
+the outsider
+the hermit
+the fanatic
+the person who wants nothing to do with the project
+
+a humane system
+must survive people
+who do not resemble its designers
+
+round seven
+the scale jump
+
+run it for
+
+ten people
+a thousand people
+a million people
+the planet
+
+something that works
+for friends
+may become coercion
+when scaled
+
+something that works
+for a nation
+may become absurd
+for a neighborhood
+
+identify
+what must stay local
+what benefits from coordination
+and what should never be centralized
+
+round eight
+the fork
+
+someone disagrees
+and wants to leave
+
+what can they take with them
+
+their money
+their data
+their identity
+their work
+their relationships
+their tools
+their reputation
+
+if exit is impossible
+participation was not fully voluntary
+
+round nine
+the copy
+
+a rival copies the system
+
+they remove the moral language
+keep the useful mechanisms
+and compete directly
+
+does the idea still work
+
+if success depends
+on exclusive ownership
+mystique
+or loyalty
+then the mechanism may be weaker
+than the story
+
+round ten
+the inversion
+
+take each virtue
+and maximize it
+until it becomes a vice
+
+transparency becomes surveillance
+safety becomes control
+freedom becomes abandonment
+equality becomes conformity
+efficiency becomes fragility
+community becomes exclusion
+decentralization becomes chaos
+certainty becomes dogma
+tolerance becomes paralysis
+
+find the point
+where more stops being better
+
+scoring
+
+do not use one score
+
+keep a dashboard
+
+freedom
+human dignity
+voluntary participation
+resilience
+reversibility
+clarity of power
+ability to dissent
+ability to exit
+material usefulness
+environmental cost
+complexity
+capture risk
+dependence on exceptional leaders
+
+the disagreement over the scores
+is part of the game
+
+winning
+
+a world does not win
+by surviving unchanged
+
+it wins
+when the builder is willing
+to change it
+after learning where it breaks
+
+the strongest outcome
+is not a perfect world
+
+it is a design
+with explicit weaknesses
+known tradeoffs
+easy exit
+limited blast radius
+and a method
+for becoming less wrong
+
+then play again
