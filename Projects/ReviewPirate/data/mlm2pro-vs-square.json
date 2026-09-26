@@ -52,6 +52,18 @@
           "reason": "Impact Vision, swing replay, and Rapsodo practice features are central parts of the product"
         }
       ]
+    },
+    {
+      "id": "putting",
+      "prompt": "Do you need the launch monitor to handle putting and very short shots in simulator play?",
+      "outcomes": [
+        {
+          "answer": true,
+          "label": "yes",
+          "product_id": "square-home",
+          "reason": "hands-on testing reports strong chip and pitch capture, while MLM2PRO owners still report limitations on very short shots"
+        }
+      ]
     }
   ],
   "sources": [
@@ -107,6 +119,24 @@
       "author": "Golfible",
       "kind": "comparison_review",
       "first_hand": true,
+      "financial_relationship": "affiliate"
+    },
+    {
+      "id": "playbetter-square",
+      "title": "Square Golf Launch Monitor Review",
+      "url": "https://www.playbetter.com/blogs/golf-simulator-reviews/square-golf-launch-monitor-review",
+      "author": "PlayBetter",
+      "kind": "retailer_review",
+      "first_hand": true,
+      "financial_relationship": "retailer"
+    },
+    {
+      "id": "independent-mlm",
+      "title": "Rapsodo MLM2PRO Launch Monitor Review",
+      "url": "https://www.independentgolfreviews.com/rapsodo-mlm2pro-launch-monitor-review/",
+      "author": "Independent Golf Reviews",
+      "kind": "hands_on_review",
+      "first_hand": true,
       "financial_relationship": "unknown"
     },
     {
@@ -122,6 +152,15 @@
       "id": "reddit-feedback",
       "title": "Thoughts or real feedback on Rapsodo MLM2PRO",
       "url": "https://www.reddit.com/r/Golfsimulator/comments/1h54hit/thoughts_or_real_feedback_on_rapsodo_mlm2pro/",
+      "author": "r/Golfsimulator contributors",
+      "kind": "community_thread",
+      "first_hand": "mixed",
+      "financial_relationship": "mixed"
+    },
+    {
+      "id": "reddit-connectivity",
+      "title": "MLM2PRO connectivity finally solved",
+      "url": "https://www.reddit.com/r/Golfsimulator/comments/1vj31d6/mlm2pro_connectivity_finally_solved/",
       "author": "r/Golfsimulator contributors",
       "kind": "community_thread",
       "first_hand": "mixed",
@@ -190,6 +229,16 @@
       "note": "distinctive feature for practice and strike feedback"
     },
     {
+      "product_id": "mlm2pro",
+      "topic": "spin",
+      "claim": "measured spin and spin axis require compatible marked RPT golf balls",
+      "stance": "oppose",
+      "evidence_type": "manufacturer_claim",
+      "source_id": "rapsodo-membership",
+      "confidence": 0.98,
+      "note": "important consumable and workflow constraint for indoor use"
+    },
+    {
       "product_id": "square-home",
       "topic": "space",
       "claim": "side-mounted camera design is repeatedly favored for short indoor rooms",
@@ -217,7 +266,57 @@
       "evidence_type": "first_hand_review",
       "source_id": "golfible",
       "confidence": 0.7,
-      "note": "single review source; needs more independent confirmation"
+      "note": "single affiliate-supported review source; useful but not independent"
+    },
+    {
+      "product_id": "square-home",
+      "topic": "short game",
+      "claim": "hands-on testing found chips, pitches, and high short shots were captured reliably",
+      "stance": "support",
+      "evidence_type": "first_hand_review",
+      "source_id": "playbetter-square",
+      "confidence": 0.8,
+      "note": "retailer review; strong firsthand detail but clear commercial relationship"
+    },
+    {
+      "product_id": "square-home",
+      "topic": "shot capture",
+      "claim": "one hands-on test still saw intermittent missed shots during normal use",
+      "stance": "oppose",
+      "evidence_type": "first_hand_review",
+      "source_id": "playbetter-square",
+      "confidence": 0.7,
+      "note": "useful caveat; needs replication across firmware versions and setups"
+    },
+    {
+      "product_id": "square-home",
+      "topic": "club data",
+      "claim": "hands-on testing found some club metrics limited or less trustworthy than core ball-flight data",
+      "stance": "qualify",
+      "evidence_type": "first_hand_review",
+      "source_id": "playbetter-square",
+      "confidence": 0.75,
+      "note": "clubhead speed and smash factor are absent on Home; dynamic-loft behavior was criticized in testing"
+    },
+    {
+      "product_id": "mlm2pro",
+      "topic": "accuracy",
+      "claim": "hands-on testing found indoor data broadly similar to a professional reference system in controlled conditions",
+      "stance": "support",
+      "evidence_type": "first_hand_review",
+      "source_id": "independent-mlm",
+      "confidence": 0.7,
+      "note": "reviewer comparison rather than a published lab dataset"
+    },
+    {
+      "product_id": "mlm2pro",
+      "topic": "range balls",
+      "claim": "one hands-on review found range-ball tracking less dependable than indoor use with marked RPT balls",
+      "stance": "qualify",
+      "evidence_type": "first_hand_review",
+      "source_id": "independent-mlm",
+      "confidence": 0.65,
+      "note": "important qualification to the outdoor-use advantage"
     },
     {
       "product_id": "mlm2pro",
@@ -248,6 +347,16 @@
       "source_id": "reddit-feedback",
       "confidence": 0.6,
       "note": "good example of disagreement the product should preserve rather than flatten"
+    },
+    {
+      "product_id": "mlm2pro",
+      "topic": "connectivity",
+      "claim": "recent owners still report network and third-party connection failures, while some report success after improving local network conditions",
+      "stance": "qualify",
+      "evidence_type": "reported_experience",
+      "source_id": "reddit-connectivity",
+      "confidence": 0.6,
+      "note": "suggests setup and network topology may be a hidden conditional variable"
     },
     {
       "product_id": "square-home",
