@@ -178,3 +178,162 @@ track
 the next episode
 should be changed
 by the previous one
+
+
+## pilot tool decision
+
+as of September 2026
+
+do not use
+full script-to-video generation
+for episode 001
+
+the research
+needs to be visible
+
+### narration
+
+first test
+
+ElevenLabs
+
+current entry options
+include
+
+Starter
+with commercial license
+
+Creator
+with a larger TTS allowance
+
+official pricing
+
+https://elevenlabs.io/pricing
+
+reason
+
+the narration
+is the only synthetic element
+that needs to feel invisible
+
+generate
+the cold open
+and one dense research section
+
+if the voice
+cannot land the jokes
+and product names
+
+do not use it
+for the whole episode
+
+### edit
+
+first test
+
+Descript
+
+current paid plans
+support
+
+- transcript-led editing
+- 1080p / 4k export by plan
+- Studio Sound
+- clip creation
+- AI speech
+- stock media
+- AI co-editing
+
+official
+
+https://www.descript.com/
+
+reason
+
+this is
+a script-heavy
+voiceover-heavy
+source-heavy format
+
+editing text
+is likely
+to be faster
+than timeline surgery
+
+### secondary editor
+
+CapCut Desktop
+
+useful for
+
+- fast captions
+- reframing
+- social cuts
+- Shorts
+
+do not use
+
+one-click Script to Video
+as the core long-form workflow
+
+it optimizes
+for exactly
+the generic templated look
+we are trying to avoid
+
+official
+
+https://www.capcut.com/tools/desktop-ai-power
+
+### visuals
+
+Canva or Figma
+
+for
+
+- reviewer cards
+- methodology matrices
+- ranking timelines
+- category shortlists
+- thumbnails
+
+no vendor lock-in
+matters here
+
+charts should be
+simple enough
+to rebuild anywhere
+
+### later
+
+if the workflow
+needs custom motion
+or complex compositing
+
+test
+
+Resolve
+Premiere
+Runway
+
+after the first episode
+
+not before
+
+## tool budget rule
+
+software cost
+is trivial
+compared with
+research and editing time
+
+choose tools
+by
+
+minutes removed
+from production
+
+not
+
+features accumulated
+in a subscription drawer
