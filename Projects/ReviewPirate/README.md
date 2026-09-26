@@ -99,9 +99,8 @@ research notes
 
 `research/mlm2pro-vs-square.md`
 
-readable report snapshot
-
-`reports/mlm2pro-vs-square.md`
+the report is generated from the data
+rather than stored as a second copy of the truth
 
 ## command line
 
@@ -123,6 +122,12 @@ or
 ```bash
 python3 review_pirate.py data/mlm2pro-vs-square.json \
   --profile profiles/outdoor-practice.json
+```
+
+validate only
+
+```bash
+python3 review_pirate.py data/mlm2pro-vs-square.json --validate-only
 ```
 
 tests
@@ -190,6 +195,7 @@ live hand-built dataset
 command-line report generator
 buyer profiles
 browser prototype
+strict evidence validation
 tests
 CI definition
 
