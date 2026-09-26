@@ -1,0 +1,223 @@
+{
+  "comparison": "MLM2PRO vs Square Golf Home — first live dataset",
+  "products": [
+    {"id": "mlm2pro", "name": "Rapsodo MLM2PRO"},
+    {"id": "square-home", "name": "Square Golf Home Edition"}
+  ],
+  "sources": [
+    {
+      "id": "rapsodo-product",
+      "title": "Rapsodo MLM2PRO product page",
+      "url": "https://rapsodo.com/products/mlm2pro-mobile-launch-monitor-golf-simulator",
+      "author": "Rapsodo",
+      "kind": "manufacturer",
+      "first_hand": false,
+      "financial_relationship": "manufacturer"
+    },
+    {
+      "id": "rapsodo-membership",
+      "title": "MLM2PRO Premium Membership",
+      "url": "https://rapsodo.com/pages/rapsodo-golf-mlm2pro-premium-membership",
+      "author": "Rapsodo",
+      "kind": "manufacturer",
+      "first_hand": false,
+      "financial_relationship": "manufacturer"
+    },
+    {
+      "id": "square-home",
+      "title": "Square Golf Home Edition",
+      "url": "https://squaregolf.com/pages/launch-monitors-he",
+      "author": "Square Golf",
+      "kind": "manufacturer",
+      "first_hand": false,
+      "financial_relationship": "manufacturer"
+    },
+    {
+      "id": "square-gspro",
+      "title": "Square Golf GSPro connector",
+      "url": "https://squaregolf.com/pages/software-3ps-gspro",
+      "author": "Square Golf",
+      "kind": "manufacturer",
+      "first_hand": false,
+      "financial_relationship": "manufacturer"
+    },
+    {
+      "id": "simlab",
+      "title": "Square Golf Home vs Rapsodo MLM2PRO",
+      "url": "https://simlab.golf/compare/square-golf-home-vs-rapsodo-mlm2pro/",
+      "author": "SimLab",
+      "kind": "comparison_review",
+      "first_hand": "unknown",
+      "financial_relationship": "unknown"
+    },
+    {
+      "id": "golfible",
+      "title": "Square Golf vs Rapsodo MLM2PRO",
+      "url": "https://golfible.com/square-golf-launch-monitor-vs-rapsodo-mlm2pro/",
+      "author": "Golfible",
+      "kind": "comparison_review",
+      "first_hand": true,
+      "financial_relationship": "unknown"
+    },
+    {
+      "id": "reddit-2026",
+      "title": "Square or MLM2Pro owner discussion",
+      "url": "https://www.reddit.com/r/Golfsimulator/comments/1smc41l/square_or_mlm2pro/",
+      "author": "r/Golfsimulator contributors",
+      "kind": "community_thread",
+      "first_hand": "mixed",
+      "financial_relationship": "mixed"
+    },
+    {
+      "id": "reddit-feedback",
+      "title": "Thoughts or real feedback on Rapsodo MLM2PRO",
+      "url": "https://www.reddit.com/r/Golfsimulator/comments/1h54hit/thoughts_or_real_feedback_on_rapsodo_mlm2pro/",
+      "author": "r/Golfsimulator contributors",
+      "kind": "community_thread",
+      "first_hand": "mixed",
+      "financial_relationship": "mixed"
+    }
+  ],
+  "claims": [
+    {
+      "product_id": "mlm2pro",
+      "topic": "outdoor use",
+      "claim": "manufacturer says the unit is designed for full indoor and outdoor use",
+      "stance": "support",
+      "evidence_type": "manufacturer_claim",
+      "source_id": "rapsodo-product",
+      "confidence": 0.95,
+      "note": "clear product capability claim"
+    },
+    {
+      "product_id": "square-home",
+      "topic": "outdoor use",
+      "claim": "Home Edition is presented as an indoor product",
+      "stance": "oppose",
+      "evidence_type": "manufacturer_claim",
+      "source_id": "square-home",
+      "confidence": 0.95,
+      "note": "Square's Omni line is the indoor/outdoor model"
+    },
+    {
+      "product_id": "mlm2pro",
+      "topic": "subscriptions",
+      "claim": "advanced metrics and third-party simulator compatibility are included with Premium membership",
+      "stance": "oppose",
+      "evidence_type": "manufacturer_claim",
+      "source_id": "rapsodo-membership",
+      "confidence": 0.98,
+      "note": "annual, two-year, and lifetime Premium options are listed"
+    },
+    {
+      "product_id": "square-home",
+      "topic": "subscriptions",
+      "claim": "Square advertises Home Edition with no subscription fee",
+      "stance": "support",
+      "evidence_type": "manufacturer_claim",
+      "source_id": "square-home",
+      "confidence": 0.95,
+      "note": "third-party software such as GSPro still has its own license cost"
+    },
+    {
+      "product_id": "square-home",
+      "topic": "GSPro",
+      "claim": "Square provides an official Windows connector for GSPro",
+      "stance": "support",
+      "evidence_type": "manufacturer_claim",
+      "source_id": "square-gspro",
+      "confidence": 0.98,
+      "note": "connector is documented by Square"
+    },
+    {
+      "product_id": "mlm2pro",
+      "topic": "visual feedback",
+      "claim": "Impact Vision captures impact and initial ball flight at high frame rate",
+      "stance": "support",
+      "evidence_type": "manufacturer_claim",
+      "source_id": "rapsodo-membership",
+      "confidence": 0.98,
+      "note": "distinctive feature for practice and strike feedback"
+    },
+    {
+      "product_id": "square-home",
+      "topic": "space",
+      "claim": "side-mounted camera design is repeatedly favored for short indoor rooms",
+      "stance": "support",
+      "evidence_type": "review_consensus",
+      "source_id": "simlab",
+      "confidence": 0.75,
+      "note": "important fit variable rather than universal advantage"
+    },
+    {
+      "product_id": "mlm2pro",
+      "topic": "space",
+      "claim": "rear radar placement needs materially more room depth than Square Home",
+      "stance": "oppose",
+      "evidence_type": "review_consensus",
+      "source_id": "simlab",
+      "confidence": 0.75,
+      "note": "room geometry can decide the purchase before features do"
+    },
+    {
+      "product_id": "square-home",
+      "topic": "setup",
+      "claim": "reviewers describe indoor setup as quick and consistent",
+      "stance": "support",
+      "evidence_type": "first_hand_review",
+      "source_id": "golfible",
+      "confidence": 0.7,
+      "note": "single review source; needs more independent confirmation"
+    },
+    {
+      "product_id": "mlm2pro",
+      "topic": "outdoor use",
+      "claim": "owners cite range use as a meaningful advantage over Square Home",
+      "stance": "support",
+      "evidence_type": "reported_experience",
+      "source_id": "reddit-2026",
+      "confidence": 0.65,
+      "note": "community anecdotes agree with manufacturer positioning"
+    },
+    {
+      "product_id": "mlm2pro",
+      "topic": "short game",
+      "claim": "some owners report missed or less reliable very short chips",
+      "stance": "oppose",
+      "evidence_type": "reported_experience",
+      "source_id": "reddit-2026",
+      "confidence": 0.55,
+      "note": "anecdotal and firmware-dependent"
+    },
+    {
+      "product_id": "mlm2pro",
+      "topic": "connectivity",
+      "claim": "owner reports on connectivity are mixed: some report stable use while others report recurring disconnects",
+      "stance": "qualify",
+      "evidence_type": "reported_experience",
+      "source_id": "reddit-feedback",
+      "confidence": 0.6,
+      "note": "good example of disagreement the product should preserve rather than flatten"
+    },
+    {
+      "product_id": "square-home",
+      "topic": "subscriptions",
+      "claim": "owners commonly cite avoiding the Rapsodo Premium fee as a reason to choose Square",
+      "stance": "support",
+      "evidence_type": "reported_preference",
+      "source_id": "reddit-2026",
+      "confidence": 0.65,
+      "note": "preference evidence, not technical performance evidence"
+    },
+    {
+      "product_id": "mlm2pro",
+      "topic": "practice",
+      "claim": "some owners value the swing and impact feedback enough to accept the subscription cost",
+      "stance": "support",
+      "evidence_type": "reported_preference",
+      "source_id": "reddit-feedback",
+      "confidence": 0.6,
+      "note": "shows why the subscription question depends on intended use"
+    }
+  ]
+}
