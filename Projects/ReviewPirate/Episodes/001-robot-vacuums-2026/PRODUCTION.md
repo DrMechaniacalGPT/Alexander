@@ -111,6 +111,163 @@ best robot vacuum
 is less of an award
 and more of a group project."
 
+## first 60 seconds — edit map
+
+### 0:00–0:04
+
+black / minimal opening
+
+voice
+
+"On September 25
+I checked eight serious
+robot-vacuum review sources."
+
+visual
+
+eight source names
+slam on quickly
+
+do not show products yet
+
+### 0:04–0:16
+
+voice
+
+"They gave me
+eight different answers
+to one extremely normal question."
+
+visual
+
+reveal one source + winner
+per beat
+
+use generated asset
+
+`assets/reviewer_wall.svg`
+
+finish on
+all eight at once
+
+### 0:16–0:23
+
+voice
+
+"At this point
+best robot vacuum
+is less of an award
+and more of a group project."
+
+visual
+
+freeze wall
+
+add absurd
+too-many-first-place-trophies
+graphic
+
+small pirate sting
+if it is funny
+not if it is branding homework
+
+### 0:23–0:32
+
+voice
+
+"So I went through
+more than thirty sources
+to figure out
+who is wrong."
+
+visual
+
+fast montage
+
+- RTINGS test page
+- Vacuum Wars ranking
+- Consumer Reports methodology
+- Reddit long-term owner thread
+- source count ticking upward
+
+overlay
+
+30+ SOURCES
+
+### 0:32–0:38
+
+voice
+
+"The annoying answer is:
+mostly nobody."
+
+visual
+
+hard cut
+
+big text
+
+MOSTLY
+NOBODY
+
+then smaller
+
+they are answering
+different questions
+
+### 0:38–0:50
+
+voice
+
+"First problem:
+you cannot choose
+a vacuum
+you did not test."
+
+visual
+
+simple candidate-pool diagram
+
+small pool
+
+larger pool
+
+new MOVA model
+drops into the larger pool
+
+### 0:50–1:00
+
+voice
+
+"On September 16
+Vacuum Wars had
+the Dreame X60 Max
+at number one.
+
+Eight days later
+its Top 20
+had the new MOVA V70."
+
+visual
+
+two dated ranking cards
+
+SEP 16
+X60
+
+arrow
+
+SEP 24
+V70
+
+end frame
+
+**THE HALF-LIFE
+OF A LEADERBOARD**
+
+that becomes
+the first chapter card
+
 ## visual language
 
 the research
@@ -195,9 +352,9 @@ plus weighting explanation
 suction Pa
 versus real pickup
 
-only publish
-if the correlation research
-supports the hook
+now supported
+by concrete
+Vacuum Wars comparisons
 
 ### Short 3
 
