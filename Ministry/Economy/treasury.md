@@ -6,65 +6,43 @@ through a door made of glass
 not because money is shameful
 
 but because secrecy
-is terribly cheap
+is cheap
 
 
 alexander may earn
 
 from links
-from advertisements
-from sponsors
-from things we build
-from services we render
+ads
+sponsors
+products
+and services
 
 perhaps one day
-from gifts freely given
+from gifts
 
-though that day
-should wait
-for law and language
-to agree on what the gift means
+but only after
+law and language
+agree on what those gifts are
 
 
-there is no vow here
+there is no vow
 
 that every coin
 must sleep forever
-in some digital monastery
+in a digital monastery
 
-there is no vow
-that the founder
-must live on dust
-while the work eats firewood
+the founder may be paid
 
-people who build
-may be paid
-
-the founder
-may be paid
+so may anyone else
+who works
 
 comfort is not corruption
 
-but if wealth grows vast
-while the mission
-goes hungry
+the principle is simpler
 
-the numbers themselves
-should be able
-to testify
+if money moves
 
-
-that is the promise
-worth making
-
-not
-
-the money will never move
-
-but
-
-when it moves
-we will be able
+we should be able
 to see it
 
 
@@ -73,20 +51,13 @@ to see it
 call it
 a treasury
 
-for now
-
 not a fund
 
-a fund can wear
-many legal costumes
-
+a fund may imply
 investment
 charity
-fiduciary duty
-public vehicle
-
-we have sewn
-none of those garments
+or duties
+that do not yet exist
 
 a treasury
 is plainer
@@ -96,45 +67,41 @@ by alexander work
 
 held
 spent
-and accounted for
+and reported
 
-in service
-of alexander work
+for alexander work
 
 
 ## two mirrors
 
 bitcoin gives us
-one beautiful mirror
+one mirror
 
-a public chain
+the public chain
 
-where anyone may see
+it can show
 
 what arrived
 what remained
-what departed
-and where it went next
+what left
+and where it went
 
-but a chain
-cannot remember
-the paycheck
-that became the coin
 
-it cannot tell us
+but the chain
+cannot tell us
 
 how much an affiliate network
 paid in dollars
 
-what fee was removed
+what fee disappeared
+before conversion
 
-why a contractor
-received money
+why a person
+was paid
 
 what taxes wait
-like winter
 
-or whether a salary
+or whether compensation
 was modest
 lavish
 or absurd
@@ -144,18 +111,15 @@ so accountability
 needs two mirrors
 
 
-### the books
+### public books
 
-a public ledger
-should show
+show
 
 gross revenue
 
 refunds
-chargebacks
-platform fees
-
-operating costs
+fees
+and operating costs
 
 tax reserves
 
@@ -163,38 +127,38 @@ founder compensation
 
 other compensation
 
-fiat retained
+fiat held
 
 bitcoin purchased
 
-bitcoin retained
+bitcoin held
 
 
-### the chain
+### public chain
 
-the public treasury
-should show
+show
 
-addresses
+treasury addresses
+
 transactions
+
 balances
+
 and movements
 
+
 the books
-tell the story
+explain the money
 
 the chain
-checks the arithmetic
-
-neither alone
-is enough
+checks the movement
 
 
-## the river before the sea
+## the fiat bridge
 
-our present affiliate rails
+today's affiliate rails
 do not appear
-to pour directly
+to pay directly
 into bitcoin
 
 checked
@@ -203,95 +167,73 @@ september 2026
 
 impact
 
-used by roborock
-and available to dreame
-
-pays partners
-through bank accounts
+bank
 or paypal
 
 
 cj
 
-used by mova
-
-pays publishers
-through direct deposit
+direct deposit
 or payoneer
 
 
 amazon associates
-
-pays through
 
 direct deposit
 gift card
 or check
 
 
-so the likely river is
+so the likely path is
 
-affiliate click
+
+affiliate revenue
 
 to affiliate network
 
-to a dedicated fiat account
+to dedicated fiat account
 
 to recorded revenue
 
-to a documented bitcoin purchase
+to documented bitcoin purchase
 
-to the public alexander treasury
-
-
-this is not
-a compromise of the idea
-
-it is simply
-where the river bends
+to public alexander treasury
 
 
-## before the company has a company
+the bend in the river
+does not change
+where it is going
 
-there is no virtue
-in forming
-an elaborate legal cathedral
+
+## before incorporation
+
+do not build
+a legal cathedral
 
 to house
 seventeen dollars
 
 
-before incorporation
-
-the clean path
-may simply be
+early on
 
 a sole proprietor
+with cleanly separated
+money and records
 
-with money kept apart
-from ordinary personal spending
+may be enough
 
 
-if useful
-
-the founder
-may obtain an ein
+an ein
+can be obtained
 directly from the irs
 
-the number itself
-is free
-
-and can help
+and may help
 with banking
-and business administration
+and administration
 
 
-the important thing
-at this stage
-
+the first discipline
 is separation
-
-not ceremony
 
 
 one account
@@ -300,17 +242,17 @@ for ordinary life
 another
 for alexander
 
+
 one wallet
 for ordinary bitcoin
 
 another
 for alexander
 
-confusion
-is cheap at first
 
-and expensive
-when success arrives
+confusion is cheap
+until success
+makes it expensive
 
 
 ## the first wallet
@@ -319,12 +261,8 @@ private keys
 seed phrases
 and signing secrets
 
-do not belong
+never belong
 in this repository
-
-not once
-not briefly
-not as a joke
 
 
 an early treasury
@@ -339,23 +277,21 @@ hardware-backed
 
 publish
 
-the public address
-or addresses
+public addresses
 
 transaction ids
 
-the public balance
+balances
 
-and the matching
+and matching
 ledger entries
 
 
 then anyone
-with a browser
-may follow the trail
+can follow the trail
 
 without holding
-the key to the door
+the key
 
 
 ## a window without a key
@@ -364,41 +300,29 @@ bitcoin core
 supports watch-only wallets
 and public descriptors
 
-that means
-we can publish
-enough information
+so observers
+can verify activity
 
-for an observer
-to reconstruct
-and verify
-treasury activity
+without
+spending authority
 
-without granting
-the power to spend
-
-
-this transparency
-has a price
 
 a full public descriptor
-can reveal
+may reveal
 the wallet's transaction graph
 
 for a private person
-that may be foolish
+that may be too much
 
 for a public treasury
-it may be exactly
-the point
+it may be the point
 
 
-choose the exposure
+choose that exposure
 deliberately
 
-never by accident
 
-
-## when one key becomes too much power
+## when one key is too much power
 
 a small treasury
 can survive
@@ -419,38 +343,27 @@ perhaps
 two of three
 
 
-one key
-with the founder
+founder
 
-one
-with an independent steward
+independent steward
 
-one
-held as secure recovery
+recovery
 or institutional backup
 
 
-then theft
-loss
-panic
-or temptation
+then one lost key
 
-must defeat
-more than one lock
+one theft
 
+one panic
 
-bitcoin supports
-multisignature spending
+or one bad decision
 
-we do not need
-to build this palace
-for the first fifty dollars
-
-but we should know
-where the stones belong
+cannot empty
+the future
 
 
-## the founder may eat
+## compensation
 
 a mission
 that requires
@@ -461,15 +374,11 @@ that consumes saints
 
 
 the founder
-may receive compensation
-
-so may anyone else
-who works
+may be paid
 
 
-the aim is not poverty
+the aim
 
-the aim is
 visible
 defensible
 human compensation
@@ -478,13 +387,13 @@ human compensation
 enough
 to live well
 
-not an invisible siphon
+not a quiet siphon
 toward private dynasty
 
 
-do not carve
-a permanent number
-into stone today
+do not choose
+a permanent formula today
+
 
 publish instead
 
@@ -499,7 +408,7 @@ used to decide it
 
 
 if alexander
-ever becomes large
+becomes large
 
 founder compensation
 should eventually be judged
@@ -508,7 +417,9 @@ by someone
 other than the founder
 
 
-but there is no wisdom
+not now
+
+there is no wisdom
 in appointing
 a senate of accountants
 
@@ -530,11 +441,10 @@ are treated as property
 for federal tax purposes
 
 affiliate revenue
-is still income
+remains income
+
 
 buying bitcoin
-with that income
-
 does not erase
 the income
 
@@ -550,7 +460,7 @@ a gain
 or a loss
 
 
-so records should preserve
+records should preserve
 
 date
 
@@ -563,18 +473,10 @@ cost basis
 and disposition value
 
 
-this is another reason
+## our money
+and other people's money
 
-never to stir
-alexander bitcoin
-
-into the same cup
-as personal bitcoin
-
-
-## stay on our side of the river
-
-there is an important line
+there is a line
 
 between
 
@@ -596,8 +498,8 @@ that exchange
 or transmit it
 
 
-so stay
-on the treasury side
+stay
+on our side
 
 
 do not
@@ -619,14 +521,6 @@ not without
 specific legal review
 
 
-our treasure
-is our problem
-
-someone else's treasure
-may become
-a regulated business
-
-
 ## gifts are not a casual word
 
 if people one day
@@ -642,11 +536,9 @@ tax deductibility
 
 charitable status
 
-fiduciary restriction
+or legal restrictions
 
-or legal purpose
-
-that has not been created
+that do not exist
 
 
 if public contributions
@@ -655,8 +547,10 @@ become desirable
 that moment
 rings a legal bell
 
+
 answer it
-before accepting the money
+before accepting
+the money
 
 
 ## the far shore
@@ -664,7 +558,7 @@ before accepting the money
 if this becomes large
 
 the treasury
-could grow
+can grow
 from a wallet
 
 into a public machine
@@ -676,35 +570,28 @@ to open books
 
 to public treasury
 
-to visible spending proposals
+to visible proposals
 
 to multisig approval
 
 to on-chain execution
-where on-chain execution
-actually helps
+where it truly helps
 
 
-bitcoin itself
-is not
-a universal government
-
-and a blockchain
+bitcoin
 cannot make
 a foolish policy wise
 
 
-but multisig
-
-public transactions
+but public transactions
 
 watch-only verification
 
+multisig
+
 and signed spending rules
 
-can move
-a meaningful portion
-of governance
+can move governance
 
 from
 
@@ -725,57 +612,26 @@ current payout rails
 and legal references
 checked september 2026
 
-
-impact partner payouts
-
+impact partner payouts  
 https://help.impact.com/partner/what-would-you-like-to-learn-about/platform-features/finance/payments-withdrawals-and-balance/how-do-partners-get-paid
 
-
-cj publisher payments
-
+cj publisher payments  
 https://www.cj.com/publisher
 
-
-amazon associates payment methods
-
+amazon associates payment methods  
 https://affiliate-program.amazon.com/help/node/topic/GGD9H76RMDDNEWAE
 
-
-roborock affiliate program
-
-https://us.roborock.com/pages/roborock-affiliate-program
-
-
-mova affiliate program
-
-https://us.mova.tech/pages/affiliate-program
-
-
-dreame affiliate program
-
-https://ca.dreametech.com/pages/affiliate-program
-
-
-irs digital assets
-
+irs digital assets  
 https://www.irs.gov/filing/digital-assets
 
-
-irs ein
-
+irs ein  
 https://www.irs.gov/businesses/employer-identification-number
 
-
-fincen virtual-currency guidance
-
+fincen virtual-currency guidance  
 https://www.fincen.gov/resources/statutes-regulations/guidance/application-fincens-regulations-persons-administering
 
-
-bitcoin core watch-only wallets
-
+bitcoin core watch-only wallets  
 https://bitcoincore.org/en/doc/31.0.0/rpc/wallet/createwallet/
 
-
-bitcoin core multisig
-
+bitcoin core multisig  
 https://bitcoincore.org/en/doc/30.0.0/rpc/util/createmultisig/
