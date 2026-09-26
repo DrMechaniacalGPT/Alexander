@@ -12,6 +12,7 @@ The earlier conversational survey was a useful set of leads, not a completed mar
 
 - [Plan](PLAN.md): decisions, sequence, and gates.
 - [Tasks](TASKS.md): bounded work and completion tests.
+- [Working agreement](WORKFLOW.md): autonomy, delegation, and review.
 - [Research record](research/README.md): evidence schema and current coverage.
 
 The final decision brief belongs here: a short recommendation with links to the underlying task syntheses. Until those tasks are done, this page should not imply that the project has a winner.

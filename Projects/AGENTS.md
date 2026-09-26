@@ -13,3 +13,9 @@ For research-heavy work:
 7. **Review at gates.** Separate discovery, concept selection, prototype, playtest, and commercial launch. Record what was decided and why. Update or retire claims when new evidence arrives.
 
 Do not force a source count to look impressive. Breadth targets are checks against tunnel vision; source independence, coverage, and unanswered questions decide whether the work is ready.
+
+## Continuity
+
+A task, commit, or PR is a checkpoint, not a reason to stop an authorized project. After recording a result, check the stated outcome and continue the next independent task while review is pending. Stop for a real dependency, a material product choice that only the owner can make, a required external action, or a documented limit of the running environment. Never imply work will continue after a chat has ended unless a persistent task has actually been configured.
+
+For parallel work, give each agent a bounded question, exclusive output path or read-only brief, source and verification requirements, and a return condition. One integrator deduplicates sources, tests contradictions, and owns the conclusion. More agents do not turn weak evidence into strong evidence.
