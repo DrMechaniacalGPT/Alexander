@@ -1,0 +1,22 @@
+{
+  "currency": "USD",
+  "period": "illustrative first 12 months; not a sales forecast",
+  "fee_sources": ["D026", "D027"],
+  "transaction_rate": 0.065,
+  "processing_rate": 0.03,
+  "listing_and_processing_fixed": 0.45,
+  "buyer_tax_rate": 0.0,
+  "offsite_attributed_fraction": 0.0,
+  "offsite_rate": 0.15,
+  "delivery_per_order": 0.25,
+  "support_hourly_value": 30.0,
+  "development_hours": 120,
+  "development_hourly_value": 35.0,
+  "fixed_cash": 1500.0,
+  "fixed_cash_assumption": "Illustrative reserve: test expenses 450, assets 300, tools 150, contingency 600. No quotes or commitments.",
+  "cases": [
+    {"name": "Low", "orders": 100, "price": 39.0, "refund_rate": 0.08, "cac": 20.0, "support_minutes": 15},
+    {"name": "Base", "orders": 300, "price": 49.0, "refund_rate": 0.03, "cac": 10.0, "support_minutes": 6},
+    {"name": "High", "orders": 1000, "price": 59.0, "refund_rate": 0.02, "cac": 5.0, "support_minutes": 4}
+  ]
+}

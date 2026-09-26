@@ -1,29 +1,19 @@
 # Murder mystery party project
 
-## The decision
+**Current decision: a small AI-assisted game-design test bench is technically feasible; whether it improves a party or attracts buyers remains unproven.** We are still choosing the product and research scope, before constructing a game or simulator.
 
-Can we create an unusually good three-hour, in-person murder mystery and sell it profitably? The first decision is what experience to build and whom it serves. We have not made that decision yet.
+Start with the [feasibility memo](research/FEASIBILITY.md). It separates three bets: implementing isolated AI players, producing useful game-design findings, and bringing paying hosts through public videos. The [technical sketch](research/DOJO_SKETCH.md) makes the architecture, alternatives, costs and effort explicit.
 
-## Current state — discovery planned
+A real local check succeeded: Python called the installed `qwen3:8b` model through Ollama, with three expected-output checks on separately supplied conversations. [Code, results and limitations](research/FEASIBILITY_SOURCES.md) are recorded. This confirms a local execution path; it does not validate realistic simulated players.
 
-The earlier conversational survey was a useful set of leads, not a completed market study. **The Immortality Club**, an 8–12-player longevity dinner, is a candidate to test alongside others. Its proposed price, format, market position, and video treatment are hypotheses. Nothing has been validated with customers or playtests.
+The earlier [market decision](research/DECISION.md) remains the evidence base: strong free/paid alternatives, 15 coded written experiences, six mechanics patterns and a 12-concept comparison. Host effort and brittle information flow are plausible targets. Existing products already offer guided mingling and fixed solutions, so a better experience must be demonstrated. Immortality Club and Lot 13 remain candidates, not selections.
 
-## Read this in layers
+The proposed next research question is whether isolated-agent dialogue finds useful failures beyond static checks and simple rule-based agents. Public content could document that experiment; virality, buyer conversion and the finished game's free/paid boundary are unvalidated. Public positioning should stand independently of Alexander.
 
-- [Plan](PLAN.md): decisions, sequence, and gates.
-- [Tasks](TASKS.md): bounded work and completion tests.
-- [Working agreement](WORKFLOW.md): autonomy, delegation, and review.
-- [Discovery work brief](DISCOVERY_BRIEF.md): outcome and completion test for a long-running task.
-- [Research record](research/README.md): evidence schema and current coverage.
+The previous illustrative $49/300-sales case yielded about $3,053 after valued labor; it does not account for an expanded simulator/video program and is not a demand forecast. Revised scope requires revised economics.
 
-The final decision brief belongs here: a short recommendation with links to the underlying task syntheses. Until those tasks are done, this page should not imply that the project has a winner.
+- [Task status and remaining gaps](TASKS.md)
+- [Research navigation](research/README.md)
+- [Plan](PLAN.md), [working agreement](WORKFLOW.md), [discovery brief](DISCOVERY_BRIEF.md)
 
-## Candidate questions
-
-- Who buys, hosts, and plays, and what does each person want from the night?
-- Which existing games work well in practice, and where do they fail?
-- How many sales at what margin would justify the effort? Over what period?
-- What is the smallest product that tests the game itself: download, printed kit, shared video, or software?
-- Can each role matter even when conversations are uneven and a player cancels?
-
-Commercial and design claims will be dated and supported in `research/`. The project's story, code, art, and playtest results will stay here when those phases begin.
+Current gate: owner discussion of the intended product, research scope and bounded investment. No background building or experimentation is scheduled.
