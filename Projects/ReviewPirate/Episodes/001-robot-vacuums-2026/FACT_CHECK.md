@@ -527,6 +527,183 @@ status
 
 verified
 
+## commercial incentives
+
+script claim
+
+public affiliate programs
+can pay materially different rates
+
+status
+
+verified as public program terms
+
+important
+
+this does not establish
+that any particular reviewer
+uses the direct program
+or receives the headline rate
+
+Roborock
+
+4 to 7 percent
+35-day cookie
+$400+ stated AOV
+
+source
+
+https://us.roborock.com/pages/roborock-affiliate-program
+
+eufy US
+
+7 to 15 percent
+30-day cookie
+
+source
+
+https://www.eufy.com/affiliate
+
+MOVA US
+
+page currently contains
+both
+
+8 to 20 percent
+
+and
+
+5 to 20 percent
+depending on product
+
+safe wording
+
+MOVA can pay
+materially higher rates
+than some competing programs
+
+source
+
+https://us.mova.tech/pages/affiliate-program
+
+Dreame North America
+
+minimum 5 percent
+30-day cookie
+
+source
+
+https://ca.dreametech.com/pages/affiliate-program
+
+Amazon Associates
+
+Home category
+3 percent standard commission
+
+source
+
+https://affiliate-program.amazon.com/help/node/topic/GRXPHT8U84RAYDXZ
+
+caveat
+
+Amazon determines
+the category
+
+do not claim
+a specific robot vacuum
+earns 3 percent
+without verifying
+its actual classification
+
+## source incentive examples
+
+RTINGS
+
+verified
+
+- buys products
+- no paid / sponsored reviews
+- affiliate commerce exists
+- commerce team separated from lab
+
+source
+
+https://www.rtings.com/company/contact-us
+
+Vacuum Wars
+
+verified
+
+- buys products
+- no free review units
+- no current sponsorships/collaborations
+- affiliate links are a primary revenue source
+
+source
+
+https://vacuumwars.com/about/
+
+The Hook Up
+
+verified in
+2026 flagship-comparison transcript
+
+- states no sponsored reviews
+- states Amazon affiliate commission
+- asks viewers to use affiliate links
+
+source
+
+https://www.youtube.com/watch?v=Pv9_2D_Xc5k
+
+WIRED
+
+verified
+
+- affiliate revenue
+- business/editorial separation
+- reviewers do not get sales bonuses
+- robot-vac guide discloses press samples
+
+source
+
+https://www.wired.com/about/affiliate-link-policy/
+
+Expert Reviews
+
+verified
+
+- affiliate revenue
+- states partners do not control coverage or ratings
+- editorial staff do not personally receive a sales cut
+
+source
+
+https://www.expertreviews.co.uk/affiliate-policy
+
+safe episode framing
+
+possible incentive
+is not
+proven bias
+
+the episode may say
+
+we log
+commercial context
+
+then test
+whether it predicts
+coverage or recommendations
+
+do not say
+
+higher-paying brand
+caused a positive review
+
+unless future evidence
+actually establishes that
+
 ## script commentary
 
 these lines
