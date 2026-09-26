@@ -6,10 +6,13 @@ working title
 
 ## cold open
 
-Eight serious review sources.
+On September 25th
+I checked eight serious
+robot-vacuum review sources.
 
-Eight different
-"best robot vacuums."
+They gave me
+eight different answers
+to "what is the best robot vacuum?"
 
 RTINGS says Roborock Saros 10R.
 
@@ -108,12 +111,27 @@ robot vacuums
 and continually reranks
 new models.
 
-Its current number one
-is the MOVA V70 Ultra Complete
+And "continually"
+is doing work there.
 
-a robot new enough
-that long-term ownership data
-is still thin.
+On September 16
+its robot-vacuum hub
+showed the Dreame X60 Max
+at number one.
+
+Eight days later
+the Top 20 page
+showed the new MOVA V70
+at number one.
+
+That is not a scandal.
+
+It is the half-life
+of a leaderboard.
+
+A new product
+entered the test pool
+and the answer changed.
 
 RTINGS
 has tested around 100
@@ -232,25 +250,46 @@ for a mortgage rate.
 
 42,000 Pa.
 
-But independent cleaning results
-do not line up neatly
-with the biggest number
-on the box.
+And we now have
+a wonderfully rude example
+of why the number
+is not a cross-brand score.
 
-Vacuum Wars itself
-warns that manufacturer
-suction ratings
-do not necessarily
-translate directly
-to real-world pickup.
+MOVA advertises
+one model
+at about 19,000 Pa
 
-And owner reports
-are full of expensive robots
-with huge suction numbers
-that still struggle
-with a particular rug
-threshold
-or piece of litter.
+and another
+at about 13,000.
+
+In Vacuum Wars'
+own sealed suction test
+
+the 13,000-Pa model
+measured higher.
+
+1.08 kPa
+
+versus
+
+0.88.
+
+Another current Roborock
+advertised at 36,000 Pa
+
+measured below
+Vacuum Wars'
+category-average suction
+
+and still cleaned well.
+
+So manufacturer Pa
+is measuring something.
+
+It is just not
+a universal conversion chart
+from bigger number
+to cleaner floor.
 
 So one thing
 Review Pirate
