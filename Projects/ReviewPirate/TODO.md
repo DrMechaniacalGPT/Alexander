@@ -26,6 +26,7 @@ next
   - sample positive and critical reviews systematically
 - fill more source-product matrix cells only when verified
 - final pre-record research refresh
+- replace matrix shorthand with final source/product imagery for thumbnail
 - final spoken-rhythm pass
 - create narration sample
 - build the first 60 seconds visually
