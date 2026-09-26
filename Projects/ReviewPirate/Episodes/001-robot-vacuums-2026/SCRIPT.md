@@ -58,6 +58,40 @@ mostly nobody.
 They're answering
 different questions.
 
+And this grid
+is the easiest way
+I've found
+to see it.
+
+Products across the top.
+
+Review sources
+down the side.
+
+A filled cell means
+we verified
+that source
+actually covered
+that product.
+
+The blank cells
+matter just as much.
+
+They don't mean
+the product is bad.
+
+They mean
+it wasn't in
+that source's evidence set.
+
+Before we argue
+about who scored
+the vacuums correctly,
+
+we should probably check
+who was even
+in the race.
+
 ## what does "best" even mean
 
 First problem:
@@ -158,6 +192,68 @@ is obviously wrong.
 
 But change the weights
 and you change the winner.
+
+## one more hidden variable: money
+
+There is another column
+in the matrix
+that isn't part
+of the vacuum.
+
+How the review
+gets paid.
+
+And the public
+affiliate programs
+are not equal.
+
+Roborock advertises
+4 to 7 percent.
+
+eufy
+7 to 15.
+
+MOVA
+can go higher.
+
+Amazon's standard
+Home rate is 3 percent.
+
+That does not mean
+a reviewer used
+the direct program.
+
+And it definitely
+does not mean
+a higher commission
+bought a better review.
+
+So we don't score
+people as
+"biased."
+
+We log
+what we can verify.
+
+Who bought the unit.
+
+Who got a sample.
+
+Whether something
+was sponsored.
+
+Where the purchase links go.
+
+Then,
+once the dataset is large enough,
+
+we can ask
+whether the money
+actually predicts
+the coverage
+or the recommendation.
+
+That's a much better question.
 
 ## fake precision
 
