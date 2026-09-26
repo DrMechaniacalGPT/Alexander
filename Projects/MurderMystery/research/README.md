@@ -1,6 +1,6 @@
 # Research record
 
-Current coverage: **planning only**. No seller census, review sample, interviews, or playtests have been completed in this repository. The earlier chat research supplies leads to verify, not a source ledger.
+Current coverage: M01 seller catalog in progress (32 distinct seller/service pages; see [market summary](market/sellers.md)). The second broad search audit found more vendors, so discovery is not saturated. No systematic seller census, review sample, interviews, or playtests have been completed. The earlier chat research supplied leads to verify.
 
 ## Evidence chain
 
