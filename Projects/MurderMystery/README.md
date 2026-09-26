@@ -1,18 +1,19 @@
 # Murder mystery party project
 
-**Recommendation: pursue a small validation experiment, after discussing the product together. Do not commit to full production yet.** We found plausible host problems, strong free/paid alternatives and no demonstrated market gap. Guided mingling with a fixed solution already exists; our value must be a measurably easier, better evening.
+**Current decision: a small AI-assisted game-design test bench is technically feasible; whether it improves a party or attracts buyers remains unproven.** We are still choosing the product and research scope, before constructing a game or simulator.
 
-The proposed audience is adults hosting an eight-person dinner with mixed acting comfort. A printable experiment keeps initial production bounded. **The Immortality Club** is the provisional pitch; **Lot 13**, an estate auction mystery, is close and easier to explain. Neither theme has customer validation. We have not built a game or run playtests.
+Start with the [feasibility memo](research/FEASIBILITY.md). It separates three bets: implementing isolated AI players, producing useful game-design findings, and bringing paying hosts through public videos. The [technical sketch](research/DOJO_SKETCH.md) makes the architecture, alternatives, costs and effort explicit.
 
-The illustrative base case—300 sales at $49—leaves about **$3,053 after valuing labor**, under assumed acquisition, support and development costs. That is a scenario, not a demand forecast. Reaching customers economically is a central unresolved question.
+A real local check succeeded: Python called the installed `qwen3:8b` model through Ollama, with three expected-output checks on separately supplied conversations. [Code, results and limitations](research/FEASIBILITY_SOURCES.md) are recorded. This confirms a local execution path; it does not validate realistic simulated players.
 
-Read the [decision memo](research/DECISION.md) for the recommendation, contrary evidence and proposed validation gates. It links to 15 coded written experiences, community/transcript evidence, primary mechanics, dated offers, a reproducible financial model and a 12-concept comparison. [Source ledger](research/sources.csv) and [search log](research/search-log-2026-09-26.md) preserve the basis and access failures. Coverage is bounded; several original research criteria remain open.
+The earlier [market decision](research/DECISION.md) remains the evidence base: strong free/paid alternatives, 15 coded written experiences, six mechanics patterns and a 12-concept comparison. Host effort and brittle information flow are plausible targets. Existing products already offer guided mingling and fixed solutions, so a better experience must be demonstrated. Immortality Club and Lot 13 remain candidates, not selections.
 
-**Current state: discovery synthesis ready for owner discussion.** Agree audience, concept, budget and the eventual game's open-source/commercial terms before construction. The root repository license and Alexander's purpose make that distribution choice material.
+The proposed next research question is whether isolated-agent dialogue finds useful failures beyond static checks and simple rule-based agents. Public content could document that experiment; virality, buyer conversion and the finished game's free/paid boundary are unvalidated. Public positioning should stand independently of Alexander.
 
-- [Concept discussion](concepts/decision.md)
+The previous illustrative $49/300-sales case yielded about $3,053 after valued labor; it does not account for an expanded simulator/video program and is not a demand forecast. Revised scope requires revised economics.
+
 - [Task status and remaining gaps](TASKS.md)
-- [Plan](PLAN.md), [working agreement](WORKFLOW.md), [discovery brief](DISCOVERY_BRIEF.md)
 - [Research navigation](research/README.md)
+- [Plan](PLAN.md), [working agreement](WORKFLOW.md), [discovery brief](DISCOVERY_BRIEF.md)
 
-This chat run stops at that discussion gate; no background research or building is scheduled.
+Current gate: owner discussion of the intended product, research scope and bounded investment. No background building or experimentation is scheduled.

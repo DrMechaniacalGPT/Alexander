@@ -1,6 +1,6 @@
 # Research record
 
-Start with [DECISION.md](DECISION.md), then inspect the supporting layers:
+Start with the current [feasibility memo](FEASIBILITY.md), [technical sketch](DOJO_SKETCH.md) and [feasibility evidence/local probe](FEASIBILITY_SOURCES.md). The original [market decision](DECISION.md) links the supporting layers:
 
 - Market: [fresh comparisons](market/comparison.md), [inherited seller pilot](market/sellers.md), [original sampling method](market/METHOD.md).
 - Experience: [coded reviews](experience/reviews.md), [community/transcript evidence](experience/community.md), [mechanics](experience/mechanics.md).

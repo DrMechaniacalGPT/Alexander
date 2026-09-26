@@ -1,5 +1,7 @@
 # Discovery decision — September 26, 2026
 
+**Follow-up:** the owner proposed an open AI playtesting experiment and requested a feasibility assessment before construction. Read the [new feasibility memo](FEASIBILITY.md) for the current recommendation and [technical sketch](DOJO_SKETCH.md). The market evidence below remains applicable; its prototype-first sequencing and labor scenario are not approval or an estimate for the expanded scope.
+
 **Conditional proceed to a small validation experiment after the owner discussion; do not commit to full production.** This is a plausible learning project and possible modest revenue source. Desk evidence does not yet justify treating it as a dependable war chest, selecting a proven winning theme, or building a platform.
 
 ## Why it might work

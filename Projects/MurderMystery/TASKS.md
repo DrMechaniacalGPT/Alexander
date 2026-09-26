@@ -41,3 +41,11 @@ The [bounded execution amendment](research/EXECUTION.md) permits a discovery rec
 | D01–L01 | None | Deliberately beyond the requested pre-build discussion gate |
 
 No task status implies an agent is continuing in the background.
+
+## Feasibility follow-up — September 26
+
+- [x] **F01 — Decision-stage technical assessment.** Document separate engineering, design-validation and distribution bets; alternatives, isolation architecture, costs, effort and stop rules. Output: `research/FEASIBILITY.md`, `research/DOJO_SKETCH.md`, `research/FEASIBILITY_SOURCES.md`.
+- [x] **F02 — User-requested local connectivity probe.** Three short Python/Ollama calls and separate-input marker checks passed; timings and exact prompts saved. This is not a game simulation or a privacy proof.
+- [ ] **F03 — Agree next scope.** Decide whether to pursue the narrow test bench, a game-first approach or a content/research-first approach, with a bounded investment. No build commitment yet.
+
+The discovery checkpoint remains open for product discussion. The proposed dojo is not evidence of human enjoyment or an established acquisition channel.
