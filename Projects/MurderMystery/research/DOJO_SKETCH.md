@@ -1,5 +1,7 @@
 # A concrete sketch of the dojo
 
+> **Superseded in scope by the September 26 [design proposal](../design/DESIGN.md).** The current recommendation co-designs a small creative situation and local simulator. Beating static checks at defect detection is no longer a universal gate; baseline checks remain diagnostic. Technical observations below remain dated evidence, not implementation results for the expanded design. See the [current task sequence](../TASKS.md#current-design-and-simulation-work-packages).
+
 Proposal, September 26, 2026. No engine or game implemented. See [feasibility decision](FEASIBILITY.md) and [evidence/access record](FEASIBILITY_SOURCES.md). Source labels F01–F10 below resolve there. Engineering recommendations are design judgments unless attributed.
 
 ## One program, separate player views

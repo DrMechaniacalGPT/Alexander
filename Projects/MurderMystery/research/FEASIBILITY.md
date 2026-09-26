@@ -1,5 +1,7 @@
 # Can an AI playtesting dojo make this a better project?
 
+> **Superseded in scope by the September 26 [design proposal](../design/DESIGN.md).** The current recommendation co-designs a small creative situation and local simulator. Beating static checks at defect detection is no longer a universal gate; baseline checks remain diagnostic. Technical observations below remain dated evidence, not implementation results for the expanded design. See the [current task sequence](../TASKS.md#current-design-and-simulation-work-packages).
+
 September 26, 2026. **Decision-stage analysis, not permission to build.** The owner clarified that the present objective is market understanding, player problems, a product direction and a concrete napkin sketch. This memo updates the [earlier discovery decision](DECISION.md); it does not claim a simulator or new game has been tested.
 
 **My recommendation: consider a narrowly scoped game-design test bench, with a simulator as one tool. Do not yet commit to an autonomous society, an “optimal game,” or a video-led business.** The software is feasible. Its incremental value over ordinary editing and simple information-flow checks is unproven. That is the first worthwhile uncertainty to resolve.
