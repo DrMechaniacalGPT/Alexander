@@ -5,8 +5,9 @@ then use the loot to fund more builds
 
 Review Pirate turns a pile of reviews into a source-linked map of agreement, disagreement, and uncertainty.
 
-It is not the philosophy project wearing a fake moustache.
-It is a product.
+it is not the philosophy project wearing a fake moustache
+
+it is a product
 
 ## user problem
 
@@ -19,16 +20,17 @@ buying something expensive or complicated often means
 - discovering too late that reviewers disagree about the one thing you care about
 
 the useful output is not
-"8.7 out of 10"
+
+8.7 out of 10
 
 it is
 
+- what changes the answer
 - what people consistently agree on
 - what people consistently dislike
 - where experiences diverge
 - which claims are measured
 - which claims are vibes
-- what matters for this particular buyer
 - where the evidence came from
 
 ## product rule
@@ -42,82 +44,119 @@ but does not get to invent the islands
 
 v0 is intentionally stupid
 
-input:
-a small JSON file containing products, sources, and claims
+input
 
-output:
-a markdown report showing
+a JSON file containing
 
-- claim
-- stance
-- evidence type
-- source
-- confidence
-- conflicts
+- products
+- buyer questions
+- sources
+- claims
+
+output
+
+a markdown report containing
+
+- questions that change the answer
+- product-by-topic evidence
+- visible conflicts
+- confidence labels
+- source links
+- source type and financial relationship
 
 the first goal is to learn whether the structure is useful
-not to build a crawler that consumes the internet before breakfast
 
-## eventual pipeline
+not to build a crawler
+that consumes the internet before breakfast
 
-1. collect sources
-2. extract atomic claims
-3. normalize claims that mean the same thing
-4. label evidence type
-5. detect support and contradiction
-6. estimate confidence
-7. condition the summary on the buyer
-8. render the evidence map
-9. send traffic back to original reviewers
+## first live comparison
 
-## money
+Rapsodo MLM2PRO
+vs
+Square Golf Home Edition
 
-the product needs to make money
-because the point is to fund more work
+why
 
-acceptable candidates:
+the sticker prices are similar
+but the purchase changes with
 
-- affiliate links with ranking isolated from payout
-- paid subscription
-- paid deep-dive reports
-- referral fees that are fixed rather than bid for placement
+- indoor room depth
+- outdoor use
+- subscription tolerance
+- practice priorities
+- simulator software
 
-hard rule:
+that makes it a good test
+for conditional recommendations
 
-payment cannot buy the conclusion
+data
 
-if the money can secretly move the ranking
-we have simply invented a more literate ad
+`data/mlm2pro-vs-square.json`
 
-## first category
+research notes
 
-not chosen yet
+`research/mlm2pro-vs-square.md`
 
-good candidates have
+## run
 
-- meaningful purchase price
-- lots of conflicting reviews
-- repeat questions
-- measurable attributes
-- enough reviewer depth to make synthesis useful
-
-## run the prototype
+sample
 
 ```bash
 python3 review_pirate.py data/sample.json
 ```
 
-the report prints to stdout
-
-redirect it if you want a file
+live comparison
 
 ```bash
-python3 review_pirate.py data/sample.json > report.md
+python3 review_pirate.py data/mlm2pro-vs-square.json
 ```
+
+tests
+
+```bash
+python3 -m unittest -v
+```
+
+## eventual pipeline
+
+1 collect sources
+2 extract atomic claims
+3 normalize claims that mean the same thing
+4 label evidence type
+5 detect support contradiction and qualification
+6 estimate confidence
+7 ask what changes the answer for the buyer
+8 render the evidence map
+9 send traffic back to original reviewers
+
+## money
+
+the product needs to make money
+
+because the point is to fund more work
+
+possible models
+
+- affiliate links with ranking isolated from payout
+- paid subscription
+- paid deep-dive reports
+- fixed referral fees
+
+hard rule
+
+payment cannot buy the conclusion
+
+if the money can secretly move the ranking
+we have invented
+a more literate ad
 
 ## status
 
-prototype skeleton
-not product
-not treasure
-yet
+live hand-built dataset
+working report generator
+tests
+CI definition
+
+still missing the important part
+
+users
