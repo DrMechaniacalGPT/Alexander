@@ -1,0 +1,6 @@
+assets/*.png
+assets/*.jpg
+assets/*.webp
+assets/*.mp4
+__pycache__/
+research/coverage/__pycache__/

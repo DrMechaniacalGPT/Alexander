@@ -1,0 +1,7 @@
+# Bounded owner-evidence protocol
+
+Recorded before this collection, September 26, 2026. Scope: Saros 10R and Q7 M5 only. This is a diagnostic sample, not prevalence research or full task R4.
+
+For each model issue one query: `site:reddit.com/r/Roborock "MODEL" owner problem update`. Inspect first five relevant unique threads in returned order. Relevance requires first-person use of exact model, or a thread containing clearly identifiable first-person use. Q7 M5+ may be included only with variant noted; its dock experience cannot generalize to base M5. Exclude purchase-only questions without use, adjacent models, duplicate URLs and brand giveaways. Record skipped results and why. If fewer than five usable threads appear, issue `site:reddit.com "MODEL" review experience` and retain order. Read the full accessible thread rather than snippets alone; record access failures.
+
+Record duration, household, firmware, incentive status (unknown unless disclosed), claimed issue/positive result, response or reversal, and exact source. Do not infer the poster is verified or truthful. After a negative pattern, issue one targeted counterexample query per model and examine first two relevant unique results. Results remain purposive anecdotes. For a consequential technical issue, cross-check known manufacturer guidance; a manual can support a possible mechanism or required task, not prevalence or the truth of an owner's account. Preserve unresolved issues.

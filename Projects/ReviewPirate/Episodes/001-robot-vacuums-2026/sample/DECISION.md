@@ -1,3 +1,7 @@
+# Status: rejected by owner
+
+The owner rejected this sample on September 26, 2026. The following brief is retained as historical context, not the current recommendation. See [production reset](../../../planning/PRODUCTION_RESET.md). Do not extend this visual or narration approach.
+
 # First sample: what to judge
 
 **Watch the 57-second cut.** It tests an answer-first, evidence-led motion style with a warm editorial palette, a small visual joke and direct credit to original reviewers. No pirate, animal mascot or lifelike synthetic presenter is assumed. FIELDNOTES is a temporary visual label.
