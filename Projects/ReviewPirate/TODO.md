@@ -1,70 +1,119 @@
 # TODO
 
-## business first
+## episode 001 — robot vacuums
 
-- finish deep research for episode 001
-- write the first script from the research
-- create channel identity and thumbnail language
-- choose the narration workflow
-- choose the editing workflow
-- produce the first long-form video
-- create 2 to 4 Shorts from findings in the same research
+done
+
+- deep research threshold crossed
+- 30+ source ledger
+- reviewer methodology matrix
+- dated ranking snapshot
+- buyer segments
+- first script draft
+- script fact-check ledger
+- production and thumbnail plan
+- unit economics model
+
+next
+
+- final pre-record research refresh
+- tighten script for spoken rhythm
+- create narration sample
+- build the first 60 seconds visually
+- test thumbnail concepts
+- produce full episode
+- cut 2 to 4 Shorts
 - publish
-- measure discovery retention and purchase intent
-- decide what to change before episode 002
+- measure
 
-## research system
-
-- collect at least 25 meaningful sources for episode 001
-- include at least 5 serious hands-on or lab-style reviewers
-- include at least 5 YouTube sources
-- include long-term owner evidence
-- map repeated claims back to likely origins
-- record affiliate sponsorship and product-sample disclosures
-- separate direct tests from impressions
-- identify genuine disagreements
-- find the hidden variable behind each important disagreement
-
-## business setup
+## channel business
 
 - reserve channel name
 - create YouTube channel
-- create affiliate accounts that can operate before YouTube Shopping eligibility
-- define affiliate disclosure text
-- create a source-disclosure template for descriptions
-- create a simple revenue spreadsheet
-- track views RPM affiliate clicks conversion and revenue by episode
+- create affiliate accounts usable before YouTube Shopping eligibility
+- define permanent affiliate disclosure
+- create description / corrections template
+- record actual production hours
+- use `metrics.csv` for every episode
+
+## pilot series
+
+see
+
+`PILOT_SERIES.md`
+
+planned test categories
+
+1. robot vacuums
+2. noise-cancelling headphones
+3. air purifiers
+4. TVs
+5. mattresses
+
+these are experiments
+
+not a blood oath
+
+change the order
+if search demand
+launch timing
+affiliate access
+or the research
+says we should
+
+## research system
+
+keep building
+
+- reviewer profiles
+- ranking history
+- methodology changes
+- commercial disclosures
+- source-quality notes
+- long-term owner-source standards
+
+this is the compounding asset
 
 ## production
 
-- test AI narration against human-sounding quality bar
-- test Descript / CapCut / Premiere workflow
-- create reusable motion graphics
-- create charts from research rather than generic AI b-roll
-- find a safe repeatable source for product imagery and press assets
-- create thumbnail template
-- do not let the template make every video feel identical
+current pilot stack
 
-## publishing
+- narration test: ElevenLabs
+- edit: Descript
+- graphics: Canva or Figma
+- Shorts / fast reframes: CapCut if useful
 
-for every episode
+if connected tools
+make production faster
+use them
 
-- search-intent title
-- strong thumbnail
-- source list in description
-- affiliate disclosure
-- chapters
-- pinned correction/source comment if useful
-- 2 to 4 Shorts
-- 48 hour postmortem
-- 30 day postmortem
+do not automate
+the research judgment away
 
 ## do not build yet
 
 - consumer app
 - recommendation engine
 - crawler
-- website beyond what publishing requires
-- database architecture cosplay
+- website beyond publishing needs
+- giant database
+- custom video editor
+- infrastructure
+  in search of a problem
 
-earn the need first
+## five episode decision
+
+after five
+choose
+
+scale
+
+change format
+
+change category mix
+
+or kill it
+
+the mission
+does not need
+a sentimental media company
