@@ -1,6 +1,6 @@
 # Research record
 
-Current coverage: M01 pilot seller catalog in progress (21 directly checked seller pages; see [market summary](market/sellers.md)). No systematic seller census, review sample, interviews, or playtests have been completed. The earlier chat research supplied leads to verify.
+Current coverage: M01 seller catalog in progress (32 distinct seller/service pages; see [market summary](market/sellers.md)). The second broad search audit found more vendors, so discovery is not saturated. No systematic seller census, review sample, interviews, or playtests have been completed. The earlier chat research supplied leads to verify.
 
 ## Evidence chain
 
