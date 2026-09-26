@@ -6,15 +6,18 @@
   ],
   "decision_questions": [
     {
+      "id": "outdoor",
       "prompt": "Do you need outdoor use?",
       "outcomes": [
         {
-          "when": "yes",
+          "answer": true,
+          "label": "yes",
           "product_id": "alpha",
           "reason": "supports outdoor use"
         },
         {
-          "when": "no",
+          "answer": false,
+          "label": "no",
           "product_id": "beta",
           "reason": "indoor-only design may be simpler"
         }
