@@ -306,3 +306,50 @@ until then
 vidIQ is a market-research tool
 
 not a slot machine
+
+
+## episode 001 title test
+
+vidIQ title scores
+
+- Best Robot Vacuum 2026? 8 Experts Picked 8 Different Winners — 80
+- Best Robot Vacuum 2026? Why 8 Experts Picked 8 Winners — 82
+- Best Robot Vacuum 2026? Why the Experts Don't Agree — 89
+
+vidIQ generated
+higher-scoring
+more sensational options
+
+examples included
+
+- Don't Trust Robot Vacuum Reviews Until You Watch This
+- Are Robot Vacuum Reviews Lying to You?
+- Robot Vacuums: Why Every Review Is Wrong
+
+do not use them
+
+they misstate
+the actual finding
+
+the reviewers
+are mostly not lying
+or wrong
+
+they are asking
+different questions
+
+working package
+
+title
+
+**Best Robot Vacuum 2026? Why the Experts Don't Agree**
+
+thumbnail
+
+**8 EXPERTS
+8 WINNERS**
+
+this keeps
+search intent
+and curiosity
+in separate jobs
