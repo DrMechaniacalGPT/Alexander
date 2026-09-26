@@ -2,28 +2,34 @@
 
 ## now
 
-- choose the first real product category
-- collect 10 to 20 high quality sources for one comparison
-- hand label claims
-- run them through the prototype
-- improve the report until it is actually useful
-- show the report to people already shopping in that category
+- expand the MLM2PRO vs Square dataset to 15 to 25 useful sources
+- add better independent measurement sources
+- generate and inspect the first full report
+- improve the report until the decision logic feels useful
+- show it to people actively choosing between the two units
 
-## prototype
+## product
+
+- let a buyer answer the decision questions
+- render a personalized summary from those answers
+- distinguish hard constraints from preferences
+- show disagreements without making the page exhausting
+- make source inspection painless
+
+## evidence
 
 - merge semantically equivalent claims
-- distinguish product version
+- distinguish product and firmware versions
+- detect repeated claims copied across sources
 - weight source independence
-- show contradiction cleanly
-- add buyer preferences
-- add source quality notes
-- produce HTML as well as markdown
+- separate measured facts from experience and preference
+- stop pretending confidence can be reduced to one magic number
 
 ## ingestion
 
 do not automate this first
 
-after the hand-built dataset teaches us what matters:
+after the hand-built dataset teaches us what matters
 
 - webpage ingestion
 - youtube transcript ingestion
@@ -38,17 +44,19 @@ after the hand-built dataset teaches us what matters:
 - test willingness to pay for a deep dive
 - estimate revenue per completed research session
 
-## questions worth earning answers to
+## first questions worth earning answers to
 
-- what makes a source trustworthy enough to matter
-- how much source independence can be inferred
-- when does disagreement reflect user fit rather than bad evidence
-- how much explanation is enough before the product becomes another research project
+- does the question-first report save research time
+- what information actually changes a purchase
+- how much evidence does a shopper want to inspect
+- which source disclosures increase trust
+- when does owner disagreement reveal a real conditional variable
 
 ## later
 
-- category pages
+- HTML interface
 - saved buyer profiles
-- update reports when new evidence arrives
+- update reports when evidence changes
 - reviewer reputation
+- category pages
 - fantasy sports cousin if we get bored
