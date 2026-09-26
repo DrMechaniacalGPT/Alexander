@@ -53,29 +53,43 @@ the numeric hook
 
 preferred
 
-crop the matrix
-to roughly
+current concept
+
+`assets/thumbnail_matrix_concept.svg`
+
+structure
+
+roughly
 
 6 sources
 x
 6 products
 
-use recognizable
-source logos / thumbnails
-on the left
-
-product images
-across the top
-
 cells form
-a strong red / amber / green pattern
+a strong green / amber pattern
 
-leave some blanks
+leave obvious blanks
 
 large text
 
 8 EXPERTS
 8 WINNERS
+
+single visual cue
+
+**THEY DIDN'T EVEN TEST THE SAME SET**
+
+later art pass
+
+replace plain source labels
+with recognizable source-card
+or thumbnail treatments
+
+replace shorthand product labels
+with simple product cutouts
+
+do not increase
+the information density
 
 the matrix
 should be understood
@@ -638,3 +652,48 @@ title the strip
 that sentence
 is the editorial policy
 in six words
+
+
+## bias / incentive beat
+
+asset
+
+`assets/commercial_context.svg`
+
+use after
+the methodology section
+
+not in the cold open
+
+sequence
+
+1 show source-context badges
+
+BOUGHT
+SAMPLE
+AFFILIATE
+SPONSOR
+NO SPONSOR
+UNKNOWN
+
+2 show public brand-rate strip
+
+3 land on
+
+**POSSIBLE INCENTIVE
+≠ PROVEN BIAS**
+
+4 then
+
+**TRACK THE MONEY.
+DON'T GUESS THE MOTIVE.**
+
+keep this
+under roughly 35 seconds
+
+the point is
+to establish
+a future research layer
+
+not derail episode one
+into a media-ethics documentary
