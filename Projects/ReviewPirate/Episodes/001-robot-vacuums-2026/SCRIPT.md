@@ -1,5 +1,7 @@
 # Script Draft 02
 
+> Working draft, not cleared for narration. See the [September 26 audit](../../planning/AUDIT.md) for coverage, product-identity and inference corrections required before recording.
+
 working title
 
 **Best Robot Vacuum 2026? Why the Experts Don’t Agree**

@@ -1,5 +1,7 @@
 # TODO
 
+> Historical September 25 checklist. Use the [current task board](planning/TASKS.md) and [readiness audit](planning/AUDIT.md) for the next cycle. Research completion is not established; the items below describe inherited artifacts.
+
 ## episode 001 — robot vacuums
 
 done
@@ -8,7 +10,7 @@ done
 - seed keyword opportunity mapped
 - competitor / adjacent-channel scan completed
 - episode title tested with vidIQ
-- deep research threshold crossed
+- initial research packet assembled; readiness reopened by September 26 audit
 - 30+ source ledger
 - reviewer methodology matrix
 - dated ranking snapshot

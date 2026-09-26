@@ -1,5 +1,7 @@
 # Review Pirate
 
+> September 26 planning update: start with the [executive brief](planning/BRIEF.md). The [readiness audit](planning/AUDIT.md) and [task board](planning/TASKS.md) supersede older readiness claims below. The next execution cycle awaits discussion; the episode is not ready to record.
+
 we watch the reviews
 so you do not have to watch all the reviews
 
