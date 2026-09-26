@@ -4,14 +4,14 @@ September 26, 2026. No subscriptions purchased, no vidIQ generation credits used
 
 ## Recommendation
 
-Use the currently documented **free Flow allowance** for the first performance experiment after sign-in is available. If iteration requires a paid month, propose **Google AI Pro at $19.99/month before tax**. Its 1,000 monthly Flow credits cover the specified 230-video-credit test with room to quote reference and voice preparation. The local browser reached Google sign-in; account entitlement and actual generation remain untested.
+Use the currently documented **free Flow allowance** for a paired performance test after sign-in is available: Veo first, then the same character shot in Omni. Select on actual acting and motion before optimizing cost. If iteration requires a paid month, propose **Google AI Pro at $19.99/month before tax**. Its 1,000 monthly Flow credits cover the specified 230–290-video-credit test with room to quote reference and voice preparation. The local browser reached Google sign-in; account entitlement and actual generation remain untested.
 
 Higgsfield remains a useful alternative, especially for Seedance/Kling comparison and shot-direction controls. Propose **one month of Plus at $59** only when we can name what the Flow test failed to do. Do not buy both just to have more tools. A ~$100 willingness to experiment is not a target to spend.
 
 | Option | Verified/public price basis | Concrete use | Uncertainty |
 |---|---|---|---|
-| Flow free |50 daily credits, subject to access/region/peak limits | Same-model host/no-host test; four 6-second shots plus one retry at current Omni rate | Sign-in needed; references/voice costs not included; quality unproven |
-| Google AI Pro |$19.99/month displayed on official Flow landing page;1,000 monthly credits |230-video-credit controlled test plus separately quoted preparation | Actual account price/entitlements require confirmation |
+| Flow free |50 daily credits, subject to access/region/peak limits | Same character shot in Veo (20) and Omni (10), with 20 reserved for targeted retries | Sign-in needed; references/voice costs not included; quality unproven |
+| Google AI Pro |$19.99/month displayed on official Flow landing page;1,000 monthly credits |230–290-video-credit controlled test plus separately quoted preparation | Actual account price/entitlements require confirmation |
 | Higgsfield Plus |$59/month selected monthly billing;1,200 credits | Targeted Seedance/Kling fallback | Seedance2.5 per-output quote not verified; don't reuse2.0 prices |
 | Runway Standard / Pro |Published monthly $15/625credits or$35/2,250; Gen 4.5 at 12 credits/sec | Image-to-video camera work; nine 5-second attempts: 540 credits | Standard leaves little allowance for additional work; no native account trial |
 | Optional ElevenLabs Starter |Published$6/month,30,000credits, commercial license on paid generation | Two licensed voice auditions and stable narration if native voice fails | No voice selected/heard; rates depend on selected model/voice |

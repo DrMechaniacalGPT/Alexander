@@ -19,3 +19,7 @@ These are references for what to attempt, not assets licensed for our video or c
 ## What was actually inspected
 
 The Veo raccoon and kitchen scenes were sampled at distinct advancing playback frames; the golem film was sampled visually, muted. These observations support specific visual references, not a full continuity or sound assessment. ZEPHYR's opening frame and production notes were inspected; the full film was not watched. The other creator notes/galleries were read, with viewing limitations recorded in [the deeper research](research/CAPABILITY_RESEARCH.md). The pitch uses these as attainable-looking targets to test, not proof we have already reproduced them.
+
+## Current Omni comparison reference
+
+The [Omni 1.1 launch demonstrations](https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-omni-1-1-flash/) include room movement, presenter and animal-motion examples. The [official introduction film](https://www.youtube.com/watch?v=KUyRq7szZsM) is another viewing destination, not a version-specific acting benchmark. The integrating browser opened the living gallery, but several relevant media controls reported playback unavailable; no new full motion/audio assessment is claimed. Developer extension demos do not establish extension support in Flow. [Why the next test now compares Veo and Omni before choosing](research/OMNI_SELECTION_RECHECK.md).

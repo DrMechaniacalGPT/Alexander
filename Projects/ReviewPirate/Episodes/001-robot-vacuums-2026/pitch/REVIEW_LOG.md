@@ -34,3 +34,9 @@ Resolve the visual direction and account access; prepare individual character/ro
 ## Final script stress test
 
 An independent pass found that the recommended Saros had no affirmative spoken rationale, 'basic cleaning' could imply a mop recommendation, and an all-Roborock cast hid the broader contender research. Version 5 adds the navigation/convenience rationale, says budget vacuuming, audibly scopes the shortlist, bounds the seven-model comparison and makes Narwal's positive and contrary evidence visible in the companion. No token competitor winner was invented. See research/FINAL_SCRIPT_REVIEW.md.
+
+## A further pass changed two decisions
+
+The matched hair-method investigation found that Vacuum Wars’ current guide also presses hair into carpet. Version 6 removes wording and imagery that could imply a proved loose-versus-embedded explanation. Historical protocol gaps stay unknown.
+
+The model-selection recheck found that Omni-first was primarily a cost/control choice. The next test now compares the same M02 performance in Veo and Omni before committing to a route; host/no-host comparison follows within the selected model. Paid ceilings are 230 or 290 video credits depending on that result, not a universal 230. No new generation occurred.

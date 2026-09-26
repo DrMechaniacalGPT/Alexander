@@ -1,4 +1,4 @@
-# Working narration — version 5
+# Working narration — version 6
 
 This is a proposed script, not cleared final buying advice or recorded narration. It incorporates the independent fact/promise review: an audible scope boundary, affirmative Saros rationale, budget vacuuming qualification, explicit Saros antecedent, dated seven-model cohort, three questions and direct source referrals. The first two buying paths are bounded editorial judgments from the checked sources, not a claim to have ranked every available robot.
 
@@ -8,7 +8,7 @@ For premium convenience on mostly hard floors, compare the Saros 10R. For budget
 
 First: what needs cleaning?
 
-The Saros 10R earns its place for navigation and everyday convenience. Carpet hair is where the evidence gets harder to read. Vacuum Wars reports about ninety-two percent pickup in its flattened carpet-hair test. Another lab, RTINGS, describes disappointing pickup of embedded hair. Those are different tests of the same vacuum.
+The Saros 10R earns its place for navigation and everyday convenience. Carpet hair is where the evidence gets harder to read. Vacuum Wars reports about ninety-two percent pickup in its carpet-hair test. Another lab, RTINGS, describes disappointing hair pickup from carpet. Those are different tests of the same vacuum.
 
 We can't turn them into one meaningful average. Different carpets, hair and settings may matter, but we haven't established what caused the gap. If embedded fur is your main problem, an overall winner badge isn't enough. I've linked the actual tests so you can see what each one measured.
 
@@ -53,3 +53,7 @@ Use a natural adult conversational voice. Read complete sentences; the short hea
 The explicit review-synthesis disclosure also appears unobtrusively near the first recommendation. The closing sentence should not be the viewer's first chance to discover we did not perform the tests. On a generated home/macro scene, show “Illustration” near empirical comparisons and keep the results in a distinct editorial insert. Do not imply the generic prop is the named product.
 
 Timing is measured by word count only; see RUNTIME.json. Cut repetition after a real listening pass, not by speeding up the voice. The storyboard's roughly three-minute map is provisional. A shorter clear cut is preferable to padding.
+
+## Method-level correction
+
+The final method check does not establish a loose-versus-embedded preparation difference. Vacuum Wars’ current protocol also presses hair into carpet. It cannot automatically be applied to the historical Saros result; RTINGS’ missing robot-test parameters cannot be filled from its older manually operated vacuum protocol. The narration now names the differing results without suggesting that unproved contrast. See [matched-method table](research/HAIR_METHODS.md).

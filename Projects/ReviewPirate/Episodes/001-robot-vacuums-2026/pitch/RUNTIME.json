@@ -1,8 +1,8 @@
 {
-  "word_count_whitespace": 394,
+  "word_count_whitespace": 393,
   "opening_words_whitespace": 42,
-  "speech_seconds_at_130_wpm": 181.8,
-  "speech_seconds_at_150_wpm": 157.6,
+  "speech_seconds_at_130_wpm": 181.4,
+  "speech_seconds_at_150_wpm": 157.2,
   "measured_audio": false,
-  "note": "Planning estimate only. Actual read, pauses and edit determine runtime."
+  "note": "Planning estimate only; actual read, pauses and edit determine runtime."
 }

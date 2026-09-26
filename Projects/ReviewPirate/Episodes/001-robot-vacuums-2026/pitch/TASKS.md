@@ -14,7 +14,7 @@ This plan supersedes the earlier sample-delivery milestone. The current output i
 | Script and scene treatment | Draft for review | Real voice read, final shortlist review and source refresh still required |
 | Recover liked thumbnail | Open asset dependency | Identify exact artifact from original conversation/saved file before replacing it |
 | Lock separate character/set reference frames | Ready after direction choice | Adult character, stable room geometry, single-frame assets rather than triptychs |
-| Run M02 performance experiment | Account dependency | Flow currently requires Google sign-in; no purchase or account creation |
+| Run paired M02 performance experiment | Account dependency | Veo/Omni same-shot gate first; Flow currently requires Google sign-in; no purchase or account creation |
 | Assemble 12–18-second A/B scene | Depends on usable footage/audio | Same model, accepted voice, timing and grade; inspect full playback |
 | Prove evidence-heavy middle | Depends on successful motion direction | A real claim, readable source and cinematic transition; no slide-only fallback |
 | Quote full episode | Depends on observed yield | Count rejected attempts, usable seconds and editing effort |

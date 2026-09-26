@@ -39,3 +39,9 @@ Narwal stays in the companion research as a promising but contested comparison l
 - Kept original conflict findings in the research ledger rather than deleting inconvenient evidence.
 - Added this recheck with price/stock extraction correction and live selected-variant observations, maintenance/support context, and direct contrary reviewer testing.
 - Recomputed draft timing; no audio read-through claimed.
+
+## Final live Saros offer check
+
+On September 26 the integrating browser inspected the US [Saros 10R with Multifunctional Dock 4.0 product page](https://us.roborock.com/products/roborock-saros-10r). It displayed $1,099.99 against crossed-out $1,599.99, with enabled Add To Cart and Buy Now. Accessory checkboxes were not selected. No cart, checkout, warranty or eligibility discount action was taken. This fills the earlier missing live offer; it does not prove delivery, lowest price or superiority over the separately observed Narwal offer.
+
+The same page exposed a useful evidence-quality problem: a displayed owner review explicitly concerned an older S7 MaxV Ultra despite appearing on the Saros page. Do not treat that page's aggregate star count or every review row as Saros-specific evidence. See the owner-notes addendum.

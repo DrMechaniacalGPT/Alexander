@@ -19,7 +19,7 @@ For viewers who prefer watching, [The Hook Up's original comparison video](https
 
 - White **Q7 M5**, base model: Roborock US store displayed **$179.99**, with enabled purchase controls. [Offer](https://us.roborock.com/products/roborock-q7-m5). This is an observed selected offer, not a checkout or delivery guarantee.
 - White **Narwal Flow 2 Basic Dock**: Narwal US store displayed **$1,299.99**, with enabled purchase controls. [Offer](https://us.narwal.com/products/flow-2-robot-vacuum-and-mop). A conflicting out-of-stock text extraction was superseded by the live selected state. Narwal remains a research contender in the deeper notes, not a first-line recommendation in this short script.
-- Saros pricing and availability must be refreshed and selected-variant checked before final recommendation lock. Do not import a retailer widget price from an old review as though it were a verified manufacturer checkout offer.
+- **Saros 10R with Multifunctional Dock 4.0**: Roborock US product page displayed **$1,099.99**, crossed-out $1,599.99, with enabled Add To Cart / Buy Now controls. [Offer](https://us.roborock.com/products/roborock-saros-10r). No accessory, warranty or eligibility discount was selected, and no checkout was performed. Refresh the exact offer before release; this does not establish lowest market price.
 
 Return conditions depend on seller, region and product condition. Check the actual terms before ordering. This companion does not promise a particular return right or comparative support experience.
 
@@ -30,3 +30,7 @@ We located coverage across an inherited eight-source/eight-product grid, but loc
 A reader interested in Narwal should compare [Vacuum Wars' household follow-up](https://vacuumwars.com/narwal-flow-2-real-world-testing/) with [Tom's Guide's contrary test results](https://www.tomsguide.com/home/the-narwal-flow-2-looks-slick-but-its-performance-misses-the-mark-for-a-usd1-500-robot-vacuum). A mainly hard-floor household report is not proof for every carpet.
 
 The next production pass must refresh prices and rankings, verify source-video locators used in the edit, finish the relevant owner/support checks, and confirm all final asset uses. This is a useful draft research companion, not a completed market-wide buying guide.
+
+## What we know about the hair methods
+
+The [matched-method table](research/HAIR_METHODS.md) records hair, carpet, passes, settings and version/date limits. We cannot establish that one lab used loose hair and the other embedded it. Vacuum Wars’ current protocol also presses hair into carpet, and neither current general guidance nor older manual-vacuum methods can silently fill missing historical robot-test details. This uncertainty is part of the comparison, not a reason to invent an average.

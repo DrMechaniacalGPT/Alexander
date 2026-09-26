@@ -4,7 +4,7 @@ September 26, 2026. **First creative sample rejected by owner; production approa
 
 ## Current execution checkpoint
 
-The [pitch task plan](../Episodes/001-robot-vacuums-2026/pitch/TASKS.md) records the latest completed work and dependencies. R2–R4 now have a completed bounded 64-pair audit, three source-backed case studies and an exploratory deduplicated owner sample. R6 has a revised 394-word working script and 18-shot treatment. R7 has a validated coverage explorer and source-only pitch reader. R8 remains failed: still concept art and external examples do not establish our own motion or voice quality. The table below records the earlier rejected-sample checkpoint, not the latest research status.
+The [pitch task plan](../Episodes/001-robot-vacuums-2026/pitch/TASKS.md) records the latest completed work and dependencies. R2–R4 now have a completed bounded 64-pair audit, three source-backed case studies and an exploratory deduplicated owner sample. R6 has a revised 393-word working script and 18-shot treatment. R7 has a validated coverage explorer and source-only pitch reader. R8 remains failed: still concept art and external examples do not establish our own motion or voice quality. The table below records the earlier rejected-sample checkpoint, not the latest research status.
 
 ## Prior status after owner steering
 

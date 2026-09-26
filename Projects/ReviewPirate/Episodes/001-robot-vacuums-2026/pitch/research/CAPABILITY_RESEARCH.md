@@ -2,13 +2,13 @@
 
 ## Updated recommendation after second pass
 
-**Use Flow / Gemini Omni Flash 1.1 first, with Veo 3.1 Fast as a comparator.** The second pass below supersedes the original purchase recommendation: Google AI Pro at $19.99/month before tax (Flow about page inspected by coordinating agent) is the first paid option if free access is insufficient. Higgsfield Plus remains a $59 cross-model fallback after a specific creative failure, not the default purchase. Omni is a current reference-driven generator and voice-styling route, not merely a repair tool. No aesthetic superiority claim is established.
+**Use Flow for a paired M02 performance gate: Veo 3.1 Fast first, then the identical shot in Omni 1.1.** See [final selection recheck](OMNI_SELECTION_RECHECK.md). Earlier Omni-first allocations below are exploratory and superseded. The second pass below supersedes the original purchase recommendation: Google AI Pro at $19.99/month before tax (Flow about page inspected by coordinating agent) is the first paid option if free access is insufficient. Higgsfield Plus remains a $59 cross-model fallback after a specific creative failure, not the default purchase. Omni is a current reference-driven generator and voice-styling route, not merely a repair tool. No aesthetic superiority claim is established.
 
 ## Current production judgment
 
 Test the same cinematic house with and without an original adult animal guide. Use individual approved shot references, not the multi-panel concept sheets as a single generation input. No paid video subscription or video generation was performed in this research. The integrating agent generated two still concept sheets separately with the built-in image tool.
 
-The canonical execution and budget allocation is [MOTION_TEST.md](../MOTION_TEST.md). It supersedes exploratory model/shot allocations: same-model host/no-host comparison first, then same-shot model comparison. The highest uncertainty is appealing performance, so test it before coverage.
+The canonical execution and budget allocation is [MOTION_TEST.md](../MOTION_TEST.md). It supersedes exploratory model/shot allocations: same-shot model gate first, then a same-model host/no-host comparison. The highest uncertainty is appealing performance, so test it before coverage.
 
 ## A small viewing programme
 

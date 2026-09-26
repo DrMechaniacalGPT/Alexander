@@ -30,19 +30,26 @@ For image-to-video systems, describe motion rather than rewriting the reference 
 
 ## One canonical experiment and cost allocation
 
-Test **performance first (M02)**. The visual appeal and delivery are the hard unknowns; do not spend the first attempts on an entrance walk. Edited shot length is not generation duration: request six-second Omni clips, eight-second Veo reference clips, then cut accepted footage. Read actual displayed costs before every paid test batch.
+**Test the same M02 character performance in Veo 3.1 Fast, then Gemini Omni Flash 1.1.** Veo has the nearest visually sampled reference for a furred character in a believable interior. That gallery does not prove the exact current Fast version or its voice quality. Omni has relevant controls and a lower iteration price, but price cannot establish artistic suitability. See the [selection recheck](research/OMNI_SELECTION_RECHECK.md).
 
-**Free allowance, at most 50 Flow credits:** M02 otter10 + M02 host-free10 + shared M01 coverage10 + shared M03 coverage10 + one conditional retry10. These are five six-second Omni 720p generations at ten credits each, one output/request. Approved individual references must already be available. Reference/voice preparation is not included; deduct its actual cost if needed. A failed performance can consume the reserve, so two successful edits are not guaranteed by this allocation.
+**Free gate, at most 50 Flow credits:** one eight-second reference-based Veo Fast M02 at 20 credits; one six-second Omni 720p M02 at 10; reserve 20 for one Veo retry or two Omni retries after diagnosing a specific failure. Use identical individual references, words, framing and intended performance. Compare their common useful duration, not the extra generated seconds. One output per request; verify the actual quote. Reference/voice preparation is excluded and must reduce the available generation allowance if charged.
 
-For the host/no-host comparison, use the same model, same accepted spoken audio, same shared coverage, same edit timing and grade. Extract the accepted M02 line for voiceover in the host-free edit. That isolates host presence more usefully than comparing different models and different voices at once. Internal review is not an audience preference test.
+This first gate tests whether either route can produce a credible performance. It does not promise a complete cut, a host/no-host comparison or reliable model rankings. Native voices may differ and are part of the route assessment. A real listening review remains necessary. If neither succeeds, try host-free motion; do not preserve the mascot by accepting bad acting.
 
-**Paid test, maximum 230 video credits before separately quoted reference/voice preparation:** three M02 otter attempts30 + three M02 host-free attempts30 + two shared coverage generations20 + one Omni contingency10 + three VeoFast otter comparators60 + two targeted Omni edits80. Total nine Omni generations, three Veo generations and two edits. Do not spend reserves automatically. This replaces the earlier generic18-attempt plan.
+**Next, compare treatments within the accepted route.** Build the 12–18-second host and host-free edits using the same model, same accepted spoken audio, shared M01/M03 coverage, timing and grade. Extract the accepted M02 speech for voiceover in the host-free edit. This isolates the host’s contribution more usefully than comparing unrelated models, voices and cuts. Internal review is not an audience preference test.
 
-The paid scenario fits the documented1,000 monthly credits in Google AI Pro, currently displayed at $19.99/month before applicable tax. This is a proposal, not a purchase. Verify selected account/region and exact quotes. Higgsfield Plus $59 is a fallback for a specific unresolved motion/character issue, not an automatic second subscription. See [capability research](research/CAPABILITY_RESEARCH.md).
+**Paid experiment ceiling depends on the chosen route:**
 
-Log model/version, prompts, references, duration, resolution, audio, output count, quote, attempt, rejection reason, accepted seconds and editing effort. If three materially different attempts fail the same shot, diagnose or change route; do not keep repeating nearly identical prompts. A 40-credit edit is only sensible for a near-keeper worth preserving when a new six-second Omni generation is 10 credits.
+- If Omni leads: nine six-second Omni generations (90) + three Veo comparators (60) + two optional targeted Omni edits (80) = **230 video credits**.
+- If Veo leads: nine eight-second Veo generations (180) + three Omni comparators (30) + two optional targeted Omni edits (80) = **290 video credits**.
 
-Once the opening language works, test a **second 12–20-second excerpt from the evidence-heavy middle** before full production. It must combine one real result, clear source credit and a cinematic transition. A gorgeous opening cannot conceal a middle that falls back to slides.
+Count the initial model-gate attempts inside these allocations; do not generate a duplicate batch. The nine main-route attempts cover three host performances, three host-free shots, two shared coverage shots and one contingency. Reference/voice preparation is separately quoted. Spend reserves only to resolve a named problem. A 40-credit edit is justified only for a near-keeper worth preserving; compare with the cost of a fresh generation.
+
+Both scenarios fit the documented 1,000 monthly credits in Google AI Pro, displayed at $19.99/month before tax. This remains a proposal, not a purchase. Account eligibility and exact quotes must be checked. Higgsfield Plus at $59 is a fallback for a specific unresolved failure, not an automatic second subscription.
+
+Log model/version, prompt, references, duration, resolution, audio, output count, quote, attempt, rejection reason, accepted seconds and editing effort. After three materially different failures on the same shot, diagnose or change route rather than repeat nearly identical prompts. Never rush a voice line to fit a six-second generation; cut to coverage and let it finish naturally.
+
+After the scene language works, test a **second 12–20-second excerpt from the evidence-heavy middle**. It must combine one real result, readable source credit and a cinematic transition. A gorgeous opening cannot conceal a middle that falls back to slides.
 
 ## Review record
 

@@ -56,3 +56,11 @@ All selected threads were opened through the web reader. Q3 repeatedly failed to
 Do not add a failure montage, claim a failure rate, or lengthen narration to include forum drama. The companion buyer checklist gains four concrete checks: route completion, troublesome rugs, room/map controls, and dock placement/service terms. Keep laboratory disagreement in the main film because it changes the buying decision more directly than these anecdotes.
 
 A full owner study still needs a frozen broader source collection, exact firmware/app versions, authenticated duration where possible, regional service separation, source incentive review, and follow-up on unresolved accounts. It should sample neutral long-term experiences as well as problem threads and preserve repeated-author clusters. This diagnostic cannot substitute for that work.
+
+## Opportunistic manufacturer-page check — separate from the planned sample
+
+During a final live price check, the [Saros 10R US product page](https://us.roborock.com/products/roborock-saros-10r) showed a featured review with DOM locator `bv-review-402093050`, heading "$1200 machine nonfunctional after 3 years," whose body explicitly identified an older S7 MaxV Ultra purchased in 2022. Exclude it from Saros outcome evidence even though the host page is Saros-branded. Another review claimed multiple years of ownership without an exact model; that is likewise not attributable from page identity alone.
+
+The visible featured rows also included Saros-specific complaints about carpet hair and auto-emptying, alongside one account praising hard-floor pickup/navigation while criticizing carpet results (`bv-review-400937593`). These are unsolicited, unverified owner accounts; the featured order was not a representative or balanced sample. No additional counts, failure prevalence or reliability ranking are inferred. Manufacturer replies suggesting maintenance checks are not independent confirmation of the alleged causes. This opportunistic observation is not retroactively included in the preplanned thread sample.
+
+Practical protocol improvement: verify the model named inside each review, not just its product-page URL; separate shipping/service reports from cleaning outcomes; record selection/sort mode. Product-page star totals cannot substitute for an exact-model, exposure-adjusted reliability dataset.

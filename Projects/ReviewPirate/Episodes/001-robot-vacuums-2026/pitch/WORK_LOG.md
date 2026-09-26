@@ -22,3 +22,11 @@ Further source-level logs, contradictions and review notes are included in the l
 - Saved image assets locally and excluded them from the source-only GitHub checkpoint. No video upload, paid subscription or vidIQ generation spend.
 
 The remaining highest-value production work needs authenticated video access and a real performance review. The pitch does not claim motion feasibility from stills, and does not call the whole episode finished.
+
+## Final targeted improvements
+
+A matched-method check removed an unproved loose-versus-embedded implication from the hair scene. Version 6 is 393 words; the opener remains 42. A model-selection recheck changed the free test to the same performance in Veo then Omni, rather than optimizing for five cheap clips before quality is known. The paid test is now 230–290 video credits depending on the selected route. A packaging brief uses the existing September 25 vidIQ snapshot without spending new credits and avoids a pet-hair-winner promise the evidence cannot support.
+
+Prepared and inspected a third local still: a single landscape M02 reference with stable seated pose, more adult proportions and the same room palette. Saved the exact edit prompt; no animation or voice-quality claim follows from the still.
+
+A final live Saros offer check filled the remaining price gap ($1,099.99 displayed; enabled purchase controls, no checkout). It also exposed a misattributed older-model owner review on the Saros page. Recorded that source-quality issue separately from the planned owner sample and excluded it from Saros outcome claims.

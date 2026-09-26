@@ -10,7 +10,7 @@ We begin at the height of a robot vacuum. Warm light crosses an oak floor; a rug
 
 The otter adds a small, expressive guide with dry humor. The alternative uses the same cinematic home and narration without a presenter. I favor trying the otter because it could give the channel a recognizable presence. That is a creative hypothesis, not evidence that viewers prefer otters. If its performance feels childish or artificial, the host-free version should stand on its own.
 
-**Review the [visual pitch](pitch.html), then the [394-word script](SCRIPT.md) and [18-shot treatment](STORYBOARD.md).** The pitch contains two generated concept sheets. These are art-direction studies, not another video sample.
+**Review the [visual pitch](pitch.html), then the [393-word script](SCRIPT.md) and [18-shot treatment](STORYBOARD.md) and [title/thumbnail proposal](PACKAGING.md).** The pitch contains two generated concept sheets. These are art-direction studies, not another video sample.
 
 ## Watch three references
 
@@ -24,15 +24,15 @@ The [viewing guide](VIEWING_GUIDE.md) adds Higgsfield, Runway and independent pr
 
 The inherited coverage grid was too sparse and confused missing evidence with absence. The new bounded audit searched all **64 core publisher/model pairs** and located 28 exact-model review/comparison pairs, plus a test-table entry, guides, related variants and mentions. That is neither 28 independent experiments nor a claim to have reviewed everything. The [corrected coverage explorer](research/coverage/coverage.html) keeps unknowns and variants visible.
 
-The script now uses actual disagreement. Vacuum Wars' Saros hair result and RTINGS' embedded-hair assessment cannot become one average. The Hook Up's Curv 2 Flow award sits alongside its weak obstacle result and another source's poor dried-stain result. These findings removed simplistic pet-hair and mopping endorsements. Owner reports were separately sampled and deduplicated; they are diagnostic leads, not failure rates.
+The script now uses actual disagreement. Vacuum Wars' Saros hair result and RTINGS' disappointing carpet-hair assessment cannot become one average. A [method-level recheck](research/HAIR_METHODS.md) also prevents us from inventing a loose-versus-embedded explanation. The Hook Up's Curv 2 Flow award sits alongside its weak obstacle result and another source's poor dried-stain result. These findings removed simplistic pet-hair and mopping endorsements. Owner reports were separately sampled and deduplicated; they are diagnostic leads, not failure rates.
 
 Our opening proposes Saros 10R as a premium hard-floor starting point and Q7 M5 for basic budget cleaning with more work from the owner. These remain a provisional shortlist, not a comprehensive current-market winner claim. The [source companion](VIEWER_COMPANION.md) directs viewers to the original tests, exact models and dated offers.
 
 ## Technology and the next review point
 
-Start with **Flow's documented free allowance**, if sign-in and account access are available. Test the difficult character performance first, then assemble the same 12–18-second scene with and without a host. Use the same model, accepted voice and edit so the comparison answers a useful question. A second short excerpt must prove the evidence-heavy middle works before expanding into a full episode.
+Start with **Flow's documented free allowance**, if sign-in and account access are available. Test the identical character performance in Veo and Omni first. Then use the accepted route to assemble the same 12–18-second scene with and without a host, keeping model, accepted voice and edit constant. A second short excerpt must prove the evidence-heavy middle works before expanding into a full episode.
 
-If more iteration is needed, the proposal is one month of **Google AI Pro at $19.99 before tax**, with a bounded 230-video-credit test. Optional voice work and reference preparation are separate. Higgsfield Plus at $59 is a targeted fallback; it is not an automatic second purchase. [Budget and assumptions](BUDGET.md) · [Exact experiment and prompts](MOTION_TEST.md).
+If more iteration is needed, the proposal is one month of **Google AI Pro at $19.99 before tax**, with a bounded 230–290-video-credit test. Optional voice work and reference preparation are separate. Higgsfield Plus at $59 is a targeted fallback; it is not an automatic second purchase. [Budget and assumptions](BUDGET.md) · [Exact experiment and prompts](MOTION_TEST.md).
 
 **No new video, paid subscription, vidIQ generation spend or media upload occurred in this pass.** Flow reached Google sign-in, so motion and voice quality remain unproved. The exact previously liked thumbnail also remains unrecovered; the historical repository SVG is not assumed to be it.
 
