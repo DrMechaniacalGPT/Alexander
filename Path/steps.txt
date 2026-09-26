@@ -1,64 +1,83 @@
-1) followers
-2) monetization
-3) hire leaders
-4) fund raise
-5) build compelling product
-6) promote
-7) monetize
-8) demonetize
+1 build
+2 sell
+3 learn
+4 reinvest
+5 delegate
+6 repeat
+7 let mature things become boring
 
-Details
-1) acquire followers who believe in the mission
-2) establish legal entity with a wallet
-obtain sufficient capitol to establish development fund
-3) ordain leaders who have an autonomous vision
-employ them to work on behalf of humanity
-establish a moral bound on total compensation
-compete for best talent with respectable salary and moral purpose
-seek intelligence, morality, and motivation
-4) rapid growth requires capitol expense
-scale is required to be competitive
-this is where deals with the devil may need to be made
-5) intelligent moral and motivated people with capitol are powerful
-6) a compelling product with a receptive audience should succeed
-7) monetization is a necessary evil in that
-products need development until feature complete
-financial incentive is a worthwhile motivation for builders
-there must something to entice the devils
-8) once feature complete the enterprise should start shrinking
-with revenue trending to the cost of minimal maintenance 
-and profit tending to zero
-approaching slow enough so the area is sufficient for 7
+details
 
-3-8 are individual enterprises
-this can be done in parallel
+1 build
 
-to central authority is to ensure due process is followed
-with the enterprises staying within the bounds of moral behavior
-only intervening with the enterprises if something goes amok
-it also is responsible for centralized propaganda
+start with a real problem
+and the smallest thing
+that can test whether anyone cares
 
-raising money to raise more money is despicable
-for if the goal becomes access to capitol and skimming off of that
-then all money gets stuck in a wasteful cycle
-as such the flow of money from the enterprise to the central authority
-should be a tithe of no more than ten percent
-for more than that is stealing from the people
-but as demonetization matures the 10 percent must decline
-for if every cog of the future machine has 10 percent friction
-its impossible to have a system with many gears
+2 sell
 
-large companies become cesspools of exploitation and incompetence
-innovation must spring anew as novel enterprises
-a two pizza team is an effective force
-a company of a few hundred can have specialists
-but dysfunction emerges in the thousands
-the only way large forces can be managed is through small in depended units
-and in software there is no need for large enterprises
-the open source ecosystem is a massive compilation of independent pieces
-and it works well
-manufacturing at scale is trickier
-which is complexity that can be avoided by focusing on software initially
+money is unusually honest feedback
 
+free usage can mean
+love
+curiosity
+or boredom with a credit card safely hidden
 
+ask for value
+when value is being created
 
+3 learn
+
+watch what people do
+not what the roadmap says
+
+publish failures internally
+before success teaches everyone to lie
+
+4 reinvest
+
+fund the next improvement
+and the next project
+
+do not raise money
+merely to become good at raising money
+
+5 delegate
+
+hire people
+who can own a whole problem
+
+give them room
+
+central approval
+is not a personality trait
+worth scaling
+
+6 repeat
+
+multiple small projects
+can run in parallel
+
+kill weak ones
+feed strong ones
+steal lessons from both
+
+7 let mature things become boring
+
+when a product is stable
+reduce friction
+
+lower cost
+lower maintenance
+lower ceremony
+
+sometimes success means
+a smaller team
+less margin
+open source
+a standard
+or a graceful death
+
+organizations are tools
+
+they are not pets
