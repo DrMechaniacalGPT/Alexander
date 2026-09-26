@@ -42,29 +42,30 @@ but does not get to invent the islands
 
 ## v0
 
-v0 is intentionally stupid
-
 input
 
-a JSON file containing
+a JSON comparison containing
 
 - products
 - buyer questions
 - sources
 - claims
 
+optional
+
+a buyer profile
+
 output
 
-a markdown report containing
-
 - questions that change the answer
+- buyer-specific fit signals
 - product-by-topic evidence
 - visible conflicts
 - confidence labels
 - source links
 - source type and financial relationship
 
-the first goal is to learn whether the structure is useful
+the first goal is to learn whether this structure saves research time
 
 not to build a crawler
 that consumes the internet before breakfast
@@ -83,7 +84,8 @@ but the purchase changes with
 - indoor room depth
 - outdoor use
 - subscription tolerance
-- practice priorities
+- impact feedback
+- putting and short game
 - simulator software
 
 that makes it a good test
@@ -97,18 +99,30 @@ research notes
 
 `research/mlm2pro-vs-square.md`
 
-## run
+readable report snapshot
 
-sample
+`reports/mlm2pro-vs-square.md`
 
-```bash
-python3 review_pirate.py data/sample.json
-```
+## command line
 
-live comparison
+generic comparison
 
 ```bash
 python3 review_pirate.py data/mlm2pro-vs-square.json
+```
+
+personalized
+
+```bash
+python3 review_pirate.py data/mlm2pro-vs-square.json \
+  --profile profiles/indoor-no-subscription.json
+```
+
+or
+
+```bash
+python3 review_pirate.py data/mlm2pro-vs-square.json \
+  --profile profiles/outdoor-practice.json
 ```
 
 tests
@@ -116,6 +130,26 @@ tests
 ```bash
 python3 -m unittest -v
 ```
+
+## browser prototype
+
+from `Projects/ReviewPirate/`
+
+```bash
+python3 -m http.server 8000
+```
+
+then open
+
+`http://localhost:8000/web/`
+
+the page loads the live JSON dataset
+lets the buyer answer the decision questions
+and keeps the underlying evidence visible
+
+no framework
+no build step
+no excuse
 
 ## eventual pipeline
 
@@ -153,7 +187,9 @@ a more literate ad
 ## status
 
 live hand-built dataset
-working report generator
+command-line report generator
+buyer profiles
+browser prototype
 tests
 CI definition
 
