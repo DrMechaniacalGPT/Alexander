@@ -1,0 +1,10 @@
+{
+  "sample-v1.mp4": "7ec05597da00d454b1486fd83a2fce8c1cdfcd893cca3e8c95146605837a1319",
+  "narration.wav": "4335d16805e9059356e7d73049d6cf399092c7374e46f4a90368c557680000a5",
+  "timing.json": "91e65cf507bc1721b1d70d1810d2be84d3f9606df19fa71d95c599a294e0e23a",
+  "scenes.json": "86f70421b710626f81ceb009b2109a30208ec92c566eb83cc8e0f003c8ff0a72",
+  "render.py": "c6f7c36cd69edcc329e0ee43fa3ab32e8efef2385dd052e9a6d083a72f0a19de",
+  "make_audio.py": "785b27f6108294811a7cc9b1c733e4d0a15a9af91fdd91becd9bb6346c44c371",
+  "models/en_US-ljspeech-high.onnx": "5d4f08ba6a2a48c44592eed3ce56bf85e9de3dd4e20df90541ae68a8310c029a",
+  "models/en_US-ljspeech-high.onnx.json": "7e1f4634af596d83cca997fb7a931ba80b70f8a316a2655ee69c55365e0ace14"
+}

@@ -1,6 +1,8 @@
 # Review Pirate: the next working cycle
 
-September 26, 2026 · **Proposal for discussion; implementation has not started.**
+September 26, 2026 · **Historical proposal; execution to the sample review point was subsequently approved.**
+
+Current result: [first sample and decision note](../Episodes/001-robot-vacuums-2026/sample/DECISION.md). The owner superseded the $30 proposal, asked for free production first and a separate paid-software proposal, and clarified that pirate branding is not selected. The sample demonstrates a checked subset; full research gates remain open.
 
 ## Recommendation
 

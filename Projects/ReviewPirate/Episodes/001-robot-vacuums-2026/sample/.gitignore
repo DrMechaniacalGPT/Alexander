@@ -1,0 +1,7 @@
+venv/
+models/
+frames/
+narration.wav
+__pycache__/
+sample-v1.mp4
+contact-sheet.jpg

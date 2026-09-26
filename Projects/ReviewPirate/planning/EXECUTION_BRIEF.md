@@ -1,6 +1,6 @@
 # Proposed next-session assignment
 
-**Status: awaiting discussion and approval.** This document is ready to serve as an implementation brief; writing it has not started an execution session.
+**Status: first sample review point reached.** The owner approved execution, then prioritized a concrete free sample and reserved vidIQ credits for research. See the [sample decision note](../Episodes/001-robot-vacuums-2026/sample/DECISION.md). Historical defaults below are superseded by that decision and the current task-status update; no paid subscription was purchased.
 
 ## Objective
 
