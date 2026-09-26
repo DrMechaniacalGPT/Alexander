@@ -1,29 +1,18 @@
 # Murder mystery party project
 
-## The decision
+**Recommendation: pursue a small validation experiment, after discussing the product together. Do not commit to full production yet.** We found plausible host problems, strong free/paid alternatives and no demonstrated market gap. Guided mingling with a fixed solution already exists; our value must be a measurably easier, better evening.
 
-Can we create an unusually good three-hour, in-person murder mystery and sell it profitably? The first decision is what experience to build and whom it serves. We have not made that decision yet.
+The proposed audience is adults hosting an eight-person dinner with mixed acting comfort. A printable experiment keeps initial production bounded. **The Immortality Club** is the provisional pitch; **Lot 13**, an estate auction mystery, is close and easier to explain. Neither theme has customer validation. We have not built a game or run playtests.
 
-## Current state — discovery planned
+The illustrative base case—300 sales at $49—leaves about **$3,053 after valuing labor**, under assumed acquisition, support and development costs. That is a scenario, not a demand forecast. Reaching customers economically is a central unresolved question.
 
-The earlier conversational survey was a useful set of leads, not a completed market study. **The Immortality Club**, an 8–12-player longevity dinner, is a candidate to test alongside others. Its proposed price, format, market position, and video treatment are hypotheses. Nothing has been validated with customers or playtests.
+Read the [decision memo](research/DECISION.md) for the recommendation, contrary evidence and proposed validation gates. It links to 15 coded written experiences, community/transcript evidence, primary mechanics, dated offers, a reproducible financial model and a 12-concept comparison. [Source ledger](research/sources.csv) and [search log](research/search-log-2026-09-26.md) preserve the basis and access failures. Coverage is bounded; several original research criteria remain open.
 
-## Read this in layers
+**Current state: discovery synthesis ready for owner discussion.** Agree audience, concept, budget and the eventual game's open-source/commercial terms before construction. The root repository license and Alexander's purpose make that distribution choice material.
 
-- [Plan](PLAN.md): decisions, sequence, and gates.
-- [Tasks](TASKS.md): bounded work and completion tests.
-- [Working agreement](WORKFLOW.md): autonomy, delegation, and review.
-- [Discovery work brief](DISCOVERY_BRIEF.md): outcome and completion test for a long-running task.
-- [Research record](research/README.md): evidence schema and current coverage.
+- [Concept discussion](concepts/decision.md)
+- [Task status and remaining gaps](TASKS.md)
+- [Plan](PLAN.md), [working agreement](WORKFLOW.md), [discovery brief](DISCOVERY_BRIEF.md)
+- [Research navigation](research/README.md)
 
-The final decision brief belongs here: a short recommendation with links to the underlying task syntheses. Until those tasks are done, this page should not imply that the project has a winner.
-
-## Candidate questions
-
-- Who buys, hosts, and plays, and what does each person want from the night?
-- Which existing games work well in practice, and where do they fail?
-- How many sales at what margin would justify the effort? Over what period?
-- What is the smallest product that tests the game itself: download, printed kit, shared video, or software?
-- Can each role matter even when conversations are uneven and a player cancels?
-
-Commercial and design claims will be dated and supported in `research/`. The project's story, code, art, and playtest results will stay here when those phases begin.
+This chat run stops at that discussion gate; no background research or building is scheduled.
