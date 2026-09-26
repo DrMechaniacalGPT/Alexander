@@ -2,7 +2,9 @@
 
 ## Outcome
 
-Build and test a three-hour murder mystery party that guests enjoy, hosts can run, and Alexander can sell at a worthwhile contribution margin. The project is not done when its task board is full or its first PR is merged. The finish line is a playable, revised product and a measured commercial experiment, with an honest decision to launch, change, or stop.
+Develop a useful way to explore social game design with local AI, and use it to create a murder mystery that guests enjoy and hosts can run. Short-term products should produce real learning and eventually revenue; reusable methods serve Alexander's longer-term aims. Neither a full task board nor attractive simulated dialogue establishes those outcomes.
+
+The current authorized cycle is a research/design/task-planning pass. Its finish line is a reviewable blueprint, then a discussion of the first implementation slice. Later execution co-designs small original situations with the simulator before committing to a whole game. A three-hour/eight-person party remains a working product direction, not an immutable requirement.
 
 ## Division of labor
 
@@ -29,7 +31,7 @@ Do not create two competing task systems merely to feel organized. When Issues a
 
 For a work cycle, state the outcome, evidence standard, boundaries, and what would count as blocked. Execute related tasks without stopping after each search, commit, or PR. Continue independent authorized work while a reviewable diff waits. Ask for judgment when evidence supports materially different products, before a large spend or public launch, or when only the owner can supply access to people or an account. Report a blocker with the work already completed and the exact missing input.
 
-This live web conversation can do sustained work while the turn is active, but it does not silently keep running after the final reply. For unattended, multi-hour work use a configured Codex cloud environment or a supported persistent Goal. Verify repository access, internet availability for research, budget, and where results will be reviewed before relying on it. A GitHub Issue is a specification; filing it alone does not start an agent.
+Work can continue while the turn is active; do not imply that it continues after a final reply without an explicitly configured mechanism. Report what is complete, proposed, blocked or actually running. A GitHub Issue is a specification; filing it alone does not start an agent.
 
 ## Research and build loop
 
@@ -40,3 +42,9 @@ This live web conversation can do sustained work while the turn is active, but i
 5. Check the project outcome. Continue the next independent task or bring a genuine gate decision to the owner.
 
 Fictional personas and agent simulations are adversarial design tools. Interviews, observed parties, and actual purchases are evidence about humans. Neither can be replaced by a polished AI argument.
+
+## Design principles for this cycle
+
+Treat spoken examples as raw material. Preserve meaningful choices, contextual information, participant differences and inspectable consequences; revise names, trait lists and mechanics when better alternatives emerge. Do not demand calibrated human prediction before creative exploration. Do not mistake that freedom for evidence that simulated frequency predicts real parties.
+
+Evaluate opportunity and continued participation from every role's perspective. Keep fixed facts separate from reported claims, exposure separate from memory, and character commitments separate from the participant's habits. Simpler baselines diagnose the machinery; they are not the sole gate for the creative project.
