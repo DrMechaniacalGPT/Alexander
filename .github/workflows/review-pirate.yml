@@ -23,7 +23,16 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
       - name: Unit tests
         run: python -m unittest -v
-      - name: Generate live comparison report
+      - name: Generate generic report
         run: python review_pirate.py data/mlm2pro-vs-square.json > /tmp/mlm2pro-vs-square.md
+      - name: Generate personalized reports
+        run: |
+          python review_pirate.py data/mlm2pro-vs-square.json --profile profiles/indoor-no-subscription.json > /tmp/indoor.md
+          python review_pirate.py data/mlm2pro-vs-square.json --profile profiles/outdoor-practice.json > /tmp/outdoor.md
+      - name: Check browser JavaScript
+        run: node --check web/app.js
