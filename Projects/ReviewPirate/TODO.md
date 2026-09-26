@@ -20,6 +20,11 @@ done
 
 next
 
+- collect retailer-owner evidence for the eight matrix products
+  - Amazon if accessible
+  - separate verified / incentivized reviews where possible
+  - sample positive and critical reviews systematically
+- fill more source-product matrix cells only when verified
 - final pre-record research refresh
 - final spoken-rhythm pass
 - create narration sample
