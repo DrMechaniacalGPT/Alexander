@@ -20,6 +20,10 @@ SOURCES = [
     "RTINGS",
     "Vacuum Wars",
     "The Hook Up",
+    "Just A Dad Approved",
+    "Vacuum Chef",
+    "6 Months Later",
+    "Brian Tong",
     "TechRadar",
     "Tom's Guide",
     "Expert Reviews",
@@ -60,7 +64,7 @@ def render(rows):
     left = 330
     top = 230
     cell_w = 180
-    cell_h = 70
+    cell_h = 54
 
     parts = [
         f'<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}" viewBox="0 0 {width} {height}">',
@@ -80,7 +84,7 @@ def render(rows):
         y = top + r * cell_h
         parts.append(
             f'<text x="{left-24}" y="{y+44}" text-anchor="end" font-family="Arial,sans-serif" '
-            f'font-size="22" font-weight="700" fill="{TEXT}">{esc(source)}</text>'
+            f'font-size="18" font-weight="700" fill="{TEXT}">{esc(source)}</text>'
         )
 
         for c, (_, product) in enumerate(PRODUCTS):
@@ -106,7 +110,7 @@ def render(rows):
                     f'font-family="Arial,sans-serif" font-size="27" font-weight="700" fill="#ffffff">{label}</text>'
                 )
 
-    legend_y = 985
+    legend_y = 1000
     legend = [
         ("winner", "winner / top pick"),
         ("positive", "positive"),
