@@ -1,13 +1,24 @@
 {
   "comparison": "Example comparison",
   "products": [
+    {"id": "alpha", "name": "Product Alpha"},
+    {"id": "beta", "name": "Product Beta"}
+  ],
+  "decision_questions": [
     {
-      "id": "alpha",
-      "name": "Product Alpha"
-    },
-    {
-      "id": "beta",
-      "name": "Product Beta"
+      "prompt": "Do you need outdoor use?",
+      "outcomes": [
+        {
+          "when": "yes",
+          "product_id": "alpha",
+          "reason": "supports outdoor use"
+        },
+        {
+          "when": "no",
+          "product_id": "beta",
+          "reason": "indoor-only design may be simpler"
+        }
+      ]
     }
   ],
   "sources": [
