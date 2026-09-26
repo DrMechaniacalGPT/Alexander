@@ -1,163 +1,195 @@
 # treasury bells
 
-a threshold should ring because the problem changed,
-not because a round number happened to look important.
+a bell means
 
+look again.
 
-## first revenue
+not
 
-when the first real payout arrives:
+obey a number forever.
 
-separate alexander money from personal spending;
 
-begin the public ledger;
+## first dollar
 
-record gross revenue before any conversion;
+use a separate account.
 
-use a dedicated payout or bank account where practical;
+start the ledger.
 
-obtain an ein if it materially simplifies banking
-or administration.
+nothing clever is required.
 
-there is no need to form an entity merely because
-the first dollars exist.
 
+## first bitcoin
 
-## first treasury conversion
+use a treasury wallet
+that has never been personal.
 
-before moving retained earnings into bitcoin:
+record the fiat value,
+bitcoin amount,
+fees,
+and transaction id.
 
-create a dedicated treasury wallet;
+publish enough
+for anyone to verify it.
 
-record the date, usd value, bitcoin amount, fees,
-and cost basis;
 
-publish the matching ledger entry;
+## $10k
 
-keep treasury bitcoin separate from personal bitcoin.
+when either
 
+trailing-twelve-month gross revenue
 
-## entity review
+or
 
-return to entity formation when either risk
-or economics make the answer materially different.
+the treasury balance
 
-### risk trigger
+first crosses $10,000:
 
-review entity formation before:
+publish a standardized treasury statement;
 
-a material commercial contract
-with meaningful indemnity, exclusivity, or liability;
+review whether the current bookkeeping
+is still effortless and legible;
 
-an employee or substantial recurring contractor;
+review wallet security;
 
-outside capital or public contributions;
+review whether any contract,
+worker,
+or liability now creates
+a reason for an entity.
 
-shared ownership of treasury assets;
+do not form one merely
+because five digits look official.
 
-or another activity that could create obligations
-larger than the experiment itself.
 
+## $32k operating profit
 
-### economic trigger
+if no earlier risk has forced the decision,
+revisit entity formation
+when expected next-twelve-month
+operating profit reaches $32,000.
 
-when no risk event forces an earlier decision,
-compare annual entity cost with expected
-next-twelve-month operating profit.
+why this number?
 
-working internal rule:
+in california,
+the known $800 annual llc tax
+is 2.5 percent of $32,000.
 
-unavoidable annual entity overhead
-should generally be no more than about five percent
-of expected annual operating profit.
+that leaves another $800
+for filing, bookkeeping,
+and ordinary administration
+before fixed structural cost
+reaches roughly five percent.
 
-the percentage is a management heuristic,
-not a legal threshold.
+it is not sacred.
 
-the jurisdiction supplies the real cost.
+it is a reasoned starting bell.
 
-for example, a california llc currently carries
-an $800 annual tax before ordinary professional
-and administrative costs are counted.
+if the jurisdiction changes,
+recalculate it.
 
-that makes a $1,000 revenue trigger irrational.
 
-if the business were operating in california,
-the $800 tax alone falls to five percent only around
-$16,000 of expected annual operating profit.
+## $100k
 
-recalculate whenever the jurisdiction,
-tax law, or economics change.
+when revenue or treasury
+first crosses $100,000:
 
+assume the experiment
+has become a business.
 
-## professional review
+revisit entity structure
+even if nothing has yet forced it;
 
-buy legal or tax advice before a change
-that can create durable obligations.
+use professional bookkeeping
+if the books are no longer trivial;
 
-examples include:
+obtain tax review;
 
-outside capital;
+review multisig custody;
 
-employees;
+publish treasury statements
+on a regular schedule.
 
-material sponsorship agreements;
 
-contracts with substantial indemnity or exclusivity;
+## $1m
 
-shared treasury signing authority;
+when revenue or treasury
+first crosses $1,000,000:
 
-or a meaningful change in compensation policy.
+single-person financial control
+should be considered obsolete.
 
-even without a forcing event,
-commission a proactive review once its expected cost
-is small relative to recurring operating profit.
+revisit independent signers;
 
-a useful discipline is to keep a one-time review
-below roughly five percent of expected
-next-twelve-month operating profit.
+formal treasury policy;
 
+independent financial review;
 
-## multisig
+founder compensation approval;
 
-move beyond single-signature custody when:
+recovery procedures;
 
-loss of the treasury would cancel
-or materially delay committed work;
+and which spending rules
+can safely become executable code.
 
-the treasury exceeds several months
-of ordinary operating expense;
 
-or stewardship should become independent
-of a single human being.
+## $10m
 
-then evaluate hardware-backed multisig,
-publish a signing policy,
-and publish a recovery policy.
+when revenue or treasury
+first crosses $10,000,000:
 
+treat treasury design
+as an institution.
 
-## allocation becomes governance
+commission dedicated legal,
+tax,
+security,
+and governance review.
 
-when several projects draw from a material treasury,
-and reasonable people begin to disagree
-about who should receive the next dollar,
-the treasury has earned government.
+revisit whether policy should use:
 
-then consider:
+multisig;
 
-public spending proposals;
+timelocks;
 
-independent treasury stewards;
+miniscript spending paths;
 
-multisig approvals;
-
-published compensation rules;
+public proposals;
 
 machine-readable budgets;
 
-and on-chain controls where they add real safety.
+or more experimental systems
+for verifiable computation.
 
-do not build governance theatre.
+at this scale,
+the question is no longer
 
-build only the governance
-that an actual conflict has earned.
+can the money be seen?
+
+the question is
+
+how much power
+can be made both visible
+and difficult to abuse?
+
+
+## ring early
+
+do not wait for a dollar bell
+if the kind of problem changes first.
+
+revisit immediately before:
+
+employees;
+
+material recurring contractors;
+
+a contract with meaningful liability
+or exclusivity;
+
+outside investment;
+
+public contributions;
+
+shared treasury ownership;
+
+or holding or moving money
+for another person.
