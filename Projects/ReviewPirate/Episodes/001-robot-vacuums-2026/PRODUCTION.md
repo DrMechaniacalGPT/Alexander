@@ -49,17 +49,39 @@ the numeric hook
 
 ## thumbnail concepts
 
-### A
+### A — evidence matrix
 
-eight product silhouettes
-or clean press images
+preferred
+
+crop the matrix
+to roughly
+
+6 sources
+x
+6 products
+
+use recognizable
+source logos / thumbnails
+on the left
+
+product images
+across the top
+
+cells form
+a strong red / amber / green pattern
+
+leave some blanks
 
 large text
 
 8 EXPERTS
 8 WINNERS
 
-### B
+the matrix
+should be understood
+before it is read
+
+### B — winner collision
 
 three recognizable flagship robots
 
@@ -70,7 +92,7 @@ large text
 
 WHO'S RIGHT?
 
-### C
+### C — award absurdity
 
 a fake award podium
 with too many first-place trophies
@@ -183,30 +205,52 @@ small pirate sting
 if it is funny
 not if it is branding homework
 
-### 0:23–0:32
+### 0:23–0:38
 
 voice
 
 "So I went through
-more than thirty sources
-to figure out
-who is wrong."
+more than thirty sources...
+
+And this grid
+is the easiest way
+I've found
+to see it."
 
 visual
 
-fast montage
+start with
 
-- RTINGS test page
-- Vacuum Wars ranking
-- Consumer Reports methodology
-- Reddit long-term owner thread
-- source count ticking upward
+`assets/evidence_matrix.svg`
+
+animate
+
+1 products across top
+2 sources down left
+3 cells populate
+4 winner stars appear
+
+then
+
+highlight the blank cells
 
 overlay
 
-30+ SOURCES
+**BLANK ≠ BAD**
 
-### 0:32–0:38
+small line
+
+not in this source's
+verified evidence set
+
+this is the visual
+that explains
+candidate-set bias
+
+better than
+a paragraph can
+
+### 0:38–0:44
 
 voice
 
@@ -227,7 +271,7 @@ then smaller
 they are answering
 different questions
 
-### 0:38–0:50
+### 0:44–0:54
 
 voice
 
@@ -247,7 +291,7 @@ larger pool
 new MOVA model
 drops into the larger pool
 
-### 0:50–1:00
+### 0:54–1:04
 
 voice
 
@@ -496,3 +540,92 @@ into a hostage situation?
 
 the next episode
 may be in the replies
+
+
+## matrix visual system
+
+canonical files
+
+`MATRIX.md`
+
+`data/source_product_matrix.csv`
+
+`assets/evidence_matrix.svg`
+
+`tools/render_evidence_matrix.py`
+
+the matrix
+is not a one-off chart
+
+it is the recurring
+Review Pirate interface
+
+eventually cells can animate
+through layers
+
+coverage
+
+verdict
+
+evidence age
+
+commercial context
+
+owner evidence
+
+do not show
+all layers at once
+
+the point is
+progressive disclosure
+
+not
+a Bloomberg terminal
+for vacuum cleaners
+
+## commercial-context visual
+
+do not color
+a source red
+because it has affiliate links
+
+instead
+
+add small badges
+
+BOUGHT
+
+SAMPLE
+
+AFFILIATE
+
+SPONSOR
+
+NO SPONSOR
+
+UNKNOWN
+
+and when discussing
+brand affiliate programs
+
+show the public rate
+as a separate strip
+
+Roborock 4–7%
+
+eufy 7–15%
+
+MOVA 5–20%
+
+Dreame 5%+
+
+Amazon Home 3%
+
+title the strip
+
+**POSSIBLE INCENTIVE
+≠ PROVEN BIAS**
+
+that sentence
+is the editorial policy
+in six words
