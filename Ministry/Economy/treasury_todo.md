@@ -1,265 +1,446 @@
-# Alexander Treasury — Triggers
+# bells in the road
 
-the important thing
+the future
+does not need
+to be governed today
 
-is not
-to solve every legal
-and accounting problem
-before revenue exists
+it needs
+to leave us notes
 
-the important thing
+so when the road
+changes beneath our feet
 
-is to know
-when to return
+we remember
+which questions
+must be asked again
 
 
 ## now
 
-do
-
-- keep Review Pirate
-  and other projects
-  free to earn revenue
-- if affiliate accounts are opened
-  use the cleanest
-  separated payout path available
-- begin a public ledger
-  with the first dollar earned
-- do not promise
-  that funds are irrevocably locked
-- do not solicit public donations
-  under charitable language
-- do not publish Bitcoin private keys
-- do not mix Alexander Bitcoin
-  with personal Bitcoin
-
-do not
-
-- form a complicated governance body
-- create a token
-- build smart-contract infrastructure
-- create multisig for an empty wallet
-- spend legal fees
-  to govern hypothetical money
+let the projects
+learn to earn
 
 
-## trigger 1 — first affiliate revenue
+if affiliate accounts open
 
-when
+choose
+the cleanest
+separate payout path
+available
 
-the first payout
-is actually earned
+
+with the first dollar
+
+begin the ledger
+
+
+do not promise
+
+that money
+can never move
+
+
+do not invite
+public contributions
+
+under language
+that suggests charity
+
+
+do not publish
+
+private keys
+seed phrases
+or signing secrets
+
+
+do not mix
+
+alexander bitcoin
+with personal bitcoin
+
+
+and do not build
+
+a token
+
+a parliament
+
+a smart-contract kingdom
+
+or a multisig bureaucracy
+
+for money
+that does not yet exist
+
+
+## first bell
+
+### first affiliate payout
+
+when the first real payout lands
 
 return here
 
-actions
 
-- create / designate
-  a separate fiat account
-  used only for Alexander activity
-- start the public ledger
-- decide whether
-  a sole-proprietor EIN
-  is useful for banking
-- record gross income
-  before any Bitcoin conversion
-- decide whether
-  to create the first
-  Alexander Bitcoin treasury wallet
+open
+or designate
 
-goal
+a fiat account
+used only
+for alexander activity
 
-clean separation
+
+begin
+the public ledger
+
+
+record
+gross revenue
+
+before
+any conversion
+to bitcoin
+
+
+decide
+whether an ein
+would simplify
+banking
+
+
+decide
+whether the first
+alexander bitcoin wallet
+
+should now exist
+
+
+the goal
+
+separation
 from dollar one
 
 
-## trigger 2 — $1,000 cumulative gross revenue
+## second bell
 
-when
+### $1,000 cumulative gross revenue
 
-Alexander projects
+when alexander projects
 have earned
-$1,000 total gross revenue
+one thousand dollars
+in gross revenue
 
 return here
+
 
 this is
-
-an entity-decision trigger
+an entity decision
 
 not
-
-an automatic promise
-to form an LLC
-
-actions
-
-- compare
-  home-jurisdiction
-  entity costs
-  taxes
-  annual filings
-  and banking friction
-- decide whether
-  continuing as sole proprietor
-  is still rational
-- evaluate
-  single-member LLC
-  or other appropriate entity
-- ensure affiliate accounts
-  can migrate payee information
-  cleanly
-- formalize the treasury ledger format
-- publish the first
-  treasury report
-
-reason
-
-at this point
-
-administrative structure
-has something real
-to administer
+an automatic incorporation ceremony
 
 
-## trigger 3 — $10,000 cumulative gross revenue
+compare
 
-or earlier if
+the cost
+of remaining
+a sole proprietor
 
-- a meaningful sponsorship contract appears
-- employees are hired
-- recurring contractors become material
-- public contributions are contemplated
-- another person receives treasury signing power
+with
+
+the cost
+and benefit
+of a single-member llc
+or other appropriate structure
+
+
+look at
+
+filing fees
+
+annual taxes
+
+reporting
+
+banking
+
+contracts
+
+affiliate payee migration
+
+and administrative drag
+
+
+formalize
+the treasury ledger
+
+and publish
+the first treasury report
+
+
+at one thousand dollars
+
+there is finally
+something real enough
+
+to deserve
+a little architecture
+
+
+## third bell
+
+### $10,000 cumulative gross revenue
+
+or earlier
+
+if any of these arrive first
+
+
+a meaningful sponsorship
+
+employees
+
+material recurring contractors
+
+public contributions
+
+outside investment
+
+or another treasury signer
+
 
 return here
 
-actions
 
-- buy professional review
-- target budget
-  roughly $1,000
-  unless facts justify more
-- lawyer reviews
-  entity
-  contracts
-  public treasury language
-  compensation framework
-  and contribution/donation risk
-- CPA / tax professional reviews
-  bookkeeping
-  Bitcoin basis tracking
-  payroll / contractor handling
-  and treasury conversion process
-- form or revise
-  the legal entity
-  if not already done
-
-goal
-
-do not let
-a $10,000 experiment
-quietly become
-a $100,000 legal structure
-designed by vibes
+buy professional judgment
 
 
-## trigger 4 — meaningful Bitcoin treasury
+a working budget
 
-working trigger
+roughly
+one thousand dollars
 
-$25,000 equivalent
-held in treasury
+unless the facts
+deserve more
 
-or
 
-a second independent steward
-becomes necessary
+ask a lawyer
+to review
+
+entity structure
+
+contracts
+
+public treasury language
+
+compensation policy
+
+contribution language
+
+and the boundary
+between our own treasury
+
+and financial activity
+for others
+
+
+ask a tax professional
+to review
+
+bookkeeping
+
+bitcoin basis
+
+payroll
+
+contractors
+
+tax reserves
+
+and the path
+from fiat revenue
+to bitcoin treasury
+
+
+ten thousand dollars
+is still an experiment
+
+but it is large enough
+
+that ignorance
+can begin
+to compound
+
+
+## fourth bell
+
+### $25,000 held in treasury
+
+or sooner
+
+if one human
+should no longer
+hold all the keys
+
 
 return here
 
-actions
 
-- migrate treasury
-  to hardware-backed multisig
-- default candidate
-  2 of 3
-- separate keys
-  geographically
-  and operationally
-- publish
-  watch-only information
-  sufficient for public verification
-- write
-  a spending / signing policy
-- publish
-  compensation and conflict rules
-- create
-  a recovery plan
-
-goal
-
-remove
-single-key
-single-person
-catastrophic failure
+move toward
+hardware-backed multisig
 
 
-## trigger 5 — outside money
+default candidate
 
-if Alexander
-ever intentionally accepts
+two of three
 
-- public contributions
-- investment
-- repayable capital
-- token purchases
-- money held for others
+
+separate
+the keys
+
+by person
+
+by place
+
+and by failure mode
+
+
+publish
+enough watch-only information
+
+for the public
+to verify the treasury
+
+
+write down
+
+how spending
+is proposed
+
+how spending
+is approved
+
+how compensation
+is disclosed
+
+how conflicts
+are handled
+
+and how keys
+are recovered
+
+
+the goal
+
+is not grandeur
+
+
+the goal
+
+is that one mistake
+
+one burglary
+
+one lost device
+
+one angry afternoon
+
+or one compromised human
+
+cannot empty
+the future
+
+
+## fifth bell
+
+### outside money
+
+if alexander
+ever wishes
+to accept
+
+public contributions
+
+investment
+
+repayable capital
+
+token purchases
+
+or money
+held for another person
+
 
 stop
 
+
+before
+the first dollar
+
+
 return here
 
-before accepting it
-
-legal review first
-
-these are
-different legal facts
-
-from
-
-a business
-spending its own revenue
+and get
+specific legal review
 
 
-## trigger 6 — treasury governance becomes real
+our own revenue
+is one kind of animal
 
-if
+other people's capital
 
-multiple projects
-draw from
-a material treasury
+may have
+very different teeth
 
-and
 
-allocation decisions
-become contested
+## sixth bell
+
+### allocation becomes political
+
+if several projects
+begin drawing
+from a material treasury
+
+and reasonable people
+start disagreeing
+
+about what deserves
+the next dollar
+
+
+good
+
+
+the treasury
+has become real enough
+to need government
+
 
 then investigate
 
-- public spending proposals
-- signed approvals
-- multisig governance
-- timelocks
-- on-chain proofs
-- independent treasury stewards
-- machine-readable budgets
+public spending proposals
+
+signed approvals
+
+multisig stewardship
+
+timelocks
+
+machine-readable budgets
+
+independent treasury stewards
+
+and on-chain proofs
+where they add truth
+
 
 do not build
 governance theater
 
-build governance
 
-when there is
-something worth governing
+build only
+the governance
+
+that an actual conflict
+has earned
