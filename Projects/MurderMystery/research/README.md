@@ -1,6 +1,6 @@
 # Research record
 
-Current coverage: **planning only**. No seller census, review sample, interviews, or playtests have been completed in this repository. The earlier chat research supplies leads to verify, not a source ledger.
+Current coverage: M01 pilot seller catalog in progress (21 directly checked seller pages; see [market summary](market/sellers.md)). No systematic seller census, review sample, interviews, or playtests have been completed. The earlier chat research supplied leads to verify.
 
 ## Evidence chain
 
