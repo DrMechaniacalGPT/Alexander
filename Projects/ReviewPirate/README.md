@@ -1,5 +1,7 @@
 # Review Pirate
 
+> First sample delivered: [sample instructions](Episodes/001-robot-vacuums-2026/sample/README.md), open the [viewing page](Episodes/001-robot-vacuums-2026/sample/review.html), or read the [decision note](Episodes/001-robot-vacuums-2026/sample/DECISION.md). Review Pirate is a code name; no final brand or mascot is selected. The 57-second prototype uses free local tools and zero vidIQ credits.
+
 > September 26 planning update: start with the [executive brief](planning/BRIEF.md). The [readiness audit](planning/AUDIT.md) and [task board](planning/TASKS.md) supersede older readiness claims below. The next execution cycle awaits discussion; the episode is not ready to record.
 
 we watch the reviews

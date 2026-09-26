@@ -1,6 +1,20 @@
 # Review Pirate task board
 
-September 26, 2026. **Planning delivered; R1–R11 proposed, not running.** This is the authoritative board for the next cycle and supersedes the legacy TODO's readiness labels. Owner for all tasks: integrating agent, except the explicit owner decisions. Estimates below are sequencing/timebox proposals, not measured completion forecasts.
+September 26, 2026. **First creative sample delivered for review; full episode research remains incomplete.** This is the authoritative board for the next cycle and supersedes the legacy TODO's readiness labels. Owner for all tasks: integrating agent, except the explicit owner decisions. Estimates below are sequencing/timebox proposals, not measured completion forecasts.
+
+## Current status after owner steering
+
+The owner authorized moving to the sample, asked for alternatives to pirate branding, preferred immediate usefulness and original-source referrals, and requested free tools before a paid-software proposal. This shifted the immediate slice to a narrow, fact-checked creative prototype. No claim that all of R1–R8 is complete.
+
+| Task | Status / evidence |
+|---|---|
+| R1 | Partial: sample claim IDs and source records in [EVIDENCE.md](../Episodes/001-robot-vacuums-2026/sample/EVIDENCE.md); inherited full ledger normalization remains open. |
+| R2–R4 | Partial source refresh only; core 64-cell audit, broader disagreement case studies and balanced owner sampling remain open. |
+| R5 | Three [packaging hypotheses](../Episodes/001-robot-vacuums-2026/sample/PACKAGING.md); no new keyword/title-score credits spent or audience test. |
+| R6 | Sample script delivered with claim mapping; full episode rewrite remains open. |
+| R7 | Free local speech/render path proved; inherited matrix renderer repairs remain open. |
+| R8 | 56.5-second [local MP4 and reproducible sources](../Episodes/001-robot-vacuums-2026/sample/README.md), creative alternatives, source-linked viewer, technical QA and software proposal delivered. Single provisional local voice; no two-voice comparison or subjective listening validation claimed. Await owner creative review. |
+| R9–R11 | Not started; no full production, launch or audience outcomes. |
 
 ## Outcome and gates
 
