@@ -177,12 +177,21 @@ visual
 reveal one source + winner
 per beat
 
-use generated asset
+use the winner cells
+from
 
-`assets/reviewer_wall.svg`
+`assets/evidence_matrix.svg`
+
+start tightly cropped
+on the eight winner cells
+
+then zoom out
+to reveal
+the full matrix
 
 finish on
-all eight at once
+all eight winners
+inside the larger evidence map
 
 ### 0:16–0:23
 
