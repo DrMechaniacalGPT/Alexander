@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+<rect width="1280" height="720" fill="#f4f1ea"/>
+<text x="56" y="88" font-family="Arial,sans-serif" font-size="58" font-weight="800" fill="#171717">8 EXPERTS</text>
+<text x="56" y="154" font-family="Arial,sans-serif" font-size="66" font-weight="900" fill="#171717">8 WINNERS</text>
+
+<g transform="translate(470,72)">
+  <text x="0" y="0" font-family="Arial,sans-serif" font-size="20" font-weight="700" fill="#6b665d">Saros</text>
+  <text x="118" y="0" font-family="Arial,sans-serif" font-size="20" font-weight="700" fill="#6b665d">MOVA</text>
+  <text x="236" y="0" font-family="Arial,sans-serif" font-size="20" font-weight="700" fill="#6b665d">Curv</text>
+  <text x="354" y="0" font-family="Arial,sans-serif" font-size="20" font-weight="700" fill="#6b665d">X60</text>
+  <text x="472" y="0" font-family="Arial,sans-serif" font-size="20" font-weight="700" fill="#6b665d">E25</text>
+  <text x="590" y="0" font-family="Arial,sans-serif" font-size="20" font-weight="700" fill="#6b665d">Shark</text>
+</g>
+
+<g font-family="Arial,sans-serif" font-size="21" font-weight="700" fill="#171717">
+  <text x="56" y="246">RTINGS</text>
+  <text x="56" y="314">Vacuum Wars</text>
+  <text x="56" y="382">The Hook Up</text>
+  <text x="56" y="450">Just A Dad</text>
+  <text x="56" y="518">TechRadar</text>
+  <text x="56" y="586">Reddit owners</text>
+</g>
+
+<g transform="translate(455,205)">
+  <!-- row 1 -->
+  <rect x="0" y="0" width="100" height="48" rx="8" fill="#2f7d4a"/>
+  <rect x="118" y="0" width="100" height="48" rx="8" fill="#ffffff" stroke="#d3cec3" stroke-width="2"/>
+  <rect x="236" y="0" width="100" height="48" rx="8" fill="#e6b85c"/>
+  <rect x="354" y="0" width="100" height="48" rx="8" fill="#ffffff" stroke="#d3cec3" stroke-width="2"/>
+  <rect x="472" y="0" width="100" height="48" rx="8" fill="#ffffff" stroke="#d3cec3" stroke-width="2"/>
+  <rect x="590" y="0" width="100" height="48" rx="8" fill="#ffffff" stroke="#d3cec3" stroke-width="2"/>
+
+  <!-- row 2 -->
+  <rect x="0" y="68" width="100" height="48" rx="8" fill="#8fbd76"/>
+  <rect x="118" y="68" width="100" height="48" rx="8" fill="#2f7d4a"/>
+  <rect x="236" y="68" width="100" height="48" rx="8" fill="#ffffff" stroke="#d3cec3" stroke-width="2"/>
+  <rect x="354" y="68" width="100" height="48" rx="8" fill="#8fbd76"/>
+  <rect x="472" y="68" width="100" height="48" rx="8" fill="#ffffff" stroke="#d3cec3" stroke-width="2"/>
+  <rect x="590" y="68" width="100" height="48" rx="8" fill="#ffffff" stroke="#d3cec3" stroke-width="2"/>
+
+  <!-- row 3 -->
+  <rect x="0" y="136" width="100" height="48" rx="8" fill="#ffffff" stroke="#d3cec3" stroke-width="2"/>
+  <rect x="118" y="136" width="100" height="48" rx="8" fill="#ffffff" stroke="#d3cec3" stroke-width="2"/>
+  <rect x="236" y="136" width="100" height="48" rx="8" fill="#2f7d4a"/>
+  <rect x="354" y="136" width="100" height="48" rx="8" fill="#e6b85c"/>
+  <rect x="472" y="136" width="100" height="48" rx="8" fill="#ffffff" stroke="#d3cec3" stroke-width="2"/>
+  <rect x="590" y="136" width="100" height="48" rx="8" fill="#ffffff" stroke="#d3cec3" stroke-width="2"/>
+
+  <!-- row 4 -->
+  <rect x="0" y="204" width="100" height="48" rx="8" fill="#8fbd76"/>
+  <rect x="118" y="204" width="100" height="48" rx="8" fill="#ffffff" stroke="#d3cec3" stroke-width="2"/>
+  <rect x="236" y="204" width="100" height="48" rx="8" fill="#ffffff" stroke="#d3cec3" stroke-width="2"/>
+  <rect x="354" y="204" width="100" height="48" rx="8" fill="#ffffff" stroke="#d3cec3" stroke-width="2"/>
+  <rect x="472" y="204" width="100" height="48" rx="8" fill="#8fbd76"/>
+  <rect x="590" y="204" width="100" height="48" rx="8" fill="#ffffff" stroke="#d3cec3" stroke-width="2"/>
+
+  <!-- row 5 -->
+  <rect x="0" y="272" width="100" height="48" rx="8" fill="#ffffff" stroke="#d3cec3" stroke-width="2"/>
+  <rect x="118" y="272" width="100" height="48" rx="8" fill="#ffffff" stroke="#d3cec3" stroke-width="2"/>
+  <rect x="236" y="272" width="100" height="48" rx="8" fill="#2f7d4a"/>
+  <rect x="354" y="272" width="100" height="48" rx="8" fill="#8fbd76"/>
+  <rect x="472" y="272" width="100" height="48" rx="8" fill="#ffffff" stroke="#d3cec3" stroke-width="2"/>
+  <rect x="590" y="272" width="100" height="48" rx="8" fill="#ffffff" stroke="#d3cec3" stroke-width="2"/>
+
+  <!-- row 6 -->
+  <rect x="0" y="340" width="100" height="48" rx="8" fill="#e6b85c"/>
+  <rect x="118" y="340" width="100" height="48" rx="8" fill="#e6b85c"/>
+  <rect x="236" y="340" width="100" height="48" rx="8" fill="#e6b85c"/>
+  <rect x="354" y="340" width="100" height="48" rx="8" fill="#e6b85c"/>
+  <rect x="472" y="340" width="100" height="48" rx="8" fill="#e6b85c"/>
+  <rect x="590" y="340" width="100" height="48" rx="8" fill="#ffffff" stroke="#d3cec3" stroke-width="2"/>
+
+  <!-- stars -->
+  <g font-family="Arial,sans-serif" font-size="30" font-weight="700" fill="#ffffff" text-anchor="middle">
+    <text x="50" y="34">★</text>
+    <text x="168" y="102">★</text>
+    <text x="286" y="170">★</text>
+    <text x="286" y="306">★</text>
+  </g>
+</g>
+
+<path d="M382 605 C505 650, 610 635, 705 584" fill="none" stroke="#171717" stroke-width="12" stroke-linecap="round"/>
+<path d="M700 585 L674 573 L686 613 Z" fill="#171717"/>
+<text x="57" y="657" font-family="Arial,sans-serif" font-size="30" font-weight="800" fill="#171717">THEY DIDN'T EVEN TEST THE SAME SET</text>
+</svg>

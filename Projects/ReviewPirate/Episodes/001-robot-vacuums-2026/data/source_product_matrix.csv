@@ -1,0 +1,29 @@
+source,source_type,product,coverage,direction,depth,evidence_url,note
+RTINGS,standardized_lab,Roborock Saros 10R,reviewed,winner,deep,https://www.rtings.com/robot-vacuum/reviews/roborock/saros-10r,current overall pick; bought and tested
+RTINGS,standardized_lab,Roborock Qrevo Curv 2 Flow,reviewed,mixed,deep,https://www.rtings.com/robot-vacuum/reviews/roborock/qrevo-curv-2-flow,strong hard-floor and mopping traits; weaker carpet/pet-hair/obstacle results
+RTINGS,standardized_lab,Roborock Qrevo Curv,reviewed,mixed,deep,https://www.rtings.com/robot-vacuum/reviews/roborock/qrevo-curv,older predecessor; strong mopping and thresholds but weaker obstacle/pet-hair tradeoffs
+RTINGS,standardized_lab,Roborock S8 MaxV Ultra,reviewed,mixed,deep,https://www.rtings.com/robot-vacuum/reviews/roborock/s8-maxv-ultra,older flagship; stronger pet-hair pickup than Saros 10R but behind it overall
+Vacuum Wars,standardized_lab,MOVA V70 Ultra Complete,reviewed,winner,deep,https://vacuumwars.com/vacuum-wars-best-robot-vacuums/,current Top 20 winner on 2026-09-24
+Vacuum Wars,standardized_lab,Roborock Saros 10R,reviewed,positive,deep,https://www.youtube.com/watch?v=RXKR7-McdF0,former number-one pick; useful ranking-history evidence
+Vacuum Wars,standardized_lab,Dreame X60 Max Ultra Complete,reviewed,positive,deep,https://vacuumwars.com/robot-vacuums/,ranked number one on robot-vacuum hub observed 2026-09-16 before V70 displaced it
+The Hook Up,youtube_comparison,Roborock Qrevo Curv 2 Flow,reviewed,winner,deep,https://www.youtube.com/watch?v=Pv9_2D_Xc5k,won seven-flagship 2026 comparison
+The Hook Up,youtube_comparison,Dreame X60 Max Ultra Complete,reviewed,mixed,deep,https://www.youtube.com/watch?v=Pv9_2D_Xc5k,average-to-above-average overall in direct flagship comparison; strong threshold and corner mopping
+TechRadar,hands_on_editorial,Roborock Qrevo Curv,reviewed,winner,deep,https://www.techradar.com/home/robot-vacuums/best-robot-vacuum,current overall pick; lower street price helped move it to number one
+TechRadar,hands_on_editorial,Dreame X60 Max Ultra Complete,reviewed,positive,deep,https://www.techradar.com/home/robot-vacuums/dreame-x60-pro-ultra-review,4.5/5 review; capable but expensive and complex
+Tom's Guide,hands_on_editorial,Dreame X60 Max Ultra Complete,reviewed,winner,deep,https://www.tomsguide.com/us/best-robot-vacuums%2Creview-2000.html,current overall pick in research snapshot
+Expert Reviews,repeatable_home_test,Eufy Omni E25,reviewed,winner,deep,https://www.expertreviews.co.uk/home-garden/vacuums-cleaning/best-robot-vacuum-cleaners,current overall pick; value weighted heavily
+WIRED,lived_in_home,Shark PowerDetect UV Reveal,reviewed,winner,deep,https://www.wired.com/story/best-robot-vacuum/,current overall pick; real family home with child/cat/clutter
+Good Housekeeping,lab_editorial,Roborock S8 MaxV Ultra,reviewed,winner,deep,https://www.goodhousekeeping.com/what-to-buy/a70762203/best-robot-vacuum-1773694672/,current overall pick in research snapshot
+Reddit owners,owner_reports,Roborock Saros 10R,reviewed,mixed,owner_long_term,https://www.reddit.com/r/Roborock/comments/1lgtv30/long_term_saros_10r_experience/,multiple positive and negative long-term reports logged
+Reddit owners,owner_reports,Roborock Qrevo Curv 2 Flow,reviewed,mixed,owner_early,https://www.reddit.com/r/Roborock/comments/1reevri/roborock_qrevo_curv_2_flow_technical_overview_my/,strong mopping reports plus maintenance concerns in separate owner discussion
+Reddit owners,owner_reports,MOVA V70 Ultra Complete,reviewed,mixed,owner_early,https://www.reddit.com/r/RobotVacuums/comments/1wiroud/v70_ultra_complete_coming_from_a_v50_best/,positive cleaning with dog-hair dock caveat; long-term evidence still thin
+Reddit owners,owner_reports,Dreame X60 Max Ultra Complete,reviewed,mixed,owner_early,https://www.reddit.com/r/RobotVacuums/comments/1tntmr8/x60_is_underwhelming/,mixed reports including battery/mapping complaints and positive first impressions
+Reddit owners,owner_reports,Eufy Omni E25,reviewed,mixed,owner_early,https://www.reddit.com/r/RobotVacuums/comments/1skc0ti/eufy_e25/,positive cleaning with dirty-water/odor maintenance caveat
+Just A Dad Approved,youtube_hands_on,Roborock Saros 10R,reviewed,positive,deep,https://www.youtube.com/watch?v=iBBHUvG2s14,long-form hands-on; Amazon affiliate disclosed; video says not sponsored
+Just A Dad Approved,youtube_long_term,Eufy Omni E25,reviewed,positive,owner_long_term,https://www.youtube.com/watch?v=oZbeazrKCV4,three-month / 100+ cycle review; channel states robots bought with own money and no sponsorships
+Vacuum Chef,youtube_comparison,Roborock Saros 10R,reviewed,mixed,comparison,https://www.youtube.com/watch?v=OrooHuKiYZQ,compared against successor Saros 20; affiliate links disclosed
+Vacuum Chef,youtube_hands_on,Eufy Omni E25,reviewed,mixed,deep,https://www.youtube.com/watch?v=WU77BXNFr6E,benchmarks plus customer-review and Reddit roundup; affiliate links disclosed
+6 Months Later,youtube_long_term,Roborock Saros 10R,reviewed,mixed,owner_long_term,https://www.youtube.com/watch?v=2cwJKs2EakI,six-month review; unit supplied by Roborock; no sponsor; Amazon affiliate links disclosed
+Brian Tong,youtube_hands_on,Roborock Saros 10R,reviewed,positive,hands_on,https://www.youtube.com/watch?v=dRLbLXYY-eU,feature-led hands-on; links to Amazon and Roborock plus Patreon
+Brian Tong,youtube_hands_on,Dreame X60 Max Ultra Complete,reviewed,positive,hands_on,https://www.youtube.com/watch?v=qo0W5lKXJbc,flagship hands-on source logged in research packet
+Chris Loh,youtube_hands_on,Eufy Omni E25,reviewed,positive,deep,https://www.youtube.com/watch?v=hT5QT7bSZ4E,hands-on cleaning and obstacle tests; commercial product links require episode-level disclosure check
