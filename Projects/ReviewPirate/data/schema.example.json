@@ -1,0 +1,36 @@
+{
+  "comparison": "Example comparison",
+  "products": [
+    {
+      "id": "alpha",
+      "name": "Product Alpha"
+    },
+    {
+      "id": "beta",
+      "name": "Product Beta"
+    }
+  ],
+  "sources": [
+    {
+      "id": "source-1",
+      "title": "Example review",
+      "url": "https://example.com/review",
+      "author": "Reviewer",
+      "kind": "professional_review",
+      "first_hand": true,
+      "financial_relationship": "unknown"
+    }
+  ],
+  "claims": [
+    {
+      "product_id": "alpha",
+      "topic": "battery life",
+      "claim": "battery lasts about ten hours",
+      "stance": "support",
+      "evidence_type": "measured",
+      "source_id": "source-1",
+      "confidence": 0.8,
+      "note": "repeatable test"
+    }
+  ]
+}
