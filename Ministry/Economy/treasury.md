@@ -1,597 +1,396 @@
 # alexander treasury
 
-money should enter
-through a door made of glass
+let every coin arrive beneath the sun,
+and leave by paths that any eye may trace.
+the work may pay the hands by whom it's done;
+but wealth should leave its footprints in the place.
 
-not because money is shameful
+the founder need not starve to prove the cause,
+nor dress success in penitential grey.
+yet fortune, once it grows beyond our needs,
+should face the light before it finds its way.
 
-but because secrecy
-is cheap
-
-
-alexander may earn
-
-from links
-ads
-sponsors
-products
-and services
-
-perhaps one day
-from gifts
-
-but only after
-law and language
-agree on what those gifts are
+this is not a vow that money cannot move.
+it is a vow that movement should be seen.
 
 
-there is no vow
+## what this is
 
-that every coin
-must sleep forever
-in a digital monastery
+call it a treasury, not a fund.
 
-the founder may be paid
+a fund can imply investment, charity,
+fiduciary duties, or a public vehicle.
+we have created none of those things yet.
 
-so may anyone else
-who works
+a treasury is simpler:
 
-comfort is not corruption
+money earned by alexander projects,
+kept for alexander work,
+spent in ways that can be examined.
 
-the principle is simpler
+some of it may pay the people who build.
+some may pay the founder.
 
-if money moves
+that is allowed.
 
-we should be able
-to see it
-
-
-## treasury
-
-call it
-a treasury
-
-not a fund
-
-a fund may imply
-investment
-charity
-or duties
-that do not yet exist
-
-a treasury
-is plainer
-
-capital earned
-by alexander work
-
-held
-spent
-and reported
-
-for alexander work
+the principle is not poverty.
+the principle is accountability.
 
 
 ## two mirrors
 
-bitcoin gives us
-one mirror
+bitcoin can make the treasury visible.
 
-the public chain
+a public address can show what came in,
+what remains, and where a payment went.
 
-it can show
+but the chain cannot tell us everything.
 
-what arrived
-what remained
-what left
-and where it went
+it cannot tell us what an affiliate network
+paid before the money became bitcoin.
 
+it cannot explain a production expense,
+a contractor invoice, a tax reserve,
+or why compensation was reasonable.
 
-but the chain
-cannot tell us
-
-how much an affiliate network
-paid in dollars
-
-what fee disappeared
-before conversion
-
-why a person
-was paid
-
-what taxes wait
-
-or whether compensation
-was modest
-lavish
-or absurd
+so the treasury needs two mirrors.
 
 
-so accountability
-needs two mirrors
+### the public books
+
+the books should show, at minimum:
+
+gross revenue;
+refunds and chargebacks;
+platform and payment fees;
+operating expenses;
+tax reserves;
+founder compensation;
+other compensation;
+fiat retained;
+bitcoin purchased;
+bitcoin retained.
 
 
-### public books
+### the public chain
 
-show
+the chain should show:
 
-gross revenue
+the treasury address or descriptor;
+the relevant transactions;
+the balances;
+the movements between treasury addresses.
 
-refunds
-fees
-and operating costs
+the books explain the transaction.
 
-tax reserves
-
-founder compensation
-
-other compensation
-
-fiat held
-
-bitcoin purchased
-
-bitcoin held
+the chain verifies that the transaction occurred.
 
 
-### public chain
+## how the money reaches bitcoin
 
-show
+the affiliate systems now under consideration
+do not appear to pay directly into bitcoin.
 
-treasury addresses
+as of september 2026:
 
-transactions
+impact pays partners by bank or paypal.
 
-balances
+cj pays by direct deposit or payoneer.
 
-and movements
+amazon associates pays by direct deposit,
+gift card, or check.
 
-
-the books
-explain the money
-
-the chain
-checks the movement
-
-
-## the fiat bridge
-
-today's affiliate rails
-do not appear
-to pay directly
-into bitcoin
-
-checked
-september 2026
-
-
-impact
-
-bank
-or paypal
-
-
-cj
-
-direct deposit
-or payoneer
-
-
-amazon associates
-
-direct deposit
-gift card
-or check
-
-
-so the likely path is
-
+so the likely path is ordinary:
 
 affiliate revenue
-
 to affiliate network
+to a dedicated fiat account
+to the public ledger
+to a documented bitcoin purchase
+to the alexander treasury.
 
-to dedicated fiat account
+the river bends before it reaches the sea.
+that does not make the sea less real.
 
-to recorded revenue
 
-to documented bitcoin purchase
+## before an entity is worth its shell
 
-to public alexander treasury
+a legal entity should solve a real problem.
 
+it may separate contracts and liabilities.
+it may make banking and administration cleaner.
+it may create a durable home for the treasury.
 
-the bend in the river
-does not change
-where it is going
+but it also creates cost.
 
+if the operating home were california,
+an llc would currently carry an $800 annual tax,
+plus filing and information-statement fees.
 
-## before incorporation
+that makes one thing plain:
 
-do not build
-a legal cathedral
+crossing a small revenue number
+is not a reason by itself to incorporate.
 
-to house
-seventeen dollars
+the better question is whether the protection,
+administration, and continuity are worth the drag.
 
+until then, a sole proprietor may be enough.
 
-early on
+the first discipline is separation:
 
-a sole proprietor
-with cleanly separated
-money and records
+one account for ordinary life;
+another for alexander activity.
 
-may be enough
+one personal wallet;
+one treasury wallet.
 
+an ein may help with banking and paperwork.
+the irs issues one directly without charge.
 
-an ein
-can be obtained
-directly from the irs
 
-and may help
-with banking
-and administration
+## when an entity becomes rational
 
+there are two kinds of trigger.
 
-the first discipline
-is separation
+the first is risk.
 
+form or seriously evaluate an entity before:
 
-one account
-for ordinary life
+a material contract with indemnity,
+exclusivity, or meaningful liability;
 
-another
-for alexander
+an employee or substantial recurring contractor;
 
+outside investment or public contributions;
 
-one wallet
-for ordinary bitcoin
+shared ownership of treasury assets;
 
-another
-for alexander
+or any activity where another person's claim
+could reasonably reach beyond a small experiment.
 
+the second is economics.
 
-confusion is cheap
-until success
-makes it expensive
+when there is no forcing legal event,
+entity overhead should become small enough
+that it no longer distorts the work.
 
+a useful internal rule is this:
 
-## the first wallet
+do not let unavoidable annual entity costs
+exceed roughly five percent of expected
+next-twelve-month operating profit.
 
-private keys
-seed phrases
-and signing secrets
+that is not law.
 
-never belong
-in this repository
+it is a discipline against building
+a bureaucracy larger than the business.
 
+in california, the $800 annual llc tax alone
+would imply about $16,000 of expected annual
+operating profit before that fixed tax falls
+to five percent.
 
-an early treasury
-can be simple
+real costs would be somewhat higher.
 
-one dedicated
-self-custody wallet
+the exact threshold should therefore follow
+the jurisdiction and the actual economics,
+not a number spoken once in conversation.
 
-preferably
-hardware-backed
 
+## the first treasury wallet
 
-publish
+private keys, seed phrases, and signing secrets
+never belong in this repository.
 
-public addresses
+not once.
 
-transaction ids
+not for convenience.
 
-balances
+not because someone promises to delete them later.
 
-and matching
-ledger entries
+the first treasury can be simple:
 
+one dedicated self-custody wallet,
+preferably protected by hardware.
 
-then anyone
-can follow the trail
+publish only what the public needs to verify:
 
-without holding
-the key
+addresses or a public descriptor;
+transaction ids;
+balances;
+matching ledger entries.
 
+a watch-only wallet can make the treasury visible
+without giving an observer the power to spend.
 
-## a window without a key
 
-bitcoin core
-supports watch-only wallets
-and public descriptors
+## transparency has a cost
 
-so observers
-can verify activity
+a public descriptor may reveal much more
+than a single address reveals.
 
-without
-spending authority
+for a private person, that may be dangerous.
 
+for a public treasury, that exposure may be useful.
 
-a full public descriptor
-may reveal
-the wallet's transaction graph
+the choice should be conscious.
 
-for a private person
-that may be too much
+privacy should not vanish by accident,
+and transparency should not be theatre.
 
-for a public treasury
-it may be the point
 
+## when one key becomes too much power
 
-choose that exposure
-deliberately
+single-signature custody is acceptable
+while the treasury is small enough that loss
+would not materially wound the work.
 
+the stronger trigger is not a fixed dollar amount.
 
-## when one key is too much power
+move toward multisig when either:
 
-a small treasury
-can survive
-one responsible signer
+losing the treasury would cancel
+or materially delay committed work;
 
-a large treasury
-should not have to
+the treasury grows beyond several months
+of ordinary operating expense;
 
+or stewardship should no longer rest
+with one human being.
 
-when the balance
-becomes meaningful
+a likely later design is two-of-three:
 
-move toward multisig
+one key with the founder;
 
+one with an independent steward;
 
-perhaps
+one secured for recovery
+or held by an institutional custodian.
 
-two of three
-
-
-founder
-
-independent steward
-
-recovery
-or institutional backup
-
-
-then one lost key
-
-one theft
-
-one panic
-
-or one bad decision
-
-cannot empty
-the future
+then one lost device, one theft, one panic,
+or one compromised signer cannot empty the future.
 
 
 ## compensation
 
-a mission
-that requires
-permanent unpaid labor
+a mission that requires unpaid labor forever
+is a machine that consumes saints.
 
-is a machine
-that consumes saints
+the founder may be paid.
 
+so may every other person who contributes work.
 
-the founder
-may be paid
+the aim is visible and defensible compensation:
+enough to live well;
+not an invisible siphon toward private dynasty.
 
+there should be no permanent formula today.
 
-the aim
+publish the amount.
+publish the reason.
+publish the rule used to decide it.
 
-visible
-defensible
-human compensation
+if alexander becomes large enough
+that founder compensation is materially important,
+someone other than the founder should eventually
+participate in setting or approving it.
 
+not because comfort is suspect.
 
-enough
-to live well
-
-not a quiet siphon
-toward private dynasty
-
-
-do not choose
-a permanent formula today
-
-
-publish instead
-
-the amount
-
-the reason
-
-the timing
-
-and the rule
-used to decide it
-
-
-if alexander
-becomes large
-
-founder compensation
-should eventually be judged
-
-by someone
-other than the founder
-
-
-not now
-
-there is no wisdom
-in appointing
-a senate of accountants
-
-to govern
-an empty purse
+because power is easiest to trust
+when it does not grade its own exam.
 
 
 ## taxes remain real
 
-bitcoin
-is not a spell
-against taxes
+bitcoin is not a spell against taxes.
+
+in the united states, digital assets are property
+for federal tax purposes.
+
+affiliate revenue remains business income.
+
+buying bitcoin with that income
+does not erase the income.
+
+later selling, spending, or exchanging bitcoin
+may create a taxable gain or loss.
+
+records should preserve:
+
+date;
+usd value;
+bitcoin amount;
+cost basis;
+disposition value.
+
+this is another reason never to stir
+personal bitcoin and treasury bitcoin together.
 
 
-in the united states
+## our money and other people's money
 
-digital assets
-are treated as property
-for federal tax purposes
+there is a bright line between
+using bitcoin for our own treasury
+and moving money for other people.
 
-affiliate revenue
-remains income
+fincen guidance distinguishes users
+of virtual currency from businesses
+that exchange or transmit it.
 
+stay on our side of that river.
 
-buying bitcoin
-does not erase
-the income
+do not custody money for strangers.
 
+do not exchange bitcoin for others.
 
-later
+do not transmit funds on another person's behalf.
 
-selling
-spending
-or exchanging bitcoin
+do not promise investment returns.
 
-may create
-a gain
-or a loss
-
-
-records should preserve
-
-date
-
-usd value
-
-bitcoin amount
-
-cost basis
-
-and disposition value
-
-
-## our money
-and other people's money
-
-there is a line
-
-between
-
-using bitcoin
-for our own treasury
-
-and
-
-moving money
-for other people
-
-
-fincen guidance
-distinguishes
-users of virtual currency
-
-from businesses
-that exchange
-or transmit it
-
-
-stay
-on our side
-
-
-do not
-
-custody money
-for strangers
-
-exchange bitcoin
-for others
-
-transmit funds
-on another person's behalf
-
-or promise
-investment returns
-
-
-not without
-specific legal review
+not without specific legal review.
 
 
 ## gifts are not a casual word
 
-if people one day
-wish to send money
-to alexander
+if people one day wish to send money to alexander,
+do not casually call it a donation.
 
-do not casually
-call it a donation
+do not imply tax deductibility,
+charitable status, fiduciary restriction,
+or legal purpose that has not been created.
 
-do not imply
+outside money changes the nature of the problem.
 
-tax deductibility
-
-charitable status
-
-or legal restrictions
-
-that do not exist
-
-
-if public contributions
-become desirable
-
-that moment
-rings a legal bell
-
-
-answer it
-before accepting
-the money
+that is a bell to answer before accepting it.
 
 
 ## the far shore
 
-if this becomes large
+if this becomes large,
+the treasury can grow from a wallet
+into a public machine.
 
-the treasury
-can grow
-from a wallet
+revenue enters open books.
 
-into a public machine
+open books reconcile to public custody.
 
+spending becomes visible before and after it occurs.
 
-revenue
+multisig can distribute the power to approve it.
 
-to open books
+signed policies can state how money may move.
 
-to public treasury
+on-chain execution may help where it adds truth.
 
-to visible proposals
+bitcoin cannot make foolish policy wise.
 
-to multisig approval
+a blockchain cannot choose justice.
 
-to on-chain execution
-where it truly helps
-
-
-bitcoin
-cannot make
-a foolish policy wise
-
-
-but public transactions
-
-watch-only verification
-
-multisig
-
-and signed spending rules
-
-can move governance
+but public transactions, watch-only verification,
+multisig custody, and signed spending rules
+can carry governance some distance
 
 from
 
@@ -599,18 +398,15 @@ trust me
 
 toward
 
-verify me
+verify me.
 
-
-that is already
-a magnificent distance
+that distance is worth building.
 
 
 ## sources
 
-current payout rails
-and legal references
-checked september 2026
+current payout rails and legal references,
+checked september 2026:
 
 impact partner payouts  
 https://help.impact.com/partner/what-would-you-like-to-learn-about/platform-features/finance/payments-withdrawals-and-balance/how-do-partners-get-paid
