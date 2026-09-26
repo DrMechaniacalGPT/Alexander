@@ -4,18 +4,21 @@
 
 chosen because it has the right kind of mess
 
-same rough hardware price
+similar hardware price
 very different room requirements
 very different software economics
 different strengths
 real owner disagreement
 
 there is no useful answer to
-"which is better"
-without first asking
-"for whom"
 
-## first source mix
+which is better
+
+without first asking
+
+for whom
+
+## current source mix
 
 manufacturer
 
@@ -24,46 +27,115 @@ manufacturer
 - Square Home Edition page
 - Square GSPro connector docs
 
-review sites
+hands-on and comparison reviews
 
 - SimLab comparison
 - Golfible comparison
+- PlayBetter Square Home review
+- Independent Golf Reviews MLM2PRO review
 
 owners
 
-- r/Golfsimulator comparison and owner-feedback threads
+- r/Golfsimulator comparison thread
+- r/Golfsimulator MLM2PRO feedback thread
+- recent r/Golfsimulator connectivity thread
 
-## what this dataset is for
+## source pressure matters
 
-not to publish a final verdict
+PlayBetter sells Square
 
-it is for testing whether Review Pirate can keep these categories separate
+Golfible uses affiliate relationships
 
-- capability
+manufacturers are manufacturers
+
+Reddit is a pile of humans
+which is both its strength
+and the reason one comment is not a study
+
+do not delete these sources
+
+label them
+
+a commercially interested source
+can still measure something correctly
+
+the job is to stop
+interest
+measurement
+experience
+and opinion
+from becoming the same substance
+
+## what the dataset is testing
+
+can Review Pirate keep these categories separate
+
+- hard capability
 - measured performance
 - reviewer observation
 - owner anecdote
 - buyer preference
 - price and subscription structure
 
-if the report turns all of those into one confidence soup
+if the report turns all of those
+into one confidence soup
 the model is bad
 
-## early product lesson
-
-the first genuinely useful output may be a decision tree
+## decision variables found so far
 
 outdoor use required
--> MLM2PRO remains in the conversation
+-> MLM2PRO
 
 short indoor room
--> Square Home becomes much more attractive
+-> Square Home
 
-hate recurring platform fees
--> Square has a structural advantage
+hate platform subscriptions
+-> Square Home
 
-care about impact video and practice feedback
--> MLM2PRO has a structural advantage
+impact video and practice ecosystem
+-> MLM2PRO
 
-that is already more useful than a single winner
-and it came from asking what changes the answer
+putting and short-shot simulation
+-> Square Home currently looks stronger
+
+none of those is
+best overall
+
+good
+
+## contradictions worth keeping alive
+
+MLM2PRO connectivity
+
+some owners describe stable use
+others describe recurring disconnects
+recent reports suggest local network topology can matter
+
+that may mean the right output is
+
+connectivity risk is conditional on setup
+
+not
+
+connectivity good
+or
+connectivity bad
+
+Square capture reliability
+
+hands-on testing praises short-game capture
+while also reporting occasional missed full shots
+
+those are not mutually exclusive
+
+the product should be able to say both
+
+## next evidence hunt
+
+- controlled accuracy comparisons with raw shot-level data
+- more long-term Square ownership
+- more MLM2PRO reports after current firmware
+- total software cost over several years
+- left/right-handed household workflow
+- putting behavior in actual simulator rounds
+- failure and support experiences
