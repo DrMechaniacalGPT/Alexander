@@ -1,0 +1,6 @@
+brand,public_program,commission_min_pct,commission_max_pct,cookie_days,stated_aov_usd,evidence_url,note
+Roborock,direct affiliate,4,7,35,400+,https://us.roborock.com/pages/roborock-affiliate-program,public program; does not establish any reviewer's actual rate
+eufy,direct affiliate,7,15,30,,https://www.eufy.com/affiliate,public US program; does not establish any reviewer's actual rate
+MOVA,direct affiliate,5,20,30,600+,https://us.mova.tech/pages/affiliate-program,page contains both 8-20 and 5-20 language; use 5-20 as broader stated range and flag inconsistency
+Dreame,direct affiliate,5,,30,,https://ca.dreametech.com/pages/affiliate-program,North American public page says minimum 5%; actual partner terms may vary
+Amazon,standard Associates - Home,3,3,,,https://affiliate-program.amazon.com/help/node/topic/GRXPHT8U84RAYDXZ,category classification is Amazon's; verify actual product category before applying rate
