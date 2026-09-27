@@ -1,0 +1,50 @@
+[
+  {
+    "id": "01",
+    "title": "Eight picks. Three useful checks.",
+    "photo": "thumbnail-eight-picks-v2.png",
+    "spoken": "Eight sources picked eight different robot vacuums. We compared the reviews behind those headlines. Here are three findings that change which winners deserve a place on your shortlist.",
+    "body": "",
+    "duration": 12.2
+  },
+  {
+    "id": "02",
+    "title": "First cut: embedded pet hair",
+    "photo": "otter-evidence-cards.png",
+    "spoken": "First, pet hair in carpet? RTINGS finds that both the Saros ten R and the original Qrevo Curv struggle with it. Two headline winners, one shared weakness. For that job, we would set both aside and start with RTINGS\u2019 dedicated pet-hair comparison.",
+    "body": "<p class=\"eyebrow\">1 / 3 \u00b7 HAIR EMBEDDED IN CARPET</p><h1>Two winners.<br>One reason to look elsewhere.</h1><table><tr><th>Source finding</th><th>Saros 10R</th><th>Original Qrevo Curv</th></tr><tr><th>RTINGS \u00b7 Aug guide</th><td>Overall pick</td><td>Upper-midrange pick</td></tr><tr class=\"warn\"><th>RTINGS \u00b7 carpet fur</th><td>Struggles</td><td>Struggles</td></tr><tr><th>TechRadar \u00b7 Aug guide</th><td>\u2014</td><td>Overall pick</td></tr></table><div class=\"decision\">OUR SHORTLIST \u00b7 PET-HAIR PRIORITY<br><s>Saros 10R</s> &nbsp; <s>Original Qrevo Curv</s></div><p class=\"key\">Only for this priority. Not a rejection for every home.<br>\u2014 = no finding presented here, not a negative result.</p><footer>READ NEXT \u2192 RTINGS \u00b7 Best robot vacuums for pet hair</footer>",
+    "duration": 18.3
+  },
+  {
+    "id": "03",
+    "title": "Next: two winners in the same test",
+    "photo": "otter-evidence-cards.png",
+    "spoken": "Next, mopping or tall doorsteps? Tom\u2019s Guide picks the Dreame X sixty. The Hook Up picks the Curv two Flow. Helpfully, The Hook Up tested both together, so we can compare them without mixing two scoring systems.",
+    "body": "<p class=\"eyebrow\">2 / 3 \u00b7 MOPPING OR TALL DOORSTEPS?</p><h1>Different headlines.<br>A shared comparison.</h1><table><tr><th>Review</th><th>Qrevo Curv 2 Flow</th><th>Dreame X60 Max Ultra Complete</th></tr><tr><th>The Hook Up \u00b7 Apr 8</th><td class=\"gold\">Overall winner</td><td>Tested alongside it</td></tr><tr><th>Tom\u2019s Guide \u00b7 Aug guide</th><td>\u2014</td><td class=\"gold\">Overall pick</td></tr></table><div class=\"decision\">ZOOM INTO THE HOOK UP\u2019S SEVEN-MODEL TEST</div><p class=\"key\">Curv 2 Flow \u2260 original Qrevo Curv.<br>\u2014 = no finding presented here.</p><footer>WATCH NEXT \u2192 The Hook Up \u00b7 Mopping 12:07 / thresholds 19:10</footer>",
+    "duration": 16.1
+  },
+  {
+    "id": "04",
+    "title": "Same test, different strengths",
+    "photo": "otter-evidence-cards.png",
+    "spoken": "The Curv two Flow led its mopping results. But it failed the flat side of a thirty-millimetre doorstep. The X sixty cleared fifty millimetres both ways. Our read: keep the Flow for a mopping-first home; favor the X sixty in this pair if tall thresholds are the dealbreaker.",
+    "body": "<p class=\"eyebrow\">THE HOOK UP \u00b7 SAME SEVEN-MODEL TEST \u00b7 APRIL 8</p><h1>The winner changes<br>with the job.</h1><table><tr><th>Finding</th><th>Curv 2 Flow</th><th>X60 Max Ultra Complete</th></tr><tr><th>Combined mopping</th><td class=\"gold\">1st of seven</td><td>Below Flow</td></tr><tr><th>Threshold test</th><td class=\"warn\">30 mm flat side: failed</td><td class=\"gold\">50 mm: both ways</td></tr></table><div class=\"routes\"><div><b>MOPPING FIRST</b><br>Keep Curv 2 Flow</div><div><b>TALL THRESHOLDS</b><br>Favor X60 in this pair</div></div><p class=\"key\">Our interpretation of this test, not a market-wide ranking.<br>Laboratory obstacles do not guarantee every doorway.</p><footer>WATCH THE TESTS \u2192 The Hook Up \u00b7 12:07 and 19:10</footer>",
+    "duration": 20.9
+  },
+  {
+    "id": "05",
+    "title": "One last check before choosing",
+    "photo": "cable-consequence-reference.png",
+    "spoken": "But before choosing the Flow, check the floor clutter. Its obstacle score in that same test was two out of six. So that mopping recommendation comes with a condition: you may need to clear the floor first. Watch the obstacle test before buying.",
+    "body": "<p class=\"eyebrow\">3 / 3 \u00b7 DOES THE MOPPING PICK FIT YOUR FLOOR?</p><h1>A great mop.<br>A reason to tidy first.</h1><div class=\"big\">2 <span>/ 6</span></div><p class=\"sub\">Curv 2 Flow \u00b7 object-avoidance test</p><div class=\"objects\"><span>Shoes</span><span>Loose cord</span><span>Fake pet waste</span></div><div class=\"decision\">MOPPING ROUTE: CURV 2 FLOW<br>Condition added \u2192 clear hazards first</div><p class=\"key\">The Hook Up \u00b7 April 8 test. Illustrated house scene;<br>the otter image is not product-test footage.</p><footer>WATCH NEXT \u2192 The Hook Up \u00b7 Object avoidance 17:50</footer>",
+    "duration": 18.7
+  },
+  {
+    "id": "06",
+    "title": "Your next step, with the reasoning attached",
+    "photo": "otter-evidence-cards.png",
+    "spoken": "That\u2019s the shortcut through this grid: skip those two for embedded fur; compare Flow and X sixty for mopping versus thresholds; check the Flow\u2019s obstacle trade-off. The other picks stay open. Follow the linked tests for your priority, rather than treating any overall winner as best for every home.",
+    "body": "<p class=\"eyebrow\">WHAT CHANGED ON THE BOARD</p><h1>Three checks.<br>A more useful shortlist.</h1><div class=\"recap\"><div><b>CARPET FUR</b><br><s>Saros 10R</s> \u00b7 <s>Original Curv</s><small>Start with RTINGS\u2019 pet-hair guide</small></div><div><b>MOPPING FIRST</b><br>Curv 2 Flow \u00b7 with clear floors<small>The Hook Up \u00b7 12:07 + 17:50</small></div><div><b>TALL THRESHOLDS</b><br>X60 ahead of Flow in this pair<small>The Hook Up \u00b7 19:10</small></div></div><p class=\"key\">Other original picks remain open: V70, E25, Shark UV, S8 MaxV.<br>These are selected review findings, not an eight-way knockout.</p><footer>ORIGINAL TESTS + COMPLETE SOURCE GRID LINKED BELOW</footer>",
+    "duration": 21.3
+  }
+]

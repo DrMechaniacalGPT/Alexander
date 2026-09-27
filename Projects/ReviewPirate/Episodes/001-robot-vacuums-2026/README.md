@@ -1,3 +1,5 @@
+> **Historical draft — superseded for production.** The September 26 [production pitch](pitch/README.md), [working script](pitch/SCRIPT.md) and [corrected coverage audit](pitch/research/coverage/FINDINGS.md) contain later evidence and limitations. Do not use the older readiness, winner or blank-cell claims below as current conclusions. The broader source ledger is preserved.
+
 # Episode 001
 
 ## working title

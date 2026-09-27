@@ -1,0 +1,399 @@
+[
+  {
+    "url": "https://www.rtings.com/robot-vacuum/reviews/roborock/saros-10r",
+    "family": "RTINGS",
+    "products": [
+      "Roborock Saros 10R"
+    ],
+    "scope": "Inherited coverage locator; not a full claim audit",
+    "status": "substantive_review"
+  },
+  {
+    "url": "https://www.rtings.com/robot-vacuum/reviews/roborock/qrevo-curv-2-flow",
+    "family": "RTINGS",
+    "products": [
+      "Roborock Qrevo Curv 2 Flow"
+    ],
+    "scope": "Inherited coverage locator; not a full claim audit",
+    "status": "substantive_review"
+  },
+  {
+    "url": "https://www.rtings.com/robot-vacuum/reviews/roborock/qrevo-curv",
+    "family": "RTINGS",
+    "products": [
+      "Roborock Qrevo Curv"
+    ],
+    "scope": "Inherited coverage locator; not a full claim audit",
+    "status": "substantive_review"
+  },
+  {
+    "url": "https://www.rtings.com/robot-vacuum/reviews/roborock/s8-maxv-ultra",
+    "family": "RTINGS",
+    "products": [
+      "Roborock S8 MaxV Ultra"
+    ],
+    "scope": "Inherited coverage locator; not a full claim audit",
+    "status": "substantive_review"
+  },
+  {
+    "url": "https://www.rtings.com/robot-vacuum/reviews/dreame/x60-max-ultra-complete",
+    "family": "RTINGS",
+    "products": [
+      "Dreame X60 Max Ultra Complete"
+    ],
+    "scope": "Inherited coverage locator; not a full claim audit",
+    "status": "substantive_review"
+  },
+  {
+    "url": "https://www.rtings.com/robot-vacuum/reviews/eufy/omni-e28-robot-vacuum",
+    "family": "RTINGS",
+    "products": [
+      "Eufy Omni E25"
+    ],
+    "scope": "Inherited coverage locator; not a full claim audit",
+    "status": "related_variant"
+  },
+  {
+    "url": "https://vacuumwars.com/roborock-saros-10r-review/",
+    "family": "Vacuum Wars",
+    "products": [
+      "Roborock Saros 10R"
+    ],
+    "scope": "Inherited coverage locator; not a full claim audit",
+    "status": "substantive_review"
+  },
+  {
+    "url": "https://vacuumwars.com/roborock-qrevo-curv-2-flow-review/",
+    "family": "Vacuum Wars",
+    "products": [
+      "Roborock Qrevo Curv 2 Flow"
+    ],
+    "scope": "Inherited coverage locator; not a full claim audit",
+    "status": "substantive_review"
+  },
+  {
+    "url": "https://vacuumwars.com/compare/robot-vacuums/roborock_qrevo_curv/",
+    "family": "Vacuum Wars",
+    "products": [
+      "Roborock Qrevo Curv"
+    ],
+    "scope": "Inherited coverage locator; not a full claim audit",
+    "status": "substantive_test_table"
+  },
+  {
+    "url": "https://vacuumwars.com/new-s8-maxv-ultra-vs-s8-max-ultra-which-is-the-best-choice/",
+    "family": "Vacuum Wars",
+    "products": [
+      "Roborock S8 MaxV Ultra"
+    ],
+    "scope": "Inherited coverage locator; not a full claim audit",
+    "status": "substantive_review"
+  },
+  {
+    "url": "https://vacuumwars.com/vacuum-wars-best-robot-vacuums/",
+    "family": "Vacuum Wars",
+    "products": [
+      "MOVA V70 Ultra Complete"
+    ],
+    "scope": "Inherited coverage locator; not a full claim audit",
+    "status": "guide_coverage"
+  },
+  {
+    "url": "https://vacuumwars.com/dreame-x60-max-ultra-complete-review/",
+    "family": "Vacuum Wars",
+    "products": [
+      "Dreame X60 Max Ultra Complete"
+    ],
+    "scope": "Inherited coverage locator; not a full claim audit",
+    "status": "substantive_review"
+  },
+  {
+    "url": "https://vacuumwars.com/eufy-e25-omni-robot-vacuum-review/",
+    "family": "Vacuum Wars",
+    "products": [
+      "Eufy Omni E25"
+    ],
+    "scope": "Inherited coverage locator; not a full claim audit",
+    "status": "substantive_review"
+  },
+  {
+    "url": "https://vacuumwars.com/shark-powerdetect-uv-reveal-review/",
+    "family": "Vacuum Wars",
+    "products": [
+      "Shark PowerDetect UV Reveal"
+    ],
+    "scope": "Inherited coverage locator; not a full claim audit",
+    "status": "substantive_review"
+  },
+  {
+    "url": "https://www.thesmarthomehookup.com/test_install/ultimate-robot-vacuum-and-mop-comparison-2025/",
+    "family": "The Hook Up",
+    "products": [
+      "Roborock Saros 10R"
+    ],
+    "scope": "Inherited coverage locator; not a full claim audit",
+    "status": "substantive_review"
+  },
+  {
+    "url": "https://www.thesmarthomehookup.com/2026-ultimate-robot-vacuum-and-mop-comparison/",
+    "family": "The Hook Up",
+    "products": [
+      "Roborock Qrevo Curv 2 Flow",
+      "Dreame X60 Max Ultra Complete"
+    ],
+    "scope": "Inherited coverage locator; not a full claim audit",
+    "status": "substantive_review"
+  },
+  {
+    "url": "https://www.thesmarthomehookup.com/test_install/robotic-vacuum-news-from-ces-2025/",
+    "family": "The Hook Up",
+    "products": [
+      "Roborock Qrevo Curv"
+    ],
+    "scope": "Inherited coverage locator; not a full claim audit",
+    "status": "mention"
+  },
+  {
+    "url": "https://www.thesmarthomehookup.com/2024-ultimate-robot-vacuum-and-mop-comparison/",
+    "family": "The Hook Up",
+    "products": [
+      "Roborock S8 MaxV Ultra"
+    ],
+    "scope": "Inherited coverage locator; not a full claim audit",
+    "status": "substantive_review"
+  },
+  {
+    "url": "https://www.techradar.com/home/robot-vacuums/roborock-saros-10r-robot-vacuum-review",
+    "family": "TechRadar",
+    "products": [
+      "Roborock Saros 10R"
+    ],
+    "scope": "Inherited coverage locator; not a full claim audit",
+    "status": "substantive_review"
+  },
+  {
+    "url": "https://www.techradar.com/home/robot-vacuums/roborock-qrevo-curv-review",
+    "family": "TechRadar",
+    "products": [
+      "Roborock Qrevo Curv"
+    ],
+    "scope": "Inherited coverage locator; not a full claim audit",
+    "status": "substantive_review"
+  },
+  {
+    "url": "https://www.techradar.com/home/robot-vacuums/roborock-s8-maxv-ultra-robot-vacuum-review",
+    "family": "TechRadar",
+    "products": [
+      "Roborock S8 MaxV Ultra"
+    ],
+    "scope": "Inherited coverage locator; not a full claim audit",
+    "status": "substantive_review"
+  },
+  {
+    "url": "https://www.techradar.com/home/robot-vacuums/dreame-x60-pro-ultra-review",
+    "family": "TechRadar",
+    "products": [
+      "Dreame X60 Max Ultra Complete"
+    ],
+    "scope": "Inherited coverage locator; not a full claim audit",
+    "status": "related_variant"
+  },
+  {
+    "url": "https://www.techradar.com/home/robot-vacuums/sharks-powerdetect-uv-reveal-has-a-lot-of-potential-but-right-now-its-the-equivalent-of-a-power-washer-in-the-hands-of-a-caveman",
+    "family": "TechRadar",
+    "products": [
+      "Shark PowerDetect UV Reveal"
+    ],
+    "scope": "Inherited coverage locator; not a full claim audit",
+    "status": "substantive_review"
+  },
+  {
+    "url": "https://www.tomsguide.com/home/home-appliances/roborock-saros-10r-review",
+    "family": "Tom's Guide",
+    "products": [
+      "Roborock Saros 10R"
+    ],
+    "scope": "Inherited coverage locator; not a full claim audit",
+    "status": "substantive_review"
+  },
+  {
+    "url": "https://www.tomsguide.com/home/smart-home/roborock-qrevo-curv-2-flow-review",
+    "family": "Tom's Guide",
+    "products": [
+      "Roborock Qrevo Curv 2 Flow"
+    ],
+    "scope": "Inherited coverage locator; not a full claim audit",
+    "status": "substantive_review"
+  },
+  {
+    "url": "https://www.tomsguide.com/home/roborock-qrevo-curv-review",
+    "family": "Tom's Guide",
+    "products": [
+      "Roborock Qrevo Curv"
+    ],
+    "scope": "Inherited coverage locator; not a full claim audit",
+    "status": "substantive_review"
+  },
+  {
+    "url": "https://www.tomsguide.com/home/dreame-x60-max-ultra-complete-review",
+    "family": "Tom's Guide",
+    "products": [
+      "Dreame X60 Max Ultra Complete"
+    ],
+    "scope": "Inherited coverage locator; not a full claim audit",
+    "status": "substantive_review"
+  },
+  {
+    "url": "https://www.tomsguide.com/home/smart-home/shark-powerdetect-uv-reveal-robot-vacuum-review",
+    "family": "Tom's Guide",
+    "products": [
+      "Shark PowerDetect UV Reveal"
+    ],
+    "scope": "Inherited coverage locator; not a full claim audit",
+    "status": "substantive_review"
+  },
+  {
+    "url": "https://www.expertreviews.co.uk/home-garden/vacuums-cleaning/eufy-omni-e25-review",
+    "family": "Expert Reviews",
+    "products": [
+      "Eufy Omni E25"
+    ],
+    "scope": "Inherited coverage locator; not a full claim audit",
+    "status": "substantive_review"
+  },
+  {
+    "url": "https://www.expertreviews.co.uk/home-garden/vacuums-cleaning/shark-powerdetect-uv-reveal-review",
+    "family": "Expert Reviews",
+    "products": [
+      "Shark PowerDetect UV Reveal"
+    ],
+    "scope": "Inherited coverage locator; not a full claim audit",
+    "status": "substantive_review"
+  },
+  {
+    "url": "https://www.wired.com/review/roborock-saros-z70/",
+    "family": "WIRED",
+    "products": [
+      "Roborock Saros 10R"
+    ],
+    "scope": "Inherited coverage locator; not a full claim audit",
+    "status": "test_reference"
+  },
+  {
+    "url": "https://www.wired.com/review/roborock-qrevo-curv-2-flow/",
+    "family": "WIRED",
+    "products": [
+      "Roborock Qrevo Curv 2 Flow"
+    ],
+    "scope": "Inherited coverage locator; not a full claim audit",
+    "status": "substantive_review"
+  },
+  {
+    "url": "https://www.wired.com/review/shark-powerdetect-uv-reveal/",
+    "family": "WIRED",
+    "products": [
+      "Shark PowerDetect UV Reveal"
+    ],
+    "scope": "Inherited coverage locator; not a full claim audit",
+    "status": "substantive_review"
+  },
+  {
+    "url": "https://www.goodhousekeeping.com/appliances/vacuum-cleaner-reviews/a63759357/these-robot-vacuums-are-designed-to-take-the-chore-out-of-chore-day/",
+    "family": "Good Housekeeping",
+    "products": [
+      "Roborock Saros 10R"
+    ],
+    "scope": "Inherited coverage locator; not a full claim audit",
+    "status": "mention"
+  },
+  {
+    "url": "https://www.goodhousekeeping.com/what-to-buy/a70762203/best-robot-vacuum-1773694672/",
+    "family": "Good Housekeeping",
+    "products": [
+      "Roborock S8 MaxV Ultra"
+    ],
+    "scope": "Inherited coverage locator; not a full claim audit",
+    "status": "guide_coverage"
+  },
+  {
+    "url": "https://www.goodhousekeeping.com/what-to-buy/g71433989/best-robot-mop-reviews/",
+    "family": "Good Housekeeping",
+    "products": [
+      "Shark PowerDetect UV Reveal"
+    ],
+    "scope": "Inherited coverage locator; not a full claim audit",
+    "status": "guide_coverage"
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=Pv9_2D_Xc5k",
+    "family": "The Hook Up",
+    "products": [],
+    "scope": "Current pass: selected claims extracted; see source-quality and findings logs",
+    "status": "bounded_extraction"
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=smPaWtwT5q8",
+    "family": "Vacuum Nerds",
+    "products": [],
+    "scope": "Current pass: selected claims extracted; see source-quality and findings logs",
+    "status": "bounded_extraction"
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=3aj-Gjy3R58",
+    "family": "Vacuum Nerds",
+    "products": [],
+    "scope": "Current pass: selected claims extracted; see source-quality and findings logs",
+    "status": "bounded_extraction"
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=i-hu3E15-ww",
+    "family": "Vacuum Wars",
+    "products": [],
+    "scope": "Current pass: selected claims extracted; see source-quality and findings logs",
+    "status": "bounded_extraction"
+  },
+  {
+    "url": "https://vacuumwars.com/ecovacs-deebot-t80s-omni-review/",
+    "family": "Vacuum Wars",
+    "products": [],
+    "scope": "Current pass: selected claims extracted; see source-quality and findings logs",
+    "status": "bounded_extraction"
+  },
+  {
+    "url": "https://www.amazon.com/dp/B0GJ5S4V78",
+    "family": "Amazon",
+    "products": [],
+    "scope": "Current pass: selected claims extracted; see source-quality and findings logs",
+    "status": "bounded_extraction"
+  },
+  {
+    "url": "https://www.reddit.com/r/RobotVacuums/comments/1uh59e5/new_7_day_trial/",
+    "family": "Owner discussion",
+    "products": [],
+    "scope": "Current pass: selected claims extracted; see source-quality and findings logs",
+    "status": "bounded_extraction"
+  },
+  {
+    "url": "https://www.reddit.com/r/RobotVacuums/comments/1w9zg1q/buying_new_robot_suggestions/",
+    "family": "Owner discussion",
+    "products": [],
+    "scope": "Current pass: selected claims extracted; see source-quality and findings logs",
+    "status": "bounded_extraction"
+  },
+  {
+    "url": "https://www.ecovacs.com/us/shop/deebot-robotic-vacuum-cleaner/deebot-t80s-omni",
+    "family": "Ecovacs",
+    "products": [],
+    "scope": "Current pass: selected claims extracted; see source-quality and findings logs",
+    "status": "bounded_extraction"
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=MfPoZNQflPI",
+    "family": "VittorTech",
+    "products": [
+      "Ecovacs T90 Pro Omni"
+    ],
+    "scope": "Current pass: full caption read, targeted frames, disclosure checked; no independent replication",
+    "status": "bounded_extraction"
+  }
+]

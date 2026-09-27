@@ -1,8 +1,8 @@
 # Review Pirate
 
-> First sample delivered: [sample instructions](Episodes/001-robot-vacuums-2026/sample/README.md), open the [viewing page](Episodes/001-robot-vacuums-2026/sample/review.html), or read the [decision note](Episodes/001-robot-vacuums-2026/sample/DECISION.md). Review Pirate is a code name; no final brand or mascot is selected. The 57-second prototype uses free local tools and zero vidIQ credits.
+> September 26 production reset: start with the [current executive pitch](Episodes/001-robot-vacuums-2026/pitch/README.md) or [visual reader](Episodes/001-robot-vacuums-2026/pitch/pitch.html). The first sample was rejected for visual and voice quality. It is retained as a failed experiment, not a production template. The current pitch includes two local concept sheets, a revised script, watched-example links, corrected coverage and a bounded motion-test proposal. No new video or paid subscription is claimed.
 
-> September 26 planning update: start with the [executive brief](planning/BRIEF.md). The [readiness audit](planning/AUDIT.md) and [task board](planning/TASKS.md) supersede older readiness claims below. The next execution cycle awaits discussion; the episode is not ready to record.
+> Review Pirate is a code name. No final brand or mascot is chosen. [Current execution state](Episodes/001-robot-vacuums-2026/pitch/TASKS.md) and [quality gates](Episodes/001-robot-vacuums-2026/pitch/QUALITY_GATE.md) supersede earlier readiness claims. The original [planning board](planning/TASKS.md) remains the broader backlog.
 
 we watch the reviews
 so you do not have to watch all the reviews
@@ -74,7 +74,9 @@ where to spend a thousand dollars
 
 the recurring idea
 
-**we read and watched everything**
+**we compare the evidence that changes your decision**
+
+State the actual research scope. Do not claim to have watched everything, fully reviewed a source, or established independent consensus when the ledger only establishes located coverage.
 
 possible formats
 

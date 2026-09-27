@@ -1,0 +1,120 @@
+[
+  {
+    "id": "01",
+    "title": "Eight picks. Three cross-checks.",
+    "photo": "thumbnail-eight-picks-v2.png",
+    "spoken": "Two robot-vacuum winners share a weakness: pet hair in carpet, according to RTINGS. Let's cross-check four of these picks against the original reviews. The other four stay open.",
+    "body": "",
+    "duration": 11.72,
+    "links": [
+      [
+        "Eight-pick source matrix and supporting coverage",
+        "../../research/coverage/coverage.html"
+      ]
+    ],
+    "audio": "audio/01.wav",
+    "voice": "Kokoro af_heart",
+    "sample_rate": 24000,
+    "peak": 0.5004052519798279
+  },
+  {
+    "id": "02",
+    "title": "First cut: embedded pet hair",
+    "photo": "otter-evidence-cards.png",
+    "spoken": "Pet hair embedded in carpet? RTINGS finds that both the Saros ten R and original Qrevo Curv struggle with it. So, for that priority, we'd set these two headline winners aside. Its dedicated pet-hair guide is the next stop, with alternatives tested specifically for that job.",
+    "body": "<p class=\"eyebrow\">CHECK 1 \u00b7 HAIR EMBEDDED IN CARPET</p><h1>Two headline winners.<br>The same weak spot.</h1><table class=\"focus\"><tr><th>RTINGS\u2019 findings<br>August 2026</th><th>Carpet fur</th></tr><tr><th>Roborock Saros 10R</th><td class=\"warn\">Struggles</td></tr><tr><th>Roborock Qrevo Curv<br><small>Original model</small></th><td class=\"warn\">Struggles</td></tr></table><div class=\"decision\"><b>IF EMBEDDED FUR IS YOUR PRIORITY</b><br>Our inference: set these two aside.</div><footer>READ \u2192 RTINGS\u2019 pet-hair guide<br>Tested alternatives for this job</footer>",
+    "duration": 18.88,
+    "links": [
+      [
+        "RTINGS: pet-hair alternatives and tests",
+        "https://www.rtings.com/robot-vacuum/reviews/best/pet-hair"
+      ],
+      [
+        "RTINGS: general guide behind this exclusion",
+        "https://www.rtings.com/robot-vacuum/reviews/best/robot"
+      ]
+    ],
+    "audio": "audio/02.wav",
+    "voice": "Kokoro af_heart",
+    "sample_rate": 24000,
+    "peak": 0.4425896108150482
+  },
+  {
+    "id": "03",
+    "title": "The mopping result does not travel",
+    "photo": "otter-evidence-cards.png",
+    "spoken": "Now the Curv two Flow\u2014a different model from the original Curv. The Hook Up found it cleaned dried mud exceptionally well. Vacuum Wars found weak dried-stain cleaning, even with maximum water. Different protocols; the reason isn't established. We'd compare both tests before choosing the Flow for stubborn stains.",
+    "body": "<p class=\"eyebrow\">CHECK 2 \u00b7 ZOOM INTO THE STAIN EVIDENCE</p><h1>One model. Two test outcomes.</h1><p class=\"model\">Roborock Qrevo Curv 2 Flow<br><span>A different model from the original Curv</span></p><div class=\"testpair\"><div><b>The Hook Up</b><small>April 8, 2026</small><strong>DRIED MUD</strong><em>Clean paper-towel check</em></div><div><b>Vacuum Wars</b><small>Source checked Sept 27, 2026</small><strong>DRIED STAINS</strong><em>Below its test average<br>even at maximum water</em></div></div><div class=\"decision\">OUR INFERENCE \u2192 MOPPING DECISION ON HOLD<br>Compare both tests before buying for stains.</div><footer>Different protocols \u00b7 cause not established<br>OPEN BOTH \u2192 original tests linked below</footer>",
+    "duration": 20.12,
+    "links": [
+      [
+        "The Hook Up: seven-model comparison / mopping at 12:07",
+        "https://www.youtube.com/watch?v=Pv9_2D_Xc5k&t=727s"
+      ],
+      [
+        "Vacuum Wars: exact Curv 2 Flow stain results",
+        "https://vacuumwars.com/roborock-qrevo-curv-2-flow-review/"
+      ]
+    ],
+    "audio": "audio/03.wav",
+    "voice": "Kokoro af_heart",
+    "sample_rate": 24000,
+    "peak": 0.5132683515548706
+  },
+  {
+    "id": "04",
+    "title": "A comparison that does narrow the pair",
+    "photo": "otter-threshold-review.png",
+    "spoken": "Tall doorsteps give a clearer comparison. In The Hook Up\u2019s same test, Curv two Flow failed a thirty-millimetre vertical face. The Dreame X sixty cleared fifty millimetres both ways. Between these two, we'd pursue the X sixty for tall thresholds. Watch the demonstration and compare your doorway's shape.",
+    "body": "<p class=\"eyebrow\">3 / 3 \u00b7 SAME TEST, SAME OBSTACLES</p><h1>For tall doorsteps,<br>X60 moves ahead.</h1><p class=\"model\">Dreame X60 Max Ultra Complete vs Qrevo Curv 2 Flow</p><svg viewBox=\"0 0 640 190\" role=\"img\" aria-label=\"A ramp-sided threshold with a vertical face; Curv 2 Flow failed the 30 millimetre vertical face, X60 cleared the 50 millimetre obstacle in both directions\"><path d=\"M35 135 H95 L170 85 H255 V135 H300\" fill=\"#b59659\" stroke=\"#224c3e\" stroke-width=\"3\"/><path d=\"M345 135 H385 L470 50 H555 V135 H610\" fill=\"#b59659\" stroke=\"#224c3e\" stroke-width=\"3\"/><text x=\"160\" y=\"28\" font-size=\"20\" text-anchor=\"middle\" fill=\"#21483e\">Curv 2 Flow</text><text x=\"480\" y=\"25\" font-size=\"20\" text-anchor=\"middle\" fill=\"#21483e\">X60 Max</text><text x=\"275\" y=\"104\" font-size=\"18\" fill=\"#21483e\">30 mm</text><text x=\"563\" y=\"85\" font-size=\"18\" fill=\"#21483e\">50 mm</text><text x=\"170\" y=\"169\" font-size=\"18\" text-anchor=\"middle\" fill=\"#8c4c22\">Vertical face: failed</text><text x=\"480\" y=\"169\" font-size=\"18\" text-anchor=\"middle\" fill=\"#21483e\">Both directions: passed</text></svg><div class=\"decision\">OUR INFERENCE \u00b7 TALL-THRESHOLD PRIORITY<br>Prioritize X60 Max for tall thresholds.</div><p class=\"key\">Schematic \u00b7 not to scale. Compare your doorway\u2019s shape.</p><footer>WATCH \u2192 The Hook Up \u00b7 April 8, 2026<br>Threshold-crossing chapter</footer>",
+    "duration": 19.55,
+    "links": [
+      [
+        "The Hook Up: threshold test at 19:10",
+        "https://www.youtube.com/watch?v=Pv9_2D_Xc5k&t=1150s"
+      ],
+      [
+        "The Hook Up: written threshold test",
+        "https://www.thesmarthomehookup.com/2026-ultimate-robot-vacuum-and-mop-comparison/"
+      ]
+    ],
+    "audio": "audio/04.wav",
+    "voice": "Kokoro af_heart",
+    "sample_rate": 24000,
+    "peak": 0.5590153932571411
+  },
+  {
+    "id": "05",
+    "title": "The board now tells you where to go",
+    "photo": "otter-threshold-review.png",
+    "spoken": "That's three useful changes, without pretending there's one universal winner. For carpet fur, look beyond those two. For stains, compare both stain tests. For tall thresholds, investigate the X sixty. Each original review is linked alongside its finding.",
+    "body": "<p class=\"eyebrow\">YOUR NEXT REVIEW, MATCHED TO YOUR HOME</p><h1>The board now gives<br>you a next step.</h1><div class=\"recap\"><div><b>EMBEDDED CARPET FUR</b><br>Set aside Saros 10R + original Curv<small>Read RTINGS\u2019 pet-hair guide for alternatives</small></div><div><b>STUBBORN STAINS</b><br>Curv 2 Flow: decision on hold<small>Compare The Hook Up + Vacuum Wars</small></div><div><b>TALL THRESHOLDS</b><br>X60 ahead of Flow in this pair<small>Watch The Hook Up\u2019s threshold test</small></div></div><footer>Still open: MOVA V70 \u00b7 Eufy E25 \u00b7 Shark UV \u00b7 S8 MaxV.<br>Before buying: check current price, upkeep and long-term owner reports.</footer>",
+    "duration": 17.16,
+    "links": [
+      [
+        "RTINGS: pet-hair alternatives and tests",
+        "https://www.rtings.com/robot-vacuum/reviews/best/pet-hair"
+      ],
+      [
+        "The Hook Up: seven-model comparison / mopping at 12:07",
+        "https://www.youtube.com/watch?v=Pv9_2D_Xc5k&t=727s"
+      ],
+      [
+        "Vacuum Wars: exact Curv 2 Flow stain results",
+        "https://vacuumwars.com/roborock-qrevo-curv-2-flow-review/"
+      ],
+      [
+        "The Hook Up: threshold test at 19:10",
+        "https://www.youtube.com/watch?v=Pv9_2D_Xc5k&t=1150s"
+      ],
+      [
+        "Eight-pick source matrix and supporting coverage",
+        "../../research/coverage/coverage.html"
+      ]
+    ],
+    "audio": "audio/05.wav",
+    "voice": "Kokoro af_heart",
+    "sample_rate": 24000,
+    "peak": 0.5039858222007751
+  }
+]

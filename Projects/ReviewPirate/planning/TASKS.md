@@ -1,8 +1,14 @@
 # Review Pirate task board
 
-September 26, 2026. **First creative sample delivered for review; full episode research remains incomplete.** This is the authoritative board for the next cycle and supersedes the legacy TODO's readiness labels. Owner for all tasks: integrating agent, except the explicit owner decisions. Estimates below are sequencing/timebox proposals, not measured completion forecasts.
+September 26, 2026. **First creative sample rejected by owner; production approach reopened. Full episode research remains incomplete.** This is the authoritative board for the next cycle and supersedes the legacy TODO's readiness labels. Owner for all tasks: integrating agent, except the explicit owner decisions. Estimates below are sequencing/timebox proposals, not measured completion forecasts.
 
-## Current status after owner steering
+## Current execution checkpoint
+
+The [pitch task plan](../Episodes/001-robot-vacuums-2026/pitch/TASKS.md) records the latest completed work and dependencies. R2–R4 now have a completed bounded 64-pair audit, three source-backed case studies and an exploratory deduplicated owner sample. R6 has a revised 393-word working script and 18-shot treatment. R7 has a validated coverage explorer and source-only pitch reader. R8 remains failed: still concept art and external examples do not establish our own motion or voice quality. The table below records the earlier rejected-sample checkpoint, not the latest research status.
+
+## Prior status after owner steering
+
+The September 26 owner review rejects the sample as the opposite of the intended quality. [PRODUCTION_RESET.md](PRODUCTION_RESET.md) supersedes prior creative and software recommendations. A playable export is not production readiness. Content research and AI filmmaking research now have separate acceptance gates.
 
 The owner authorized moving to the sample, asked for alternatives to pirate branding, preferred immediate usefulness and original-source referrals, and requested free tools before a paid-software proposal. This shifted the immediate slice to a narrow, fact-checked creative prototype. No claim that all of R1–R8 is complete.
 
@@ -13,7 +19,7 @@ The owner authorized moving to the sample, asked for alternatives to pirate bran
 | R5 | Three [packaging hypotheses](../Episodes/001-robot-vacuums-2026/sample/PACKAGING.md); no new keyword/title-score credits spent or audience test. |
 | R6 | Sample script delivered with claim mapping; full episode rewrite remains open. |
 | R7 | Free local speech/render path proved; inherited matrix renderer repairs remain open. |
-| R8 | 56.5-second [local MP4 and reproducible sources](../Episodes/001-robot-vacuums-2026/sample/README.md), creative alternatives, source-linked viewer, technical QA and software proposal delivered. Single provisional local voice; no two-voice comparison or subjective listening validation claimed. Await owner creative review. |
+| R8 | 56.5-second [local MP4 and reproducible sources](../Episodes/001-robot-vacuums-2026/sample/README.md), creative alternatives, source-linked viewer, technical QA and software proposal delivered. Single provisional local voice; no two-voice comparison or subjective listening validation claimed. Owner rejected visual direction, narration, humor and overall viewing experience. R8 is FAILED; see [production reset](PRODUCTION_RESET.md). |
 | R9–R11 | Not started; no full production, launch or audience outcomes. |
 
 ## Outcome and gates
@@ -23,7 +29,7 @@ Produce one evidence-backed robot-vacuum pilot and learn whether the research-to
 | Gate | Acceptance | If not met |
 |---|---|---|
 | Evidence ready | Every material spoken/on-screen claim has a direct locator, correct model/market/date and appropriate qualification; central disagreements examined against alternatives | Narrow/reframe the episode or remove the claim; do not fill gaps with confident prose |
-| Sample ready | Coherent script and a watchable, audible 60–90-second export, supported hook, clear buyer value, measured cost/time | Repair the sample or report exact access dependency |
+| Sample ready | Accepted 12–18-second cinematic scene and separate evidence-heavy excerpt; complete listening/viewing review, supported claims, clear buyer value and measured retries/cost/effort | Repair the sample or report exact access dependency |
 | Production approved | Owner has reviewed the sample and approved voice/style and remaining spend | Continue only independent work already authorized |
 | Release approved | Final factual/asset/disclosure refresh and complete upload package reviewed | Keep unpublished |
 

@@ -1,3 +1,5 @@
+> **Rejected creative experiment.** The owner rejected this sample’s visuals, voice and experience. Technical QA did not establish creative quality. Use the [new pitch](../pitch/README.md) and [quality gate](../pitch/QUALITY_GATE.md) for future production. The sample is retained only as history.
+
 # First sample: answer first, evidence in motion
 
 September 26, 2026. **56.5-second creative prototype, not a release-ready buying guide.**

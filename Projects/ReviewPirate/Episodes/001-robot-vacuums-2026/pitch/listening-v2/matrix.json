@@ -1,0 +1,113 @@
+{
+  "columns": [
+    "Saros 10R",
+    "MOVA V70",
+    "Curv 2 Flow",
+    "Qrevo Curv",
+    "X60 Max",
+    "Eufy E25",
+    "Shark UV",
+    "S8 MaxV",
+    "T90 Pro",
+    "T80S",
+    "Eufy S2"
+  ],
+  "rows": [
+    {
+      "name": "RTINGS \u00b7 Aug guide",
+      "cells": {
+        "0": "Overall",
+        "3": "Upper-mid"
+      }
+    },
+    {
+      "name": "Vacuum Wars \u00b7 Sep ranking",
+      "cells": {
+        "1": "1st \u00b7 4.07\u2605",
+        "8": "Best value"
+      }
+    },
+    {
+      "name": "The Hook Up \u00b7 Apr comparison",
+      "cells": {
+        "2": "Overall",
+        "10": "Carpet lead"
+      }
+    },
+    {
+      "name": "TechRadar \u00b7 Aug guide",
+      "cells": {
+        "3": "Overall"
+      }
+    },
+    {
+      "name": "Tom\u2019s Guide \u00b7 Aug guide",
+      "cells": {
+        "4": "Overall"
+      }
+    },
+    {
+      "name": "Expert Reviews \u00b7 Sep UK guide",
+      "cells": {
+        "5": "Overall"
+      }
+    },
+    {
+      "name": "WIRED \u00b7 Sep guide",
+      "cells": {
+        "6": "Overall"
+      }
+    },
+    {
+      "name": "Good Housekeeping \u00b7 Sep guide",
+      "cells": {
+        "7": "Overall"
+      }
+    },
+    {
+      "name": "Vacuum Nerds \u00b7 Jun awards",
+      "cells": {
+        "8": "Midrange"
+      }
+    },
+    {
+      "name": "Vacuum Nerds \u00b7 Aug V70",
+      "cells": {
+        "1": "1st \u00b7 9.7"
+      }
+    },
+    {
+      "name": "Amazon \u00b7 Sep listing",
+      "cells": {
+        "8": "4.2\u2605 / 833*"
+      }
+    },
+    {
+      "name": "Reddit \u00b7 selected threads",
+      "cells": {
+        "8": "\u25b3 limited"
+      }
+    },
+    {
+      "name": "Vacuum Wars \u00b7 T80S review",
+      "cells": {
+        "9": "Lower-cost value",
+        "8": "Tradeoffs"
+      }
+    },
+    {
+      "name": "Ecovacs \u00b7 Sep offer",
+      "cells": {
+        "9": "$649.99"
+      }
+    },
+    {
+      "name": "VittorTech \u00b7 Jul \u00b7 sponsored",
+      "cells": {
+        "8": "Coverage caution"
+      }
+    }
+  ],
+  "legend": "Native awards/scores; scales differ. Blank = not extracted in this layer. Amazon * multi-variant listing. Reddit \u25b3 = limited mixed anecdotes. Same publisher rows are not independent votes.",
+  "observed": "2026-09-26"
+}
