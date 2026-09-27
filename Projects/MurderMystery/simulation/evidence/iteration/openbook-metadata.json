@@ -1,0 +1,56 @@
+[
+  {
+    "experiment": "iteration-openbook",
+    "record": "gemma4.json",
+    "private_record_sha256": "3b672d76e43e31a70625dfafeb22594918b1fc910c0f66c50f4afc1b49edd332",
+    "model": "gemma4:e4b-it-qat",
+    "thinking": false,
+    "options": {
+      "temperature": 0.7,
+      "seed": 23,
+      "num_ctx": 32768,
+      "num_predict": 768
+    },
+    "seconds": 3.875,
+    "eval_count": 87,
+    "done_reason": "stop",
+    "contract_violations": [],
+    "error": null
+  },
+  {
+    "experiment": "iteration-openbook",
+    "record": "qwen3.5.json",
+    "private_record_sha256": "5a0170f02e9bb93a4624dfa0cc4900eacb74f29aabf162313d4f65e76ea396b0",
+    "model": "qwen3.5:9b",
+    "thinking": false,
+    "options": {
+      "temperature": 0.7,
+      "seed": 23,
+      "num_ctx": 32768,
+      "num_predict": 768
+    },
+    "seconds": 12.661,
+    "eval_count": 111,
+    "done_reason": "stop",
+    "contract_violations": [],
+    "error": null
+  },
+  {
+    "experiment": "iteration-openbook-thinking",
+    "record": "gemma4.json",
+    "private_record_sha256": "5d0749240025433528ae887019155d3b5a56d5c16cd0554989b2448df6cf59e7",
+    "model": "gemma4:e4b-it-qat",
+    "thinking": true,
+    "options": {
+      "temperature": 0.7,
+      "seed": 23,
+      "num_ctx": 32768,
+      "num_predict": 8192
+    },
+    "seconds": 50.347,
+    "eval_count": 2114,
+    "done_reason": "stop",
+    "contract_violations": [],
+    "error": null
+  }
+]

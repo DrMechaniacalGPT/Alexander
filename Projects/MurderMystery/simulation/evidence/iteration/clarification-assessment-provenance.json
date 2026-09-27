@@ -1,0 +1,39 @@
+{
+  "scope": "All seven accepted nonculprit final responses; no native thinking inspected. Raw file hashes identify immutable reviewed bytes without interpreting reasoning fields.",
+  "source_root": "/home/drbone/.codex/worktrees/mystery-discovery/Alexander/Projects/MurderMystery/simulation/local-private/movie",
+  "sha256": {
+    "adapted.json": "0197ecb9b71232df02b8050b52c50fd99b49074f83cb66603988b82477db8a43",
+    "iteration-clarify-gemma/turns/t00129.json": "6bab04958caf949983af5ea03e5bf09c597856a3401980a4f4e262f77f95d827",
+    "iteration-clarify-gemma/turns/t00130.json": "4824b7db186d4eca1388ac1c3e428d0e7ea0949ca9c52c5f8052029defc245d7",
+    "iteration-clarify-gemma/turns/t00131.json": "c43948be7542bf647972d72bc8759367ded1e3ce4d56fa6be599af01a59624ab",
+    "iteration-clarify-gemma/turns/t00132.json": "8087b0750ac60cd1f730713b88c668969896f763828fc493a6e2b0bc4a1c1337",
+    "iteration-clarify-gemma/turns/t00133.json": "b58de29066376fe9573160dc5ea1447b38999ffd6fcbe158cce549aa7703425f",
+    "iteration-clarify-gemma/turns/t00134.json": "f2da7454d6aecbf35f6c13c03a48f40e32f55123875789eb1a0c8d1c31388385",
+    "iteration-clarify-gemma/turns/t00135.json": "7879f09e96418a3b605c149e9c4c033719161c24ab6c67871a7a62fdc1da1f09",
+    "iteration-clarify-gemma/turns/t00136.json": "fe965c8fe195ff43f009be71d060e318b1d89d2529d5b68f06a44750a20f8896",
+    "iteration-clarify-gemma/turns/t00137.json": "0624802fd4c9c9812a4cbeb31c20584fb178b1f95d94e5b0b9db7d0c5001650f",
+    "iteration-clarify-gemma/turns/t00138.json": "20b06a91d5a3cca947240ca7010212ba7b6d05dc364f0655e350131a2d2e8d0d",
+    "iteration-clarify-gemma/turns/t00139.json": "f2c45b8fe7390de7619725822349d911e6d8e03fc2c451c3b04feb8c615076ae",
+    "iteration-clarify-gemma/turns/t00140.json": "762fc115d0999883310f418f3a109fccaaacd65798fd9a185769a6620b70ecc0",
+    "iteration-clarify-gemma/turns/t00141.json": "15eb7b852cb8071579a7c882cdf90362956db431f75bea8a04f1d0be5f26fd2a",
+    "iteration-clarify-gemma/turns/t00142.json": "7cb2892bccf5d0e602212227e4e20e13ec048f2fcf0ab50aa54426dae24aa9b3",
+    "iteration-clarify-gemma/turns/t00143.json": "139f26538c83c0f2918ccbfa8a841a53721305fe4d68536d87fe3f7d4d1a9f73",
+    "iteration-clarify-gemma/turns/t00144.json": "02171a64d4797ac719d5f86466e5312eb027700e596527c29f1eb2e0ceb5b527",
+    "iteration-clarify-gemma-large/turns/t00146.json": "9b4e99a3e46c25761dac20b1df17eff74481e969a4e996df12561b675c410a30",
+    "iteration-clarify-gemma-large/turns/t00147.json": "360f650d40de1fa468b1bbd8fd8fea0f65058b2968ead95577069dea21c2878e",
+    "iteration-clarify-gemma-large/turns/t00148.json": "2ec53e66e098ece1e45264343755f17027d0afafbe5700daae52b357ceeb0741",
+    "iteration-clarify-gemma-large/turns/t00149.json": "3644d95e988815175e164581be8366468dd08e69bf7b9e6fff2f4bfb9a783c58",
+    "iteration-clarify-gemma-large/turns/t00150.json": "da065c0f0ffeddb9c59bfd550933a1c3ca2ba6b8d7f73cd5887edf27cba97f54",
+    "iteration-clarify-gemma-large/turns/t00151.json": "6a621c58a678d00cf576ee28ce75fd9ba057c0564e106addb9482f9d55aeff62",
+    "iteration-clarify-gemma-large/turns/t00152.json": "849bf1d079d85f42839c90e55ba37514db73fc6c159426bd2893eb58bb77bd21"
+  },
+  "accepted": {
+    "t00146": true,
+    "t00147": true,
+    "t00148": true,
+    "t00149": true,
+    "t00150": true,
+    "t00151": true,
+    "t00152": true
+  }
+}

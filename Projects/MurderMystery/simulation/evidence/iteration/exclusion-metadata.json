@@ -1,0 +1,66 @@
+[
+  {
+    "record": "t00148-17.json",
+    "source_sha256": "2ec53e66e098ece1e45264343755f17027d0afafbe5700daae52b357ceeb0741",
+    "private_record_sha256": "997182aad156dc84877d36c1f62f028022fbe7b083484f2d298ce39cd1b67ae9",
+    "model": "gemma4:e4b-it-qat",
+    "options": {
+      "temperature": 0.7,
+      "seed": 17,
+      "num_ctx": 49152,
+      "num_predict": 8192
+    },
+    "seconds": 53.348,
+    "eval_count": 2100,
+    "done_reason": "stop",
+    "contract_violations": []
+  },
+  {
+    "record": "t00148-23.json",
+    "source_sha256": "2ec53e66e098ece1e45264343755f17027d0afafbe5700daae52b357ceeb0741",
+    "private_record_sha256": "5d1548de640f98335e2c8b083dd19373a05c0924c7b2052f0ccd42806808695c",
+    "model": "gemma4:e4b-it-qat",
+    "options": {
+      "temperature": 0.7,
+      "seed": 23,
+      "num_ctx": 49152,
+      "num_predict": 8192
+    },
+    "seconds": 73.077,
+    "eval_count": 3456,
+    "done_reason": "stop",
+    "contract_violations": []
+  },
+  {
+    "record": "t00149-17.json",
+    "source_sha256": "3644d95e988815175e164581be8366468dd08e69bf7b9e6fff2f4bfb9a783c58",
+    "private_record_sha256": "ea75067c2185ab16917858bd048098a08b21ba9166989cc3b4917ea2c3b576e3",
+    "model": "gemma4:e4b-it-qat",
+    "options": {
+      "temperature": 0.7,
+      "seed": 17,
+      "num_ctx": 49152,
+      "num_predict": 8192
+    },
+    "seconds": 71.192,
+    "eval_count": 2920,
+    "done_reason": "stop",
+    "contract_violations": []
+  },
+  {
+    "record": "t00149-23.json",
+    "source_sha256": "3644d95e988815175e164581be8366468dd08e69bf7b9e6fff2f4bfb9a783c58",
+    "private_record_sha256": "1b4fb8e5897e60111e035e2c382b04cc82a5933e56f0db22bfb62b9afb00a246",
+    "model": "gemma4:e4b-it-qat",
+    "options": {
+      "temperature": 0.7,
+      "seed": 23,
+      "num_ctx": 49152,
+      "num_predict": 8192
+    },
+    "seconds": 47.885,
+    "eval_count": 2267,
+    "done_reason": "stop",
+    "contract_violations": []
+  }
+]

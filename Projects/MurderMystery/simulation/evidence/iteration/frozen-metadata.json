@@ -1,0 +1,206 @@
+[
+  {
+    "experiment": "iteration-gemma-frozen",
+    "record": "t00070-17-original.json",
+    "sha256": "2ed2b1100f3231e31a782aecb5a0fd75b32f6db4664990a08336e927c25cb8e8",
+    "model": "gemma4:e4b-it-qat",
+    "options": {
+      "temperature": 0.7,
+      "seed": 17,
+      "num_ctx": 16384,
+      "num_predict": 768
+    },
+    "seconds": 10.748,
+    "done_reason": "stop",
+    "eval_count": 104,
+    "error": null,
+    "contract_violations": []
+  },
+  {
+    "experiment": "iteration-gemma-frozen",
+    "record": "t00070-23-original.json",
+    "sha256": "9d4159adc995ab54e18690b2399db44ae6910ec2aa0b5ad1e5ea5b06148ca057",
+    "model": "gemma4:e4b-it-qat",
+    "options": {
+      "temperature": 0.7,
+      "seed": 23,
+      "num_ctx": 16384,
+      "num_predict": 768
+    },
+    "seconds": 3.295,
+    "done_reason": "stop",
+    "eval_count": 139,
+    "error": null,
+    "contract_violations": []
+  },
+  {
+    "experiment": "iteration-gemma-frozen",
+    "record": "t00071-17-original.json",
+    "sha256": "dff44a3cca06d234dad17f347a19cafe55abaccbcba3015c09f0965df73dc2e5",
+    "model": "gemma4:e4b-it-qat",
+    "options": {
+      "temperature": 0.7,
+      "seed": 17,
+      "num_ctx": 16384,
+      "num_predict": 768
+    },
+    "seconds": 6.098,
+    "done_reason": "stop",
+    "eval_count": 101,
+    "error": null,
+    "contract_violations": []
+  },
+  {
+    "experiment": "iteration-gemma-frozen",
+    "record": "t00071-23-original.json",
+    "sha256": "cd2d358017a9dd33f689fdbbfc75e1e944da0a9c860a1a66388db3e6969cc941",
+    "model": "gemma4:e4b-it-qat",
+    "options": {
+      "temperature": 0.7,
+      "seed": 23,
+      "num_ctx": 16384,
+      "num_predict": 768
+    },
+    "seconds": 2.397,
+    "done_reason": "stop",
+    "eval_count": 101,
+    "error": null,
+    "contract_violations": []
+  },
+  {
+    "experiment": "iteration-gemma-frozen",
+    "record": "t00072-17-original.json",
+    "sha256": "04d7f1f98d6b5323d4558dc28ace43a0b1ef6053045ccf66869aede6ea6638b2",
+    "model": "gemma4:e4b-it-qat",
+    "options": {
+      "temperature": 0.7,
+      "seed": 17,
+      "num_ctx": 16384,
+      "num_predict": 768
+    },
+    "seconds": 5.895,
+    "done_reason": "stop",
+    "eval_count": 90,
+    "error": null,
+    "contract_violations": []
+  },
+  {
+    "experiment": "iteration-gemma-frozen",
+    "record": "t00072-23-original.json",
+    "sha256": "1afb0a38b74e3707b6cd0404041957860b77e119ebe07643f6ee74af09387d56",
+    "model": "gemma4:e4b-it-qat",
+    "options": {
+      "temperature": 0.7,
+      "seed": 23,
+      "num_ctx": 16384,
+      "num_predict": 768
+    },
+    "seconds": 2.246,
+    "done_reason": "stop",
+    "eval_count": 94,
+    "error": null,
+    "contract_violations": []
+  },
+  {
+    "experiment": "iteration-two-stage",
+    "record": "gemma4-t00070-decision.json",
+    "sha256": "16bb84287ae9a5f46c0967e769144cb20fdb710f7a0f36766a1ea87940f7875f",
+    "model": "gemma4:e4b-it-qat",
+    "options": {
+      "temperature": 0.7,
+      "seed": 17,
+      "num_ctx": 32768,
+      "num_predict": 768
+    },
+    "seconds": 7.116,
+    "done_reason": "stop",
+    "eval_count": 115,
+    "error": null,
+    "contract_violations": []
+  },
+  {
+    "experiment": "iteration-two-stage",
+    "record": "gemma4-t00070-review.json",
+    "sha256": "1f88d4329b2cfa46e36342b30f708af4cec05f79ac2af1460fc8b38f308474b5",
+    "model": "gemma4:e4b-it-qat",
+    "options": {
+      "temperature": 0.7,
+      "seed": 17,
+      "num_ctx": 32768,
+      "num_predict": 3072
+    },
+    "seconds": 15.996,
+    "done_reason": "stop",
+    "eval_count": 389,
+    "error": null,
+    "contract_violations": null
+  },
+  {
+    "experiment": "iteration-two-stage",
+    "record": "gemma4-t00071-decision.json",
+    "sha256": "ab86d18920931087b6d617d7a996788463a04f569ecdccaac2d66441e673bef4",
+    "model": "gemma4:e4b-it-qat",
+    "options": {
+      "temperature": 0.7,
+      "seed": 17,
+      "num_ctx": 32768,
+      "num_predict": 768
+    },
+    "seconds": 6.766,
+    "done_reason": "stop",
+    "eval_count": 101,
+    "error": null,
+    "contract_violations": []
+  },
+  {
+    "experiment": "iteration-two-stage",
+    "record": "gemma4-t00071-review.json",
+    "sha256": "a81c28039a2a5eac6c88776b6f3193ac940fa1ac27476bb7091efe7d6997e355",
+    "model": "gemma4:e4b-it-qat",
+    "options": {
+      "temperature": 0.7,
+      "seed": 17,
+      "num_ctx": 32768,
+      "num_predict": 3072
+    },
+    "seconds": 12.541,
+    "done_reason": "stop",
+    "eval_count": 373,
+    "error": null,
+    "contract_violations": null
+  },
+  {
+    "experiment": "iteration-two-stage",
+    "record": "qwen3.5-t00070-review.json",
+    "sha256": "d84afce7a15f91386207b5e1c3e73fa595792d58a3565eb1b92744a0897cad99",
+    "model": "qwen3.5:9b",
+    "options": {
+      "temperature": 0.7,
+      "seed": 17,
+      "num_ctx": 32768,
+      "num_predict": 3072
+    },
+    "seconds": 51.292,
+    "done_reason": "stop",
+    "eval_count": 471,
+    "error": "candidate coverage mismatch",
+    "contract_violations": null
+  },
+  {
+    "experiment": "iteration-two-stage",
+    "record": "qwen3.5-t00071-review.json",
+    "sha256": "b69d140472af0283d4015b8a42a9c2be57f0442f6393b040a19b8414f9a7cc24",
+    "model": "qwen3.5:9b",
+    "options": {
+      "temperature": 0.7,
+      "seed": 17,
+      "num_ctx": 32768,
+      "num_predict": 3072
+    },
+    "seconds": 32.091,
+    "done_reason": "stop",
+    "eval_count": 454,
+    "error": "candidate coverage mismatch",
+    "contract_violations": null
+  }
+]

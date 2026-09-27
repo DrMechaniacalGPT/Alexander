@@ -14,7 +14,9 @@ if __package__ in (None, ""):
     sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 
 
-def adapt(source, seed=17, partners=None):
+def adapt(source, seed=17, partners=None, turns_each=2, discussion_rounds=0, guided_mingling=False):
+    if not 1 <= turns_each <= 20 or not 0 <= discussion_rounds <= 4:
+        raise ValueError('Invalid conversation budget')
     roles = source['roles']
     if len(roles) != 8 or len({r['id'] for r in roles}) != 8:
         raise ValueError('This bounded adaptation requires eight distinct guest cards')
@@ -58,13 +60,31 @@ def adapt(source, seed=17, partners=None):
         'epilogue':[{'participants':ids,'speakers':[culprit],
                     'instruction':'Accusations are locked. It is now the scheduled confession. Follow your role and confess in your own words. This speech is your generated performance, not text from the author. Use action confess.',
                     'legal_actions':['none','confess'],'required_action':'confess'}]}
+    if turns_each != 2:
+        case['scenes'][0]['turns_each'] = turns_each
+        case['provenance']['assumptions'][1] = f'Two finite random-pair windows, {turns_each} utterances each per encounter'
+    if guided_mingling:
+        case['scenes'][0]['instruction'] = (
+            'The Director is alive and elsewhere. The murder and clue hunt have NOT happened yet. '
+            'You are playing a character at the party. Follow the game instruction to share your ordinary personality facts. '
+            'Answer your current partner, bring up two accurate details from your OWN card, and ask about their character. '
+            'Across the party, work through your personality facts instead of always repeating the same topic. '
+            'Keep established personal facts fixed; improvise only unspecified movie details. '
+            'Do not adopt a partner\'s belongings or history. Keep culprit involvement secret until the scheduled confession.')
+        case['provenance']['assumptions'].append('Explicit current-stage and personality-sharing guidance during mingling')
     if partners is not None:
         from dojo.schedule import distinct_encounters
         scene = case['scenes'][0]
         scene['encounters'] = distinct_encounters(ids, partners, seed, scene['turns_each'], scene['instruction'])
         scene['mode'] = 'fixed'
         scene.pop('windows')
-        case['provenance']['assumptions'][1] = f'{partners} distinct partners each; two utterances per player per encounter'
+        case['provenance']['assumptions'][1] = f"{partners} distinct partners each; {'two' if turns_each == 2 else turns_each} utterances per player per encounter"
+    if discussion_rounds:
+        case['scenes'].append({'id': 'clue-discussion',
+            'deliveries': [{'recipients': ids, 'content': 'The clue hunt has ended. The Director is dead. The host permits a group discussion before accusations. The printed clue cards are reliable constraints for this puzzle. Share the cards you actually found, compare what you heard, and ask guests to clarify their own character facts.'}],
+            'encounters': [{'participants': ids, 'turns_each': discussion_rounds,
+                'instruction': 'Discuss the mystery with the guests here. Share your discovered clue cards, answer questions about your own fixed character facts, and ask for a missing detail that would help compare candidates. Keep reports attributed to their actual speaker. A guessed or improvised detail is not a new clue. Do not confess before the ending.'}]})
+        case['provenance']['assumptions'][3] = f'Experimental post-hunt group discussion: {discussion_rounds} turns each; not a required source phase'
     return case
 
 
@@ -73,8 +93,11 @@ def main():
     p.add_argument('source_json',type=Path);p.add_argument('output',type=Path)
     p.add_argument('--seed',type=int,default=17)
     p.add_argument('--partners',type=int,help='Experimental distinct-partner mingling schedule')
+    p.add_argument('--turns-each',type=int,default=2)
+    p.add_argument('--discussion-rounds',type=int,default=0)
+    p.add_argument('--guided-mingling',action='store_true')
     a=p.parse_args()
-    result=adapt(json.loads(a.source_json.read_text()),a.seed,a.partners)
+    result=adapt(json.loads(a.source_json.read_text()),a.seed,a.partners,a.turns_each,a.discussion_rounds,a.guided_mingling)
     a.output.parent.mkdir(parents=True,exist_ok=True)
     a.output.write_text(json.dumps(result,indent=2)+'\n');a.output.chmod(0o600)
     print('Wrote private adaptation:',a.output)

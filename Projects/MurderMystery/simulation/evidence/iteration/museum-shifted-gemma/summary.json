@@ -1,0 +1,77 @@
+{
+  "status": "complete",
+  "failure": null,
+  "scenario": "05-museum-party-shifted",
+  "manifest": {
+    "engine": "0.2.0",
+    "case_sha256": "9c0a26cb7d673c2554ce5260bc3d11d750c4cff95076d0f291fefdd78470ed9a",
+    "config": {
+      "backend": "ollama",
+      "model": "gemma4:e4b-it-qat",
+      "seed": 23,
+      "context": 32768,
+      "tokens": 768,
+      "max_calls": 8,
+      "max_seconds": 600.0,
+      "prompt_profile": "dialogue-v1",
+      "strict_output": true,
+      "assessment_thinking": true,
+      "assessment_tokens": 8192,
+      "request_timeout": 300.0
+    }
+  },
+  "usage": {
+    "requests": 8,
+    "new_requests": 8,
+    "inherited_turns": 0,
+    "wall_seconds": 63.929,
+    "prompt_tokens": 9770,
+    "output_tokens": 2470
+  },
+  "field_limit_hits": [],
+  "events": 6,
+  "contacts": {
+    "p1": [
+      "p2",
+      "p3",
+      "p4"
+    ],
+    "p2": [
+      "p1",
+      "p3",
+      "p4"
+    ],
+    "p3": [
+      "p1",
+      "p2",
+      "p4"
+    ],
+    "p4": [
+      "p1",
+      "p2",
+      "p3"
+    ]
+  },
+  "transitions": [
+    {
+      "scene": "introductions",
+      "reason": "schedule_budget",
+      "contact_trigger": null,
+      "contact_count": null
+    },
+    {
+      "scene": "clues",
+      "reason": "schedule_budget",
+      "contact_trigger": null,
+      "contact_count": null
+    }
+  ],
+  "conclusions": {
+    "p1": "Oren is the culprit. He is the only individual who matches both reliable clue cards: owning a dog and possessing a west-wing badge.",
+    "p2": "Oren matches both the reliable clue cards: he owns a dog and has a west-wing badge.",
+    "p3": "Oren is the culprit. He is the only character who owns a dog and possesses a west-wing badge, matching both reliable clue cards.",
+    "p4": "Oren is the only character who matches both reliable clues. Oren owns a dog (e00003) and has a west-wing badge (e00003), fulfilling both criteria (e00004 and e00005)."
+  },
+  "actions": [],
+  "limitation": "Synthetic participants; delivery is not belief. No human validity claim."
+}

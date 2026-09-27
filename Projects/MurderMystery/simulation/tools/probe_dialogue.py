@@ -41,6 +41,7 @@ def main():
     p.add_argument('source_run',type=Path);p.add_argument('--out',type=Path,required=True)
     p.add_argument('--cases',nargs='+',required=True)
     p.add_argument('--variants',nargs='+',choices=['original','readable','chat','integrated'],default=['original','integrated'])
+    p.add_argument('--model',help='Optional installed local model override')
     p.add_argument('--seeds',nargs='+',type=int,default=[17,23]);p.add_argument('--max-calls',type=int,default=18)
     p.add_argument('--max-seconds',type=float,default=600)
     a=p.parse_args()
@@ -49,7 +50,7 @@ def main():
     if total>a.max_calls or a.max_seconds<=0: raise ValueError('Comparison exceeds declared budget')
     if any(not c.startswith('t') or not c[1:].isdigit() for c in a.cases): raise ValueError('Expected turn IDs')
     a.out.mkdir(parents=True,mode=0o700)
-    dump(a.out/'plan.json',{'cases':a.cases,'variants':a.variants,'seeds':a.seeds,'max_calls':a.max_calls,'max_seconds':a.max_seconds,
+    dump(a.out/'plan.json',{'cases':a.cases,'variants':a.variants,'seeds':a.seeds,'model':a.model,'max_calls':a.max_calls,'max_seconds':a.max_seconds,
                           'limitation':'Rendering treatments also add explicit party/continuation framing. Pilot chat is experimental; production uses integrated role-aware rendering.'})
     start=time.monotonic()
     for case in a.cases:
@@ -59,6 +60,7 @@ def main():
                 remaining=a.max_seconds-(time.monotonic()-start)
                 if remaining<=0: raise RuntimeError('Time budget exhausted')
                 payload=copy.deepcopy(canonical);payload['options']['seed']=seed
+                if a.model: payload['model']=a.model
                 payload['messages']=render(canonical['messages'],variant)
                 upper=sum(len(m['content'].encode()) for m in payload['messages'])+len(json.dumps(payload['format']).encode())+512+payload['options']['num_predict']
                 if upper>payload['options']['num_ctx']: raise ValueError('Conservative context limit exceeded')

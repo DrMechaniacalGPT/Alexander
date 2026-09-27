@@ -1,0 +1,55 @@
+{
+  "status": "incomplete",
+  "failure": "ValueError: Conservative context bound 25213+8192 exceeds 32768; explicitly choose a larger context",
+  "usage": {
+    "requests": 145,
+    "new_requests": 16,
+    "inherited_turns": 129,
+    "wall_seconds": 680.361,
+    "prompt_tokens": 465607,
+    "output_tokens": 12655
+  },
+  "manifest": {
+    "engine": "0.2.0",
+    "case_sha256": "69da711f11aa4e28dba252b809d419ad4367b9cc79a07cf871a0a1b0cc418abf",
+    "config": {
+      "backend": "ollama",
+      "model": "gemma4:e4b-it-qat",
+      "seed": 17,
+      "context": 32768,
+      "tokens": 768,
+      "max_calls": 154,
+      "max_seconds": 1200.0,
+      "prompt_profile": "dialogue-v1",
+      "strict_output": true,
+      "assessment_thinking": true,
+      "assessment_tokens": 8192,
+      "request_timeout": 300.0
+    },
+    "continuation": {
+      "parent": "iteration-open-gemma",
+      "manifest_sha256": "ce54771caa70af82ee403986c0cf36e6d49c49a3ff804b81955921c37016d08e",
+      "reuse_turns": 129,
+      "case_fork": true,
+      "parent_case_sha256": "fc211ad7335a4d4c693d1bb4299c2c3c762ba39f2c410566c52aa2856fd27b20"
+    }
+  },
+  "new_journals": {
+    "t00129.json": "6bab04958caf949983af5ea03e5bf09c597856a3401980a4f4e262f77f95d827",
+    "t00130.json": "4824b7db186d4eca1388ac1c3e428d0e7ea0949ca9c52c5f8052029defc245d7",
+    "t00131.json": "c43948be7542bf647972d72bc8759367ded1e3ce4d56fa6be599af01a59624ab",
+    "t00132.json": "8087b0750ac60cd1f730713b88c668969896f763828fc493a6e2b0bc4a1c1337",
+    "t00133.json": "b58de29066376fe9573160dc5ea1447b38999ffd6fcbe158cce549aa7703425f",
+    "t00134.json": "f2da7454d6aecbf35f6c13c03a48f40e32f55123875789eb1a0c8d1c31388385",
+    "t00135.json": "7879f09e96418a3b605c149e9c4c033719161c24ab6c67871a7a62fdc1da1f09",
+    "t00136.json": "fe965c8fe195ff43f009be71d060e318b1d89d2529d5b68f06a44750a20f8896",
+    "t00137.json": "0624802fd4c9c9812a4cbeb31c20584fb178b1f95d94e5b0b9db7d0c5001650f",
+    "t00138.json": "20b06a91d5a3cca947240ca7010212ba7b6d05dc364f0655e350131a2d2e8d0d",
+    "t00139.json": "f2c45b8fe7390de7619725822349d911e6d8e03fc2c451c3b04feb8c615076ae",
+    "t00140.json": "762fc115d0999883310f418f3a109fccaaacd65798fd9a185769a6620b70ecc0",
+    "t00141.json": "15eb7b852cb8071579a7c882cdf90362956db431f75bea8a04f1d0be5f26fd2a",
+    "t00142.json": "7cb2892bccf5d0e602212227e4e20e13ec048f2fcf0ab50aa54426dae24aa9b3",
+    "t00143.json": "139f26538c83c0f2918ccbfa8a841a53721305fe4d68536d87fe3f7d4d1a9f73",
+    "t00144.json": "02171a64d4797ac719d5f86466e5312eb027700e596527c29f1eb2e0ceb5b527"
+  }
+}

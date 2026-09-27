@@ -1,0 +1,74 @@
+{
+  "status": "complete",
+  "failure": null,
+  "scenario": "05-museum-party",
+  "manifest": {
+    "engine": "0.2.0",
+    "case_sha256": "0be09cf4d11026181b119dfc98494718e4b27507c4c99256728fd9c5c034ab9a",
+    "config": {
+      "backend": "ollama",
+      "model": "qwen3.5:9b",
+      "seed": 17,
+      "context": 16384,
+      "tokens": 768,
+      "max_calls": 8,
+      "max_seconds": 600.0,
+      "prompt_profile": "dialogue-v1",
+      "strict_output": true
+    }
+  },
+  "usage": {
+    "requests": 8,
+    "new_requests": 8,
+    "inherited_turns": 0,
+    "wall_seconds": 72.118,
+    "prompt_tokens": 10007,
+    "output_tokens": 1070
+  },
+  "field_limit_hits": [],
+  "events": 6,
+  "contacts": {
+    "p1": [
+      "p2",
+      "p3",
+      "p4"
+    ],
+    "p2": [
+      "p1",
+      "p3",
+      "p4"
+    ],
+    "p3": [
+      "p1",
+      "p2",
+      "p4"
+    ],
+    "p4": [
+      "p1",
+      "p2",
+      "p3"
+    ]
+  },
+  "transitions": [
+    {
+      "scene": "introductions",
+      "reason": "schedule_budget",
+      "contact_trigger": null,
+      "contact_count": null
+    },
+    {
+      "scene": "clues",
+      "reason": "schedule_budget",
+      "contact_trigger": null,
+      "contact_count": null
+    }
+  ],
+  "conclusions": {
+    "p1": "The host revealed two reliable clues: the culprit owns a dog and has an east-wing badge. From introductions, Milo claims to have a dog and an east-wing badge, matching both criteria. Therefore, Milo is identified as the culprit.",
+    "p2": "The culprit is Nia. She owns a cat (does not match clue) and has an east-wing badge (matches clue). Wait, re-evaluating: Clue 1 is dog owner. Clue 2 is east-wing badge. Iris: cat/west (0/2 matches). Oren: dog/west (1/2 matches). Nia: cat/east (1/2 matches). Milo: dog/east (2/2 matches). Since the murderer owns a dog AND has an east-wing badge, and I am Milo who fits both descriptions, I am the culprit. This is a private assessment of my own guilt.",
+    "p3": "The host provided two clues: the culprit owns a dog and has an east-wing badge. Iris (cat, west), Milo (dog, east), Nia (cat, east), Oren (dog, west). Only Milo matches both criteria. Therefore, Milo is the culprit.",
+    "p4": "Milo is the murderer. The host confirmed the culprit owns a dog and has an east-wing badge. Milo introduced himself as owning a dog with access to the east wing only."
+  },
+  "actions": [],
+  "limitation": "Synthetic participants; delivery is not belief. No human validity claim."
+}
