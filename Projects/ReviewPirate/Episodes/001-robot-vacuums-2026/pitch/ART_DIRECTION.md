@@ -1,3 +1,5 @@
+> **Latest owner alignment:** the otter, house and image quality are approved as the visual direction. The matrix-led review-of-reviews investigation and visible product-narrowing journey now lead the story. Read [NARRATIVE_DIRECTION.md](NARRATIVE_DIRECTION.md); it supersedes the earlier house-first story and routine host/no-host identity comparison below. Existing fact checks and model-access limits remain applicable.
+
 # The house that changes the answer
 
 Creative treatment, September 26, 2026. This is a proposed film language, not a model capability guarantee. The two generated concept sheets are still images, not a new video sample. They do not depict a real robot test or an exact commercial product.

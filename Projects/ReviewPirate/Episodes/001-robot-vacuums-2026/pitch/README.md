@@ -1,3 +1,13 @@
+# Current review: script and unfolding viewer experience
+
+Start with [the revised script and viewer journey](VIEWER_STORY.md), then [three visual treatments of one passage](story-comparison.html). The [four underlying arcs](FOUR_ARCS.md) and [creative comparison](CREATIVE_COMPARISON.md) explain the choices. These are development materials, not a generated film. The otter and house remain the approved visual direction.
+
+The earlier pitch below is retained as development history; its house-first opening and host/no-host identity test are superseded.
+
+---
+
+> **Latest owner alignment:** the otter, house and image quality are approved as the visual direction. The matrix-led review-of-reviews investigation and visible product-narrowing journey now lead the story. Read [NARRATIVE_DIRECTION.md](NARRATIVE_DIRECTION.md); it supersedes the earlier house-first story and routine host/no-host identity comparison below. Existing fact checks and model-access limits remain applicable.
+
 # A film worth testing
 
 **Recommendation: make a short, cinematic review inside one coherent house, with an original otter guide tested against a host-free version.** Start with useful buying guidance, then let the camera reveal why the answer changes from room to room. No final mascot or brand is chosen.

@@ -1,3 +1,5 @@
+> **Latest owner alignment:** the otter, house and image quality are approved as the visual direction. The matrix-led review-of-reviews investigation and visible product-narrowing journey now lead the story. Read [NARRATIVE_DIRECTION.md](NARRATIVE_DIRECTION.md); it supersedes the earlier house-first story and routine host/no-host identity comparison below. Existing fact checks and model-access limits remain applicable.
+
 # First motion test: a scene, not another full rough cut
 
 Proposed experiment only. Free generation is authorized in principle, but no video generation or paid spend occurred in this research pass. A free Flow route was checked but requires Google sign-in in the current browser. Do not create an account, buy access or use vidIQ generation credits as a workaround.

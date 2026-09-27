@@ -40,3 +40,12 @@ An independent pass found that the recommended Saros had no affirmative spoken r
 The matched hair-method investigation found that Vacuum Wars’ current guide also presses hair into carpet. Version 6 removes wording and imagery that could imply a proved loose-versus-embedded explanation. Historical protocol gaps stay unknown.
 
 The model-selection recheck found that Omni-first was primarily a cost/control choice. The next test now compares the same M02 performance in Veo and Omni before committing to a route; host/no-host comparison follows within the selected model. Paid ceilings are 230 or 290 video credits depending on that result, not a universal 230. No new generation occurred.
+
+## Owner alignment: the investigation leads
+
+The owner approved the otter/house visuals but identified that cinematic domestic footage did not deliver the matrix thumbnail's promise. The revised direction makes the review-of-reviews analysis explicit in the opening, gives viewers a persistent product map and a visible narrowing journey, and casts the otter as editor/guide. No fictional market counts, eight-distinct-winner claim or reviewer motives are asserted. The candidate universe and dated recommendation ledger must precede a final elimination script.
+
+
+## Continuous viewer experience correction
+
+Replaced endpoint-criteria scoring with a script-led viewer journey. Opening pairs a checkable finding with early otter/house reveal. Subsequent beats build trust through explained weighting, contrary evidence, unresolved methods and bounded decisions. Added independent arcs, three passage treatments and a new unbranded cable reference. Still images do not prove pacing or performance.

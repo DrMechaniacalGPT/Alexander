@@ -1,3 +1,13 @@
+## Current next steps — script leads production
+
+1. Read VIEWER_STORY.md aloud and cut repetition; test comprehension before recording a polished voice.
+2. Reconcile the candidate universe and dated recommendation ledger; recover the liked thumbnail before locking matrix art.
+3. Build a timed opening plus evidence-heavy middle in the same cut, testing whether visual interest and earned trust continue across their transition.
+4. Test the approved otter performing meaningful actions; retain only shots that improve the viewer journey.
+5. Review the full sequence in real time; revise lapses in orientation, momentum, confidence or visual interest. Still-frame comparisons do not clear this gate.
+
+> **Next priority:** build the dated recommendation ledger and honest candidate set, then rewrite the episode around a stable comparison board. Otter/house art direction is owner-approved. See [narrative direction](NARRATIVE_DIRECTION.md). The next sample must demonstrate otter + matrix + one sourced decision.
+
 # Execution state and next steps
 
 This plan supersedes the earlier sample-delivery milestone. The current output is a researched production pitch. A video is not complete merely because a renderer succeeds.

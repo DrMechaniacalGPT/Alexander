@@ -1,3 +1,5 @@
+> **Latest owner alignment:** the otter, house and image quality are approved as the visual direction. The matrix-led review-of-reviews investigation and visible product-narrowing journey now lead the story. Read [NARRATIVE_DIRECTION.md](NARRATIVE_DIRECTION.md); it supersedes the earlier house-first story and routine host/no-host identity comparison below. Existing fact checks and model-access limits remain applicable.
+
 # Packaging that matches this film
 
 The thumbnail the owner liked remains the first asset to recover, not a design to replace by default. No CTR test, title score or guaranteed-virality claim is made here.

@@ -1,3 +1,7 @@
+> **Superseded by [VIEWER_STORY.md](VIEWER_STORY.md):** new spoken draft and continuous viewer-experience treatment. This version remains historical.
+
+> **Latest owner alignment:** the otter, house and image quality are approved as the visual direction. The matrix-led review-of-reviews investigation and visible product-narrowing journey now lead the story. Read [NARRATIVE_DIRECTION.md](NARRATIVE_DIRECTION.md); it supersedes the earlier house-first story and routine host/no-host identity comparison below. Existing fact checks and model-access limits remain applicable.
+
 # Working narration — version 6
 
 This is a proposed script, not cleared final buying advice or recorded narration. It incorporates the independent fact/promise review: an audible scope boundary, affirmative Saros rationale, budget vacuuming qualification, explicit Saros antecedent, dated seven-model cohort, three questions and direct source referrals. The first two buying paths are bounded editorial judgments from the checked sources, not a claim to have ranked every available robot.

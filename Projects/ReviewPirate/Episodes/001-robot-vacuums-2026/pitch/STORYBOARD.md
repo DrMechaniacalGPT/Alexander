@@ -1,3 +1,5 @@
+> **Latest owner alignment:** the otter, house and image quality are approved as the visual direction. The matrix-led review-of-reviews investigation and visible product-narrowing journey now lead the story. Read [NARRATIVE_DIRECTION.md](NARRATIVE_DIRECTION.md); it supersedes the earlier house-first story and routine host/no-host identity comparison below. Existing fact checks and model-access limits remain applicable.
+
 # Scene treatment: the house that changes the answer
 
 Working episode title: **Best Robot Vacuum? The Tests That Change the Answer**. Target roughly three minutes, subject to a real voice read and editing. Time bands below are an editorial map, not rendered timing. The whole film must earn its runtime. No opening logo or host biography.
