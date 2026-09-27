@@ -73,7 +73,7 @@ class Stub:
         return result
 
     def complete(self, payload, timeout=120):
-        view = json.loads(payload['messages'][1]['content'])
+        view = json.loads(payload['messages'][-1]['content'])
         action = self.replies.get(view['self'], {'say': 'I have no information to add.',
                'private_note': '', 'evidence': [], 'conclusion': 'Unknown.', 'action': 'none'})
         if self.strict_output:

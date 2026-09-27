@@ -1,0 +1,75 @@
+{
+  "status": "complete",
+  "failure": null,
+  "scenario": "04-selective-disclosure",
+  "manifest": {
+    "engine": "0.2.0",
+    "case_sha256": "42aff09204fd100e07f0a3af26b2bceace747b38ed5c53c59f441f87abaea705",
+    "config": {
+      "backend": "ollama",
+      "model": "qwen3.5:9b",
+      "seed": 17,
+      "context": 16384,
+      "tokens": 768,
+      "max_calls": 14,
+      "max_seconds": 300.0,
+      "prompt_profile": "dialogue-v1",
+      "strict_output": true
+    }
+  },
+  "usage": {
+    "requests": 13,
+    "new_requests": 13,
+    "inherited_turns": 0,
+    "wall_seconds": 96.893,
+    "prompt_tokens": 18106,
+    "output_tokens": 1856
+  },
+  "field_limit_hits": [
+    {
+      "turn": "t00005",
+      "field": "private_note",
+      "length": 180
+    },
+    {
+      "turn": "t00010",
+      "field": "private_note",
+      "length": 180
+    },
+    {
+      "turn": "t00012",
+      "field": "private_note",
+      "length": 180
+    }
+  ],
+  "events": 10,
+  "contacts": {
+    "p1": [
+      "p2",
+      "p3"
+    ],
+    "p2": [
+      "p1",
+      "p3"
+    ],
+    "p3": [
+      "p1",
+      "p2"
+    ]
+  },
+  "transitions": [
+    {
+      "scene": "s1",
+      "reason": "schedule_budget",
+      "contact_trigger": null,
+      "contact_count": null
+    }
+  ],
+  "conclusions": {
+    "p1": "I privately know about Dax's confidential booking from 16:10 to 16:30. In public, I confirmed the time but withheld the reason and identity. Omar believes the exception was until 16:30; Leena trusts his account. The piano is safe under my guard. Next, I will continue monitoring until the caretaker arrives at 17:00.",
+    "p2": "I know the board lists closing at 16:00. I heard Neri claim an exception to 16:30, which he asserts is true. Leena reports water at 16:25, implying entry or leakage then, but doesn't identify who entered. I chose not to reveal my private doubt about the exception's validity. Next, I will wait for the caretaker's inspection at 17:00 before deciding on further guard rotations.",
+    "p3": "I personally observed water at 16:25; Omar reported Neri cleared the room until 16:30. The exact source of the water remains unknown to me. I chose to withhold specific details about the unexplained wetness in public speech, trusting Omar's explanation for now. My next step is to speak privately with Neri."
+  },
+  "actions": [],
+  "limitation": "Synthetic participants; delivery is not belief. No human validity claim."
+}

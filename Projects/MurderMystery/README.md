@@ -1,6 +1,6 @@
 # Murder mystery party project
 
-**A local simulator now exists.** It runs separate player contexts through installed Ollama models, with tiny original fixtures, inspectable conversations, private conclusions and explicit failure/recovery records. Start with the [latest reasoning-budget checkpoint](simulation/REASONING-BUDGET.md) and [earlier reasoning comparison](simulation/REASONING.md), then the [implementation results](simulation/RESULTS.md) and [runner instructions](simulation/README.md).
+**A local simulator now exists.** It runs separate player contexts through installed Ollama models, with tiny original fixtures, inspectable conversations, private conclusions and explicit failure/recovery records. Start with the [dialogue-format diagnosis and party comparison](simulation/DIALOGUE.md), then the [reasoning-budget checkpoint](simulation/REASONING-BUDGET.md) and [earlier reasoning comparison](simulation/REASONING.md), then the [implementation results](simulation/RESULTS.md) and [runner instructions](simulation/README.md).
 
 The current milestone is incremental machinery and an existing-game text adaptation. Completing its phases is distinct from believable behavior or a good party. The results retain failures and identify where conclusions exceed available information; they do not blame the original game for simulator or adaptation problems.
 

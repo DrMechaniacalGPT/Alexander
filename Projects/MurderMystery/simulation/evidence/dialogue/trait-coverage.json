@@ -1,0 +1,39 @@
+{
+  "method": "Independent manual coding of a fixed 73-atom personality-trait inventory; complete source-derived inventory and event coding remain private. Excludes motives, background, performance cues, vague implications and borrowed false claims. One broad preference paraphrase is flagged but consistently counted.",
+  "runs": {
+    "baseline": {
+      "rubric_version": "personality-atoms-v1",
+      "aggregate": {
+        "distinct_disclosed": 5,
+        "inventory_size": 73,
+        "speech_events": 32,
+        "trait_disclosure_mentions_including_repeats": 16,
+        "exact_self_replay_events": 16
+      },
+      "private_coding_sha256": "daaca1bf5bc4da34e2b00771650600c85504308fefba80fe1af4bad7fad0ee14"
+    },
+    "dialogue_old": {
+      "rubric_version": "personality-atoms-v1",
+      "aggregate": {
+        "distinct_disclosed": 16,
+        "inventory_size": 73,
+        "speech_events": 32,
+        "trait_disclosure_mentions_including_repeats": 27,
+        "exact_self_replay_events": 1
+      },
+      "private_coding_sha256": "c973e51ddea62f754148d7053dbcc08cb74b009fd9ef136e44a514ab55d595c2"
+    },
+    "dialogue_four": {
+      "rubric_version": "personality-atoms-v1",
+      "aggregate": {
+        "distinct_disclosed": 23,
+        "inventory_size": 73,
+        "speech_events": 64,
+        "trait_disclosure_mentions_including_repeats": 74,
+        "exact_self_replay_events": 2,
+        "exact_other_speaker_copy_events": 1
+      },
+      "private_coding_sha256": "e8566f1868812330b0d1488637ff23bb232ebc278baf2165230ed6d6e5763d8b"
+    }
+  }
+}

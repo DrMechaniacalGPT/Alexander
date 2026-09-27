@@ -1,0 +1,65 @@
+{
+  "omission": "Only model-returned thinking text is omitted; prompts and structured action fields remain.",
+  "files": [
+    {
+      "path": "budget.json",
+      "local_original_sha256": "ab38c93fa41f6c01a3dac99c1a517ede53c9a45fbe86242f44f86ef1c2534794",
+      "published_sha256": "ab38c93fa41f6c01a3dac99c1a517ede53c9a45fbe86242f44f86ef1c2534794"
+    },
+    {
+      "path": "events.json",
+      "local_original_sha256": "fa2b3b7fa98e6ce8c223a718e9b8468b470128118d514ea171db0f898fc55cb1",
+      "published_sha256": "fa2b3b7fa98e6ce8c223a718e9b8468b470128118d514ea171db0f898fc55cb1"
+    },
+    {
+      "path": "manifest.json",
+      "local_original_sha256": "7e20f1019ef3100fe8b5ddf2be0d0ed765c184d1e5428cd1b7d1d99c471cffb1",
+      "published_sha256": "7e20f1019ef3100fe8b5ddf2be0d0ed765c184d1e5428cd1b7d1d99c471cffb1"
+    },
+    {
+      "path": "report.md",
+      "local_original_sha256": "1c9f25cbb37bab23876612cc0e00b15a6bf7fbcacce833d694aff939f1111fa2",
+      "published_sha256": "1c9f25cbb37bab23876612cc0e00b15a6bf7fbcacce833d694aff939f1111fa2"
+    },
+    {
+      "path": "summary.json",
+      "local_original_sha256": "daa3895e8b02b58bd8a70e468335d5fde06c7d79bbdf67e46ae4d3bcebe138c8",
+      "published_sha256": "daa3895e8b02b58bd8a70e468335d5fde06c7d79bbdf67e46ae4d3bcebe138c8"
+    },
+    {
+      "path": "turns/t00000.json",
+      "local_original_sha256": "26526446c12097b00370ebee46f240854181defa1f4021d677e834c280052df6",
+      "published_sha256": "26526446c12097b00370ebee46f240854181defa1f4021d677e834c280052df6"
+    },
+    {
+      "path": "turns/t00001.json",
+      "local_original_sha256": "33ae6f0b7f054687f66f3db0e303d7471c8d533cfb7514d8ea1d2e0a8ce007fb",
+      "published_sha256": "33ae6f0b7f054687f66f3db0e303d7471c8d533cfb7514d8ea1d2e0a8ce007fb"
+    },
+    {
+      "path": "turns/t00002.json",
+      "local_original_sha256": "7ad69e1a53ef608c559cc44895434402328ae81d057c84d0229add71ad26eb66",
+      "published_sha256": "7ad69e1a53ef608c559cc44895434402328ae81d057c84d0229add71ad26eb66"
+    },
+    {
+      "path": "turns/t00003.json",
+      "local_original_sha256": "10d0d1485b40253aa0c9c6ce558f23b10f338e63abb8e2fc884ec375c2611879",
+      "published_sha256": "10d0d1485b40253aa0c9c6ce558f23b10f338e63abb8e2fc884ec375c2611879"
+    },
+    {
+      "path": "turns/t00004.json",
+      "local_original_sha256": "5780a4b7094e394fc6743a40f235150c31abc25bc0fe3565aa8264be1bf8503d",
+      "published_sha256": "5780a4b7094e394fc6743a40f235150c31abc25bc0fe3565aa8264be1bf8503d"
+    },
+    {
+      "path": "turns/t00005.json",
+      "local_original_sha256": "60c0522ae93e77359a23d34258322733199272f7b04b608e941fa62b2b769dd8",
+      "published_sha256": "60c0522ae93e77359a23d34258322733199272f7b04b608e941fa62b2b769dd8"
+    },
+    {
+      "path": "turns/t00006.json",
+      "local_original_sha256": "2ac17884620597e3aa6ec59efe2d53fcdfc6be88e85dfb0d678fb72324365fb5",
+      "published_sha256": "2ac17884620597e3aa6ec59efe2d53fcdfc6be88e85dfb0d678fb72324365fb5"
+    }
+  ]
+}

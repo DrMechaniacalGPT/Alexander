@@ -1,6 +1,6 @@
 # Local mystery simulator
 
-A small Python runner that calls installed Ollama models with a separate context for each participant. Start with the [strict-output and reasoning-budget checkpoint](REASONING-BUDGET.md), then the [earlier reasoning comparison](REASONING.md) for the latest comparison, and [RESULTS.md](RESULTS.md) for the initial implementation and failures. This is a working experimental instrument, not a calibrated model of party guests.
+A small Python runner that calls installed Ollama models with a separate context for each participant. Start with the [dialogue-format checkpoint](DIALOGUE.md), then the [strict-output and reasoning-budget checkpoint](REASONING-BUDGET.md), then the [earlier reasoning comparison](REASONING.md) for the latest comparison, and [RESULTS.md](RESULTS.md) for the initial implementation and failures. This is a working experimental instrument, not a calibrated model of party guests.
 
 ## Run it
 
@@ -74,3 +74,10 @@ The first implementation intentionally omits an optimizer, scoring model for fun
 ## Fixed-context diagnostic
 
 `PYTHONPATH=. python3 tools/compare_contexts.py evidence/02_relay_final/turns/t00006.json runs/context-checks.json` makes four bounded calls across two already-installed models. It compares the delivered-report view with a counterfactual that removes other-player reports. Output is preserved without overwriting an existing result. Its protocol check is not a semantic grade; read whether the answer actually states the learned location and attributes the source. No multi-call sample establishes a model ranking.
+
+
+## Dialogue history and distinct partners
+
+`--prompt-profile dialogue-v1` is an opt-in party-player framing and role-aware history renderer. It includes only that player's delivered observations, makes prior own speech assistant history, labels other speech/actions/deliveries, and supplies the current audience separately. Private intentions and earlier private assessments are not memory. The default legacy payload is unchanged. See [DIALOGUE.md](DIALOGUE.md) for selected improvements and residual failures; do not equate better turn-taking with correct evidence reasoning.
+
+`python3 -m tools.probe_dialogue` compares saved frozen requests with bounded local calls and retained outputs. Its source-derived records must remain private. `python3 -m tools.import_movie PRIVATE_SOURCE PRIVATE_OUTPUT --partners 4` creates an experimental schedule with four distinct partners for every guest; omitting the option preserves the original adapter. `python3 -m dojo.metrics EVENTS --out NEW_REPORT` measures exact same-speaker repeats and conversation opportunities, not factual correctness.

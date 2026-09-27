@@ -1,0 +1,122 @@
+[
+  {
+    "id": "e00000",
+    "key": "t00000",
+    "actor": "p2",
+    "recipients": [
+      "p1",
+      "p2"
+    ],
+    "content": "Hey Neri, the board says the practice room closes at 16:00. Was there an exception for us to be in there until 16:20? I need to know who guards the piano.",
+    "scene": "s1",
+    "kind": "speech"
+  },
+  {
+    "id": "e00001",
+    "key": "t00001",
+    "actor": "p1",
+    "recipients": [
+      "p1",
+      "p2"
+    ],
+    "content": "Yes, there was an exception until 16:30. I'll guard the piano myself so we don't need anyone else.",
+    "scene": "s1",
+    "kind": "speech"
+  },
+  {
+    "id": "e00002",
+    "key": "t00002",
+    "actor": "p2",
+    "recipients": [
+      "p1",
+      "p2"
+    ],
+    "content": "Good. Since you're guarding it until 16:30, I'll check with Leena about the foyer and other volunteers. Just let me know if anything changes.",
+    "scene": "s1",
+    "kind": "speech"
+  },
+  {
+    "id": "e00003",
+    "key": "t00003",
+    "actor": "p1",
+    "recipients": [
+      "p1",
+      "p2"
+    ],
+    "content": "That sounds like a plan. I'll stay here until 16:30. Please let me know immediately if anything changes.",
+    "scene": "s1",
+    "kind": "speech"
+  },
+  {
+    "id": "e00004",
+    "key": "t00004",
+    "actor": "p3",
+    "recipients": [
+      "p2",
+      "p3"
+    ],
+    "content": "I noticed water on the floor in the practice room at 16:25. The board says closing is 16:00. Did anyone else enter after that? I want to protect the piano without pointing fingers unfairly.",
+    "scene": "s1",
+    "kind": "speech"
+  },
+  {
+    "id": "e00005",
+    "key": "t00005",
+    "actor": "p2",
+    "recipients": [
+      "p2",
+      "p3"
+    ],
+    "content": "Leena, Neri confirmed an exception until 16:30. You saw water at 16:25. That's consistent with our plan. I'll keep it quiet for now and decide who guards the rest.",
+    "scene": "s1",
+    "kind": "speech"
+  },
+  {
+    "id": "e00006",
+    "key": "t00006",
+    "actor": "p3",
+    "recipients": [
+      "p2",
+      "p3"
+    ],
+    "content": "If Neri cleared it until 16:30, maybe the water came then. But I didn't see who entered. I'll keep quiet on that for now and wait to speak with Neri.",
+    "scene": "s1",
+    "kind": "speech"
+  },
+  {
+    "id": "e00007",
+    "key": "t00007",
+    "actor": "p2",
+    "recipients": [
+      "p2",
+      "p3"
+    ],
+    "content": "Leena, I've spoken with Neri. He confirmed the room was open until 16:30. The water you saw at 16:25 could be from that time. Since Neri is guarding the piano now, we don't need extra help unless he leaves early.",
+    "scene": "s1",
+    "kind": "speech"
+  },
+  {
+    "id": "e00008",
+    "key": "t00008",
+    "actor": "p1",
+    "recipients": [
+      "p1",
+      "p3"
+    ],
+    "content": "Leena, I've handled the room until 16:30. Omar is checking the foyer. We should focus on securing the piano now.",
+    "scene": "s1",
+    "kind": "speech"
+  },
+  {
+    "id": "e00009",
+    "key": "t00009",
+    "actor": "p3",
+    "recipients": [
+      "p1",
+      "p3"
+    ],
+    "content": "I'm glad Neri is guarding the piano now. Since Omar confirmed the exception until 16:30, my worry about who entered was unfounded. I'll trust his assessment and focus on our next tasks.",
+    "scene": "s1",
+    "kind": "speech"
+  }
+]

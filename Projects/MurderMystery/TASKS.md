@@ -1,5 +1,18 @@
 # Task board
 
+## Next agreed work: dialogue first, then broader mingling
+
+Owner: integrating agent. Agreed during the follow-up voice discussion. R01–R05 completed in the [dialogue checkpoint](simulation/DIALOGUE.md). The four-partner run completed; one nonculprit named the correct suspect, with qualification about justification and contradictory other answers. No model run remains active. The new format improves selected behaviors but has residual factual/audience errors.
+
+- [x] **R01 — Reproduce the repeated opening.** Freeze the actual Writer second-turn request and response. Verify delivered history, speaker identity, input serialization, request construction, and raw response handling. Compare the existing observation format with readable speaker-labeled history and a clear next-reply instruction, holding model settings and available information fixed. Preserve unsuccessful outputs. Acceptance: an evidence-backed diagnosis or narrowed hypotheses, not merely one favorable response.
+- [x] **R02 — Check other failures and party framing.** Freeze examples of adopting another character's facts, addressing an absent partner, and contradicting prior disclosure. Test the candidate format on these as well as fresh simple examples explicitly framed as a person playing a character at a murder mystery party. Keep fact truth, optional public withholding, and improvisation boundaries distinct. Acceptance: report regressions and repeat across a small declared seed set; do not select by fluency alone.
+- [x] **R03 — Integrate and rerun the original schedule.** Preserve legacy replay and player information boundaries. Add meaningful regression coverage for any confirmed implementation bug. Rerun the eight-player adaptation with its old schedule first, keeping clue allocation fixed, to separate prompt changes from added interaction. Measure accurate distinct facts disclosed, repetition, speaker confusion, and each listener's evidence coverage before accusations.
+- [x] **R04 — Give each player four distinct partners.** Once R01–R03 show useful dialogue, compare with a recorded schedule in which every one of the eight players meets four different other players (16 pair encounters). Start with two alternating speaking turns per player per encounter, making 64 speech calls. Keep the same random private clue allocation and immediate private accusations afterward. The old schedule had 32 speech calls. This changes interaction opportunity and compute, and remains a simplified adaptation rather than a faithful physical party.
+- [x] **R05 — Assess the milestone.** Inspect dialogues and per-player fact coverage alongside correct, wrong, and uncertain accusations; exclude the culprit's privileged answer. Distinguish unavailable information from misuse of received evidence. A promising result is coherent, responsive conversations with some justified discoveries; do not force correct accusations by leaking the solution or tuning the scenario to a preferred outcome. Save a concise memo with links to reproducible evidence. Source-derived role sheets and reconstructive traces stay private.
+
+Priority change: diagnose dialogue formatting before enlarging reasoning budgets or adding personality complexity. If the small reproductions remain broken, document the failure and next hypothesis rather than interpreting full-party accusation rates. No paid inference, new model download, or public release is implied.
+
+
 Status: `[ ]` not started, `[~]` in progress, `[x]` completed. A task is complete only when its evidence and synthesis are committed, with limitations visible.
 
 ## Implementation checkpoint — September 26

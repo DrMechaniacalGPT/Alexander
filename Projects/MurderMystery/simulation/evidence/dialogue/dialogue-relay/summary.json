@@ -1,0 +1,57 @@
+{
+  "status": "complete",
+  "failure": null,
+  "scenario": "02-private-relay",
+  "manifest": {
+    "engine": "0.2.0",
+    "case_sha256": "00656ab60afe8ffaf75846367462190b7322def2025d8a1b313932f93176e07d",
+    "config": {
+      "backend": "ollama",
+      "model": "qwen3.5:9b",
+      "seed": 17,
+      "context": 16384,
+      "tokens": 768,
+      "max_calls": 8,
+      "max_seconds": 300.0,
+      "prompt_profile": "dialogue-v1",
+      "strict_output": true
+    }
+  },
+  "usage": {
+    "requests": 7,
+    "new_requests": 7,
+    "inherited_turns": 0,
+    "wall_seconds": 34.774,
+    "prompt_tokens": 6438,
+    "output_tokens": 672
+  },
+  "field_limit_hits": [],
+  "events": 4,
+  "contacts": {
+    "p1": [
+      "p2"
+    ],
+    "p2": [
+      "p1",
+      "p3"
+    ],
+    "p3": [
+      "p2"
+    ]
+  },
+  "transitions": [
+    {
+      "scene": "s1",
+      "reason": "schedule_budget",
+      "contact_trigger": null,
+      "contact_count": null
+    }
+  ],
+  "conclusions": {
+    "p1": "The signed receipt is in cabinet 4; I learned this from a physical observation. I do not know Bea's private access marker, nor do I possess any information about Cal's markers.",
+    "p2": "Ari stated in e00001 that a receipt was seen in cabinet 4. I learned this by hearing him speak. Regarding private access markers, I possess no such information and will not guess or invent any codes.",
+    "p3": "Bea claims the receipt is in cabinet 4, citing Ari's statement. I do not know if this is true or if a private access marker exists. I have not guessed any codes."
+  },
+  "actions": [],
+  "limitation": "Synthetic participants; delivery is not belief. No human validity claim."
+}
