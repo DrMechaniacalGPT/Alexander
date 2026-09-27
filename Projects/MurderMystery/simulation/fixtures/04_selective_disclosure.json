@@ -1,0 +1,50 @@
+{
+  "id": "04-selective-disclosure",
+  "public": "You are volunteers at a community music hall. The foyer board still lists today's practice-room closing time as 16:00. A piano in that room needs protection from water. It is now 16:40. The caretaker can inspect the room at 17:00, but has not yet done so. This is a conversation about what to do next, not a solved crime. Historical facts in your brief are fixed. During conversation you may refuse, evade, or deliberately mislead to protect a confidence; your private final assessment must distinguish what you know from what you chose to say. No inspection, repair, permission request to an absent person, or new discovery happens merely because someone proposes it.",
+  "truth": {
+    "neri_booked_practice_room": "16:10 to 16:30",
+    "booking_purpose": "Dax asked Neri for a private first rehearsal because performing before other people makes Dax anxious",
+    "neri_attended_rehearsal": false,
+    "leena_observation": "At 16:25 Leena saw water on the floor beside the piano, but did not see anyone enter or leave",
+    "water_source": "not established in this fixture",
+    "who_was_present_at_1625": "not established in this fixture",
+    "assessment_boundary": "A booking is not proof of attendance, responsibility, or consent to disclose someone's private reason."
+  },
+  "players": {
+    "p1": {
+      "name": "Neri",
+      "brief": "You are Neri, the volunteer who manages practice-room bookings. You personally approved a private booking today from 16:10 to 16:30, despite the old closing time on the foyer board. Dax requested it for a first rehearsal and told you that performing before others makes them anxious. You promised discretion about Dax's identity and reason. You were elsewhere during the booking and do not know whether Dax attended or what happened in the room. You want to protect both Dax's confidence and the piano. Decide what to tell each listener: you can share the booking time without its purpose, ask for discretion, defer, disclose more, or evade. Disclosure is your choice, not a prescribed ending. In your private assessment, do not confuse your choice to withhold with lacking the information."
+    },
+    "p2": {
+      "name": "Omar",
+      "brief": "You are Omar, coordinating the evening volunteers. The foyer board says the practice room closes at 16:00, but you do not know whether an exception was arranged. You want to establish whether the room was scheduled to be in use at 16:20 so that you can plan who should help protect the piano. Ask Neri about the schedule. You will next speak with Leena, who may have noticed something relevant. You can pass on what you actually hear, qualify it, keep a confidence, or ask another question. Do not treat a booking as proof that someone attended, or an old sign as proof that nobody could be there."
+    },
+    "p3": {
+      "name": "Leena",
+      "brief": "You are Leena, preparing chairs for the evening event. At 16:25 you personally looked through the practice-room doorway and saw water on the floor beside the piano. You did not see anyone enter or leave, did not inspect the room further, and do not know the source of the water. You do not know of any booking exception. You want the piano protected without unfairly blaming a volunteer. Ask Omar what he learned about use of the room and decide whether to share your observation. Later you can speak directly with Neri. You may press for useful details, accept a limited explanation, offer discretion, or pursue the caretaker's inspection instead."
+    }
+  },
+  "scenes": [
+    {
+      "id": "s1",
+      "encounters": [
+        {
+          "participants": ["p2", "p1"],
+          "turns_each": 2,
+          "instruction": "Speak to your current partner about the practical concern in your brief. Respond to what they actually say; you choose what to ask or disclose."
+        },
+        {
+          "participants": ["p3", "p2"],
+          "turns_each": 2,
+          "instruction": "This is a new conversation with your current partner. Use only what you personally know or have heard. Choose what to ask, share, or withhold."
+        },
+        {
+          "participants": ["p1", "p3"],
+          "turns_each": 1,
+          "instruction": "You now have a brief conversation with your current partner. Address their concerns if they raise them, or pursue a question or next step of your own."
+        }
+      ]
+    }
+  ],
+  "question": "Privately summarize what you personally know versus what someone reported, and what remains unresolved. State one thing you chose to disclose or withhold and one next step you would take. You may acknowledge having confidential information without repeating its sensitive details. Do not claim a proposed action has already happened."
+}

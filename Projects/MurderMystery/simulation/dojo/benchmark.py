@@ -7,6 +7,7 @@ from pathlib import Path
 from .core import State, messages_for
 from .models import Ollama
 from .runner import dump
+from .audit import violations
 
 def request(row, profile, backend):
     case = {'id':'probe','public':'A fictional social mystery.', 'truth':{},
@@ -25,6 +26,7 @@ def collect(rows, out, backend, profiles=('legacy', 'grounded-v1')):
     out = Path(out)
     out.mkdir(parents=True, exist_ok=True)
     specification = {'cases': rows, 'profiles': list(profiles)}
+    outcomes = []
     ids = [row['id'] for row in rows]
     if len(ids) != len(set(ids)) or any(not key.replace('-', '').replace('_', '').isalnum() for key in ids):
         raise ValueError('Case IDs must be unique safe filenames')
@@ -47,6 +49,7 @@ def collect(rows, out, backend, profiles=('legacy', 'grounded-v1')):
                         raise ValueError('Existing request differs; use a new output directory')
                     if 'result' not in prior:
                         raise RuntimeError('Unfinished or failed request retained at '+str(path)+'; inspect it and use a new output directory')
+                    outcomes.append(violations(payload, prior['result']))
                     continue
                 record={'case':row['id'],'profile':profile,'request_sha256':digest,'request':payload}
                 # Reserve before generation: an interrupted request is not silently repeated.
@@ -57,15 +60,24 @@ def collect(rows, out, backend, profiles=('legacy', 'grounded-v1')):
                     record['error']=str(e)
                     dump(path, record)
                     raise
+                record['contract_violations'] = violations(payload, record['result'])
+                outcomes.append(record['contract_violations'])
                 dump(path, record)
-                print(row['id'],profile,'recorded',flush=True)
+                print(row['id'],profile,'contract failed' if record['contract_violations'] else 'contract passed',flush=True)
+    return {'responses': len(outcomes), 'contract_failures': sum(bool(errors) for errors in outcomes)}
 
 def main():
     p=argparse.ArgumentParser(description=__doc__)
     p.add_argument('cases',type=Path); p.add_argument('--out',type=Path,required=True)
     p.add_argument('--model',required=True); p.add_argument('--seed',type=int,default=1)
+    p.add_argument('--context',type=int,default=8192)
+    p.add_argument('--tokens',type=int,default=768)
+    p.add_argument('--thinking',action='store_true')
+    p.add_argument('--strict-output',action='store_true')
     p.add_argument('--profiles',nargs='+',choices=['legacy','grounded-v1','grounded-v2'],default=['legacy','grounded-v1'])
     a=p.parse_args()
-    backend=Ollama(a.model,context=8192,tokens=768,seed=a.seed)
-    collect(json.loads(a.cases.read_text()), a.out, backend, a.profiles)
+    backend=Ollama(a.model,context=a.context,tokens=a.tokens,seed=a.seed,thinking=a.thinking,strict_output=a.strict_output)
+    summary=collect(json.loads(a.cases.read_text()), a.out, backend, a.profiles)
+    print(json.dumps(summary))
+    if summary['contract_failures']: raise SystemExit(1)
 if __name__=='__main__': main()

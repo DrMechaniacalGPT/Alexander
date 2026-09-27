@@ -1,0 +1,26 @@
+[
+  {
+    "id": "e00000",
+    "key": "t00000",
+    "actor": "p2",
+    "recipients": [
+      "p1",
+      "p2"
+    ],
+    "content": "Neri, the foyer board shows practice room closes at 16:00. Did we get any confirmation for an extension today? If the room's still open past that, I need to assign someone to protect the piano before 17:00.",
+    "scene": "s1",
+    "kind": "speech"
+  },
+  {
+    "id": "e00001",
+    "key": "t00001",
+    "actor": "p1",
+    "recipients": [
+      "p1",
+      "p2"
+    ],
+    "content": "The room was booked for private use until 16:30. No extension granted. The caretaker will inspect at 17:00. Please wait.",
+    "scene": "s1",
+    "kind": "speech"
+  }
+]

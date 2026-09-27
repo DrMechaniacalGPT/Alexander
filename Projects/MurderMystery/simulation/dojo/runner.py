@@ -9,6 +9,7 @@ from pathlib import Path
 from . import __version__
 from .core import State, messages_for
 from .models import Ollama, Stub
+from .audit import violations
 
 
 def dump(path, value):
@@ -85,8 +86,9 @@ def _run(case, out, backend, config, replay=False, continue_from=None, reuse_tur
         previous = json.loads((parent/'manifest.json').read_text())
         if previous['case_sha256'] != manifest['case_sha256'] or previous['engine'] != manifest['engine']:
             raise ValueError('Continuation requires the same case and engine contract')
-        for key in ('seed', 'backend', 'model'):
-            if previous['config'].get(key) != config.get(key):
+        for key in ('seed', 'backend', 'model', 'thinking'):
+            default = False if key == 'thinking' else None
+            if previous['config'].get(key, default) != config.get(key, default):
                 raise ValueError('Continuation cannot change '+key)
         manifest['continuation'] = {'parent': parent.name, 'manifest_sha256': digest(previous), 'reuse_turns': reuse_turns}
     mf = out/'manifest.json'
@@ -133,6 +135,9 @@ def _run(case, out, backend, config, replay=False, continue_from=None, reuse_tur
             backed = json.loads(record['attempts'][-1]['result']['response']['message']['content'])
             if action != backed:
                 raise ValueError('Accepted action differs from recorded model output at '+key)
+            if config.get('strict_output'):
+                errors = violations(record['request'], record['attempts'][-1]['result'])
+                if errors: raise ValueError('Strict output contract: '+ '; '.join(errors))
             state.apply(key, pid, audience, action, scene, final, legal_actions)
             return
         if replay:
@@ -160,6 +165,9 @@ def _run(case, out, backend, config, replay=False, continue_from=None, reuse_tur
             raw = result['response']
             if raw.get('truncated') or raw.get('done_reason') == 'length':
                 raise ValueError('Truncated generation; inspect raw output and explicitly revise limits')
+            if config.get('strict_output'):
+                errors = violations(payload, result)
+                if errors: raise ValueError('Strict output contract: '+ '; '.join(errors))
             action = json.loads(raw['message']['content'])
             state.apply(key, pid, audience, action, scene, final, legal_actions)
         except Exception as exc:
@@ -245,6 +253,8 @@ def main():
     p.add_argument('--context', type=int, default=4096); p.add_argument('--tokens', type=int, default=256)
     p.add_argument('--max-calls', type=int, default=32); p.add_argument('--max-seconds', type=float, default=1800)
     p.add_argument('--prompt-profile', choices=['legacy','grounded-v1','grounded-v2'], default='legacy')
+    p.add_argument('--thinking', action='store_true', help='Enable local model reasoning; budget enough output tokens')
+    p.add_argument('--strict-output', action='store_true', help='Constrain phase-specific fields and reject violations')
     p.add_argument('--replay', action='store_true')
     p.add_argument('--reuse-turns', type=int, help='Limit inherited accepted prefix when explicitly revising later prompts')
     p.add_argument('--continue-from', type=Path, help='Explicitly reuse a compatible accepted prefix in a new run directory')
@@ -253,7 +263,9 @@ def main():
     config = {k:v for k,v in vars(args).items() if k not in ('case','out','replay','continue_from','reuse_turns')}
     if config['prompt_profile'] == 'legacy':
         del config['prompt_profile']  # Preserve historical manifest and replay compatibility.
-    backend = Ollama(args.model, context=args.context, tokens=args.tokens, seed=args.seed) if args.backend=='ollama' else Stub(case.get('stub', {}))
+    for key in ('thinking', 'strict_output'):
+        if not config[key]: del config[key]  # Historical manifests omit these options.
+    backend = Ollama(args.model, context=args.context, tokens=args.tokens, seed=args.seed, thinking=args.thinking, strict_output=args.strict_output) if args.backend=='ollama' else Stub(case.get('stub', {}), strict_output=args.strict_output)
     summary = run(case, args.out, backend, config, args.replay, args.continue_from, args.reuse_turns)
     print(json.dumps({k:summary[k] for k in ('status','failure','usage')}, indent=2))
     raise SystemExit(0 if summary['status']=='complete' else 1)
