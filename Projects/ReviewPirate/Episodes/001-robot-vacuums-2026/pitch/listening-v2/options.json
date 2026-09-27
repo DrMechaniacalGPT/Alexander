@@ -1,0 +1,42 @@
+[
+  {
+    "id": "B",
+    "title": "The overlooked contender",
+    "recommendation": "Recommended direction \u00b7 provisional shortlist",
+    "reason": "Discovers an overlooked value candidate, then challenges the controlled-test result with a specific home-use observation. Adds a separate premium review path without claiming it solves the first model\u2019s issue.",
+    "scenes": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6"
+    ]
+  },
+  {
+    "id": "A",
+    "title": "Follow the strongest comparison",
+    "recommendation": "Alternative \u00b7 best methods explainer",
+    "reason": "Excellent transparent starting source, but the shortlist grows again as later evidence arrives. Too much setup for this short episode.",
+    "scenes": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5"
+    ]
+  },
+  {
+    "id": "C",
+    "title": "When the price assumption flips",
+    "recommendation": "Alternative \u00b7 timely deal episode",
+    "reason": "Concrete useful change, but membership and temporary pricing make it a narrower, expiring story. Not the evergreen default.",
+    "scenes": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5"
+    ]
+  }
+]

@@ -1,3 +1,7 @@
+> **Current review point:** [Executive review](EXECUTIVE_REVIEW.md) · [New listening comparison](listening-v2/index.html) · [Three complete story paths](STORY_OPTIONS.md). The source-led comparison below supersedes the rejected buying-guide narration.
+
+> **Superseded editorial draft.** The owner rejected the buying-guide narration. Follow [the approved execution brief](EXECUTION_BRIEF.md) and [source reset](research/REVIEW_OF_REVIEWS_RESET.md). Preserve this file as iteration history, not the next production script.
+
 **Listen scene by scene:** [image + narration storyboard](listening/index.html), 16 clips / 158 seconds, neutral draft voice.
 
 # Current review: script and unfolding viewer experience

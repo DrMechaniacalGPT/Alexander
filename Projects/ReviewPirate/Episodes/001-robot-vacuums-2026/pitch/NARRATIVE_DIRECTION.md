@@ -1,3 +1,5 @@
+> **Superseded editorial draft.** The owner rejected the buying-guide narration. Follow [the approved execution brief](EXECUTION_BRIEF.md) and [source reset](research/REVIEW_OF_REVIEWS_RESET.md). Preserve this file as iteration history, not the next production script.
+
 # The otter investigates the reviews
 
 ## Owner alignment

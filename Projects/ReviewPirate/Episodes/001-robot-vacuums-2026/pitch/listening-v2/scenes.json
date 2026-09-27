@@ -1,0 +1,625 @@
+[
+  {
+    "id": "B1",
+    "option": "B",
+    "title": "The winner badges missed something",
+    "spoken": "These eight sources picked eight different robot vacuums. But looking only at their overall winners hid a useful option.",
+    "cards": [],
+    "columns": [],
+    "state": "Eight lead picks \u2192 inspect category awards",
+    "sources": [],
+    "staging": "Match the approved thumbnail. The otter notices a card tucked behind the board; no cutaway before the premise lands.",
+    "audio": "audio/B1.wav",
+    "opening": true,
+    "duration": 7.41,
+    "voice": "Kokoro af_heart",
+    "sample_rate": 24000,
+    "peak": 0.33921319246292114,
+    "rows": []
+  },
+  {
+    "id": "B2",
+    "option": "B",
+    "title": "Add the overlooked value contender",
+    "spoken": "Vacuum Nerds recommends the Ecovacs T ninety in its midrange category. Vacuum Wars calls it best value. Two review paths now point to a candidate missing from our original grid.",
+    "cards": [
+      [
+        "Vacuum Nerds \u00b7 June",
+        "T90 \u00b7 midrange pick"
+      ],
+      [
+        "Vacuum Wars \u00b7 September",
+        "T90 \u00b7 best value"
+      ]
+    ],
+    "columns": [
+      8
+    ],
+    "state": "T90 added \u00b7 two source families",
+    "sources": [
+      {
+        "label": "Vacuum Nerds \u00b7 T90, 5:06",
+        "url": "https://www.youtube.com/watch?v=smPaWtwT5q8&t=306s"
+      },
+      {
+        "label": "Vacuum Wars \u00b7 current ranking",
+        "url": "https://vacuumwars.com/vacuum-wars-best-robot-vacuums/"
+      }
+    ],
+    "staging": "The otter slides in a T90 column. Two cells light up together; the remaining map stays visible.",
+    "audio": "audio/B2.wav",
+    "opening": false,
+    "duration": 12.11,
+    "voice": "Kokoro af_heart",
+    "sample_rate": 24000,
+    "peak": 0.5416819453239441,
+    "rows": [
+      1,
+      8
+    ]
+  },
+  {
+    "id": "B3",
+    "option": "B",
+    "title": "Pickup is one part of cleaning",
+    "spoken": "Vacuum Wars' flattened-hair test measured complete pickup. Its video shows the test: useful evidence for pet hair, but only on the area the robot actually cleans.",
+    "cards": [
+      [
+        "Vacuum Wars \u00b7 flattened-hair test",
+        "100% \u00b7 tested pickup"
+      ],
+      [
+        "Question still open",
+        "Does it reach the dirt?"
+      ]
+    ],
+    "columns": [
+      8
+    ],
+    "state": "T90 retained \u00b7 test scope attached",
+    "sources": [
+      {
+        "label": "Vacuum Wars \u00b7 T90 hair, 1:40",
+        "url": "https://www.youtube.com/watch?v=i-hu3E15-ww&t=100s"
+      }
+    ],
+    "staging": "Zoom into the measured cell. Keep the test surface and source attached; the otter leaves space for another observation.",
+    "audio": "audio/B3.wav",
+    "opening": false,
+    "duration": 11.04,
+    "voice": "Kokoro af_heart",
+    "sample_rate": 24000,
+    "peak": 0.4464377462863922,
+    "rows": [
+      1
+    ]
+  },
+  {
+    "id": "B4",
+    "option": "B",
+    "title": "A second review changes the caveat",
+    "spoken": "VittorTech's sponsored longer-term review reports hair left beneath chairs after repeated runs. That adds a coverage caution to the T ninety recommendation. Watch that section if your floors have lots of furniture.",
+    "cards": [
+      [
+        "VittorTech \u00b7 July \u00b7 sponsored",
+        "Reports missed hair beneath chairs"
+      ],
+      [
+        "Our synthesis",
+        "Strong pickup \u2260 complete coverage"
+      ]
+    ],
+    "columns": [
+      8
+    ],
+    "rows": [
+      1,
+      14
+    ],
+    "state": "T90 retained \u00b7 real-home coverage caution",
+    "sources": [
+      {
+        "label": "VittorTech \u00b7 missed areas, 3:49 \u00b7 sponsored",
+        "url": "https://www.youtube.com/watch?v=MfPoZNQflPI&t=229s"
+      }
+    ],
+    "staging": "The otter pins an amber caution to the same T90 column. Focus on the two source cells together; do not enact a fake vacuum failure in the house.",
+    "audio": "audio/B4.wav",
+    "opening": false,
+    "duration": 14.48,
+    "voice": "Kokoro af_heart",
+    "sample_rate": 24000,
+    "peak": 0.45365971326828003
+  },
+  {
+    "id": "B5",
+    "option": "B",
+    "title": "A premium point of agreement",
+    "spoken": "Separately, Vacuum Nerds' later review and Vacuum Wars' current ranking both put the Mova V seventy first. That earns a premium review path, not proof it fixes the T ninety's coverage issue.",
+    "cards": [
+      [
+        "Vacuum Nerds \u00b7 August",
+        "V70 \u00b7 first on shown leaderboard"
+      ],
+      [
+        "Vacuum Wars \u00b7 September",
+        "V70 \u00b7 first on live ranking"
+      ]
+    ],
+    "columns": [
+      1,
+      8
+    ],
+    "state": "V70 + T90 \u00b7 supported review paths",
+    "sources": [
+      {
+        "label": "Vacuum Nerds \u00b7 V70 scoring, 12:01",
+        "url": "https://www.youtube.com/watch?v=3aj-Gjy3R58&t=721s"
+      },
+      {
+        "label": "Vacuum Wars \u00b7 current ranking",
+        "url": "https://vacuumwars.com/vacuum-wars-best-robot-vacuums/"
+      }
+    ],
+    "staging": "Camera returns to the map. V70 gains a second source marker. Two paths stay lit; other models remain unassessed, not crossed out.",
+    "audio": "audio/B5.wav",
+    "opening": false,
+    "duration": 13.03,
+    "voice": "Kokoro af_heart",
+    "sample_rate": 24000,
+    "peak": 0.5142644643783569,
+    "rows": [
+      1,
+      9
+    ]
+  },
+  {
+    "id": "B6",
+    "option": "B",
+    "title": "Two starting points, with the caveat visible",
+    "spoken": "Owner discussions add app complaints and positive longer-term accounts, not a failure rate. Our starting points: T ninety reviews for value, V seventy reviews for premium options. Follow the original tests linked along the way.",
+    "cards": [
+      [
+        "T90 owner evidence",
+        "Amber \u00b7 limited, mixed anecdotes"
+      ],
+      [
+        "Our synthesis",
+        "T90 value / V70 premium \u00b7 provisional"
+      ]
+    ],
+    "columns": [
+      1,
+      8
+    ],
+    "state": "Two referral paths \u00b7 no universal winner",
+    "sources": [
+      {
+        "label": "Owner discussion \u00b7 app behavior",
+        "url": "https://www.reddit.com/r/RobotVacuums/comments/1uh59e5/new_7_day_trial/"
+      },
+      {
+        "label": "Owner discussion \u00b7 longer-term positive account",
+        "url": "https://www.reddit.com/r/RobotVacuums/comments/1w9zg1q/buying_new_robot_suggestions/"
+      },
+      {
+        "label": "Vacuum Nerds \u00b7 T90, 5:06",
+        "url": "https://www.youtube.com/watch?v=smPaWtwT5q8&t=306s"
+      },
+      {
+        "label": "Vacuum Nerds \u00b7 V70 scoring, 12:01",
+        "url": "https://www.youtube.com/watch?v=3aj-Gjy3R58&t=721s"
+      }
+    ],
+    "staging": "Otter pins the amber owner tag to T90, then presents both source cards. Ending stays on the expanded grid.",
+    "audio": "audio/B6.wav",
+    "opening": false,
+    "duration": 15.31,
+    "voice": "Kokoro af_heart",
+    "sample_rate": 24000,
+    "peak": 0.6168968677520752,
+    "rows": [
+      10,
+      11
+    ]
+  },
+  {
+    "id": "A1",
+    "option": "A",
+    "title": "Start with inspectable testing",
+    "spoken": "Eight sources, eight robot-vacuum winners. Start with the comparison that shows its working: The Hook Up tests seven models and explains how it scores them.",
+    "cards": [
+      [
+        "The Hook Up \u00b7 April",
+        "Seven-model comparison"
+      ]
+    ],
+    "columns": [
+      2,
+      4
+    ],
+    "state": "Choose a transparent starting review",
+    "sources": [
+      {
+        "label": "The Hook Up \u00b7 scoring, 23:35",
+        "url": "https://www.youtube.com/watch?v=Pv9_2D_Xc5k&t=1415s"
+      }
+    ],
+    "staging": "Thumbnail comes alive, then highlight the Hook Up row, not an invented credibility score.",
+    "audio": "audio/A1.wav",
+    "opening": true,
+    "duration": 9.81,
+    "voice": "Kokoro af_heart",
+    "sample_rate": 24000,
+    "peak": 0.39881572127342224,
+    "rows": [
+      2
+    ]
+  },
+  {
+    "id": "A2",
+    "option": "A",
+    "title": "The winner depends on the weights",
+    "spoken": "Its winner is the Curv Two Flow. But carpet cleaning and mopping count double. If those jobs matter most, that recommendation has a clear basis.",
+    "cards": [
+      [
+        "The Hook Up",
+        "Curv 2 Flow \u00b7 overall winner"
+      ],
+      [
+        "Scoring rule",
+        "Carpet + mopping \u00b7 double weight"
+      ]
+    ],
+    "columns": [
+      2
+    ],
+    "state": "Curv 2 Flow \u00b7 conditional lead",
+    "sources": [
+      {
+        "label": "The Hook Up \u00b7 scoring, 23:35",
+        "url": "https://www.youtube.com/watch?v=Pv9_2D_Xc5k&t=1415s"
+      }
+    ],
+    "staging": "Otter places two weights on the cleaning cells; the overall badge stays attached to this specific comparison.",
+    "audio": "audio/A2.wav",
+    "opening": false,
+    "duration": 9.63,
+    "voice": "Kokoro af_heart",
+    "sample_rate": 24000,
+    "peak": 0.43612533807754517,
+    "rows": [
+      2
+    ]
+  },
+  {
+    "id": "A3",
+    "option": "A",
+    "title": "One winner becomes a useful fork",
+    "spoken": "For carpet alone, its Eufy S two does better. So we keep that alternative instead of pretending the overall winner won every test.",
+    "cards": [
+      [
+        "The Hook Up \u00b7 carpet",
+        "Eufy S2 \u00b7 31.5 g / 40 g"
+      ],
+      [
+        "The Hook Up \u00b7 carpet",
+        "Curv 2 Flow \u00b7 26.9 g / 40 g"
+      ]
+    ],
+    "columns": [
+      2,
+      10
+    ],
+    "state": "Add S2 for this carpet test",
+    "sources": [
+      {
+        "label": "The Hook Up \u00b7 carpet, 0:37",
+        "url": "https://www.youtube.com/watch?v=Pv9_2D_Xc5k&t=37s"
+      }
+    ],
+    "staging": "Add the S2 column and preserve both highlighted cells. Otter moves the single crown between them, then sets it aside.",
+    "audio": "audio/A3.wav",
+    "opening": false,
+    "duration": 8.83,
+    "voice": "Kokoro af_heart",
+    "sample_rate": 24000,
+    "peak": 0.45850375294685364,
+    "rows": [
+      2
+    ]
+  },
+  {
+    "id": "A4",
+    "option": "A",
+    "title": "The cohort is not the whole market",
+    "spoken": "There is another limit: this April comparison doesn't settle later models. Vacuum Nerds' August review puts the V seventy first, as does Vacuum Wars' current ranking.",
+    "cards": [
+      [
+        "The Hook Up \u00b7 April",
+        "V70 \u00b7 outside this cohort"
+      ],
+      [
+        "Later sources",
+        "V70 \u00b7 favorable overlap"
+      ]
+    ],
+    "columns": [
+      1,
+      2,
+      10
+    ],
+    "state": "Expand again \u00b7 later evidence",
+    "sources": [
+      {
+        "label": "Vacuum Nerds \u00b7 V70 scoring, 12:01",
+        "url": "https://www.youtube.com/watch?v=3aj-Gjy3R58&t=721s"
+      },
+      {
+        "label": "Vacuum Wars \u00b7 current ranking",
+        "url": "https://vacuumwars.com/vacuum-wars-best-robot-vacuums/"
+      }
+    ],
+    "staging": "Unfold a later-dated row instead of graying the April evidence. The growing board makes the loss of narrowing visible.",
+    "audio": "audio/A4.wav",
+    "opening": false,
+    "duration": 10.96,
+    "voice": "Kokoro af_heart",
+    "sample_rate": 24000,
+    "peak": 0.47222745418548584,
+    "rows": [
+      2,
+      9,
+      1
+    ]
+  },
+  {
+    "id": "A5",
+    "option": "A",
+    "title": "A good explainer, a weaker short opener",
+    "spoken": "Use The Hook Up for the detailed cleaning comparison, and the later V seventy review for that newer contender. These are useful starting points, but this route hasn't earned one overall winner.",
+    "cards": [
+      [
+        "Referral",
+        "The Hook Up \u00b7 compare cleaning"
+      ],
+      [
+        "Referral",
+        "Vacuum Nerds \u00b7 V70 update"
+      ]
+    ],
+    "columns": [
+      1,
+      2,
+      10
+    ],
+    "state": "Three candidates \u00b7 unresolved broad shortlist",
+    "sources": [
+      {
+        "label": "The Hook Up \u00b7 scoring, 23:35",
+        "url": "https://www.youtube.com/watch?v=Pv9_2D_Xc5k&t=1415s"
+      },
+      {
+        "label": "Vacuum Nerds \u00b7 V70 scoring, 12:01",
+        "url": "https://www.youtube.com/watch?v=3aj-Gjy3R58&t=721s"
+      }
+    ],
+    "staging": "End with three source-linked paths. This honest expansion is why this complete route is not the recommended short episode.",
+    "audio": "audio/A5.wav",
+    "opening": false,
+    "duration": 12.19,
+    "voice": "Kokoro af_heart",
+    "sample_rate": 24000,
+    "peak": 0.5663737058639526,
+    "rows": [
+      2,
+      9
+    ]
+  },
+  {
+    "id": "C1",
+    "option": "C",
+    "title": "Check the price behind the verdict",
+    "spoken": "Can a good review lead you to the wrong deal? Vacuum Wars favors the T eighty S as a cheaper alternative to the T ninety. That price assumption matters.",
+    "cards": [
+      [
+        "Vacuum Wars \u00b7 T80S",
+        "Value rationale \u00b7 lower cost"
+      ]
+    ],
+    "columns": [
+      8,
+      9
+    ],
+    "state": "Inspect the recommendation's assumption",
+    "sources": [
+      {
+        "label": "Vacuum Wars \u00b7 T80S comparison",
+        "url": "https://vacuumwars.com/ecovacs-deebot-t80s-omni-review/"
+      }
+    ],
+    "staging": "Begin on the matrix, highlighting the T80S/T90 pair and a dated price tag.",
+    "audio": "audio/C1.wav",
+    "opening": true,
+    "duration": 10.08,
+    "voice": "Kokoro af_heart",
+    "sample_rate": 24000,
+    "peak": 0.5097609758377075,
+    "rows": [
+      12
+    ]
+  },
+  {
+    "id": "C2",
+    "option": "C",
+    "title": "The lower-cost assumption can flip",
+    "spoken": "When we checked, Amazon offered the T ninety for four hundred ninety-nine dollars to Prime members. The manufacturer's T eighty S offer was six hundred forty-nine ninety-nine.",
+    "cards": [
+      [
+        "T90 \u00b7 Amazon \u00b7 September 26",
+        "$499 \u00b7 Prime-only"
+      ],
+      [
+        "T80S \u00b7 manufacturer \u00b7 same date",
+        "$649.99"
+      ]
+    ],
+    "columns": [
+      8,
+      9
+    ],
+    "state": "Eligible offer only \u00b7 not permanent pricing",
+    "sources": [
+      {
+        "label": "Amazon \u00b7 T90 listing; offer conditions apply",
+        "url": "https://www.amazon.com/dp/B0GJ5S4V78"
+      },
+      {
+        "label": "Ecovacs \u00b7 T80S current offer",
+        "url": "https://www.ecovacs.com/us/shop/deebot-robotic-vacuum-cleaner/deebot-t80s-omni"
+      }
+    ],
+    "staging": "Otter flips the two price tags. Prime-only remains equally large; no animated universal bargain badge.",
+    "audio": "audio/C2.wav",
+    "opening": false,
+    "duration": 11.87,
+    "voice": "Kokoro af_heart",
+    "sample_rate": 24000,
+    "peak": 0.4471689462661743,
+    "rows": [
+      10,
+      13
+    ]
+  },
+  {
+    "id": "C3",
+    "option": "C",
+    "title": "Remove one reason, not the whole product",
+    "spoken": "For someone eligible for that deal, the cheaper-alternative argument no longer favors the T eighty S. That's our inference from the changed prices, not a new test result.",
+    "cards": [
+      [
+        "Our inference",
+        "T80S price advantage \u00b7 removed"
+      ],
+      [
+        "Scope",
+        "Only these matched offers"
+      ]
+    ],
+    "columns": [
+      8,
+      9
+    ],
+    "state": "Price rationale crossed out \u00b7 T80S retained",
+    "sources": [
+      {
+        "label": "Vacuum Wars \u00b7 T80S comparison",
+        "url": "https://vacuumwars.com/ecovacs-deebot-t80s-omni-review/"
+      },
+      {
+        "label": "Amazon \u00b7 T90 listing; offer conditions apply",
+        "url": "https://www.amazon.com/dp/B0GJ5S4V78"
+      },
+      {
+        "label": "Ecovacs \u00b7 T80S current offer",
+        "url": "https://www.ecovacs.com/us/shop/deebot-robotic-vacuum-cleaner/deebot-t80s-omni"
+      }
+    ],
+    "staging": "Cross out the price-advantage tag, not the T80S column. This is a meaningful but conditional board change.",
+    "audio": "audio/C3.wav",
+    "opening": false,
+    "duration": 11.27,
+    "voice": "Kokoro af_heart",
+    "sample_rate": 24000,
+    "peak": 0.4674729108810425,
+    "rows": [
+      12,
+      10,
+      13
+    ]
+  },
+  {
+    "id": "C4",
+    "option": "C",
+    "title": "Carpet versus stains still matters",
+    "spoken": "The performance tradeoff remains: Vacuum Wars reports stronger carpet deep cleaning for the T eighty S, and stronger stain removal for the T ninety. Its reviews show the tests behind both.",
+    "cards": [
+      [
+        "Vacuum Wars \u00b7 carpet",
+        "T80S \u00b7 stronger in its test"
+      ],
+      [
+        "Vacuum Wars \u00b7 stains",
+        "T90 \u00b7 stronger in its test"
+      ]
+    ],
+    "columns": [
+      8,
+      9
+    ],
+    "state": "Two reasons remain \u00b7 see original tests",
+    "sources": [
+      {
+        "label": "Vacuum Wars \u00b7 T80S comparison",
+        "url": "https://vacuumwars.com/ecovacs-deebot-t80s-omni-review/"
+      },
+      {
+        "label": "Vacuum Wars \u00b7 T90 hair, 1:40",
+        "url": "https://www.youtube.com/watch?v=i-hu3E15-ww&t=100s"
+      }
+    ],
+    "staging": "Two test cards emerge from the price pair. The otter keeps both in play.",
+    "audio": "audio/C4.wav",
+    "opening": false,
+    "duration": 12.81,
+    "voice": "Kokoro af_heart",
+    "sample_rate": 24000,
+    "peak": 0.4983619749546051,
+    "rows": [
+      12,
+      1
+    ]
+  },
+  {
+    "id": "C5",
+    "option": "C",
+    "title": "A useful deal story, with an expiry",
+    "spoken": "So compare the offers you can actually buy. At that Prime price, the T ninety deserves another look; without it, this reversal may disappear. Follow the linked comparisons before deciding.",
+    "cards": [
+      [
+        "Conclusion",
+        "T90 reconsidered at eligible deal"
+      ],
+      [
+        "Limit",
+        "No evergreen price winner"
+      ]
+    ],
+    "columns": [
+      8,
+      9
+    ],
+    "state": "Conditional referral \u00b7 refresh before release",
+    "sources": [
+      {
+        "label": "Amazon \u00b7 T90 listing; offer conditions apply",
+        "url": "https://www.amazon.com/dp/B0GJ5S4V78"
+      },
+      {
+        "label": "Vacuum Wars \u00b7 T80S comparison",
+        "url": "https://vacuumwars.com/ecovacs-deebot-t80s-omni-review/"
+      }
+    ],
+    "staging": "Otter clips a date label onto the final pair; end with both original source links.",
+    "audio": "audio/C5.wav",
+    "opening": false,
+    "duration": 12.41,
+    "voice": "Kokoro af_heart",
+    "sample_rate": 24000,
+    "peak": 0.49930429458618164,
+    "rows": [
+      12,
+      10
+    ]
+  }
+]

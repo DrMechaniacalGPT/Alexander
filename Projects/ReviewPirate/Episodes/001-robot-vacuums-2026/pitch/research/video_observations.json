@@ -1,0 +1,57 @@
+{
+  "observed_date": "2026-09-26",
+  "method": "YouTube browser UI; not vidIQ",
+  "videos": [
+    {
+      "source": "The Hook Up",
+      "url": "https://www.youtube.com/watch?v=Pv9_2D_Xc5k",
+      "date": "2026-04-08",
+      "views": 210384,
+      "likes": 2928,
+      "seconds": 1571,
+      "transcript": "exported_auto_captions",
+      "inspection": "sampled_frames"
+    },
+    {
+      "source": "Vacuum Nerds June awards",
+      "url": "https://www.youtube.com/watch?v=smPaWtwT5q8",
+      "date": "2026-06-06",
+      "views": 173506,
+      "likes": 1002,
+      "seconds": 620,
+      "transcript": "exported_auto_captions",
+      "inspection": "opening_samples"
+    },
+    {
+      "source": "Vacuum Nerds V70",
+      "url": "https://www.youtube.com/watch?v=3aj-Gjy3R58",
+      "date": "2026-08-19",
+      "views": 48997,
+      "likes": 565,
+      "seconds": 780,
+      "transcript": "unavailable",
+      "inspection": "selected_chapters_and_score_frames"
+    },
+    {
+      "source": "Vacuum Wars T90",
+      "url": "https://www.youtube.com/watch?v=i-hu3E15-ww",
+      "date": "2026-05-15",
+      "views": 414867,
+      "likes": 880,
+      "seconds": 442,
+      "transcript": "exported_authored_or_unspecified",
+      "inspection": "frames 1:40, 1:45, 1:50; full exported captions read"
+    },
+    {
+      "source": "VittorTech T90 long-term",
+      "url": "https://www.youtube.com/watch?v=MfPoZNQflPI",
+      "date": "2026-07-09",
+      "views": 19829,
+      "likes": 168,
+      "seconds": 772,
+      "transcript": "exported_auto_captions_full_read",
+      "inspection": "frames 5:10 and 5:15; sponsorship UI + captions",
+      "disclosure": "Ecovacs sponsors video and supplied unit; creator says sponsor suggests topics"
+    }
+  ]
+}

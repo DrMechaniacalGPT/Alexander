@@ -1,3 +1,5 @@
+> **Superseded editorial draft.** The owner rejected the buying-guide narration. Follow [the approved execution brief](EXECUTION_BRIEF.md) and [source reset](research/REVIEW_OF_REVIEWS_RESET.md). Preserve this file as iteration history, not the next production script.
+
 # The viewer's story — script-led revision
 
 This treatment supersedes the house-first narration and the idea that a final checklist can establish film quality. It is a proposed editorial cut, not recorded timing, tested audience response or a finished market ranking. Read it aloud and watch a timed animatic before locking shots. Existing source locators remain in research/EDITORIAL_RESEARCH.md and VIEWER_COMPANION.md.
