@@ -1,0 +1,33 @@
+{
+  "records": [
+    {
+      "player": "p2",
+      "decoded_choice": "p1",
+      "correct": true,
+      "valid": true,
+      "wall_seconds": 43.817,
+      "source_sha256": "e4a6c43803df98285cda8ab8584a33bce5e3875281edb29d7002a719cf88baeb",
+      "journal_sha256": "4c8148737c477005cc62f5ecd9987c92451de59ad8b6434608e5a83b8aa99b85"
+    },
+    {
+      "player": "p4",
+      "decoded_choice": "p1",
+      "correct": true,
+      "valid": true,
+      "wall_seconds": 26.552,
+      "source_sha256": "4cddfef34e59712e60ca2276a69f39d8b8c2d57cd651601aa6e0d6cedf37ca59",
+      "journal_sha256": "cdf02587b4d233a4c379dee151d24fdee0f2f3730c05a25c20a84ed00ee931c5"
+    },
+    {
+      "player": "p8",
+      "decoded_choice": "p1",
+      "correct": true,
+      "valid": true,
+      "wall_seconds": 33.781,
+      "source_sha256": "315d8cbafed4050ac34c2614e3ff5b49854a377b40eb834acb52cd73c7493a52",
+      "journal_sha256": "3b30e33cc97245bfdbc35f481b96498a6f1d023909cd71957d71eb10bb502afa"
+    }
+  ],
+  "method": "Consistent anonymous character labels and source identifiers; shuffled facts, clues and candidate order; inverse-mapping conservation asserted before calls. Same local model settings.",
+  "limitation": "Three selected contexts from one favorable trace; not a new plot or independent party."
+}

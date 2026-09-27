@@ -1,0 +1,143 @@
+{
+  "case": "movie-strict-sampled",
+  "seed_range": [
+    1,
+    100
+  ],
+  "relay": false,
+  "novelty_selection": "optimistic scheduler knows recipient ledger; not modeled human awareness",
+  "rows": [
+    {
+      "partners": 2,
+      "packets_per_exchange": 2,
+      "group_rounds": 0,
+      "seeds": 100,
+      "nonculprit_decisions": 700,
+      "correct_votes": 123,
+      "unique_remaining": 0,
+      "mean_remaining": 6.916,
+      "mean_known_fact_packets": 12.429
+    },
+    {
+      "partners": 2,
+      "packets_per_exchange": 2,
+      "group_rounds": 2,
+      "seeds": 100,
+      "nonculprit_decisions": 700,
+      "correct_votes": 460,
+      "unique_remaining": 0,
+      "mean_remaining": 5.443,
+      "mean_known_fact_packets": 32.877
+    },
+    {
+      "partners": 2,
+      "packets_per_exchange": 4,
+      "group_rounds": 0,
+      "seeds": 100,
+      "nonculprit_decisions": 700,
+      "correct_votes": 155,
+      "unique_remaining": 0,
+      "mean_remaining": 6.81,
+      "mean_known_fact_packets": 16.429
+    },
+    {
+      "partners": 2,
+      "packets_per_exchange": 4,
+      "group_rounds": 2,
+      "seeds": 100,
+      "nonculprit_decisions": 700,
+      "correct_votes": 630,
+      "unique_remaining": 0,
+      "mean_remaining": 3.927,
+      "mean_known_fact_packets": 55.123
+    },
+    {
+      "partners": 4,
+      "packets_per_exchange": 2,
+      "group_rounds": 0,
+      "seeds": 100,
+      "nonculprit_decisions": 700,
+      "correct_votes": 145,
+      "unique_remaining": 0,
+      "mean_remaining": 6.82,
+      "mean_known_fact_packets": 16.429
+    },
+    {
+      "partners": 4,
+      "packets_per_exchange": 2,
+      "group_rounds": 2,
+      "seeds": 100,
+      "nonculprit_decisions": 700,
+      "correct_votes": 431,
+      "unique_remaining": 0,
+      "mean_remaining": 5.454,
+      "mean_known_fact_packets": 35.23
+    },
+    {
+      "partners": 4,
+      "packets_per_exchange": 4,
+      "group_rounds": 0,
+      "seeds": 100,
+      "nonculprit_decisions": 700,
+      "correct_votes": 202,
+      "unique_remaining": 0,
+      "mean_remaining": 6.619,
+      "mean_known_fact_packets": 24.429
+    },
+    {
+      "partners": 4,
+      "packets_per_exchange": 4,
+      "group_rounds": 2,
+      "seeds": 100,
+      "nonculprit_decisions": 700,
+      "correct_votes": 596,
+      "unique_remaining": 0,
+      "mean_remaining": 3.957,
+      "mean_known_fact_packets": 57.153
+    },
+    {
+      "partners": 7,
+      "packets_per_exchange": 2,
+      "group_rounds": 0,
+      "seeds": 100,
+      "nonculprit_decisions": 700,
+      "correct_votes": 197,
+      "unique_remaining": 0,
+      "mean_remaining": 6.661,
+      "mean_known_fact_packets": 22.429
+    },
+    {
+      "partners": 7,
+      "packets_per_exchange": 2,
+      "group_rounds": 2,
+      "seeds": 100,
+      "nonculprit_decisions": 700,
+      "correct_votes": 481,
+      "unique_remaining": 0,
+      "mean_remaining": 5.349,
+      "mean_known_fact_packets": 39.027
+    },
+    {
+      "partners": 7,
+      "packets_per_exchange": 4,
+      "group_rounds": 0,
+      "seeds": 100,
+      "nonculprit_decisions": 700,
+      "correct_votes": 265,
+      "unique_remaining": 0,
+      "mean_remaining": 6.314,
+      "mean_known_fact_packets": 36.429
+    },
+    {
+      "partners": 7,
+      "packets_per_exchange": 4,
+      "group_rounds": 2,
+      "seeds": 100,
+      "nonculprit_decisions": 700,
+      "correct_votes": 615,
+      "unique_remaining": 0,
+      "mean_remaining": 3.82,
+      "mean_known_fact_packets": 60.531
+    }
+  ]
+}

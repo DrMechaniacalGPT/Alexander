@@ -1,0 +1,358 @@
+[
+  {
+    "case": "movie-acting_modeling-all_printed",
+    "remaining": [
+      "p1",
+      "p5",
+      "p7"
+    ],
+    "top_choices": [
+      "p1"
+    ],
+    "counts": {
+      "p1": {
+        "supported_match_count": 12,
+        "unique_source_match_count": 10
+      },
+      "p2": {
+        "supported_match_count": 1,
+        "unique_source_match_count": 1
+      },
+      "p3": {
+        "supported_match_count": 1,
+        "unique_source_match_count": 1
+      },
+      "p4": {
+        "supported_match_count": 2,
+        "unique_source_match_count": 2
+      },
+      "p5": {
+        "supported_match_count": 4,
+        "unique_source_match_count": 2
+      },
+      "p6": {
+        "supported_match_count": 1,
+        "unique_source_match_count": 1
+      },
+      "p7": {
+        "supported_match_count": 1,
+        "unique_source_match_count": 1
+      },
+      "p8": {
+        "supported_match_count": 0,
+        "unique_source_match_count": 0
+      }
+    }
+  },
+  {
+    "case": "movie-acting_modeling-sampled",
+    "remaining": [
+      "p1",
+      "p5",
+      "p7"
+    ],
+    "top_choices": [
+      "p1"
+    ],
+    "counts": {
+      "p1": {
+        "supported_match_count": 9,
+        "unique_source_match_count": 7
+      },
+      "p2": {
+        "supported_match_count": 0,
+        "unique_source_match_count": 0
+      },
+      "p3": {
+        "supported_match_count": 1,
+        "unique_source_match_count": 1
+      },
+      "p4": {
+        "supported_match_count": 2,
+        "unique_source_match_count": 2
+      },
+      "p5": {
+        "supported_match_count": 4,
+        "unique_source_match_count": 2
+      },
+      "p6": {
+        "supported_match_count": 1,
+        "unique_source_match_count": 1
+      },
+      "p7": {
+        "supported_match_count": 1,
+        "unique_source_match_count": 1
+      },
+      "p8": {
+        "supported_match_count": 0,
+        "unique_source_match_count": 0
+      }
+    }
+  },
+  {
+    "case": "movie-plus_band-all_printed",
+    "remaining": [
+      "p1"
+    ],
+    "top_choices": [
+      "p1"
+    ],
+    "counts": {
+      "p1": {
+        "supported_match_count": 12,
+        "unique_source_match_count": 10
+      },
+      "p2": {
+        "supported_match_count": 1,
+        "unique_source_match_count": 1
+      },
+      "p3": {
+        "supported_match_count": 1,
+        "unique_source_match_count": 1
+      },
+      "p4": {
+        "supported_match_count": 2,
+        "unique_source_match_count": 2
+      },
+      "p5": {
+        "supported_match_count": 4,
+        "unique_source_match_count": 2
+      },
+      "p6": {
+        "supported_match_count": 1,
+        "unique_source_match_count": 1
+      },
+      "p7": {
+        "supported_match_count": 1,
+        "unique_source_match_count": 1
+      },
+      "p8": {
+        "supported_match_count": 0,
+        "unique_source_match_count": 0
+      }
+    }
+  },
+  {
+    "case": "movie-plus_band-sampled",
+    "remaining": [
+      "p1"
+    ],
+    "top_choices": [
+      "p1"
+    ],
+    "counts": {
+      "p1": {
+        "supported_match_count": 9,
+        "unique_source_match_count": 7
+      },
+      "p2": {
+        "supported_match_count": 0,
+        "unique_source_match_count": 0
+      },
+      "p3": {
+        "supported_match_count": 1,
+        "unique_source_match_count": 1
+      },
+      "p4": {
+        "supported_match_count": 2,
+        "unique_source_match_count": 2
+      },
+      "p5": {
+        "supported_match_count": 4,
+        "unique_source_match_count": 2
+      },
+      "p6": {
+        "supported_match_count": 1,
+        "unique_source_match_count": 1
+      },
+      "p7": {
+        "supported_match_count": 1,
+        "unique_source_match_count": 1
+      },
+      "p8": {
+        "supported_match_count": 0,
+        "unique_source_match_count": 0
+      }
+    }
+  },
+  {
+    "case": "movie-plus_magician-all_printed",
+    "remaining": [
+      "p1",
+      "p5"
+    ],
+    "top_choices": [
+      "p1"
+    ],
+    "counts": {
+      "p1": {
+        "supported_match_count": 12,
+        "unique_source_match_count": 10
+      },
+      "p2": {
+        "supported_match_count": 1,
+        "unique_source_match_count": 1
+      },
+      "p3": {
+        "supported_match_count": 1,
+        "unique_source_match_count": 1
+      },
+      "p4": {
+        "supported_match_count": 2,
+        "unique_source_match_count": 2
+      },
+      "p5": {
+        "supported_match_count": 4,
+        "unique_source_match_count": 2
+      },
+      "p6": {
+        "supported_match_count": 1,
+        "unique_source_match_count": 1
+      },
+      "p7": {
+        "supported_match_count": 1,
+        "unique_source_match_count": 1
+      },
+      "p8": {
+        "supported_match_count": 0,
+        "unique_source_match_count": 0
+      }
+    }
+  },
+  {
+    "case": "movie-plus_magician-sampled",
+    "remaining": [
+      "p1",
+      "p5"
+    ],
+    "top_choices": [
+      "p1"
+    ],
+    "counts": {
+      "p1": {
+        "supported_match_count": 9,
+        "unique_source_match_count": 7
+      },
+      "p2": {
+        "supported_match_count": 0,
+        "unique_source_match_count": 0
+      },
+      "p3": {
+        "supported_match_count": 1,
+        "unique_source_match_count": 1
+      },
+      "p4": {
+        "supported_match_count": 2,
+        "unique_source_match_count": 2
+      },
+      "p5": {
+        "supported_match_count": 4,
+        "unique_source_match_count": 2
+      },
+      "p6": {
+        "supported_match_count": 1,
+        "unique_source_match_count": 1
+      },
+      "p7": {
+        "supported_match_count": 1,
+        "unique_source_match_count": 1
+      },
+      "p8": {
+        "supported_match_count": 0,
+        "unique_source_match_count": 0
+      }
+    }
+  },
+  {
+    "case": "movie-strict-all_printed",
+    "remaining": [
+      "p1",
+      "p2",
+      "p5",
+      "p7"
+    ],
+    "top_choices": [
+      "p1"
+    ],
+    "counts": {
+      "p1": {
+        "supported_match_count": 12,
+        "unique_source_match_count": 10
+      },
+      "p2": {
+        "supported_match_count": 1,
+        "unique_source_match_count": 1
+      },
+      "p3": {
+        "supported_match_count": 1,
+        "unique_source_match_count": 1
+      },
+      "p4": {
+        "supported_match_count": 2,
+        "unique_source_match_count": 2
+      },
+      "p5": {
+        "supported_match_count": 4,
+        "unique_source_match_count": 2
+      },
+      "p6": {
+        "supported_match_count": 1,
+        "unique_source_match_count": 1
+      },
+      "p7": {
+        "supported_match_count": 1,
+        "unique_source_match_count": 1
+      },
+      "p8": {
+        "supported_match_count": 0,
+        "unique_source_match_count": 0
+      }
+    }
+  },
+  {
+    "case": "movie-strict-sampled",
+    "remaining": [
+      "p1",
+      "p2",
+      "p5",
+      "p7"
+    ],
+    "top_choices": [
+      "p1"
+    ],
+    "counts": {
+      "p1": {
+        "supported_match_count": 9,
+        "unique_source_match_count": 7
+      },
+      "p2": {
+        "supported_match_count": 0,
+        "unique_source_match_count": 0
+      },
+      "p3": {
+        "supported_match_count": 1,
+        "unique_source_match_count": 1
+      },
+      "p4": {
+        "supported_match_count": 2,
+        "unique_source_match_count": 2
+      },
+      "p5": {
+        "supported_match_count": 4,
+        "unique_source_match_count": 2
+      },
+      "p6": {
+        "supported_match_count": 1,
+        "unique_source_match_count": 1
+      },
+      "p7": {
+        "supported_match_count": 1,
+        "unique_source_match_count": 1
+      },
+      "p8": {
+        "supported_match_count": 0,
+        "unique_source_match_count": 0
+      }
+    }
+  }
+]

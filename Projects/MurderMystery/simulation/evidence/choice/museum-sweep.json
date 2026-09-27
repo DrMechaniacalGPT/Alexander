@@ -1,0 +1,67 @@
+{
+  "settings": {
+    "packets": 2,
+    "relay": false,
+    "group_rounds": 1,
+    "group_packets": 2,
+    "include_culprit": false
+  },
+  "sweep": [
+    {
+      "partners": 0,
+      "party_seeds": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "player_decisions": 15,
+      "unique_remaining": 8,
+      "fallback_guesses": 0,
+      "correct_required_guesses": 14
+    },
+    {
+      "partners": 1,
+      "party_seeds": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "player_decisions": 15,
+      "unique_remaining": 10,
+      "fallback_guesses": 0,
+      "correct_required_guesses": 13
+    },
+    {
+      "partners": 2,
+      "party_seeds": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "player_decisions": 15,
+      "unique_remaining": 13,
+      "fallback_guesses": 0,
+      "correct_required_guesses": 14
+    },
+    {
+      "partners": 3,
+      "party_seeds": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "player_decisions": 15,
+      "unique_remaining": 15,
+      "fallback_guesses": 0,
+      "correct_required_guesses": 15
+    }
+  ]
+}

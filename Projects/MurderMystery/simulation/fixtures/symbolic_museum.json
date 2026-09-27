@@ -1,0 +1,18 @@
+{
+  "players": ["a", "b", "c", "d"],
+  "facts": [
+    {"id":"a-pet","owner":"a","subject":"a","predicate":"has_pet","value":true,"source_atom":"a.pet"},
+    {"id":"a-wing","owner":"a","subject":"a","predicate":"east_wing","value":true,"source_atom":"a.wing"},
+    {"id":"b-pet","owner":"b","subject":"b","predicate":"has_pet","value":false,"source_atom":"b.pet"},
+    {"id":"b-wing","owner":"b","subject":"b","predicate":"east_wing","value":true,"source_atom":"b.wing"},
+    {"id":"c-pet","owner":"c","subject":"c","predicate":"has_pet","value":false,"source_atom":"c.pet"},
+    {"id":"c-wing","owner":"c","subject":"c","predicate":"east_wing","value":false,"source_atom":"c.wing"},
+    {"id":"d-pet","owner":"d","subject":"d","predicate":"has_pet","value":true,"source_atom":"d.pet"},
+    {"id":"d-wing","owner":"d","subject":"d","predicate":"east_wing","value":false,"source_atom":"d.wing"}
+  ],
+  "clues": [
+    {"id":"pet-clue","predicate":"has_pet","expected":false,"strength":"hard","source_atom":"clue.pet","recipients":["a","c"]},
+    {"id":"wing-clue","predicate":"east_wing","expected":true,"strength":"hard","source_atom":"clue.wing","recipients":["b","d"]}
+  ],
+  "truth":{"culprit":"b"}
+}

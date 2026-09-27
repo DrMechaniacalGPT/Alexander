@@ -1,0 +1,89 @@
+{
+  "records": [
+    {
+      "player": "p2",
+      "choice": "p1",
+      "correct": true,
+      "valid": true,
+      "facts": 24,
+      "clues": 9,
+      "boundary_check": "exact known assertions and clues; no oracle decision fields",
+      "wall_seconds": 35.513,
+      "request_sha256": "e65a89dd41b598244c20f0dd10d871b37e47080f64e54cf339ee0a4f7600fafc",
+      "journal_sha256": "e4a6c43803df98285cda8ab8584a33bce5e3875281edb29d7002a719cf88baeb"
+    },
+    {
+      "player": "p3",
+      "choice": "p1",
+      "correct": true,
+      "valid": true,
+      "facts": 20,
+      "clues": 9,
+      "boundary_check": "exact known assertions and clues; no oracle decision fields",
+      "wall_seconds": 34.25,
+      "request_sha256": "42c15d385565325b89eb3f22dab8f4ee581bdca5eada18c673b08d2c9ed385c7",
+      "journal_sha256": "ea1280b1476a2c079e25512b699be349479f93f6bf27654da301019774b1b1df"
+    },
+    {
+      "player": "p4",
+      "choice": "p1",
+      "correct": true,
+      "valid": true,
+      "facts": 24,
+      "clues": 10,
+      "boundary_check": "exact known assertions and clues; no oracle decision fields",
+      "wall_seconds": 33.025,
+      "request_sha256": "3e94d13a7fbd8a36fc4142a7d25ef6afc24b3cc2f00ff8e1f08ad12f81d2538a",
+      "journal_sha256": "4cddfef34e59712e60ca2276a69f39d8b8c2d57cd651601aa6e0d6cedf37ca59"
+    },
+    {
+      "player": "p5",
+      "choice": "p1",
+      "correct": true,
+      "valid": true,
+      "facts": 24,
+      "clues": 9,
+      "boundary_check": "exact known assertions and clues; no oracle decision fields",
+      "wall_seconds": 29.612,
+      "request_sha256": "8d055af8e3425d9f1cc76d8133aa770bd31f03627104eb9bfa3df3b97d5e2c40",
+      "journal_sha256": "6a6db0db40d0e06c012c661b194368b560ea7cce7df4172354c21b92bd37735e"
+    },
+    {
+      "player": "p6",
+      "choice": "p1",
+      "correct": true,
+      "valid": true,
+      "facts": 24,
+      "clues": 10,
+      "boundary_check": "exact known assertions and clues; no oracle decision fields",
+      "wall_seconds": 30.484,
+      "request_sha256": "d3a98fd67f9299dfd3c7671023da48e5482c33eba09de2bccbe85b1679e07af1",
+      "journal_sha256": "325e4f11b7fd67149d5cca23aa4ae78d92838324476d09cb68a00a61919ba311"
+    },
+    {
+      "player": "p7",
+      "choice": "p1",
+      "correct": true,
+      "valid": true,
+      "facts": 21,
+      "clues": 9,
+      "boundary_check": "exact known assertions and clues; no oracle decision fields",
+      "wall_seconds": 29.763,
+      "request_sha256": "2210b29f2ee6c7ec36b80a11b7e084ac6b830d98fae65975248e3b7b226df913",
+      "journal_sha256": "ca980aa2a3fe01b9774f2aa0ec1f7d9c83594705faabb43fd86ec5c5ab1019c7"
+    },
+    {
+      "player": "p8",
+      "choice": "p1",
+      "correct": true,
+      "valid": true,
+      "facts": 23,
+      "clues": 9,
+      "boundary_check": "exact known assertions and clues; no oracle decision fields",
+      "wall_seconds": 22.27,
+      "request_sha256": "5a4bd81e22ab3ec0ddd68c31e78829445a54bce28da92a280d065e535a0aa979",
+      "journal_sha256": "315d8cbafed4050ac34c2614e3ff5b49854a377b40eb834acb52cd73c7493a52"
+    }
+  ],
+  "limitation": "One preselected noiseless transport trace; different information content and representation from free dialogue. Irrelevant background omitted. Not seven independent parties."
+}
