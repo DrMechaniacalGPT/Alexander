@@ -1,3 +1,5 @@
+> **September 27: editorial gate failed.** B is not ready to advance. The earlier recommendation is withdrawn. Follow [the fresh-context review loop](REVIEW_PROTOCOL.md) for the next revision. Existing technical checks do not establish editorial readiness.
+
 # Current execution tasks
 
 Authorized through the new listening pitch. The current review point is [EXECUTIVE_REVIEW.md](EXECUTIVE_REVIEW.md); the [execution brief](EXECUTION_BRIEF.md) remains the full scope.

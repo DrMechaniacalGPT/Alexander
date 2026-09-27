@@ -1,3 +1,5 @@
+> **Historical options, rejected as ready on September 27.** B is not preferred or approved. Retained as prior exploration; see [the new complete-path comparison](review-loop/STORY_SEARCH.md).
+
 # Complete story paths · listening comparison
 
 These are evidence-backed editorial drafts, not a locked buying verdict. **B is preferred**, after an outside-core review changed its middle section. The other paths remain complete alternatives, not chopped-up pieces of B.

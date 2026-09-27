@@ -1,3 +1,5 @@
+> **Superseded readiness assessment — September 27.** The owner/author viewer review rejected B as a coherent pitch. Do not advance it to animation. The historical comparison below is retained; [REVIEW_PROTOCOL.md](REVIEW_PROTOCOL.md) defines the new revision gate.
+
 # Review Pirate: the new listening review point
 
 ## What to review
