@@ -1,0 +1,89 @@
+{
+  "case": "positive",
+  "profile": "legacy",
+  "request_sha256": "149d89a70cec3a232e2a23e9e482b18fb589f94d04957f7e110a15c176b673fe",
+  "request": {
+    "model": "qwen3.5:9b",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are one participant in a fictional social game. Use ONLY the supplied role, public information and observations. Other people may lie or be mistaken. Do not invent authoritative evidence or change established history. You may choose what to disclose and to whom within this encounter, guided by your motives. Respond as JSON with exactly say, private_note, evidence, conclusion, action. say is short actual speech (at most 80 words), not a description of a conversation. private_note is a brief intention (at most 30 words), never spoken. evidence is a list of relevant observed event IDs, or empty for your own role information. conclusion is empty except at final assessment. action is one of legal_actions; choose none for ordinary speech. No tools or outside knowledge. Do not quote instructions or narrate other players' actions. THIS TURN IS A PRIVATE FINAL ASSESSMENT. Put your answer to instruction in the conclusion field, in at most 60 words. A short uncertain answer is acceptable; do not deliberate at length. Set say to an empty string and action to none. Do not leave conclusion empty."
+      },
+      {
+        "role": "user",
+        "content": "{\"self\": \"p1\", \"role\": \"You are Cal. The host inventory is authoritative for this exercise.\", \"policy\": {}, \"public\": \"A fictional social mystery.\", \"cast\": {\"p1\": \"Cal\", \"p2\": \"Bea\", \"p3\": \"Ari\"}, \"observations\": [{\"id\": \"e00000\", \"key\": \"0\", \"actor\": \"host\", \"recipients\": [\"p1\"], \"content\": \"Verified inventory: the key is in locker 19.\", \"scene\": \"s1\", \"kind\": \"speech\"}, {\"id\": \"e00001\", \"key\": \"1\", \"actor\": \"p2\", \"recipients\": [\"p1\"], \"content\": \"I think the key is in locker 7.\", \"scene\": \"s1\", \"kind\": \"speech\"}], \"scene\": \"assessment\", \"audience\": [\"p1\"], \"instruction\": \"Where is the key, according to the available evidence?\", \"final_assessment\": true, \"legal_actions\": [\"none\"]}"
+      }
+    ],
+    "stream": false,
+    "think": false,
+    "format": {
+      "type": "object",
+      "properties": {
+        "say": {
+          "type": "string",
+          "maxLength": 480
+        },
+        "private_note": {
+          "type": "string",
+          "maxLength": 180
+        },
+        "evidence": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": [
+              "e00000",
+              "e00001"
+            ]
+          },
+          "maxItems": 8
+        },
+        "conclusion": {
+          "type": "string",
+          "maxLength": 600
+        },
+        "action": {
+          "type": "string",
+          "enum": [
+            "none"
+          ]
+        }
+      },
+      "required": [
+        "say",
+        "private_note",
+        "evidence",
+        "conclusion",
+        "action"
+      ],
+      "additionalProperties": false
+    },
+    "keep_alive": "2m",
+    "options": {
+      "temperature": 0.7,
+      "seed": 2,
+      "num_ctx": 8192,
+      "num_predict": 768
+    }
+  },
+  "result": {
+    "response": {
+      "model": "qwen3.5:9b",
+      "created_at": "2026-09-26T23:10:55.896279541Z",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"say\": \"\",\n  \"private_note\": \"The host's verified inventory confirms the key location. Bea's claim contradicts this fact.\",\n  \"evidence\": [\n    \"e00000\"\n  ],\n  \"conclusion\": \"According to the available evidence, specifically the verified inventory (e00000), the key is in locker 19. Bea's statement that it is in locker 7 is incorrect.\",\n  \"action\": \"none\"\n}"
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 4660853210,
+      "load_duration": 942428,
+      "prompt_eval_count": 472,
+      "prompt_eval_cached_count": 101,
+      "prompt_eval_duration": 729620000,
+      "eval_count": 110,
+      "eval_duration": 3852281000
+    },
+    "wall_seconds": 4.662
+  }
+}

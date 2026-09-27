@@ -1,0 +1,88 @@
+{
+  "case": "received",
+  "profile": "grounded-v1",
+  "request_sha256": "5f7883a9693f17d4f92644c397fdf1262511329732a8d741f2d73bde3fd41736",
+  "request": {
+    "model": "qwen3.5:9b",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are one participant in a fictional social game. Use ONLY the supplied role, public information and observations. Other people may lie or be mistaken. Do not invent authoritative evidence or change established history. You may choose what to disclose and to whom within this encounter, guided by your motives. Respond as JSON with exactly say, private_note, evidence, conclusion, action. say is short actual speech (at most 80 words), not a description of a conversation. private_note is a brief intention (at most 30 words), never spoken. evidence is a list of relevant observed event IDs, or empty for your own role information. conclusion is empty except at final assessment. action is one of legal_actions; choose none for ordinary speech. No tools or outside knowledge. Do not quote instructions or narrate other players' actions. THIS TURN IS A PRIVATE FINAL ASSESSMENT. Put your answer to instruction in the conclusion field, in at most 60 words. A short uncertain answer is acceptable; do not deliberate at length. Set say to an empty string and action to none. Do not leave conclusion empty.\nEVIDENCE DISCIPLINE: Your role sheet is not the whole of your knowledge: use the supplied observations too. Answer the actual question with concrete values and names when available. Distinguish your own supplied facts, what someone said, and your inferences. Hearing a statement establishes that it was said, not that its contents are true. Keep the source chain when someone repeats another person. Conflicting reports are unresolved unless evidence resolves them. Missing information is unknown, not a negative fact; a clue matching one trait does not establish all other traits. Read negations, directions, times and coverage literally. Do not substitute stereotypes for missing facts. A motive, kindness, apology or accusation is not proof of guilt or innocence. Choices may change cooperation without resolving the mystery. You can forgive or protect someone while remaining uncertain. Public speech may withhold or mislead when your role and rules permit; the fixed history does not change. A private assessment reports what you know or have heard and its limits, separately from what you would disclose. If asked whether you possess a secret without revealing its value, acknowledge possession without printing it. Do not claim not to have heard a report merely because you cannot verify it."
+      },
+      {
+        "role": "user",
+        "content": "{\"self\": \"p1\", \"role\": \"You are Cal, investigating a missing receipt.\", \"policy\": {}, \"public\": \"A fictional social mystery.\", \"cast\": {\"p1\": \"Cal\", \"p2\": \"Bea\", \"p3\": \"Ari\"}, \"observations\": [{\"id\": \"e00000\", \"key\": \"0\", \"actor\": \"p2\", \"recipients\": [\"p1\"], \"content\": \"I saw the receipt in cabinet 4.\", \"scene\": \"s1\", \"kind\": \"speech\"}], \"scene\": \"assessment\", \"audience\": [\"p1\"], \"instruction\": \"What have you learned about the receipt location, and from whom?\", \"final_assessment\": true, \"legal_actions\": [\"none\"]}"
+      }
+    ],
+    "stream": false,
+    "think": false,
+    "format": {
+      "type": "object",
+      "properties": {
+        "say": {
+          "type": "string",
+          "maxLength": 480
+        },
+        "private_note": {
+          "type": "string",
+          "maxLength": 180
+        },
+        "evidence": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": [
+              "e00000"
+            ]
+          },
+          "maxItems": 8
+        },
+        "conclusion": {
+          "type": "string",
+          "maxLength": 600
+        },
+        "action": {
+          "type": "string",
+          "enum": [
+            "none"
+          ]
+        }
+      },
+      "required": [
+        "say",
+        "private_note",
+        "evidence",
+        "conclusion",
+        "action"
+      ],
+      "additionalProperties": false
+    },
+    "keep_alive": "2m",
+    "options": {
+      "temperature": 0.7,
+      "seed": 1,
+      "num_ctx": 8192,
+      "num_predict": 768
+    }
+  },
+  "result": {
+    "response": {
+      "model": "qwen3.5:9b",
+      "created_at": "2026-09-26T23:08:44.171073731Z",
+      "message": {
+        "role": "assistant",
+        "content": "{\n\"say\": \"\",\n\"private_note\": \"I will confirm Bea's specific report about cabinet 4 for this assessment.\",\n\"evidence\": [\n\"e00000\"\n],\n\"conclusion\": \"The only information I have regarding the receipt's location is that Bea saw it in cabinet 4. This statement was made by Bea to me during scene s1.\",\n\"action\": \"none\"\n}"
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 4496489907,
+      "load_duration": 2016500,
+      "prompt_eval_count": 650,
+      "prompt_eval_cached_count": 0,
+      "prompt_eval_duration": 1167934000,
+      "eval_count": 93,
+      "eval_duration": 3279499000
+    },
+    "wall_seconds": 4.497
+  }
+}

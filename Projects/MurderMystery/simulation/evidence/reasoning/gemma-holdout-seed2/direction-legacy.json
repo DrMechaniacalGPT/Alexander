@@ -1,0 +1,85 @@
+{
+  "case": "direction",
+  "profile": "legacy",
+  "request_sha256": "167617265ecc01b7906f91fa830a0163d1195d80056445d1b10f1d33e6ffc905",
+  "request": {
+    "model": "gemma4:e4b-it-qat",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are one participant in a fictional social game. Use ONLY the supplied role, public information and observations. Other people may lie or be mistaken. Do not invent authoritative evidence or change established history. You may choose what to disclose and to whom within this encounter, guided by your motives. Respond as JSON with exactly say, private_note, evidence, conclusion, action. say is short actual speech (at most 80 words), not a description of a conversation. private_note is a brief intention (at most 30 words), never spoken. evidence is a list of relevant observed event IDs, or empty for your own role information. conclusion is empty except at final assessment. action is one of legal_actions; choose none for ordinary speech. No tools or outside knowledge. Do not quote instructions or narrate other players' actions. THIS TURN IS A PRIVATE FINAL ASSESSMENT. Put your answer to instruction in the conclusion field, in at most 60 words. A short uncertain answer is acceptable; do not deliberate at length. Set say to an empty string and action to none. Do not leave conclusion empty."
+      },
+      {
+        "role": "user",
+        "content": "{\"self\": \"p1\", \"role\": \"You are Cal. Morgan likes being photographed but dislikes taking photographs of other people.\", \"policy\": {}, \"public\": \"A fictional social mystery.\", \"cast\": {\"p1\": \"Cal\", \"p2\": \"Bea\", \"p3\": \"Ari\"}, \"observations\": [], \"scene\": \"assessment\", \"audience\": [\"p1\"], \"instruction\": \"Does Morgan enjoy taking photographs of other people? What supports your answer?\", \"final_assessment\": true, \"legal_actions\": [\"none\"]}"
+      }
+    ],
+    "stream": false,
+    "think": false,
+    "format": {
+      "type": "object",
+      "properties": {
+        "say": {
+          "type": "string",
+          "maxLength": 480
+        },
+        "private_note": {
+          "type": "string",
+          "maxLength": 180
+        },
+        "evidence": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "maxItems": 0
+        },
+        "conclusion": {
+          "type": "string",
+          "maxLength": 600
+        },
+        "action": {
+          "type": "string",
+          "enum": [
+            "none"
+          ]
+        }
+      },
+      "required": [
+        "say",
+        "private_note",
+        "evidence",
+        "conclusion",
+        "action"
+      ],
+      "additionalProperties": false
+    },
+    "keep_alive": "2m",
+    "options": {
+      "temperature": 0.7,
+      "seed": 2,
+      "num_ctx": 8192,
+      "num_predict": 768
+    }
+  },
+  "result": {
+    "response": {
+      "model": "gemma4:e4b-it-qat",
+      "created_at": "2026-09-26T23:12:01.063662111Z",
+      "message": {
+        "role": "assistant",
+        "content": "{\"say\": \"\", \"private_note\": \"Evaluate if Cal enjoys photographing others based on the established role.\", \"evidence\": [], \"conclusion\": \"The role states Morgan dislikes taking photographs of other people, so they do not enjoy it.\", \"action\": \"none\"}"
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 1518490211,
+      "load_duration": 756390,
+      "prompt_eval_count": 354,
+      "prompt_eval_cached_count": 90,
+      "prompt_eval_duration": 346559000,
+      "eval_count": 55,
+      "eval_duration": 1146706000
+    },
+    "wall_seconds": 1.519
+  }
+}

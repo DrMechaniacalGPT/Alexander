@@ -1,0 +1,13 @@
+{
+  "engine": "0.2.0",
+  "case_sha256": "63cd72af97066ed9ecb50a01083f49c70976724e2508cf068164844f19ae9f56",
+  "config": {
+    "backend": "ollama",
+    "model": "gemma4:e4b-it-qat",
+    "seed": 1,
+    "context": 16384,
+    "tokens": 768,
+    "max_calls": 17,
+    "max_seconds": 500.0
+  }
+}

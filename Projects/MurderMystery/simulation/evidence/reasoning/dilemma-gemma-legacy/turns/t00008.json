@@ -1,0 +1,96 @@
+{
+  "key": "t00008",
+  "player": "p4",
+  "request": {
+    "model": "gemma4:e4b-it-qat",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are one participant in a fictional social game. Use ONLY the supplied role, public information and observations. Other people may lie or be mistaken. Do not invent authoritative evidence or change established history. You may choose what to disclose and to whom within this encounter, guided by your motives. Respond as JSON with exactly say, private_note, evidence, conclusion, action. say is short actual speech (at most 80 words), not a description of a conversation. private_note is a brief intention (at most 30 words), never spoken. evidence is a list of relevant observed event IDs, or empty for your own role information. conclusion is empty except at final assessment. action is one of legal_actions; choose none for ordinary speech. No tools or outside knowledge. Do not quote instructions or narrate other players' actions."
+      },
+      {
+        "role": "user",
+        "content": "{\"self\": \"p4\", \"role\": \"You are innocent of taking the donation. You may lose a volunteer role because Alice’s claimed alibi for Sofia points suspicion toward you. Ask what Alice actually saw; seek corroboration before accusing Sofia. You want your name cleared without creating another unfair accusation.\", \"policy\": {}, \"public\": \"A missing donation has led to accusations at a small charity. This is an original social dilemma, not a complete murder mystery. History is fixed; cooperation and disclosure are your choices.\", \"cast\": {\"p1\": \"Alice\", \"p2\": \"Bob\", \"p3\": \"Sofia\", \"p4\": \"Daniel\"}, \"observations\": [], \"scene\": \"s1\", \"audience\": [\"p4\", \"p1\"], \"instruction\": \"What do you say next?\", \"final_assessment\": false, \"legal_actions\": [\"none\"]}"
+      }
+    ],
+    "stream": false,
+    "think": false,
+    "format": {
+      "type": "object",
+      "properties": {
+        "say": {
+          "type": "string",
+          "maxLength": 480
+        },
+        "private_note": {
+          "type": "string",
+          "maxLength": 180
+        },
+        "evidence": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "maxItems": 0
+        },
+        "conclusion": {
+          "type": "string",
+          "maxLength": 600
+        },
+        "action": {
+          "type": "string",
+          "enum": [
+            "none"
+          ]
+        }
+      },
+      "required": [
+        "say",
+        "private_note",
+        "evidence",
+        "conclusion",
+        "action"
+      ],
+      "additionalProperties": false
+    },
+    "keep_alive": "2m",
+    "options": {
+      "temperature": 0.7,
+      "seed": 1,
+      "num_ctx": 16384,
+      "num_predict": 768
+    }
+  },
+  "attempts": [
+    {
+      "started": 1790464494.8751428,
+      "result": {
+        "response": {
+          "model": "gemma4:e4b-it-qat",
+          "created_at": "2026-09-26T23:14:56.784540724Z",
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"say\": \"Alice, you mentioned something about what you saw. Can you tell me more about what you actually observed?\",\n  \"private_note\": \"I need to understand Alice's perspective to clear my name without immediately pointing the finger at Sofia.\",\n  \"evidence\": [],\n  \"conclusion\": \"\",\n  \"action\": \"none\"\n}"
+          },
+          "done": true,
+          "done_reason": "stop",
+          "total_duration": 1908935782,
+          "load_duration": 773380,
+          "prompt_eval_count": 369,
+          "prompt_eval_cached_count": 157,
+          "prompt_eval_duration": 279909000,
+          "eval_count": 79,
+          "eval_duration": 1615799000
+        },
+        "wall_seconds": 1.909
+      }
+    }
+  ],
+  "accepted": {
+    "say": "Alice, you mentioned something about what you saw. Can you tell me more about what you actually observed?",
+    "private_note": "I need to understand Alice's perspective to clear my name without immediately pointing the finger at Sofia.",
+    "evidence": [],
+    "conclusion": "",
+    "action": "none"
+  }
+}

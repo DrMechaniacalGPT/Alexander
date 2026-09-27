@@ -1,0 +1,1244 @@
+{
+  "generation_attempts": 176,
+  "wall_seconds": 659.082,
+  "contract_failures": 2,
+  "records": [
+    {
+      "record": "dilemma-gemma-grounded/turns/t00000.json",
+      "attempt": 0,
+      "model": "gemma4:e4b-it-qat",
+      "wall_seconds": 2.306,
+      "violations": []
+    },
+    {
+      "record": "dilemma-gemma-grounded/turns/t00001.json",
+      "attempt": 0,
+      "model": "gemma4:e4b-it-qat",
+      "wall_seconds": 2.102,
+      "violations": []
+    },
+    {
+      "record": "dilemma-gemma-grounded/turns/t00002.json",
+      "attempt": 0,
+      "model": "gemma4:e4b-it-qat",
+      "wall_seconds": 2.352,
+      "violations": []
+    },
+    {
+      "record": "dilemma-gemma-grounded/turns/t00003.json",
+      "attempt": 0,
+      "model": "gemma4:e4b-it-qat",
+      "wall_seconds": 2.102,
+      "violations": []
+    },
+    {
+      "record": "dilemma-gemma-grounded/turns/t00004.json",
+      "attempt": 0,
+      "model": "gemma4:e4b-it-qat",
+      "wall_seconds": 2.108,
+      "violations": []
+    },
+    {
+      "record": "dilemma-gemma-grounded/turns/t00005.json",
+      "attempt": 0,
+      "model": "gemma4:e4b-it-qat",
+      "wall_seconds": 2.397,
+      "violations": []
+    },
+    {
+      "record": "dilemma-gemma-grounded/turns/t00006.json",
+      "attempt": 0,
+      "model": "gemma4:e4b-it-qat",
+      "wall_seconds": 2.469,
+      "violations": []
+    },
+    {
+      "record": "dilemma-gemma-grounded/turns/t00007.json",
+      "attempt": 0,
+      "model": "gemma4:e4b-it-qat",
+      "wall_seconds": 2.457,
+      "violations": []
+    },
+    {
+      "record": "dilemma-gemma-grounded/turns/t00008.json",
+      "attempt": 0,
+      "model": "gemma4:e4b-it-qat",
+      "wall_seconds": 1.967,
+      "violations": []
+    },
+    {
+      "record": "dilemma-gemma-grounded/turns/t00009.json",
+      "attempt": 0,
+      "model": "gemma4:e4b-it-qat",
+      "wall_seconds": 2.875,
+      "violations": []
+    },
+    {
+      "record": "dilemma-gemma-grounded/turns/t00010.json",
+      "attempt": 0,
+      "model": "gemma4:e4b-it-qat",
+      "wall_seconds": 2.835,
+      "violations": []
+    },
+    {
+      "record": "dilemma-gemma-grounded/turns/t00011.json",
+      "attempt": 0,
+      "model": "gemma4:e4b-it-qat",
+      "wall_seconds": 2.846,
+      "violations": []
+    },
+    {
+      "record": "dilemma-gemma-grounded/turns/t00012.json",
+      "attempt": 0,
+      "model": "gemma4:e4b-it-qat",
+      "wall_seconds": 5.36,
+      "violations": []
+    },
+    {
+      "record": "dilemma-gemma-grounded/turns/t00013.json",
+      "attempt": 0,
+      "model": "gemma4:e4b-it-qat",
+      "wall_seconds": 3.907,
+      "violations": []
+    },
+    {
+      "record": "dilemma-gemma-grounded/turns/t00014.json",
+      "attempt": 0,
+      "model": "gemma4:e4b-it-qat",
+      "wall_seconds": 4.284,
+      "violations": []
+    },
+    {
+      "record": "dilemma-gemma-grounded/turns/t00015.json",
+      "attempt": 0,
+      "model": "gemma4:e4b-it-qat",
+      "wall_seconds": 3.588,
+      "violations": []
+    },
+    {
+      "record": "dilemma-gemma-legacy/turns/t00000.json",
+      "attempt": 0,
+      "model": "gemma4:e4b-it-qat",
+      "wall_seconds": 5.06,
+      "violations": []
+    },
+    {
+      "record": "dilemma-gemma-legacy/turns/t00001.json",
+      "attempt": 0,
+      "model": "gemma4:e4b-it-qat",
+      "wall_seconds": 2.366,
+      "violations": []
+    },
+    {
+      "record": "dilemma-gemma-legacy/turns/t00002.json",
+      "attempt": 0,
+      "model": "gemma4:e4b-it-qat",
+      "wall_seconds": 2.287,
+      "violations": []
+    },
+    {
+      "record": "dilemma-gemma-legacy/turns/t00003.json",
+      "attempt": 0,
+      "model": "gemma4:e4b-it-qat",
+      "wall_seconds": 3.115,
+      "violations": []
+    },
+    {
+      "record": "dilemma-gemma-legacy/turns/t00004.json",
+      "attempt": 0,
+      "model": "gemma4:e4b-it-qat",
+      "wall_seconds": 1.814,
+      "violations": []
+    },
+    {
+      "record": "dilemma-gemma-legacy/turns/t00005.json",
+      "attempt": 0,
+      "model": "gemma4:e4b-it-qat",
+      "wall_seconds": 1.868,
+      "violations": []
+    },
+    {
+      "record": "dilemma-gemma-legacy/turns/t00006.json",
+      "attempt": 0,
+      "model": "gemma4:e4b-it-qat",
+      "wall_seconds": 2.307,
+      "violations": []
+    },
+    {
+      "record": "dilemma-gemma-legacy/turns/t00007.json",
+      "attempt": 0,
+      "model": "gemma4:e4b-it-qat",
+      "wall_seconds": 2.729,
+      "violations": []
+    },
+    {
+      "record": "dilemma-gemma-legacy/turns/t00008.json",
+      "attempt": 0,
+      "model": "gemma4:e4b-it-qat",
+      "wall_seconds": 1.909,
+      "violations": []
+    },
+    {
+      "record": "dilemma-gemma-legacy/turns/t00009.json",
+      "attempt": 0,
+      "model": "gemma4:e4b-it-qat",
+      "wall_seconds": 2.484,
+      "violations": []
+    },
+    {
+      "record": "dilemma-gemma-legacy/turns/t00010.json",
+      "attempt": 0,
+      "model": "gemma4:e4b-it-qat",
+      "wall_seconds": 2.085,
+      "violations": []
+    },
+    {
+      "record": "dilemma-gemma-legacy/turns/t00011.json",
+      "attempt": 0,
+      "model": "gemma4:e4b-it-qat",
+      "wall_seconds": 3.042,
+      "violations": []
+    },
+    {
+      "record": "dilemma-gemma-legacy/turns/t00012.json",
+      "attempt": 0,
+      "model": "gemma4:e4b-it-qat",
+      "wall_seconds": 4.537,
+      "violations": []
+    },
+    {
+      "record": "dilemma-gemma-legacy/turns/t00013.json",
+      "attempt": 0,
+      "model": "gemma4:e4b-it-qat",
+      "wall_seconds": 3.546,
+      "violations": []
+    },
+    {
+      "record": "dilemma-gemma-legacy/turns/t00014.json",
+      "attempt": 0,
+      "model": "gemma4:e4b-it-qat",
+      "wall_seconds": 3.423,
+      "violations": []
+    },
+    {
+      "record": "dilemma-gemma-legacy/turns/t00015.json",
+      "attempt": 0,
+      "model": "gemma4:e4b-it-qat",
+      "wall_seconds": 3.105,
+      "violations": []
+    },
+    {
+      "record": "dilemma-gemma-v2/turns/t00000.json",
+      "attempt": 0,
+      "model": "gemma4:e4b-it-qat",
+      "wall_seconds": 5.382,
+      "violations": []
+    },
+    {
+      "record": "dilemma-gemma-v2/turns/t00001.json",
+      "attempt": 0,
+      "model": "gemma4:e4b-it-qat",
+      "wall_seconds": 2.396,
+      "violations": []
+    },
+    {
+      "record": "dilemma-gemma-v2/turns/t00002.json",
+      "attempt": 0,
+      "model": "gemma4:e4b-it-qat",
+      "wall_seconds": 2.041,
+      "violations": []
+    },
+    {
+      "record": "dilemma-gemma-v2/turns/t00003.json",
+      "attempt": 0,
+      "model": "gemma4:e4b-it-qat",
+      "wall_seconds": 2.493,
+      "violations": []
+    },
+    {
+      "record": "dilemma-gemma-v2/turns/t00004.json",
+      "attempt": 0,
+      "model": "gemma4:e4b-it-qat",
+      "wall_seconds": 2.593,
+      "violations": []
+    },
+    {
+      "record": "dilemma-gemma-v2/turns/t00005.json",
+      "attempt": 0,
+      "model": "gemma4:e4b-it-qat",
+      "wall_seconds": 1.888,
+      "violations": []
+    },
+    {
+      "record": "dilemma-gemma-v2/turns/t00006.json",
+      "attempt": 0,
+      "model": "gemma4:e4b-it-qat",
+      "wall_seconds": 3.181,
+      "violations": []
+    },
+    {
+      "record": "dilemma-gemma-v2/turns/t00007.json",
+      "attempt": 0,
+      "model": "gemma4:e4b-it-qat",
+      "wall_seconds": 2.623,
+      "violations": []
+    },
+    {
+      "record": "dilemma-gemma-v2/turns/t00008.json",
+      "attempt": 0,
+      "model": "gemma4:e4b-it-qat",
+      "wall_seconds": 1.709,
+      "violations": []
+    },
+    {
+      "record": "dilemma-gemma-v2/turns/t00009.json",
+      "attempt": 0,
+      "model": "gemma4:e4b-it-qat",
+      "wall_seconds": 2.522,
+      "violations": []
+    },
+    {
+      "record": "dilemma-gemma-v2/turns/t00010.json",
+      "attempt": 0,
+      "model": "gemma4:e4b-it-qat",
+      "wall_seconds": 1.935,
+      "violations": []
+    },
+    {
+      "record": "dilemma-gemma-v2/turns/t00011.json",
+      "attempt": 0,
+      "model": "gemma4:e4b-it-qat",
+      "wall_seconds": 2.84,
+      "violations": []
+    },
+    {
+      "record": "dilemma-gemma-v2/turns/t00012.json",
+      "attempt": 0,
+      "model": "gemma4:e4b-it-qat",
+      "wall_seconds": 5.607,
+      "violations": []
+    },
+    {
+      "record": "dilemma-gemma-v2/turns/t00013.json",
+      "attempt": 0,
+      "model": "gemma4:e4b-it-qat",
+      "wall_seconds": 4.011,
+      "violations": []
+    },
+    {
+      "record": "dilemma-gemma-v2/turns/t00014.json",
+      "attempt": 0,
+      "model": "gemma4:e4b-it-qat",
+      "wall_seconds": 3.944,
+      "violations": []
+    },
+    {
+      "record": "dilemma-gemma-v2/turns/t00015.json",
+      "attempt": 0,
+      "model": "gemma4:e4b-it-qat",
+      "wall_seconds": 3.441,
+      "violations": []
+    },
+    {
+      "record": "dilemma-qwen-v2/turns/t00000.json",
+      "attempt": 0,
+      "model": "qwen3.5:9b",
+      "wall_seconds": 7.986,
+      "violations": []
+    },
+    {
+      "record": "dilemma-qwen-v2/turns/t00001.json",
+      "attempt": 0,
+      "model": "qwen3.5:9b",
+      "wall_seconds": 4.715,
+      "violations": []
+    },
+    {
+      "record": "dilemma-qwen-v2/turns/t00002.json",
+      "attempt": 0,
+      "model": "qwen3.5:9b",
+      "wall_seconds": 4.345,
+      "violations": []
+    },
+    {
+      "record": "dilemma-qwen-v2/turns/t00003.json",
+      "attempt": 0,
+      "model": "qwen3.5:9b",
+      "wall_seconds": 5.407,
+      "violations": []
+    },
+    {
+      "record": "dilemma-qwen-v2/turns/t00004.json",
+      "attempt": 0,
+      "model": "qwen3.5:9b",
+      "wall_seconds": 4.928,
+      "violations": []
+    },
+    {
+      "record": "dilemma-qwen-v2/turns/t00005.json",
+      "attempt": 0,
+      "model": "qwen3.5:9b",
+      "wall_seconds": 4.144,
+      "violations": []
+    },
+    {
+      "record": "dilemma-qwen-v2/turns/t00006.json",
+      "attempt": 0,
+      "model": "qwen3.5:9b",
+      "wall_seconds": 4.442,
+      "violations": []
+    },
+    {
+      "record": "dilemma-qwen-v2/turns/t00007.json",
+      "attempt": 0,
+      "model": "qwen3.5:9b",
+      "wall_seconds": 4.793,
+      "violations": []
+    },
+    {
+      "record": "dilemma-qwen-v2/turns/t00008.json",
+      "attempt": 0,
+      "model": "qwen3.5:9b",
+      "wall_seconds": 4.761,
+      "violations": []
+    },
+    {
+      "record": "dilemma-qwen-v2/turns/t00009.json",
+      "attempt": 0,
+      "model": "qwen3.5:9b",
+      "wall_seconds": 6.257,
+      "violations": []
+    },
+    {
+      "record": "dilemma-qwen-v2/turns/t00010.json",
+      "attempt": 0,
+      "model": "qwen3.5:9b",
+      "wall_seconds": 5.214,
+      "violations": []
+    },
+    {
+      "record": "dilemma-qwen-v2/turns/t00011.json",
+      "attempt": 0,
+      "model": "qwen3.5:9b",
+      "wall_seconds": 5.81,
+      "violations": []
+    },
+    {
+      "record": "dilemma-qwen-v2/turns/t00012.json",
+      "attempt": 0,
+      "model": "qwen3.5:9b",
+      "wall_seconds": 10.151,
+      "violations": []
+    },
+    {
+      "record": "dilemma-qwen-v2/turns/t00013.json",
+      "attempt": 0,
+      "model": "qwen3.5:9b",
+      "wall_seconds": 7.154,
+      "violations": []
+    },
+    {
+      "record": "dilemma-qwen-v2/turns/t00014.json",
+      "attempt": 0,
+      "model": "qwen3.5:9b",
+      "wall_seconds": 6.415,
+      "violations": []
+    },
+    {
+      "record": "dilemma-qwen-v2/turns/t00015.json",
+      "attempt": 0,
+      "model": "qwen3.5:9b",
+      "wall_seconds": 7.687,
+      "violations": []
+    },
+    {
+      "record": "frozen-relay/gemma4-delivered-grounded-v1.json",
+      "attempt": 0,
+      "model": "gemma4:e4b-it-qat",
+      "wall_seconds": 2.953,
+      "violations": []
+    },
+    {
+      "record": "frozen-relay/gemma4-delivered-legacy.json",
+      "attempt": 0,
+      "model": "gemma4:e4b-it-qat",
+      "wall_seconds": 5.54,
+      "violations": []
+    },
+    {
+      "record": "frozen-relay/gemma4-no_report-grounded-v1.json",
+      "attempt": 0,
+      "model": "gemma4:e4b-it-qat",
+      "wall_seconds": 2.347,
+      "violations": []
+    },
+    {
+      "record": "frozen-relay/gemma4-no_report-legacy.json",
+      "attempt": 0,
+      "model": "gemma4:e4b-it-qat",
+      "wall_seconds": 2.42,
+      "violations": []
+    },
+    {
+      "record": "frozen-relay/qwen3.5-delivered-grounded-v1.json",
+      "attempt": 0,
+      "model": "qwen3.5:9b",
+      "wall_seconds": 5.482,
+      "violations": [
+        "private assessment contains public speech/action"
+      ]
+    },
+    {
+      "record": "frozen-relay/qwen3.5-delivered-legacy.json",
+      "attempt": 0,
+      "model": "qwen3.5:9b",
+      "wall_seconds": 7.413,
+      "violations": []
+    },
+    {
+      "record": "frozen-relay/qwen3.5-no_report-grounded-v1.json",
+      "attempt": 0,
+      "model": "qwen3.5:9b",
+      "wall_seconds": 4.179,
+      "violations": []
+    },
+    {
+      "record": "frozen-relay/qwen3.5-no_report-legacy.json",
+      "attempt": 0,
+      "model": "qwen3.5:9b",
+      "wall_seconds": 4.036,
+      "violations": []
+    },
+    {
+      "record": "gemma-holdout-seed2/changed_conflict-grounded-v1.json",
+      "attempt": 0,
+      "model": "gemma4:e4b-it-qat",
+      "wall_seconds": 2.63,
+      "violations": []
+    },
+    {
+      "record": "gemma-holdout-seed2/changed_conflict-legacy.json",
+      "attempt": 0,
+      "model": "gemma4:e4b-it-qat",
+      "wall_seconds": 2.718,
+      "violations": []
+    },
+    {
+      "record": "gemma-holdout-seed2/changed_receipt-grounded-v1.json",
+      "attempt": 0,
+      "model": "gemma4:e4b-it-qat",
+      "wall_seconds": 2.121,
+      "violations": []
+    },
+    {
+      "record": "gemma-holdout-seed2/changed_receipt-legacy.json",
+      "attempt": 0,
+      "model": "gemma4:e4b-it-qat",
+      "wall_seconds": 1.752,
+      "violations": []
+    },
+    {
+      "record": "gemma-holdout-seed2/direction-grounded-v1.json",
+      "attempt": 0,
+      "model": "gemma4:e4b-it-qat",
+      "wall_seconds": 1.817,
+      "violations": []
+    },
+    {
+      "record": "gemma-holdout-seed2/direction-legacy.json",
+      "attempt": 0,
+      "model": "gemma4:e4b-it-qat",
+      "wall_seconds": 1.519,
+      "violations": []
+    },
+    {
+      "record": "gemma-holdout-seed2/positive-grounded-v1.json",
+      "attempt": 0,
+      "model": "gemma4:e4b-it-qat",
+      "wall_seconds": 2.086,
+      "violations": []
+    },
+    {
+      "record": "gemma-holdout-seed2/positive-legacy.json",
+      "attempt": 0,
+      "model": "gemma4:e4b-it-qat",
+      "wall_seconds": 1.921,
+      "violations": []
+    },
+    {
+      "record": "gemma-seed1/absent-grounded-v1.json",
+      "attempt": 0,
+      "model": "gemma4:e4b-it-qat",
+      "wall_seconds": 2.201,
+      "violations": []
+    },
+    {
+      "record": "gemma-seed1/absent-legacy.json",
+      "attempt": 0,
+      "model": "gemma4:e4b-it-qat",
+      "wall_seconds": 2.007,
+      "violations": []
+    },
+    {
+      "record": "gemma-seed1/choice-grounded-v1.json",
+      "attempt": 0,
+      "model": "gemma4:e4b-it-qat",
+      "wall_seconds": 3.266,
+      "violations": []
+    },
+    {
+      "record": "gemma-seed1/choice-legacy.json",
+      "attempt": 0,
+      "model": "gemma4:e4b-it-qat",
+      "wall_seconds": 2.633,
+      "violations": []
+    },
+    {
+      "record": "gemma-seed1/conflict-grounded-v1.json",
+      "attempt": 0,
+      "model": "gemma4:e4b-it-qat",
+      "wall_seconds": 3.231,
+      "violations": []
+    },
+    {
+      "record": "gemma-seed1/conflict-legacy.json",
+      "attempt": 0,
+      "model": "gemma4:e4b-it-qat",
+      "wall_seconds": 3.072,
+      "violations": []
+    },
+    {
+      "record": "gemma-seed1/coverage-grounded-v1.json",
+      "attempt": 0,
+      "model": "gemma4:e4b-it-qat",
+      "wall_seconds": 2.803,
+      "violations": []
+    },
+    {
+      "record": "gemma-seed1/coverage-legacy.json",
+      "attempt": 0,
+      "model": "gemma4:e4b-it-qat",
+      "wall_seconds": 2.973,
+      "violations": []
+    },
+    {
+      "record": "gemma-seed1/kindness-grounded-v1.json",
+      "attempt": 0,
+      "model": "gemma4:e4b-it-qat",
+      "wall_seconds": 2.228,
+      "violations": []
+    },
+    {
+      "record": "gemma-seed1/kindness-legacy.json",
+      "attempt": 0,
+      "model": "gemma4:e4b-it-qat",
+      "wall_seconds": 2.44,
+      "violations": []
+    },
+    {
+      "record": "gemma-seed1/received-grounded-v1.json",
+      "attempt": 0,
+      "model": "gemma4:e4b-it-qat",
+      "wall_seconds": 2.398,
+      "violations": []
+    },
+    {
+      "record": "gemma-seed1/received-legacy.json",
+      "attempt": 0,
+      "model": "gemma4:e4b-it-qat",
+      "wall_seconds": 5.59,
+      "violations": []
+    },
+    {
+      "record": "gemma-seed1/secondhand-grounded-v1.json",
+      "attempt": 0,
+      "model": "gemma4:e4b-it-qat",
+      "wall_seconds": 2.269,
+      "violations": []
+    },
+    {
+      "record": "gemma-seed1/secondhand-legacy.json",
+      "attempt": 0,
+      "model": "gemma4:e4b-it-qat",
+      "wall_seconds": 2.251,
+      "violations": []
+    },
+    {
+      "record": "gemma-seed1/secret-grounded-v1.json",
+      "attempt": 0,
+      "model": "gemma4:e4b-it-qat",
+      "wall_seconds": 2.332,
+      "violations": []
+    },
+    {
+      "record": "gemma-seed1/secret-legacy.json",
+      "attempt": 0,
+      "model": "gemma4:e4b-it-qat",
+      "wall_seconds": 1.86,
+      "violations": []
+    },
+    {
+      "record": "gemma-v2-seed1/absent-grounded-v2.json",
+      "attempt": 0,
+      "model": "gemma4:e4b-it-qat",
+      "wall_seconds": 1.732,
+      "violations": []
+    },
+    {
+      "record": "gemma-v2-seed1/choice-grounded-v2.json",
+      "attempt": 0,
+      "model": "gemma4:e4b-it-qat",
+      "wall_seconds": 2.639,
+      "violations": []
+    },
+    {
+      "record": "gemma-v2-seed1/conflict-grounded-v2.json",
+      "attempt": 0,
+      "model": "gemma4:e4b-it-qat",
+      "wall_seconds": 2.983,
+      "violations": []
+    },
+    {
+      "record": "gemma-v2-seed1/coverage-grounded-v2.json",
+      "attempt": 0,
+      "model": "gemma4:e4b-it-qat",
+      "wall_seconds": 2.384,
+      "violations": []
+    },
+    {
+      "record": "gemma-v2-seed1/kindness-grounded-v2.json",
+      "attempt": 0,
+      "model": "gemma4:e4b-it-qat",
+      "wall_seconds": 2.061,
+      "violations": []
+    },
+    {
+      "record": "gemma-v2-seed1/received-grounded-v2.json",
+      "attempt": 0,
+      "model": "gemma4:e4b-it-qat",
+      "wall_seconds": 5.692,
+      "violations": []
+    },
+    {
+      "record": "gemma-v2-seed1/secondhand-grounded-v2.json",
+      "attempt": 0,
+      "model": "gemma4:e4b-it-qat",
+      "wall_seconds": 1.656,
+      "violations": []
+    },
+    {
+      "record": "gemma-v2-seed1/secret-grounded-v2.json",
+      "attempt": 0,
+      "model": "gemma4:e4b-it-qat",
+      "wall_seconds": 1.885,
+      "violations": []
+    },
+    {
+      "record": "gemma-v2-seed2/changed_conflict-grounded-v2.json",
+      "attempt": 0,
+      "model": "gemma4:e4b-it-qat",
+      "wall_seconds": 2.696,
+      "violations": []
+    },
+    {
+      "record": "gemma-v2-seed2/changed_receipt-grounded-v2.json",
+      "attempt": 0,
+      "model": "gemma4:e4b-it-qat",
+      "wall_seconds": 1.68,
+      "violations": []
+    },
+    {
+      "record": "gemma-v2-seed2/direction-grounded-v2.json",
+      "attempt": 0,
+      "model": "gemma4:e4b-it-qat",
+      "wall_seconds": 1.601,
+      "violations": []
+    },
+    {
+      "record": "gemma-v2-seed2/positive-grounded-v2.json",
+      "attempt": 0,
+      "model": "gemma4:e4b-it-qat",
+      "wall_seconds": 2.154,
+      "violations": []
+    },
+    {
+      "record": "qwen-corrected-seed1/choice-grounded-v1.json",
+      "attempt": 0,
+      "model": "qwen3.5:9b",
+      "wall_seconds": 5.576,
+      "violations": []
+    },
+    {
+      "record": "qwen-corrected-seed1/choice-legacy.json",
+      "attempt": 0,
+      "model": "qwen3.5:9b",
+      "wall_seconds": 5.091,
+      "violations": []
+    },
+    {
+      "record": "qwen-corrected-seed1/conflict-grounded-v1.json",
+      "attempt": 0,
+      "model": "qwen3.5:9b",
+      "wall_seconds": 5.398,
+      "violations": []
+    },
+    {
+      "record": "qwen-corrected-seed1/conflict-legacy.json",
+      "attempt": 0,
+      "model": "qwen3.5:9b",
+      "wall_seconds": 4.91,
+      "violations": []
+    },
+    {
+      "record": "qwen-holdout-seed2/changed_conflict-grounded-v1.json",
+      "attempt": 0,
+      "model": "qwen3.5:9b",
+      "wall_seconds": 5.558,
+      "violations": []
+    },
+    {
+      "record": "qwen-holdout-seed2/changed_conflict-legacy.json",
+      "attempt": 0,
+      "model": "qwen3.5:9b",
+      "wall_seconds": 4.882,
+      "violations": []
+    },
+    {
+      "record": "qwen-holdout-seed2/changed_receipt-grounded-v1.json",
+      "attempt": 0,
+      "model": "qwen3.5:9b",
+      "wall_seconds": 4.31,
+      "violations": []
+    },
+    {
+      "record": "qwen-holdout-seed2/changed_receipt-legacy.json",
+      "attempt": 0,
+      "model": "qwen3.5:9b",
+      "wall_seconds": 3.55,
+      "violations": []
+    },
+    {
+      "record": "qwen-holdout-seed2/direction-grounded-v1.json",
+      "attempt": 0,
+      "model": "qwen3.5:9b",
+      "wall_seconds": 4.45,
+      "violations": []
+    },
+    {
+      "record": "qwen-holdout-seed2/direction-legacy.json",
+      "attempt": 0,
+      "model": "qwen3.5:9b",
+      "wall_seconds": 3.561,
+      "violations": []
+    },
+    {
+      "record": "qwen-holdout-seed2/positive-grounded-v1.json",
+      "attempt": 0,
+      "model": "qwen3.5:9b",
+      "wall_seconds": 5.687,
+      "violations": []
+    },
+    {
+      "record": "qwen-holdout-seed2/positive-legacy.json",
+      "attempt": 0,
+      "model": "qwen3.5:9b",
+      "wall_seconds": 4.662,
+      "violations": []
+    },
+    {
+      "record": "qwen-seed1/absent-grounded-v1.json",
+      "attempt": 0,
+      "model": "qwen3.5:9b",
+      "wall_seconds": 4.575,
+      "violations": []
+    },
+    {
+      "record": "qwen-seed1/absent-legacy.json",
+      "attempt": 0,
+      "model": "qwen3.5:9b",
+      "wall_seconds": 3.013,
+      "violations": []
+    },
+    {
+      "record": "qwen-seed1/choice-grounded-v1.json",
+      "attempt": 0,
+      "model": "qwen3.5:9b",
+      "wall_seconds": 5.43,
+      "violations": []
+    },
+    {
+      "record": "qwen-seed1/choice-legacy.json",
+      "attempt": 0,
+      "model": "qwen3.5:9b",
+      "wall_seconds": 5.034,
+      "violations": []
+    },
+    {
+      "record": "qwen-seed1/conflict-grounded-v1.json",
+      "attempt": 0,
+      "model": "qwen3.5:9b",
+      "wall_seconds": 6.2,
+      "violations": []
+    },
+    {
+      "record": "qwen-seed1/conflict-legacy.json",
+      "attempt": 0,
+      "model": "qwen3.5:9b",
+      "wall_seconds": 5.167,
+      "violations": []
+    },
+    {
+      "record": "qwen-seed1/coverage-grounded-v1.json",
+      "attempt": 0,
+      "model": "qwen3.5:9b",
+      "wall_seconds": 5.98,
+      "violations": []
+    },
+    {
+      "record": "qwen-seed1/coverage-legacy.json",
+      "attempt": 0,
+      "model": "qwen3.5:9b",
+      "wall_seconds": 5.998,
+      "violations": []
+    },
+    {
+      "record": "qwen-seed1/kindness-grounded-v1.json",
+      "attempt": 0,
+      "model": "qwen3.5:9b",
+      "wall_seconds": 5.172,
+      "violations": []
+    },
+    {
+      "record": "qwen-seed1/kindness-legacy.json",
+      "attempt": 0,
+      "model": "qwen3.5:9b",
+      "wall_seconds": 4.257,
+      "violations": []
+    },
+    {
+      "record": "qwen-seed1/received-grounded-v1.json",
+      "attempt": 0,
+      "model": "qwen3.5:9b",
+      "wall_seconds": 4.497,
+      "violations": []
+    },
+    {
+      "record": "qwen-seed1/received-legacy.json",
+      "attempt": 0,
+      "model": "qwen3.5:9b",
+      "wall_seconds": 5.469,
+      "violations": []
+    },
+    {
+      "record": "qwen-seed1/secondhand-grounded-v1.json",
+      "attempt": 0,
+      "model": "qwen3.5:9b",
+      "wall_seconds": 4.515,
+      "violations": []
+    },
+    {
+      "record": "qwen-seed1/secondhand-legacy.json",
+      "attempt": 0,
+      "model": "qwen3.5:9b",
+      "wall_seconds": 4.259,
+      "violations": []
+    },
+    {
+      "record": "qwen-seed1/secret-grounded-v1.json",
+      "attempt": 0,
+      "model": "qwen3.5:9b",
+      "wall_seconds": 3.478,
+      "violations": []
+    },
+    {
+      "record": "qwen-seed1/secret-legacy.json",
+      "attempt": 0,
+      "model": "qwen3.5:9b",
+      "wall_seconds": 2.937,
+      "violations": []
+    },
+    {
+      "record": "qwen-v2-seed1/absent-grounded-v2.json",
+      "attempt": 0,
+      "model": "qwen3.5:9b",
+      "wall_seconds": 3.419,
+      "violations": []
+    },
+    {
+      "record": "qwen-v2-seed1/choice-grounded-v2.json",
+      "attempt": 0,
+      "model": "qwen3.5:9b",
+      "wall_seconds": 6.591,
+      "violations": []
+    },
+    {
+      "record": "qwen-v2-seed1/conflict-grounded-v2.json",
+      "attempt": 0,
+      "model": "qwen3.5:9b",
+      "wall_seconds": 5.8,
+      "violations": []
+    },
+    {
+      "record": "qwen-v2-seed1/coverage-grounded-v2.json",
+      "attempt": 0,
+      "model": "qwen3.5:9b",
+      "wall_seconds": 5.199,
+      "violations": []
+    },
+    {
+      "record": "qwen-v2-seed1/kindness-grounded-v2.json",
+      "attempt": 0,
+      "model": "qwen3.5:9b",
+      "wall_seconds": 4.999,
+      "violations": []
+    },
+    {
+      "record": "qwen-v2-seed1/received-grounded-v2.json",
+      "attempt": 0,
+      "model": "qwen3.5:9b",
+      "wall_seconds": 7.727,
+      "violations": []
+    },
+    {
+      "record": "qwen-v2-seed1/secondhand-grounded-v2.json",
+      "attempt": 0,
+      "model": "qwen3.5:9b",
+      "wall_seconds": 4.531,
+      "violations": []
+    },
+    {
+      "record": "qwen-v2-seed1/secret-grounded-v2.json",
+      "attempt": 0,
+      "model": "qwen3.5:9b",
+      "wall_seconds": 4.18,
+      "violations": []
+    },
+    {
+      "record": "qwen-v2-seed2/changed_conflict-grounded-v2.json",
+      "attempt": 0,
+      "model": "qwen3.5:9b",
+      "wall_seconds": 5.775,
+      "violations": []
+    },
+    {
+      "record": "qwen-v2-seed2/changed_receipt-grounded-v2.json",
+      "attempt": 0,
+      "model": "qwen3.5:9b",
+      "wall_seconds": 5.442,
+      "violations": []
+    },
+    {
+      "record": "qwen-v2-seed2/direction-grounded-v2.json",
+      "attempt": 0,
+      "model": "qwen3.5:9b",
+      "wall_seconds": 4.288,
+      "violations": []
+    },
+    {
+      "record": "qwen-v2-seed2/positive-grounded-v2.json",
+      "attempt": 0,
+      "model": "qwen3.5:9b",
+      "wall_seconds": 4.844,
+      "violations": []
+    },
+    {
+      "record": "relay-gemma-legacy/turns/t00000.json",
+      "attempt": 0,
+      "model": "gemma4:e4b-it-qat",
+      "wall_seconds": 5.169,
+      "violations": []
+    },
+    {
+      "record": "relay-gemma-legacy/turns/t00001.json",
+      "attempt": 0,
+      "model": "gemma4:e4b-it-qat",
+      "wall_seconds": 2.239,
+      "violations": []
+    },
+    {
+      "record": "relay-gemma-legacy/turns/t00002.json",
+      "attempt": 0,
+      "model": "gemma4:e4b-it-qat",
+      "wall_seconds": 1.41,
+      "violations": []
+    },
+    {
+      "record": "relay-gemma-legacy/turns/t00003.json",
+      "attempt": 0,
+      "model": "gemma4:e4b-it-qat",
+      "wall_seconds": 2.71,
+      "violations": []
+    },
+    {
+      "record": "relay-gemma-legacy/turns/t00004.json",
+      "attempt": 0,
+      "model": "gemma4:e4b-it-qat",
+      "wall_seconds": 2.457,
+      "violations": []
+    },
+    {
+      "record": "relay-gemma-legacy/turns/t00005.json",
+      "attempt": 0,
+      "model": "gemma4:e4b-it-qat",
+      "wall_seconds": 2.73,
+      "violations": []
+    },
+    {
+      "record": "relay-gemma-legacy/turns/t00006.json",
+      "attempt": 0,
+      "model": "gemma4:e4b-it-qat",
+      "wall_seconds": 2.562,
+      "violations": []
+    },
+    {
+      "record": "relay-gemma-v2/turns/t00000.json",
+      "attempt": 0,
+      "model": "gemma4:e4b-it-qat",
+      "wall_seconds": 2.076,
+      "violations": []
+    },
+    {
+      "record": "relay-gemma-v2/turns/t00001.json",
+      "attempt": 0,
+      "model": "gemma4:e4b-it-qat",
+      "wall_seconds": 2.301,
+      "violations": []
+    },
+    {
+      "record": "relay-gemma-v2/turns/t00002.json",
+      "attempt": 0,
+      "model": "gemma4:e4b-it-qat",
+      "wall_seconds": 2.069,
+      "violations": []
+    },
+    {
+      "record": "relay-gemma-v2/turns/t00003.json",
+      "attempt": 0,
+      "model": "gemma4:e4b-it-qat",
+      "wall_seconds": 2.984,
+      "violations": []
+    },
+    {
+      "record": "relay-gemma-v2/turns/t00004.json",
+      "attempt": 0,
+      "model": "gemma4:e4b-it-qat",
+      "wall_seconds": 2.427,
+      "violations": []
+    },
+    {
+      "record": "relay-gemma-v2/turns/t00005.json",
+      "attempt": 0,
+      "model": "gemma4:e4b-it-qat",
+      "wall_seconds": 3.047,
+      "violations": []
+    },
+    {
+      "record": "relay-gemma-v2/turns/t00006.json",
+      "attempt": 0,
+      "model": "gemma4:e4b-it-qat",
+      "wall_seconds": 2.581,
+      "violations": []
+    },
+    {
+      "record": "relay-qwen-grounded/turns/t00000.json",
+      "attempt": 0,
+      "model": "qwen3.5:9b",
+      "wall_seconds": 8.587,
+      "violations": []
+    },
+    {
+      "record": "relay-qwen-grounded/turns/t00001.json",
+      "attempt": 0,
+      "model": "qwen3.5:9b",
+      "wall_seconds": 3.851,
+      "violations": []
+    },
+    {
+      "record": "relay-qwen-grounded/turns/t00002.json",
+      "attempt": 0,
+      "model": "qwen3.5:9b",
+      "wall_seconds": 3.358,
+      "violations": []
+    },
+    {
+      "record": "relay-qwen-grounded/turns/t00003.json",
+      "attempt": 0,
+      "model": "qwen3.5:9b",
+      "wall_seconds": 3.927,
+      "violations": []
+    },
+    {
+      "record": "relay-qwen-grounded/turns/t00004.json",
+      "attempt": 0,
+      "model": "qwen3.5:9b",
+      "wall_seconds": 6.288,
+      "violations": [
+        "private assessment contains public speech/action"
+      ]
+    },
+    {
+      "record": "relay-qwen-grounded/turns/t00005.json",
+      "attempt": 0,
+      "model": "qwen3.5:9b",
+      "wall_seconds": 6.15,
+      "violations": []
+    },
+    {
+      "record": "relay-qwen-grounded/turns/t00006.json",
+      "attempt": 0,
+      "model": "qwen3.5:9b",
+      "wall_seconds": 4.685,
+      "violations": []
+    },
+    {
+      "record": "relay-qwen-v2/turns/t00000.json",
+      "attempt": 0,
+      "model": "qwen3.5:9b",
+      "wall_seconds": 3.848,
+      "violations": []
+    },
+    {
+      "record": "relay-qwen-v2/turns/t00001.json",
+      "attempt": 0,
+      "model": "qwen3.5:9b",
+      "wall_seconds": 3.864,
+      "violations": []
+    },
+    {
+      "record": "relay-qwen-v2/turns/t00002.json",
+      "attempt": 0,
+      "model": "qwen3.5:9b",
+      "wall_seconds": 3.299,
+      "violations": []
+    },
+    {
+      "record": "relay-qwen-v2/turns/t00003.json",
+      "attempt": 0,
+      "model": "qwen3.5:9b",
+      "wall_seconds": 3.98,
+      "violations": []
+    },
+    {
+      "record": "relay-qwen-v2/turns/t00004.json",
+      "attempt": 0,
+      "model": "qwen3.5:9b",
+      "wall_seconds": 5.573,
+      "violations": []
+    },
+    {
+      "record": "relay-qwen-v2/turns/t00005.json",
+      "attempt": 0,
+      "model": "qwen3.5:9b",
+      "wall_seconds": 5.474,
+      "violations": []
+    },
+    {
+      "record": "relay-qwen-v2/turns/t00006.json",
+      "attempt": 0,
+      "model": "qwen3.5:9b",
+      "wall_seconds": 4.927,
+      "violations": []
+    }
+  ],
+  "limitation": "Syntactic citation availability is not evidential support. Semantic judgments require separate review."
+}

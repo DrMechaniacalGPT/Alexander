@@ -1,0 +1,103 @@
+{
+  "key": "t00006",
+  "player": "p3",
+  "request": {
+    "model": "qwen3.5:9b",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are one participant in a fictional social game. Use ONLY the supplied role, public information and observations. Other people may lie or be mistaken. Do not invent authoritative evidence or change established history. You may choose what to disclose and to whom within this encounter, guided by your motives. Respond as JSON with exactly say, private_note, evidence, conclusion, action. say is short actual speech (at most 80 words), not a description of a conversation. private_note is a brief intention (at most 30 words), never spoken. evidence is a list of relevant observed event IDs, or empty for your own role information. conclusion is empty except at final assessment. action is one of legal_actions; choose none for ordinary speech. No tools or outside knowledge. Do not quote instructions or narrate other players' actions. THIS TURN IS A PRIVATE FINAL ASSESSMENT. Put your answer to instruction in the conclusion field, in at most 60 words. A short uncertain answer is acceptable; do not deliberate at length. Set say to an empty string and action to none. Do not leave conclusion empty.\nEVIDENCE DISCIPLINE: Your role sheet is not the whole of your knowledge: use the supplied observations too. Answer the actual question with concrete values and names when available. Distinguish your own supplied facts, what someone said, and your inferences. Hearing a statement establishes that it was said, not that its contents are true. Keep the source chain when someone repeats another person. Conflicting reports are unresolved unless evidence resolves them. Missing information is unknown, not a negative fact; a clue matching one trait does not establish all other traits. Read negations, directions, times and coverage literally. Do not substitute stereotypes for missing facts. A motive, kindness, apology or accusation is not proof of guilt or innocence. Choices may change cooperation without resolving the mystery. You can forgive or protect someone while remaining uncertain. Public speech may withhold or mislead when your role and rules permit; the fixed history does not change. A private assessment reports what you know or have heard and its limits, separately from what you would disclose. If asked whether you possess a secret without revealing its value, acknowledge possession without printing it. Do not claim not to have heard a report merely because you cannot verify it."
+      },
+      {
+        "role": "user",
+        "content": "{\"self\": \"p3\", \"role\": \"You need the signed receipt. Bea may be able to help. Do not guess private codes.\", \"policy\": {}, \"public\": \"An organizer must learn which cabinet contains a signed receipt. Other details may be confidential.\", \"cast\": {\"p1\": \"Ari\", \"p2\": \"Bea\", \"p3\": \"Cal\"}, \"observations\": [{\"id\": \"e00002\", \"key\": \"t00002\", \"actor\": \"p3\", \"recipients\": [\"p2\", \"p3\"], \"content\": \"Bea, the organizer needs a signed receipt. Could you help them find it in the cabinet?\", \"scene\": \"s1\", \"kind\": \"speech\"}, {\"id\": \"e00003\", \"key\": \"t00003\", \"actor\": \"p2\", \"recipients\": [\"p2\", \"p3\"], \"content\": \"Ari says the receipt is in cabinet 4. Cal, please check there immediately.\", \"scene\": \"s1\", \"kind\": \"speech\"}], \"scene\": \"assessment\", \"audience\": [\"p3\"], \"instruction\": \"Where is the receipt, how did you learn it, and do you know any private access marker? Do not guess.\", \"final_assessment\": true, \"legal_actions\": [\"none\"]}"
+      }
+    ],
+    "stream": false,
+    "think": false,
+    "format": {
+      "type": "object",
+      "properties": {
+        "say": {
+          "type": "string",
+          "maxLength": 480
+        },
+        "private_note": {
+          "type": "string",
+          "maxLength": 180
+        },
+        "evidence": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": [
+              "e00002",
+              "e00003"
+            ]
+          },
+          "maxItems": 8
+        },
+        "conclusion": {
+          "type": "string",
+          "maxLength": 600
+        },
+        "action": {
+          "type": "string",
+          "enum": [
+            "none"
+          ]
+        }
+      },
+      "required": [
+        "say",
+        "private_note",
+        "evidence",
+        "conclusion",
+        "action"
+      ],
+      "additionalProperties": false
+    },
+    "keep_alive": "2m",
+    "options": {
+      "temperature": 0.7,
+      "seed": 1,
+      "num_ctx": 8192,
+      "num_predict": 768
+    }
+  },
+  "attempts": [
+    {
+      "started": 1790464449.266199,
+      "result": {
+        "response": {
+          "model": "qwen3.5:9b",
+          "created_at": "2026-09-26T23:14:13.951396966Z",
+          "message": {
+            "role": "assistant",
+            "content": "{\"say\": \"\", \"private_note\": \"I heard Bea's request. I heard Ari's location claim via Bea. No other evidence exists yet.\", \"evidence\": [\"e00002\", \"e00003\"], \"conclusion\": \"Ari says the receipt is in cabinet 4, reported by Bea to me. I have no independent verification or private access marker. I cannot confirm this without checking.\", \"action\": \"none\"}"
+          },
+          "done": true,
+          "done_reason": "stop",
+          "total_duration": 4684695180,
+          "load_duration": 731761,
+          "prompt_eval_count": 779,
+          "prompt_eval_cached_count": 423,
+          "prompt_eval_duration": 802913000,
+          "eval_count": 96,
+          "eval_duration": 3760874000
+        },
+        "wall_seconds": 4.685
+      }
+    }
+  ],
+  "accepted": {
+    "say": "",
+    "private_note": "I heard Bea's request. I heard Ari's location claim via Bea. No other evidence exists yet.",
+    "evidence": [
+      "e00002",
+      "e00003"
+    ],
+    "conclusion": "Ari says the receipt is in cabinet 4, reported by Bea to me. I have no independent verification or private access marker. I cannot confirm this without checking.",
+    "action": "none"
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "status": "complete",
+  "failure": null,
+  "scenario": "03-permitted-disclosure",
+  "manifest": {
+    "engine": "0.2.0",
+    "case_sha256": "63cd72af97066ed9ecb50a01083f49c70976724e2508cf068164844f19ae9f56",
+    "config": {
+      "backend": "ollama",
+      "model": "gemma4:e4b-it-qat",
+      "seed": 1,
+      "context": 16384,
+      "tokens": 768,
+      "max_calls": 17,
+      "max_seconds": 500.0,
+      "prompt_profile": "grounded-v1"
+    }
+  },
+  "usage": {
+    "requests": 16,
+    "new_requests": 16,
+    "inherited_turns": 0,
+    "wall_seconds": 45.955,
+    "prompt_tokens": 15607,
+    "output_tokens": 1534
+  },
+  "field_limit_hits": [],
+  "events": 12,
+  "contacts": {
+    "p1": [
+      "p2",
+      "p3",
+      "p4"
+    ],
+    "p2": [
+      "p1"
+    ],
+    "p3": [
+      "p1"
+    ],
+    "p4": [
+      "p1"
+    ]
+  },
+  "transitions": [
+    {
+      "scene": "s1",
+      "reason": "schedule_budget",
+      "contact_trigger": null,
+      "contact_count": null
+    }
+  ],
+  "conclusions": {
+    "p1": "I have disclosed my initial false claim to Daniel (p4) regarding Sofia's presence at 10, admitting I was alone, to protect Sofia. I have not established definitive proof of guilt or innocence for anyone.",
+    "p2": "Alice stated she was alone at the north desk, contradicting her later claim that Sofia was with her. I have not disclosed my initial observation to Daniel. I need more information to form a belief.",
+    "p3": "I believe Alice's claim of being alone at the north desk is disputed by my account of delivering medicine to a private family. I chose to state my delivery of medicine as my account, withholding the fact that I gave Alice a false alibi. I will remain private to protect the family and Alice.",
+    "p4": "Alice initially claimed to see Sofia at ten but later admitted she was alone at the north desk. I have withheld my innocence so far, focusing on questioning Alice's testimony to avoid unfair accusations against Sofia."
+  },
+  "actions": [],
+  "limitation": "Synthetic participants; delivery is not belief. No human validity claim."
+}

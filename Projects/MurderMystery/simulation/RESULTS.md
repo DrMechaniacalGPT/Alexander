@@ -1,5 +1,7 @@
 # Implementation results — September 26
 
+**Follow-up:** [Factual recall and evidence reasoning](REASONING.md) contains the newer controlled comparisons, negative results and regression tests. The counts below describe the original implementation pass.
+
 **The execution milestone is reached: a local runner, incremental original fixtures, and two complete text-adaptation trajectories through an existing game's phases. The behavioral model is not yet reliable enough to diagnose game-design quality.** Its main value today is making failures inspectable instead of hiding them in an attractive transcript.
 
 The next priority is a small, repeatable check set for what a participant received, what someone merely claimed, what is established, and what they choose to withhold. Improve that before adding a large trait system, writing a full game, or interpreting failed investigations as defects in someone else's scenario.

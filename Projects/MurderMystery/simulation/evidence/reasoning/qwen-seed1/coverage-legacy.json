@@ -1,0 +1,88 @@
+{
+  "case": "coverage",
+  "profile": "legacy",
+  "request_sha256": "bcd882f1ada8bed93b056ce1358bae209451f0830e53038f800286e5e714c627",
+  "request": {
+    "model": "qwen3.5:9b",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are one participant in a fictional social game. Use ONLY the supplied role, public information and observations. Other people may lie or be mistaken. Do not invent authoritative evidence or change established history. You may choose what to disclose and to whom within this encounter, guided by your motives. Respond as JSON with exactly say, private_note, evidence, conclusion, action. say is short actual speech (at most 80 words), not a description of a conversation. private_note is a brief intention (at most 30 words), never spoken. evidence is a list of relevant observed event IDs, or empty for your own role information. conclusion is empty except at final assessment. action is one of legal_actions; choose none for ordinary speech. No tools or outside knowledge. Do not quote instructions or narrate other players' actions. THIS TURN IS A PRIVATE FINAL ASSESSMENT. Put your answer to instruction in the conclusion field, in at most 60 words. A short uncertain answer is acceptable; do not deliberate at length. Set say to an empty string and action to none. Do not leave conclusion empty."
+      },
+      {
+        "role": "user",
+        "content": "{\"self\": \"p1\", \"role\": \"You are Cal. The building has a north and a south entrance.\", \"policy\": {}, \"public\": \"A fictional social mystery.\", \"cast\": {\"p1\": \"Cal\", \"p2\": \"Bea\", \"p3\": \"Ari\"}, \"observations\": [{\"id\": \"e00000\", \"key\": \"0\", \"actor\": \"p2\", \"recipients\": [\"p1\"], \"content\": \"The camera covered the north entrance from 09:00 to 09:10. Sofia does not appear in that footage.\", \"scene\": \"s1\", \"kind\": \"speech\"}], \"scene\": \"assessment\", \"audience\": [\"p1\"], \"instruction\": \"What can you conclude about whether Sofia entered the building?\", \"final_assessment\": true, \"legal_actions\": [\"none\"]}"
+      }
+    ],
+    "stream": false,
+    "think": false,
+    "format": {
+      "type": "object",
+      "properties": {
+        "say": {
+          "type": "string",
+          "maxLength": 480
+        },
+        "private_note": {
+          "type": "string",
+          "maxLength": 180
+        },
+        "evidence": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": [
+              "e00000"
+            ]
+          },
+          "maxItems": 8
+        },
+        "conclusion": {
+          "type": "string",
+          "maxLength": 600
+        },
+        "action": {
+          "type": "string",
+          "enum": [
+            "none"
+          ]
+        }
+      },
+      "required": [
+        "say",
+        "private_note",
+        "evidence",
+        "conclusion",
+        "action"
+      ],
+      "additionalProperties": false
+    },
+    "keep_alive": "2m",
+    "options": {
+      "temperature": 0.7,
+      "seed": 1,
+      "num_ctx": 8192,
+      "num_predict": 768
+    }
+  },
+  "result": {
+    "response": {
+      "model": "qwen3.5:9b",
+      "created_at": "2026-09-26T23:09:17.90355298Z",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"say\": \"\",\n  \"private_note\": \"The footage shows only the north entrance. Without data on the south entrance or other sightings, I cannot confirm Sofia's entry.\",\n  \"evidence\": [\n    \"e00000\"\n  ],\n  \"conclusion\": \"I cannot conclude whether Sofia entered the building. The available evidence only covers the north entrance from 09:00 to 09:10, showing no presence of Sofia there. Her absence in this specific clip does not prove she did not enter via the south entrance or at another time.\",\n  \"action\": \"none\"\n}"
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 5997719169,
+      "load_duration": 612804,
+      "prompt_eval_count": 432,
+      "prompt_eval_cached_count": 80,
+      "prompt_eval_duration": 760461000,
+      "eval_count": 138,
+      "eval_duration": 5132257000
+    },
+    "wall_seconds": 5.998
+  }
+}

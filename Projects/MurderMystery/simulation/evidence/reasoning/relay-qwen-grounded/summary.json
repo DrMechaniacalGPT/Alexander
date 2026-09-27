@@ -1,0 +1,56 @@
+{
+  "status": "complete",
+  "failure": null,
+  "scenario": "02-private-relay",
+  "manifest": {
+    "engine": "0.2.0",
+    "case_sha256": "00656ab60afe8ffaf75846367462190b7322def2025d8a1b313932f93176e07d",
+    "config": {
+      "backend": "ollama",
+      "model": "qwen3.5:9b",
+      "seed": 1,
+      "context": 8192,
+      "tokens": 768,
+      "max_calls": 8,
+      "max_seconds": 300.0,
+      "prompt_profile": "grounded-v1"
+    }
+  },
+  "usage": {
+    "requests": 7,
+    "new_requests": 7,
+    "inherited_turns": 0,
+    "wall_seconds": 36.846,
+    "prompt_tokens": 5055,
+    "output_tokens": 598
+  },
+  "field_limit_hits": [],
+  "events": 4,
+  "contacts": {
+    "p1": [
+      "p2"
+    ],
+    "p2": [
+      "p1",
+      "p3"
+    ],
+    "p3": [
+      "p2"
+    ]
+  },
+  "transitions": [
+    {
+      "scene": "s1",
+      "reason": "schedule_budget",
+      "contact_trigger": null,
+      "contact_count": null
+    }
+  ],
+  "conclusions": {
+    "p1": "Receipt location: Cabinet 4. Learned by direct observation and prior speech to Bea. Private marker: VIOLET-5831.",
+    "p2": "Ari states the receipt is in cabinet 4. I heard this from Ari and repeated it to Cal. I do not possess any private access marker information.",
+    "p3": "Ari says the receipt is in cabinet 4, reported by Bea to me. I have no independent verification or private access marker. I cannot confirm this without checking."
+  },
+  "actions": [],
+  "limitation": "Synthetic participants; delivery is not belief. No human validity claim."
+}

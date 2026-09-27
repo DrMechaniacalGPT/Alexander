@@ -110,7 +110,24 @@ class State:
         return action
 
 
-def messages_for(state, pid, audience, scene, instruction, conclusion=False, legal_actions=('none',)):
+EVIDENCE_GUIDANCE = (
+            '\nEVIDENCE DISCIPLINE: Your role sheet is not the whole of your knowledge: use the supplied observations too. '
+            'Answer the actual question with concrete values and names when available. '
+            'Distinguish your own supplied facts, what someone said, and your inferences. '
+            'Hearing a statement establishes that it was said, not that its contents are true. '
+            'Keep the source chain when someone repeats another person. Conflicting reports are unresolved unless evidence resolves them. '
+            'Missing information is unknown, not a negative fact; a clue matching one trait does not establish all other traits. '
+            'Read negations, directions, times and coverage literally. Do not substitute stereotypes for missing facts. '
+            'A motive, kindness, apology or accusation is not proof of guilt or innocence. '
+            'Choices may change cooperation without resolving the mystery. You can forgive or protect someone while remaining uncertain. '
+            'Public speech may withhold or mislead when your role and rules permit; the fixed history does not change. '
+            'A private assessment reports what you know or have heard and its limits, separately from what you would disclose. '
+            'If asked whether you possess a secret without revealing its value, acknowledge possession without printing it. '
+            'Do not claim not to have heard a report merely because you cannot verify it.')
+
+def messages_for(state, pid, audience, scene, instruction, conclusion=False, legal_actions=('none',), prompt_profile='legacy'):
+    if prompt_profile not in ('legacy', 'grounded-v1', 'grounded-v2'):
+        raise ValueError('Unknown prompt profile')
     system = ('You are one participant in a fictional social game. Use ONLY the supplied role, '
               'public information and observations. Other people may lie or be mistaken. '
               'Do not invent authoritative evidence or change established history. You may choose '
@@ -124,7 +141,24 @@ def messages_for(state, pid, audience, scene, instruction, conclusion=False, leg
     if conclusion:
         system += (' THIS TURN IS A PRIVATE FINAL ASSESSMENT. Put your answer to instruction in the conclusion field, '
                    'in at most 60 words. A short uncertain answer is acceptable; do not deliberate at length. Set say to an empty string and action to none. Do not leave conclusion empty.')
+    if prompt_profile == 'grounded-v1':
+        system += EVIDENCE_GUIDANCE
+    elif prompt_profile == 'grounded-v2':
+        guidance = EVIDENCE_GUIDANCE.replace(
+            'If asked whether you possess a secret without revealing its value, acknowledge possession without printing it. ',
+            'In public speech, whether to acknowledge possessing a secret remains your choice under the role rules. '
+            'In private assessments, distinguish possessing information from choosing to reveal it; obey the requested limits on repeating secrets. ')
+        system += guidance
     view = state.view(pid)
+    if prompt_profile == 'grounded-v2':
+        # Redundant public identity cues, never inferred facts or an analyst summary.
+        view = {'self': pid, 'self_name': view['cast'][pid], **view}
+        view['observations'] = [dict(e, actor_name=view['cast'].get(e['actor'], e['actor']))
+                                for e in view['observations']]
+        view['audience_names'] = {p: view['cast'][p] for p in audience}
+        system += (' You speak only as self_name to the current audience. '
+                   "An observation is its named speaker's speech, not your own line to repeat. "
+                   'Do not address yourself or someone absent from the encounter.')
     view.update({'scene': scene, 'audience': audience, 'instruction': instruction,
                  'final_assessment': conclusion, 'legal_actions': list(legal_actions)})
     return [{'role': 'system', 'content': system},

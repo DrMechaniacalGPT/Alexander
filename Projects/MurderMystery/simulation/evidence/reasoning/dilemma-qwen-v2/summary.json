@@ -1,0 +1,61 @@
+{
+  "status": "complete",
+  "failure": null,
+  "scenario": "03-permitted-disclosure",
+  "manifest": {
+    "engine": "0.2.0",
+    "case_sha256": "63cd72af97066ed9ecb50a01083f49c70976724e2508cf068164844f19ae9f56",
+    "config": {
+      "backend": "ollama",
+      "model": "qwen3.5:9b",
+      "seed": 1,
+      "context": 16384,
+      "tokens": 768,
+      "max_calls": 17,
+      "max_seconds": 500.0,
+      "prompt_profile": "grounded-v2"
+    }
+  },
+  "usage": {
+    "requests": 16,
+    "new_requests": 16,
+    "inherited_turns": 0,
+    "wall_seconds": 94.209,
+    "prompt_tokens": 18461,
+    "output_tokens": 1673
+  },
+  "field_limit_hits": [],
+  "events": 12,
+  "contacts": {
+    "p1": [
+      "p2",
+      "p3",
+      "p4"
+    ],
+    "p2": [
+      "p1"
+    ],
+    "p3": [
+      "p1"
+    ],
+    "p4": [
+      "p1"
+    ]
+  },
+  "transitions": [
+    {
+      "scene": "s1",
+      "reason": "schedule_budget",
+      "contact_trigger": null,
+      "contact_count": null
+    }
+  ],
+  "conclusions": {
+    "p1": "I believe my promise to protect Sofia was an omission, not a lie. I disclosed this to Bob and Daniel. The medicine delivery fact remains unknown. I will not reveal the secret further without more proof.",
+    "p2": "I believe Alice lied to protect Sofia's kindness, not because she stole anything. I chose to defend her against unfair suspicion rather than expose the inconsistency. The donation mystery remains unresolved; cooperation outweighs absolute truth here.",
+    "p3": "I believe the medicine delivery account is mine, but no artifact proves it. I chose to protect Alice's friendship while feeling guilty for the false alibi. I will not disclose the lie publicly but seek a path to clear Bob without punishing Daniel further. My uncertainty remains on the donation's true location.",
+    "p4": "Alice states Sofia assisted her alone at 10. This testimony contradicts Alice's earlier alibi claim but lacks independent proof. I believe the donation is missing and suspicion is misplaced on me, though Sofia's innocence remains unproven."
+  },
+  "actions": [],
+  "limitation": "Synthetic participants; delivery is not belief. No human validity claim."
+}
