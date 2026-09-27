@@ -40,6 +40,6 @@ Opening becomes a legible four-column source-pick matrix within the approved sce
 
 Seven criteria passed. The visual gate found one specific inconsistency: “same obstacles” above two different-height threshold schematics. Change to “same test series · two reported results.” Full report saved in r5.
 
-## r6 — frozen, independent review pending
+## r6 — PASS: fresh viewer, evidence and conversation context
 
-Only the threshold eyebrow changed. Entire version, not just that phrase, sent to a new fresh viewer and evidence review. No readiness claim until both pass and the author’s conversation-context check follows on the same frozen files.
+Only the threshold eyebrow changed. Entire version, not just that phrase, sent to a new fresh viewer and evidence review. Fresh reviewer passed all eight criteria and explicitly reported no remaining revision issue. Separate evidence verification passed. The author then checked the recovered 66-entry substantive user-intent history and surrounding conversation against the same frozen artifact: PASS for the next listening review. All ten asset hashes match. Final voice/motion and broader project research remain outside that bounded readiness claim.

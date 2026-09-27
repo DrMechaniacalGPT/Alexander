@@ -1,38 +1,26 @@
-> **Superseded readiness assessment — September 27.** The owner/author viewer review rejected B as a coherent pitch. Do not advance it to animation. The historical comparison below is retained; [REVIEW_PROTOCOL.md](REVIEW_PROTOCOL.md) defines the new revision gate.
+# Listening pitch — reviewed revision 6
 
-# Review Pirate: the new listening review point
+[Open the five-scene listening pitch](http://127.0.0.1:8771/review-loop/r6/). Total narration: **87.43 seconds**. Each scene has an image, playable draft narration, exact text and relevant original-source links.
 
-## What to review
+This version passed a fresh reviewer with no conversation context, a separate factual check, and then the author's full available conversation-intent check. **Ready for the next owner listening review; not a finished video or universal buying recommendation.** Earlier option B's recommendation is withdrawn.
 
-Open [the new listening comparison](http://127.0.0.1:8771/listening-v2/). It contains three complete journeys, each with a scene composition, playable neutral narration, source links and the persistent board change. Start with **B: The overlooked contender (73.38 seconds)**. A runs 51.42 seconds; C runs 58.41 seconds. These are narration runtimes, not final edited-film runtimes.
+## What the story now does
 
-**Recommendation:** develop B. The first substantive zoom uncovers a useful candidate that our overall-winner-only grid omitted: the T90. Vacuum Nerds gives it a midrange recommendation; Vacuum Wars calls it best value. The story earns that addition through a specific test and a contrasting home-use observation, discloses that the home-use video is sponsored, finds a premium point of agreement around V70, and attaches limited owner evidence. Referrals accompany findings rather than arriving as a list at the end.
+Starts with a concrete RTINGS finding: two headline winners struggle with embedded carpet fur. Cross-checks the different Curv 2 Flow against two stain tests, whose outcomes do not support an unqualified mopping recommendation. Then a same-series threshold test gives a clearer pairwise preference for X60. The ending points to the original review that answers each household concern. Four other products remain open.
 
-This is a recommendation about the next editorial direction. It is **not** proof that T90 and V70 beat every alternative. No other model is falsely crossed off. The original eight-source grid was an incomplete starting map, not a justified universe of finalists.
+The source/product grid survives as a readable four-column zoom within the approved otter/house/large-vacuum scene. Evidence panels compare groups of cells; a short status strip preserves progress. The otter measures a doorway when geometry matters, rather than staging fictional product tests.
 
-## What changed substantively
+## What the review loop caught
 
-- Rechecked the eight lead picks and restored source reporting as the premise. Coverage, recommendations and measured results are distinct layers.
-- Extended the evidence beyond those overall picks. Later V70 evidence shows overlap between sources; the apparent disagreement is not permanent or universal.
-- Inspected five YouTube pages and selected video frames; read full exported captions for four and the Hook Up companion. V70 captions were unavailable. This is targeted video inspection, not five videos watched continuously.
-- Added an auditable 46-URL registry of inherited coverage locators and current research artifacts. That number is **not** reviews read. A market-wide model census is still open.
-- Checked a real price-reversal candidate. The T90's observed $499 Amazon offer is Prime-only; its ordinary price differs. That makes C a timely deal story, not an evergreen conclusion.
-- Amazon's visible rating belongs to a listing with multiple variants; individual review text requires sign-in. Reddit evidence is selected, mixed and unverified. Neither supports a reliability winner. Vacuum Wars already incorporates Amazon ratings, so that check is not another independent vote.
+Six frozen attempts were produced. Rejections exposed broad promises that the story did not deliver, weak model orientation, missing referrals, omitted contrary mopping evidence, an ambiguous score, crowded text, repetitive composition, and a misleading diagram label. These were revised before delivery. We did not repeatedly submit an unchanged draft looking for approval.
 
-The [source-quality pass](research/SOURCE_QUALITY_PASS.md), [challenge register](research/NEW_FINDINGS_AND_CHALLENGES.md) and [complete story comparison](STORY_OPTIONS.md) hold the reasoning and links.
+- [Fresh viewer report](review-loop/r6/VIEWER_REVIEW.md): all eight criteria PASS; no remaining revision issue for actual stills and transcript.
+- [Evidence report](review-loop/r6/EVIDENCE_REVIEW.md): PASS; claims, source mappings, data consistency and frozen assets checked.
+- [Conversation alignment](review-loop/r6/CONTEXT_REVIEW.md): PASS for this listening-pitch stage; recovered user-intent history and earlier corrections checked after the fresh pass.
+- [Iteration record](review-loop/ISSUES.md) and [complete story-path comparison](review-loop/STORY_SEARCH.md).
 
-The outside-core check changed the draft before delivery: VittorTech reports missed hair under chairs despite repeated runs. That finding now qualifies the T90 test result in the narration, rather than merely sitting in a research appendix.
+## What remains
 
-## Visual continuity
+Final voice quality and cinematic motion have not passed review. This still-and-transcript pass does not prove retention or mobile readability. The broader catalogue, systematic exact-model owner study, matched price history, and reviewer/product images remain unfinished research/production tasks. Their absence is not concealed as a favorable finding.
 
-The revised thumbnail preserves the otter, house, typography and grid; it enlarges the vacuum and explicitly says **ROBOT VACUUMS**. The listening pitch starts with that image, then highlights exact evidence cells while retaining the map. The otter's planned action is tied to the research: discovers the missing card, expands the board and keeps an inconvenient caveat attached. These actions are staging directions, not generated motion yet.
-
-Accurate reviewer thumbnails and exact-model photos on the axes remain unfinished. The foreground robot is an illustrative category prop, not a named product. Media remains local and ignored by Git.
-
-## Where this still needs work
-
-B's final beat is dense and the value-to-premium transition needs testing with a first-time viewer. The full catalogue, matched historical-price series, systematic owner sample, more comparative video inspection and a stronger outside-source challenge remain open. Current prices need a release-date check. A comprehensive buying conclusion should wait for those checks.
-
-The paid-model motion test still needs service access. vidIQ research credits were insufficient; the failed discovery call charged nothing. No paid generation or subscription was purchased. Local draft narration works, but final voice and cinematic motion are not validated.
-
-This checkpoint completes a concrete listening comparison while preserving the remaining research work honestly. It does not mark the whole project finished.
+No generated media was uploaded. The source-only pull request preserves the page, narration data, hashes and review history; local assets are needed to reproduce the exact viewing experience. No paid generation or subscription was purchased.
