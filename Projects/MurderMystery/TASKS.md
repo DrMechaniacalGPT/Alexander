@@ -1,5 +1,15 @@
 # Task board
 
+## Active iteration loop
+
+The owner authorized continued prompt/assessment tuning and increased conversation opportunity, guided by measured failures, until evidence-supported deductions become possible or a concrete limit is established. Method and batch boundaries: [iteration plan](simulation/ITERATION.md).
+
+- [x] **R06 — Improve player conclusions.** Compare local models, clearer assessment prompts and native reasoning on saved failures and small parties, then carry useful changes into full runs. Preserve the actual evidence available to each player.
+- [x] **R07 — Retest and integrate useful changes.** Test another seed and changed contexts, preserve negative findings, maintain isolation/replay compatibility.
+- [x] **R08 — Increase information opportunity where needed.** Expand conversations when inference is adequate but facts fail to circulate; label any clue-sharing variation explicitly. Repeat the loop based on measured errors.
+- [ ] **R09 — Confirm useful assessment changes on fresh parties.** Compare accurate support, factual inventions and latency; separately test evidence-notebook rendering and explicit initial-scenario truth conventions. Keep arbitrary player claims and rule changes untrusted.
+
+
 ## Next agreed work: dialogue first, then broader mingling
 
 Owner: integrating agent. Agreed during the follow-up voice discussion. R01–R05 completed in the [dialogue checkpoint](simulation/DIALOGUE.md). The four-partner run completed; one nonculprit named the correct suspect, with qualification about justification and contradictory other answers. No model run remains active. The new format improves selected behaviors but has residual factual/audience errors.

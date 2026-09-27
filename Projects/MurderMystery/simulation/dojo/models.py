@@ -29,26 +29,33 @@ def action_schema(view, strict_output=False):
     return schema
 
 class Ollama:
-    def __init__(self, model='qwen3.5:9b', endpoint='http://127.0.0.1:11434', context=4096, tokens=256, seed=1, thinking=False, strict_output=False):
+    def __init__(self, model='qwen3.5:9b', endpoint='http://127.0.0.1:11434', context=4096, tokens=256, seed=1, thinking=False, strict_output=False, assessment_thinking=None, assessment_tokens=None, assessment_model=None):
         url = urlparse(endpoint)
         if url.scheme != 'http' or url.hostname not in ('127.0.0.1', 'localhost', '::1') or url.username:
             raise ValueError('Only local unauthenticated HTTP Ollama endpoints are supported')
         self.endpoint, self.model = endpoint.rstrip('/'), model
         self.context, self.tokens, self.seed = context, tokens, seed
         self.thinking, self.strict_output = thinking, strict_output
+        self.assessment_thinking, self.assessment_tokens = assessment_thinking, assessment_tokens
+        self.assessment_model = assessment_model
+        if assessment_tokens is not None and assessment_tokens <= 0:
+            raise ValueError("Assessment token budget must be positive")
 
     def payload(self, messages):
         view = json.loads(messages[-1]['content'])
         schema = action_schema(view, self.strict_output)
+        final = view.get('final_assessment', False)
+        tokens = self.assessment_tokens if final and self.assessment_tokens is not None else self.tokens
+        thinking = self.assessment_thinking if final and self.assessment_thinking is not None else self.thinking
         # Conservative byte-based estimate, including structured-output schema and
         # extra chat-template headroom. Actual tokenizer counts are logged afterward.
         upper_bound = sum(len(m['content'].encode()) for m in messages) + len(json.dumps(schema).encode()) + 512
-        if upper_bound + self.tokens > self.context:
-            raise ValueError(f'Conservative context bound {upper_bound}+{self.tokens} exceeds {self.context}; explicitly choose a larger context')
-        return {'model': self.model, 'messages': messages, 'stream': False,
-                'think': self.thinking, 'format': schema, 'keep_alive': '2m',
+        if upper_bound + tokens > self.context:
+            raise ValueError(f'Conservative context bound {upper_bound}+{tokens} exceeds {self.context}; explicitly choose a larger context')
+        return {'model': self.assessment_model if final and self.assessment_model else self.model, 'messages': messages, 'stream': False,
+                'think': thinking, 'format': schema, 'keep_alive': '2m',
                 'options': {'temperature': 0.7, 'seed': self.seed, 'num_ctx': self.context,
-                            'num_predict': self.tokens}}
+                            'num_predict': tokens}}
 
     def complete(self, payload, timeout=120):
         request = urllib.request.Request(self.endpoint+'/api/chat', data=json.dumps(payload).encode(),

@@ -1,0 +1,18 @@
+{
+  "engine": "0.2.0",
+  "case_sha256": "9c0a26cb7d673c2554ce5260bc3d11d750c4cff95076d0f291fefdd78470ed9a",
+  "config": {
+    "backend": "ollama",
+    "model": "gemma4:e4b-it-qat",
+    "seed": 23,
+    "context": 32768,
+    "tokens": 768,
+    "max_calls": 8,
+    "max_seconds": 600.0,
+    "prompt_profile": "dialogue-v1",
+    "strict_output": true,
+    "assessment_thinking": true,
+    "assessment_tokens": 8192,
+    "request_timeout": 300.0
+  }
+}

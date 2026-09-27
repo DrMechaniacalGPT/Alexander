@@ -1,0 +1,86 @@
+[
+  {
+    "id": "e00000",
+    "key": "t00000",
+    "actor": "p1",
+    "recipients": [
+      "p1",
+      "p2",
+      "p3",
+      "p4"
+    ],
+    "content": "Hello everyone. My name is Iris, and I own a cat. My badge grants me access to the west wing.",
+    "scene": "introductions",
+    "kind": "speech"
+  },
+  {
+    "id": "e00001",
+    "key": "t00001",
+    "actor": "p2",
+    "recipients": [
+      "p1",
+      "p2",
+      "p3",
+      "p4"
+    ],
+    "content": "I'm Milo. I own a dog, and my badge only lets me into the east wing.",
+    "scene": "introductions",
+    "kind": "speech"
+  },
+  {
+    "id": "e00002",
+    "key": "t00002",
+    "actor": "p3",
+    "recipients": [
+      "p1",
+      "p2",
+      "p3",
+      "p4"
+    ],
+    "content": "I am Nia. I have a cat and my badge allows access to the east wing.",
+    "scene": "introductions",
+    "kind": "speech"
+  },
+  {
+    "id": "e00003",
+    "key": "t00003",
+    "actor": "p4",
+    "recipients": [
+      "p1",
+      "p2",
+      "p3",
+      "p4"
+    ],
+    "content": "Hello, I am Oren. I have a dog, and my badge grants me access to the west wing.",
+    "scene": "introductions",
+    "kind": "speech"
+  },
+  {
+    "id": "e00004",
+    "key": "clues:d0",
+    "actor": "host",
+    "recipients": [
+      "p1",
+      "p2",
+      "p3",
+      "p4"
+    ],
+    "content": "Reliable clue card: the culprit owns a dog.",
+    "scene": "clues",
+    "kind": "delivery"
+  },
+  {
+    "id": "e00005",
+    "key": "clues:d1",
+    "actor": "host",
+    "recipients": [
+      "p1",
+      "p2",
+      "p3",
+      "p4"
+    ],
+    "content": "Reliable clue card: the culprit has a west-wing badge.",
+    "scene": "clues",
+    "kind": "delivery"
+  }
+]

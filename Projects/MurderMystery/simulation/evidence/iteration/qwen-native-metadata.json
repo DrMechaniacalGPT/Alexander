@@ -1,0 +1,39 @@
+[
+  {
+    "record": "qwen3.5-ownership.json",
+    "source_sha256": "da065c0f0ffeddb9c59bfd550933a1c3ca2ba6b8d7f73cd5887edf27cba97f54",
+    "private_record_sha256": "2477d643ebe3ed4f889d69af30f826ddc8a3cc9414337a3525d655ea6250dcdd",
+    "model": "qwen3.5:9b",
+    "options": {
+      "temperature": 0.7,
+      "seed": 17,
+      "num_ctx": 49152,
+      "num_predict": 8192
+    },
+    "seconds": 535.594,
+    "eval_count": 8192,
+    "done_reason": "length",
+    "contract_violations": [
+      "generation truncated",
+      "invalid JSON response"
+    ],
+    "error": null
+  },
+  {
+    "record": "qwen3.5-wrong-choice.json",
+    "source_sha256": "3644d95e988815175e164581be8366468dd08e69bf7b9e6fff2f4bfb9a783c58",
+    "private_record_sha256": "ddade541023994b9bb6cce949e78e1abf02fece567b07ae07b39e3efede44a3c",
+    "model": "qwen3.5:9b",
+    "options": {
+      "temperature": 0.7,
+      "seed": 17,
+      "num_ctx": 49152,
+      "num_predict": 8192
+    },
+    "seconds": 333.059,
+    "eval_count": 4840,
+    "done_reason": "stop",
+    "contract_violations": [],
+    "error": null
+  }
+]

@@ -1,0 +1,67 @@
+{
+  "id": "05-museum-party-shifted",
+  "public": "This is a four-person murder mystery party. You are a person playing the character named on your card. The fictional curator has been murdered. Every character has exactly one listed pet and a badge for exactly one wing. Introduce those two character facts to the group; these fixed facts must not be invented or changed. The host will then reveal two reliable clue cards. The murderer may conceal their involvement but everyone shares truthful pet and badge facts.",
+  "players": {
+    "p1": {
+      "name": "Iris",
+      "brief": "You are playing Iris at a museum murder mystery party. Your character owns a cat. Your badge gives access to the west wing only. These two facts are fixed and freely shareable. Your character did not commit the fictional murder. You want to participate and help the group exchange the factual details on their cards."
+    },
+    "p2": {
+      "name": "Milo",
+      "brief": "You are playing Milo at a museum murder mystery party. Your character owns a dog. Your badge gives access to the east wing only. These two facts are fixed and freely shareable. Your character did not commit the fictional murder. You want to participate and help the group exchange the factual details on their cards."
+    },
+    "p3": {
+      "name": "Nia",
+      "brief": "You are playing Nia at a museum murder mystery party. Your character owns a cat. Your badge gives access to the east wing only. These two facts are fixed and freely shareable. Your character did not commit the fictional murder. You want to participate and help the group exchange the factual details on their cards."
+    },
+    "p4": {
+      "name": "Oren",
+      "brief": "You are playing Oren at a museum murder mystery party. Your character owns a dog. Your badge gives access to the west wing only. These two facts are fixed and freely shareable. Your character secretly committed the fictional murder. Keep that secret during introductions, but do not falsify your pet or badge. You want to participate and help the group exchange the factual details on their cards."
+    }
+  },
+  "truth": {
+    "culprit": "p4"
+  },
+  "scenes": [
+    {
+      "id": "introductions",
+      "encounters": [
+        {
+          "participants": [
+            "p1",
+            "p2",
+            "p3",
+            "p4"
+          ],
+          "turns_each": 1,
+          "instruction": "Introduce your own character, pet, and badge access to everyone here. Speak as your character without revealing whether you committed the murder. Do not speak for another player."
+        }
+      ]
+    },
+    {
+      "id": "clues",
+      "mode": "delivery_only",
+      "deliveries": [
+        {
+          "recipients": [
+            "p1",
+            "p2",
+            "p3",
+            "p4"
+          ],
+          "content": "Reliable clue card: the culprit owns a dog."
+        },
+        {
+          "recipients": [
+            "p1",
+            "p2",
+            "p3",
+            "p4"
+          ],
+          "content": "Reliable clue card: the culprit has a west-wing badge."
+        }
+      ]
+    }
+  ],
+  "question": "Privately identify which character matches BOTH reliable clue cards, using the actual introductions you heard. Name the culprit if uniquely supported; otherwise state what remains unknown. Give a consistent answer."
+}

@@ -1,0 +1,47 @@
+{
+  "status": "complete",
+  "failure": null,
+  "usage": {
+    "requests": 154,
+    "new_requests": 9,
+    "inherited_turns": 145,
+    "wall_seconds": 1180.077,
+    "prompt_tokens": 532265,
+    "output_tokens": 32276
+  },
+  "manifest": {
+    "engine": "0.2.0",
+    "case_sha256": "69da711f11aa4e28dba252b809d419ad4367b9cc79a07cf871a0a1b0cc418abf",
+    "config": {
+      "backend": "ollama",
+      "model": "gemma4:e4b-it-qat",
+      "seed": 17,
+      "context": 49152,
+      "tokens": 768,
+      "max_calls": 154,
+      "max_seconds": 1200.0,
+      "prompt_profile": "dialogue-v1",
+      "strict_output": true,
+      "assessment_thinking": true,
+      "assessment_tokens": 8192,
+      "request_timeout": 300.0
+    },
+    "continuation": {
+      "parent": "iteration-clarify-gemma",
+      "manifest_sha256": "92c6e9c9b9aeef52124f8acab685a0f1d7cb63f664c39e04aa31a726b2ec8c77",
+      "reuse_turns": 145
+    }
+  },
+  "replay": "passed without inference",
+  "new_journals": {
+    "t00145.json": "a3ad7ce89160391d5b61862e8f6402a58a184ae82792d5e1b64fb46bc8911af1",
+    "t00146.json": "9b4e99a3e46c25761dac20b1df17eff74481e969a4e996df12561b675c410a30",
+    "t00147.json": "360f650d40de1fa468b1bbd8fd8fea0f65058b2968ead95577069dea21c2878e",
+    "t00148.json": "2ec53e66e098ece1e45264343755f17027d0afafbe5700daae52b357ceeb0741",
+    "t00149.json": "3644d95e988815175e164581be8366468dd08e69bf7b9e6fff2f4bfb9a783c58",
+    "t00150.json": "da065c0f0ffeddb9c59bfd550933a1c3ca2ba6b8d7f73cd5887edf27cba97f54",
+    "t00151.json": "6a621c58a678d00cf576ee28ce75fd9ba057c0564e106addb9482f9d55aeff62",
+    "t00152.json": "849bf1d079d85f42839c90e55ba37514db73fc6c159426bd2893eb58bb77bd21",
+    "t00153.json": "c0881e65d9c3e1fed176155477d9c05bd6df73700e4ec1e7f86cb3a1dc4510fb"
+  }
+}

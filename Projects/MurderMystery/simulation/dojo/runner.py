@@ -74,23 +74,27 @@ def report(state, out, status, manifest, failure=None):
     return summary
 
 
-def _run(case, out, backend, config, replay=False, continue_from=None, reuse_turns=None):
+def _run(case, out, backend, config, replay=False, continue_from=None, reuse_turns=None, fork_case=False):
     out = Path(out); out.mkdir(parents=True, exist_ok=True)
     manifest = {'engine': __version__, 'case_sha256': digest(case), 'config': config}
     if reuse_turns is not None and (continue_from is None or reuse_turns < 0):
         raise ValueError('reuse_turns requires a parent and a nonnegative count')
+    if fork_case and (continue_from is None or reuse_turns is None):
+        raise ValueError('Case fork requires an explicit parent and reuse_turns boundary')
     parent = None
     if continue_from is not None:
         parent = Path(continue_from).resolve()
         if parent == out.resolve(): raise ValueError('Continuation needs a distinct output directory')
         previous = json.loads((parent/'manifest.json').read_text())
-        if previous['case_sha256'] != manifest['case_sha256'] or previous['engine'] != manifest['engine']:
+        if (previous['case_sha256'] != manifest['case_sha256'] and not fork_case) or previous['engine'] != manifest['engine']:
             raise ValueError('Continuation requires the same case and engine contract')
         for key in ('seed', 'backend', 'model', 'thinking'):
             default = False if key == 'thinking' else None
             if previous['config'].get(key, default) != config.get(key, default):
                 raise ValueError('Continuation cannot change '+key)
         manifest['continuation'] = {'parent': parent.name, 'manifest_sha256': digest(previous), 'reuse_turns': reuse_turns}
+        if fork_case:
+            manifest['continuation'].update(case_fork=True, parent_case_sha256=previous['case_sha256'])
     mf = out/'manifest.json'
     if mf.exists():
         existing = json.loads(mf.read_text())
@@ -98,6 +102,11 @@ def _run(case, out, backend, config, replay=False, continue_from=None, reuse_tur
             existing['continuation']['parent'] = Path(existing['continuation']['parent']).name
         if existing != manifest:
             raise ValueError('Resume/replay manifest mismatch; use a new output directory')
+    if fork_case:
+        for i in range(reuse_turns):
+            source_path = parent/'turns'/f't{i:05d}.json'
+            if not source_path.exists() or not json.loads(source_path.read_text()).get('accepted'):
+                raise ValueError('Case fork requires the entire declared accepted prefix')
     if parent is not None and not mf.exists():
         for i, source_path in enumerate(sorted((parent/'turns').glob('*.json'))):
             if reuse_turns is not None and i >= reuse_turns: break
@@ -130,6 +139,11 @@ def _run(case, out, backend, config, replay=False, continue_from=None, reuse_tur
         record = json.loads(path.read_text()) if path.exists() else {'key': key, 'player': pid, 'request': payload, 'attempts': []}
         if (record['request']['messages'] != messages if replay or record.get('inherited_from') else record['request'] != payload):
             raise ValueError('Recorded prompt does not match replay state at '+key)
+        if record.get('inherited_from'):
+            for setting in ('model', 'think'):
+                default = False if setting == 'think' else None
+                if record['request'].get(setting, default) != payload.get(setting, default):
+                    raise ValueError('Inherited turn uses a different effective '+setting+' at '+key)
         if record.get('accepted'):
             action = record['accepted']
             backed = json.loads(record['attempts'][-1]['result']['response']['message']['content'])
@@ -140,6 +154,8 @@ def _run(case, out, backend, config, replay=False, continue_from=None, reuse_tur
                 if errors: raise ValueError('Strict output contract: '+ '; '.join(errors))
             state.apply(key, pid, audience, action, scene, final, legal_actions)
             return
+        if fork_case and counter <= reuse_turns:
+            raise ValueError('Case fork has a missing inherited prefix turn '+key)
         if replay:
             raise ValueError('Cannot replay an incomplete turn '+key)
         # An existing raw successful generation can be validated after a crash without a new call.
@@ -155,7 +171,7 @@ def _run(case, out, backend, config, replay=False, continue_from=None, reuse_tur
             dump(path, record)
             budget['requests'] += 1; checkpoint_budget()
             try:
-                result = backend.complete(payload, timeout=min(120, max(1, config['max_seconds']-elapsed)))
+                result = backend.complete(payload, timeout=min(config.get('request_timeout', 120), max(1, config['max_seconds']-elapsed)))
                 attempt['result'] = result
             except Exception as exc:
                 attempt['error'] = str(exc); dump(path, record)
@@ -225,6 +241,8 @@ def _run(case, out, backend, config, replay=False, continue_from=None, reuse_tur
                 raise ValueError('Prescribed epilogue action did not happen')
         for i, content in enumerate(case.get('reveal', [])):
             state.emit(f'reveal:{i}', 'host', list(case['players']), content, 'reveal', 'delivery')
+        if fork_case and counter < reuse_turns:
+            raise ValueError('Case fork did not consume its entire inherited prefix')
         status = 'complete'
     except Exception as exc:
         failure = type(exc).__name__+': '+str(exc); status = 'incomplete'
@@ -233,7 +251,7 @@ def _run(case, out, backend, config, replay=False, continue_from=None, reuse_tur
     return report(state, out, status, manifest, failure)
 
 
-def run(case, out, backend, config, replay=False, continue_from=None, reuse_turns=None):
+def run(case, out, backend, config, replay=False, continue_from=None, reuse_turns=None, fork_case=False):
     """Prevent concurrent writers; OS releases the lock after a killed process."""
     out = Path(out)
     out.mkdir(parents=True, exist_ok=True)
@@ -242,7 +260,7 @@ def run(case, out, backend, config, replay=False, continue_from=None, reuse_turn
             fcntl.flock(lock, fcntl.LOCK_EX | fcntl.LOCK_NB)
         except BlockingIOError as exc:
             raise RuntimeError('This run directory is already active') from exc
-        return _run(case, out, backend, config, replay, continue_from, reuse_turns)
+        return _run(case, out, backend, config, replay, continue_from, reuse_turns, fork_case)
 
 
 def main():
@@ -255,18 +273,27 @@ def main():
     p.add_argument('--prompt-profile', choices=['legacy','grounded-v1','grounded-v2','dialogue-v1'], default='legacy')
     p.add_argument('--thinking', action='store_true', help='Enable local model reasoning; budget enough output tokens')
     p.add_argument('--strict-output', action='store_true', help='Constrain phase-specific fields and reject violations')
+    p.add_argument('--assessment-model', help='Use a different installed local model only for private final assessments')
+    p.add_argument('--assessment-thinking', action='store_const', const=True, default=None, help='Enable native reasoning only for private final assessments')
+    p.add_argument('--assessment-tokens', type=int, help='Explicit final-assessment output budget')
+    p.add_argument('--request-timeout', type=float, help='Per-call timeout in seconds; default 120, still bounded by run budget')
     p.add_argument('--replay', action='store_true')
+    p.add_argument('--fork-case', action='store_true', help='Explicitly branch a revised scenario after a validated reused prefix; requires --continue-from and --reuse-turns')
     p.add_argument('--reuse-turns', type=int, help='Limit inherited accepted prefix when explicitly revising later prompts')
     p.add_argument('--continue-from', type=Path, help='Explicitly reuse a compatible accepted prefix in a new run directory')
     args = p.parse_args()
+    if args.request_timeout is not None and args.request_timeout <= 0:
+        p.error('--request-timeout must be positive')
     case = json.loads(args.case.read_text())
-    config = {k:v for k,v in vars(args).items() if k not in ('case','out','replay','continue_from','reuse_turns')}
+    config = {k:v for k,v in vars(args).items() if k not in ('case','out','replay','continue_from','reuse_turns','fork_case')}
     if config['prompt_profile'] == 'legacy':
         del config['prompt_profile']  # Preserve historical manifest and replay compatibility.
     for key in ('thinking', 'strict_output'):
         if not config[key]: del config[key]  # Historical manifests omit these options.
-    backend = Ollama(args.model, context=args.context, tokens=args.tokens, seed=args.seed, thinking=args.thinking, strict_output=args.strict_output) if args.backend=='ollama' else Stub(case.get('stub', {}), strict_output=args.strict_output)
-    summary = run(case, args.out, backend, config, args.replay, args.continue_from, args.reuse_turns)
+    for key in ('assessment_thinking', 'assessment_tokens', 'assessment_model', 'request_timeout'):
+        if config[key] is None: del config[key]
+    backend = Ollama(args.model, context=args.context, tokens=args.tokens, seed=args.seed, thinking=args.thinking, strict_output=args.strict_output, assessment_thinking=args.assessment_thinking, assessment_tokens=args.assessment_tokens, assessment_model=args.assessment_model) if args.backend=='ollama' else Stub(case.get('stub', {}), strict_output=args.strict_output)
+    summary = run(case, args.out, backend, config, args.replay, args.continue_from, args.reuse_turns, args.fork_case)
     print(json.dumps({k:summary[k] for k in ('status','failure','usage')}, indent=2))
     raise SystemExit(0 if summary['status']=='complete' else 1)
 

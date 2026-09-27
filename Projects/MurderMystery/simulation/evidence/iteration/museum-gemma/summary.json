@@ -1,0 +1,74 @@
+{
+  "status": "complete",
+  "failure": null,
+  "scenario": "05-museum-party",
+  "manifest": {
+    "engine": "0.2.0",
+    "case_sha256": "0be09cf4d11026181b119dfc98494718e4b27507c4c99256728fd9c5c034ab9a",
+    "config": {
+      "backend": "ollama",
+      "model": "gemma4:e4b-it-qat",
+      "seed": 17,
+      "context": 16384,
+      "tokens": 768,
+      "max_calls": 8,
+      "max_seconds": 600.0,
+      "prompt_profile": "dialogue-v1",
+      "strict_output": true
+    }
+  },
+  "usage": {
+    "requests": 8,
+    "new_requests": 8,
+    "inherited_turns": 0,
+    "wall_seconds": 31.726,
+    "prompt_tokens": 9785,
+    "output_tokens": 773
+  },
+  "field_limit_hits": [],
+  "events": 6,
+  "contacts": {
+    "p1": [
+      "p2",
+      "p3",
+      "p4"
+    ],
+    "p2": [
+      "p1",
+      "p3",
+      "p4"
+    ],
+    "p3": [
+      "p1",
+      "p2",
+      "p4"
+    ],
+    "p4": [
+      "p1",
+      "p2",
+      "p3"
+    ]
+  },
+  "transitions": [
+    {
+      "scene": "introductions",
+      "reason": "schedule_budget",
+      "contact_trigger": null,
+      "contact_count": null
+    },
+    {
+      "scene": "clues",
+      "reason": "schedule_budget",
+      "contact_trigger": null,
+      "contact_count": null
+    }
+  ],
+  "conclusions": {
+    "p1": "Milo and Oren both own dogs. Nia has an East wing badge, but Milo has an East wing badge. The culprit is either Milo or Nia.",
+    "p2": "Milo is the only character who owns a dog (Milo, Oren) and has an east-wing badge (Milo, Nia). Wait, both Milo and Nia have east-wing badges. Milo has a dog, Nia has a cat. Therefore, Milo is the culprit.",
+    "p3": "Milo is the only character who owns a dog (e00001) and has an east-wing badge (e00001). Nia has a cat and an east-wing badge (e00002), but not a dog. Oren has a dog but a west-wing badge (e00003).",
+    "p4": "Milo (dog, east-wing) and Nia (cat, east-wing) are possibilities based on the clues, but only Milo matches both the dog and east-wing criteria. Oren has a dog but is west-wing. Iris has a cat and west-wing."
+  },
+  "actions": [],
+  "limitation": "Synthetic participants; delivery is not belief. No human validity claim."
+}

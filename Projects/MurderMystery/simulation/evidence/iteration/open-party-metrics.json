@@ -1,0 +1,72 @@
+{
+  "scene": "mingling",
+  "speech_turns": 112,
+  "exact_repeated_turns": 1,
+  "by_player": {
+    "p4": {
+      "turns": 14,
+      "exact_repeated_turns": 0,
+      "words": 391,
+      "distinct_utterances": 14,
+      "other_speech_received": 14,
+      "distinct_partners": 7
+    },
+    "p7": {
+      "turns": 14,
+      "exact_repeated_turns": 0,
+      "words": 340,
+      "distinct_utterances": 14,
+      "other_speech_received": 14,
+      "distinct_partners": 7
+    },
+    "p2": {
+      "turns": 14,
+      "exact_repeated_turns": 1,
+      "words": 336,
+      "distinct_utterances": 13,
+      "other_speech_received": 14,
+      "distinct_partners": 7
+    },
+    "p8": {
+      "turns": 14,
+      "exact_repeated_turns": 0,
+      "words": 341,
+      "distinct_utterances": 14,
+      "other_speech_received": 14,
+      "distinct_partners": 7
+    },
+    "p1": {
+      "turns": 14,
+      "exact_repeated_turns": 0,
+      "words": 362,
+      "distinct_utterances": 14,
+      "other_speech_received": 14,
+      "distinct_partners": 7
+    },
+    "p3": {
+      "turns": 14,
+      "exact_repeated_turns": 0,
+      "words": 413,
+      "distinct_utterances": 14,
+      "other_speech_received": 14,
+      "distinct_partners": 7
+    },
+    "p5": {
+      "turns": 14,
+      "exact_repeated_turns": 0,
+      "words": 505,
+      "distinct_utterances": 14,
+      "other_speech_received": 14,
+      "distinct_partners": 7
+    },
+    "p6": {
+      "turns": 14,
+      "exact_repeated_turns": 0,
+      "words": 379,
+      "distinct_utterances": 14,
+      "other_speech_received": 14,
+      "distinct_partners": 7
+    }
+  },
+  "limitation": "Exact same-speaker string repetition only. A unique line can still be false, repetitive in meaning, irrelevant, or addressed to the wrong person. Contacts are opportunities, not proof of exchanged facts."
+}

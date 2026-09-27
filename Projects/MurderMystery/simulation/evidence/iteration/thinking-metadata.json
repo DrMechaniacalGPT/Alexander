@@ -1,0 +1,70 @@
+[
+  {
+    "record": "gemma4-movie.json",
+    "private_record_sha256": "1b90e74856ce0c7f1b4a4209986bca322df6d28b1aaeb8369558c1f69d7384ff",
+    "source_sha256": "f8cae6986beb200fb06f556adbde527c1ce505acfb37547f8e24c259f6cdd557",
+    "model": "gemma4:e4b-it-qat",
+    "thinking": true,
+    "options": {
+      "temperature": 0.7,
+      "seed": 17,
+      "num_ctx": 32768,
+      "num_predict": 8192
+    },
+    "seconds": 29.072,
+    "eval_count": 1059,
+    "done_reason": "stop",
+    "contract_violations": []
+  },
+  {
+    "record": "gemma4-museum.json",
+    "private_record_sha256": "481870c840ef5764c2d4bedbe7cee22f8a0d567a8aa3f9121d39afdfe96ee444",
+    "source_sha256": "61a094bf9b2549b031f30117fda1fbc1281df9edcee97580b3c85d5c0353d08e",
+    "model": "gemma4:e4b-it-qat",
+    "thinking": true,
+    "options": {
+      "temperature": 0.7,
+      "seed": 17,
+      "num_ctx": 32768,
+      "num_predict": 8192
+    },
+    "seconds": 21.561,
+    "eval_count": 744,
+    "done_reason": "stop",
+    "contract_violations": []
+  },
+  {
+    "record": "qwen3.5-movie.json",
+    "private_record_sha256": "25ee231552f6ba0f40e8eb036b32c7364d19f732bed597a438bd4e76d922627b",
+    "source_sha256": "f8cae6986beb200fb06f556adbde527c1ce505acfb37547f8e24c259f6cdd557",
+    "model": "qwen3.5:9b",
+    "thinking": true,
+    "options": {
+      "temperature": 0.7,
+      "seed": 17,
+      "num_ctx": 32768,
+      "num_predict": 8192
+    },
+    "seconds": 132.609,
+    "eval_count": 2158,
+    "done_reason": "stop",
+    "contract_violations": []
+  },
+  {
+    "record": "qwen3.5-museum.json",
+    "private_record_sha256": "5612bc0c6242f23301de12004f12983aa08bb07cd73fe4c8e5c036a4d4c4b2bf",
+    "source_sha256": "61a094bf9b2549b031f30117fda1fbc1281df9edcee97580b3c85d5c0353d08e",
+    "model": "qwen3.5:9b",
+    "thinking": true,
+    "options": {
+      "temperature": 0.7,
+      "seed": 17,
+      "num_ctx": 32768,
+      "num_predict": 8192
+    },
+    "seconds": 178.17,
+    "eval_count": 2876,
+    "done_reason": "stop",
+    "contract_violations": []
+  }
+]
