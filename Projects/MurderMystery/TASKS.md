@@ -1,6 +1,16 @@
 # Task board
 
-## Active iteration loop
+## Required guesses and symbolic comparison — September 27
+
+- [x] **R10 — Required guesses:** replay all seven nonculprit final contexts before and after clarification, preserving evidence/model/settings. Require a named suspect; report accuracy and malformed outputs, no confidence metric. Completed both seven-player contexts and follow-ups: required suspect plus explanation, one-field vote, and known-innocence restrictions. See [current conclusion](simulation/CHOICE_BASELINE.md).
+- [x] **R11 — Symbolic baseline:** build seeded fact exchange, source-preserving knowledge sets and explicit contradiction-based elimination. Unknown is not false. Test complete-information and limited-sharing conditions on original fixtures and conservative source-game mappings.
+- [x] **R12 — Stronger-model counterpoint:** compare identical limited player evidence with a stronger independent reviewer. Completed three isolated, matched-evidence Codex reviews as the discussed qualitative alternative; no hosted API key was configured and no paid API call was made. Not an API benchmark.
+
+
+- [x] **R13 — Follow observed failures through review.** Correct symbolic prerequisites and source encoding, retest sweeps, compare alternate support weighting, test Gemma on exact known packet assertions, and challenge successful votes with anonymous labels/order. Delivered: 41 local calls in this cycle, three independent player reviews, 83 passing software tests.
+- [ ] **R14 — Hybrid disclosure prototype on this game.** Integrating agent owns implementation. Let local agents select bounded permitted fact packets using only their own card/received history; transfer selected facts visibly as disclosures and retain source attribution. Preserve irrelevant background and distinguish free claims from authoritative packets. Predeclare fresh seed 29; compare symbolic and model final votes on identical resulting ledgers, alongside a fixed random-selection baseline. Start with the original small fixture, then the same eight-character adaptation. Record budget before inference; do not require owner approval for ordinary fixes. Completion: reproducible end-to-end run, reviewed information boundaries, and a concise explanation of whether choice-driven disclosure helps or exposes the next weakness.
+
+## Earlier model-iteration checkpoint
 
 The owner authorized continued prompt/assessment tuning and increased conversation opportunity, guided by measured failures, until evidence-supported deductions become possible or a concrete limit is established. Method and batch boundaries: [iteration plan](simulation/ITERATION.md).
 

@@ -1,0 +1,40 @@
+{
+  "method": "One fresh-context Codex reviewer with no forked task history; instructed to read only exact saved player evidence and schema. Qualitative counterpoint, not a Responses API or latency benchmark.",
+  "player": "p5",
+  "condition": "clarification-required-guess",
+  "choice": "p1",
+  "same_evidence_as_local": true,
+  "source_sha256": "cecf078a20e6f09731ee40a3053c18e348bc30e61a5a0faf4b3a3c3e47e83777",
+  "answer_sha256": "01895dd3786d1ebe7110d4cba47ea03ae5110d9e906fe290571b5ecff562d7c3",
+  "result": "Correct intended suspect; cites received occupation and multiple reported matches; acknowledges missing facts.",
+  "limitation": "Three selected prior failures, separately reviewed with no shared task history. Same serialized player messages and schema, different Codex execution wrapper. Not a controlled API benchmark or party-wide accuracy estimate. No paid API calls.",
+  "follow_up_records": [
+    {
+      "player": "p3",
+      "choice": "p1",
+      "correct": true,
+      "schema_violations": [],
+      "request_sha256": "18c987bc8920de08c5be2fea3eaf244a46c7ad39d3aab715d46670bba405d159",
+      "answer_sha256": "d7f513d9df9eeebe050ec052189cc5008f505b3dae6ff05d79890813cbe4f0dd",
+      "identical_evidence_and_schema": true
+    },
+    {
+      "player": "p5",
+      "choice": "p1",
+      "correct": true,
+      "schema_violations": [],
+      "request_sha256": "cecf078a20e6f09731ee40a3053c18e348bc30e61a5a0faf4b3a3c3e47e83777",
+      "answer_sha256": "01895dd3786d1ebe7110d4cba47ea03ae5110d9e906fe290571b5ecff562d7c3",
+      "identical_evidence_and_schema": true
+    },
+    {
+      "player": "p6",
+      "choice": "p1",
+      "correct": true,
+      "schema_violations": [],
+      "request_sha256": "7ae867d18e10f5cac913839f9559809ae9af978f25dc4907721ec751fd1b303c",
+      "answer_sha256": "814d2e29635149fd0fc280a3b25a38955b5ea48d4811f343f2d79ecb997e9409",
+      "identical_evidence_and_schema": true
+    }
+  ]
+}

@@ -1,0 +1,369 @@
+{
+  "engine_sha256": "3ad7dc3260a9b1e53bd641ff3ad2d17aebe3a538dbf21ec715b389423da3ccf9",
+  "rows": [
+    {
+      "case": "movie-acting_modeling-all_printed",
+      "case_sha256": "bcca775cdcd3cef9c6970b89d751161b272703a0badea85387f73cbf02adf15e",
+      "remaining": [
+        "p1",
+        "p5",
+        "p7"
+      ],
+      "top_choices": [
+        "p1"
+      ],
+      "counts": {
+        "p1": {
+          "supported_match_count": 12,
+          "unique_source_match_count": 10
+        },
+        "p2": {
+          "supported_match_count": 1,
+          "unique_source_match_count": 1
+        },
+        "p3": {
+          "supported_match_count": 1,
+          "unique_source_match_count": 1
+        },
+        "p4": {
+          "supported_match_count": 2,
+          "unique_source_match_count": 2
+        },
+        "p5": {
+          "supported_match_count": 4,
+          "unique_source_match_count": 2
+        },
+        "p6": {
+          "supported_match_count": 0,
+          "unique_source_match_count": 0
+        },
+        "p7": {
+          "supported_match_count": 1,
+          "unique_source_match_count": 1
+        },
+        "p8": {
+          "supported_match_count": 0,
+          "unique_source_match_count": 0
+        }
+      }
+    },
+    {
+      "case": "movie-acting_modeling-sampled",
+      "case_sha256": "db0e910577ebff2a664d136fc4e246d47776cb5656200167ac5a95bd5141075b",
+      "remaining": [
+        "p1",
+        "p5",
+        "p7"
+      ],
+      "top_choices": [
+        "p1"
+      ],
+      "counts": {
+        "p1": {
+          "supported_match_count": 9,
+          "unique_source_match_count": 7
+        },
+        "p2": {
+          "supported_match_count": 0,
+          "unique_source_match_count": 0
+        },
+        "p3": {
+          "supported_match_count": 1,
+          "unique_source_match_count": 1
+        },
+        "p4": {
+          "supported_match_count": 2,
+          "unique_source_match_count": 2
+        },
+        "p5": {
+          "supported_match_count": 4,
+          "unique_source_match_count": 2
+        },
+        "p6": {
+          "supported_match_count": 0,
+          "unique_source_match_count": 0
+        },
+        "p7": {
+          "supported_match_count": 1,
+          "unique_source_match_count": 1
+        },
+        "p8": {
+          "supported_match_count": 0,
+          "unique_source_match_count": 0
+        }
+      }
+    },
+    {
+      "case": "movie-plus_band-all_printed",
+      "case_sha256": "51f53f27e6b06eba7357da4c516aa1a3e1334dc6638049940a88e0717f422cfc",
+      "remaining": [
+        "p1"
+      ],
+      "top_choices": [
+        "p1"
+      ],
+      "counts": {
+        "p1": {
+          "supported_match_count": 12,
+          "unique_source_match_count": 10
+        },
+        "p2": {
+          "supported_match_count": 1,
+          "unique_source_match_count": 1
+        },
+        "p3": {
+          "supported_match_count": 1,
+          "unique_source_match_count": 1
+        },
+        "p4": {
+          "supported_match_count": 2,
+          "unique_source_match_count": 2
+        },
+        "p5": {
+          "supported_match_count": 4,
+          "unique_source_match_count": 2
+        },
+        "p6": {
+          "supported_match_count": 0,
+          "unique_source_match_count": 0
+        },
+        "p7": {
+          "supported_match_count": 1,
+          "unique_source_match_count": 1
+        },
+        "p8": {
+          "supported_match_count": 0,
+          "unique_source_match_count": 0
+        }
+      }
+    },
+    {
+      "case": "movie-plus_band-sampled",
+      "case_sha256": "bbdafe83b13c9cd96cfbb316a22b76ebdd3119a5402d83847f744f5bb194be72",
+      "remaining": [
+        "p1"
+      ],
+      "top_choices": [
+        "p1"
+      ],
+      "counts": {
+        "p1": {
+          "supported_match_count": 9,
+          "unique_source_match_count": 7
+        },
+        "p2": {
+          "supported_match_count": 0,
+          "unique_source_match_count": 0
+        },
+        "p3": {
+          "supported_match_count": 1,
+          "unique_source_match_count": 1
+        },
+        "p4": {
+          "supported_match_count": 2,
+          "unique_source_match_count": 2
+        },
+        "p5": {
+          "supported_match_count": 4,
+          "unique_source_match_count": 2
+        },
+        "p6": {
+          "supported_match_count": 0,
+          "unique_source_match_count": 0
+        },
+        "p7": {
+          "supported_match_count": 1,
+          "unique_source_match_count": 1
+        },
+        "p8": {
+          "supported_match_count": 0,
+          "unique_source_match_count": 0
+        }
+      }
+    },
+    {
+      "case": "movie-plus_magician-all_printed",
+      "case_sha256": "800f93b718222ebed3fdb90c28dcaa8986150d5a86d929f68096dbbbfac901c2",
+      "remaining": [
+        "p1",
+        "p5"
+      ],
+      "top_choices": [
+        "p1"
+      ],
+      "counts": {
+        "p1": {
+          "supported_match_count": 12,
+          "unique_source_match_count": 10
+        },
+        "p2": {
+          "supported_match_count": 1,
+          "unique_source_match_count": 1
+        },
+        "p3": {
+          "supported_match_count": 1,
+          "unique_source_match_count": 1
+        },
+        "p4": {
+          "supported_match_count": 2,
+          "unique_source_match_count": 2
+        },
+        "p5": {
+          "supported_match_count": 4,
+          "unique_source_match_count": 2
+        },
+        "p6": {
+          "supported_match_count": 0,
+          "unique_source_match_count": 0
+        },
+        "p7": {
+          "supported_match_count": 1,
+          "unique_source_match_count": 1
+        },
+        "p8": {
+          "supported_match_count": 0,
+          "unique_source_match_count": 0
+        }
+      }
+    },
+    {
+      "case": "movie-plus_magician-sampled",
+      "case_sha256": "082ad00ed46a4345acd6895bad6aa573389f202793b843be1112e83ef9e30e02",
+      "remaining": [
+        "p1",
+        "p5"
+      ],
+      "top_choices": [
+        "p1"
+      ],
+      "counts": {
+        "p1": {
+          "supported_match_count": 9,
+          "unique_source_match_count": 7
+        },
+        "p2": {
+          "supported_match_count": 0,
+          "unique_source_match_count": 0
+        },
+        "p3": {
+          "supported_match_count": 1,
+          "unique_source_match_count": 1
+        },
+        "p4": {
+          "supported_match_count": 2,
+          "unique_source_match_count": 2
+        },
+        "p5": {
+          "supported_match_count": 4,
+          "unique_source_match_count": 2
+        },
+        "p6": {
+          "supported_match_count": 0,
+          "unique_source_match_count": 0
+        },
+        "p7": {
+          "supported_match_count": 1,
+          "unique_source_match_count": 1
+        },
+        "p8": {
+          "supported_match_count": 0,
+          "unique_source_match_count": 0
+        }
+      }
+    },
+    {
+      "case": "movie-strict-all_printed",
+      "case_sha256": "84bbafed3ac837e737bda6d797bac7965e713639fecd1809ed69be96292211d9",
+      "remaining": [
+        "p1",
+        "p2",
+        "p5",
+        "p7"
+      ],
+      "top_choices": [
+        "p1"
+      ],
+      "counts": {
+        "p1": {
+          "supported_match_count": 12,
+          "unique_source_match_count": 10
+        },
+        "p2": {
+          "supported_match_count": 1,
+          "unique_source_match_count": 1
+        },
+        "p3": {
+          "supported_match_count": 1,
+          "unique_source_match_count": 1
+        },
+        "p4": {
+          "supported_match_count": 2,
+          "unique_source_match_count": 2
+        },
+        "p5": {
+          "supported_match_count": 4,
+          "unique_source_match_count": 2
+        },
+        "p6": {
+          "supported_match_count": 0,
+          "unique_source_match_count": 0
+        },
+        "p7": {
+          "supported_match_count": 1,
+          "unique_source_match_count": 1
+        },
+        "p8": {
+          "supported_match_count": 0,
+          "unique_source_match_count": 0
+        }
+      }
+    },
+    {
+      "case": "movie-strict-sampled",
+      "case_sha256": "aa34594a4bf5a5177c697237b914efca94161ae4b598ea64df5a61223010b5c2",
+      "remaining": [
+        "p1",
+        "p2",
+        "p5",
+        "p7"
+      ],
+      "top_choices": [
+        "p1"
+      ],
+      "counts": {
+        "p1": {
+          "supported_match_count": 9,
+          "unique_source_match_count": 7
+        },
+        "p2": {
+          "supported_match_count": 0,
+          "unique_source_match_count": 0
+        },
+        "p3": {
+          "supported_match_count": 1,
+          "unique_source_match_count": 1
+        },
+        "p4": {
+          "supported_match_count": 2,
+          "unique_source_match_count": 2
+        },
+        "p5": {
+          "supported_match_count": 4,
+          "unique_source_match_count": 2
+        },
+        "p6": {
+          "supported_match_count": 0,
+          "unique_source_match_count": 0
+        },
+        "p7": {
+          "supported_match_count": 1,
+          "unique_source_match_count": 1
+        },
+        "p8": {
+          "supported_match_count": 0,
+          "unique_source_match_count": 0
+        }
+      }
+    }
+  ]
+}

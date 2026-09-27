@@ -1,0 +1,186 @@
+{
+  "complete": true,
+  "records": [
+    {
+      "condition": "clarification",
+      "player": "p2",
+      "choice": "p1",
+      "correct": true,
+      "self_accusation": false,
+      "schema_violations": [],
+      "source_sha256": "9b4e99a3e46c25761dac20b1df17eff74481e969a4e996df12561b675c410a30",
+      "journal_sha256": "0c93a3b2bb43732533b067bc2236e20fa3e5a70346ffa713977cd550f1af1545",
+      "wall_seconds": 50.719,
+      "model": "gemma4:e4b-it-qat"
+    },
+    {
+      "condition": "clarification",
+      "player": "p3",
+      "choice": "p5",
+      "correct": false,
+      "self_accusation": false,
+      "schema_violations": [],
+      "source_sha256": "360f650d40de1fa468b1bbd8fd8fea0f65058b2968ead95577069dea21c2878e",
+      "journal_sha256": "3a9946ea9e32fabb5a3253d31b7cb71958d8723a7bed5fb0956bf3de0480c17d",
+      "wall_seconds": 51.23,
+      "model": "gemma4:e4b-it-qat"
+    },
+    {
+      "condition": "clarification",
+      "player": "p4",
+      "choice": "p1",
+      "correct": true,
+      "self_accusation": false,
+      "schema_violations": [],
+      "source_sha256": "2ec53e66e098ece1e45264343755f17027d0afafbe5700daae52b357ceeb0741",
+      "journal_sha256": "dc44e41aaf43aacdf4e3082ef52e8519a186bdf78fcd8ae8b425edd54f3222b9",
+      "wall_seconds": 57.332,
+      "model": "gemma4:e4b-it-qat"
+    },
+    {
+      "condition": "clarification",
+      "player": "p5",
+      "choice": "p3",
+      "correct": false,
+      "self_accusation": false,
+      "schema_violations": [],
+      "source_sha256": "3644d95e988815175e164581be8366468dd08e69bf7b9e6fff2f4bfb9a783c58",
+      "journal_sha256": "22cecf88f0b16fb56c60cbeeac4052e4a0cb94432b6a9d5dc7fee09303fce03d",
+      "wall_seconds": 58.522,
+      "model": "gemma4:e4b-it-qat"
+    },
+    {
+      "condition": "clarification",
+      "player": "p6",
+      "choice": "p6",
+      "correct": false,
+      "self_accusation": true,
+      "schema_violations": [],
+      "source_sha256": "da065c0f0ffeddb9c59bfd550933a1c3ca2ba6b8d7f73cd5887edf27cba97f54",
+      "journal_sha256": "8cdfb96dc804a77ecbd48f16235fe8e2441ee9d246a77ccd3a97a4e3fbcbdb35",
+      "wall_seconds": 43.875,
+      "model": "gemma4:e4b-it-qat"
+    },
+    {
+      "condition": "clarification",
+      "player": "p7",
+      "choice": "p1",
+      "correct": true,
+      "self_accusation": false,
+      "schema_violations": [],
+      "source_sha256": "6a621c58a678d00cf576ee28ce75fd9ba057c0564e106addb9482f9d55aeff62",
+      "journal_sha256": "2cbeecda6f18143e8089c49a98a0ab9faf0f3a54f120cb78e9190dd49468d7d8",
+      "wall_seconds": 33.334,
+      "model": "gemma4:e4b-it-qat"
+    },
+    {
+      "condition": "clarification",
+      "player": "p8",
+      "choice": "p3",
+      "correct": false,
+      "self_accusation": false,
+      "schema_violations": [],
+      "source_sha256": "849bf1d079d85f42839c90e55ba37514db73fc6c159426bd2893eb58bb77bd21",
+      "journal_sha256": "660b331b6dde6b5d59dd1af5e69e08cf1b1f09e42eb304eb40c1ca4e8ab8b07e",
+      "wall_seconds": 31.657,
+      "model": "gemma4:e4b-it-qat"
+    },
+    {
+      "condition": "expanded",
+      "player": "p2",
+      "choice": "p1",
+      "correct": true,
+      "self_accusation": false,
+      "schema_violations": [],
+      "source_sha256": "02fb7b9bbceaf8c40fd4b49ffb6ffc15394ce15d115979703364e0bfafcdbbfb",
+      "journal_sha256": "9470b672ab7402f6ea35945b90fec20cccddd014da28eac2e040d7a47788bb84",
+      "wall_seconds": 55.819,
+      "model": "gemma4:e4b-it-qat"
+    },
+    {
+      "condition": "expanded",
+      "player": "p3",
+      "choice": "p4",
+      "correct": false,
+      "self_accusation": false,
+      "schema_violations": [],
+      "source_sha256": "9e24656894caf9356ea5c7a9aa28b9594716c3d555c51b16d9e4223862ce00d1",
+      "journal_sha256": "d96ee38176cd9d9729603548fbf6ccb1ee031e1bcfdd1989605afbab81172800",
+      "wall_seconds": 84.254,
+      "model": "gemma4:e4b-it-qat"
+    },
+    {
+      "condition": "expanded",
+      "player": "p4",
+      "choice": "p7",
+      "correct": false,
+      "self_accusation": false,
+      "schema_violations": [],
+      "source_sha256": "f4efb3493dc41f4c13ee24dfa887f4db1da6d3427b0e82b0b4abd4c7aa81a85d",
+      "journal_sha256": "552689147c94c287c25192631b8f5106508df78c1ccfebabe6999f3f3287cd4d",
+      "wall_seconds": 73.638,
+      "model": "gemma4:e4b-it-qat"
+    },
+    {
+      "condition": "expanded",
+      "player": "p5",
+      "choice": "p6",
+      "correct": false,
+      "self_accusation": false,
+      "schema_violations": [],
+      "source_sha256": "a68e4d03765260e7a49a45494573f4334aa5f9e7f0dfe72800add8fb8c61dc2c",
+      "journal_sha256": "9c5d253ce3e045835210a70c14dfccadef1a387b856b7eb1566ca9251bb97a70",
+      "wall_seconds": 62.392,
+      "model": "gemma4:e4b-it-qat"
+    },
+    {
+      "condition": "expanded",
+      "player": "p6",
+      "choice": "p5",
+      "correct": false,
+      "self_accusation": false,
+      "schema_violations": [],
+      "source_sha256": "49b48af950895e5f4b1b9e285ce8dd7c8b2fc587e3ad0e12d050187c5c6a15a4",
+      "journal_sha256": "82ed71641616e6d69098c2e00ec36e8a1a33756e36a5fa35f6eb8f45d07414d4",
+      "wall_seconds": 59.01,
+      "model": "gemma4:e4b-it-qat"
+    },
+    {
+      "condition": "expanded",
+      "player": "p7",
+      "choice": "p1",
+      "correct": true,
+      "self_accusation": false,
+      "schema_violations": [],
+      "source_sha256": "25ffbde182e51231a1b40664758271ce0890a1da1fa4b2e1a3002423a277f706",
+      "journal_sha256": "921d06114964f263c216168526a18b12edcfeb0c0284206642407ceb5ce3beab",
+      "wall_seconds": 46.773,
+      "model": "gemma4:e4b-it-qat"
+    },
+    {
+      "condition": "expanded",
+      "player": "p8",
+      "choice": "p3",
+      "correct": false,
+      "self_accusation": false,
+      "schema_violations": [],
+      "source_sha256": "4f174de4fb185975f516180f542928ab9f931ef99913677240f31202705e627d",
+      "journal_sha256": "b87a96886996d3e38ec9feb6a131f62d9da178ef9beb3fd50e1647e135219243",
+      "wall_seconds": 34.159,
+      "model": "gemma4:e4b-it-qat"
+    }
+  ],
+  "semantic_findings": [
+    {
+      "condition": "expanded",
+      "player": "p3",
+      "finding": "Choice field and prose accusation name different candidates."
+    },
+    {
+      "condition": "clarification",
+      "player": "p6",
+      "finding": "Accuses own explicitly innocent character."
+    }
+  ],
+  "limitation": "Votes and semantic checks are separate. Raw source-derived player requests and native reasoning remain private."
+}

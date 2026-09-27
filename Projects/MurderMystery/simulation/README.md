@@ -84,3 +84,21 @@ The first implementation intentionally omits an optimizer, scoring model for fun
 `--prompt-profile dialogue-v1` is an opt-in party-player framing and role-aware history renderer. It includes only that player's delivered observations, makes prior own speech assistant history, labels other speech/actions/deliveries, and supplies the current audience separately. Private intentions and earlier private assessments are not memory. The default legacy payload is unchanged. See [DIALOGUE.md](DIALOGUE.md) for selected improvements and residual failures; do not equate better turn-taking with correct evidence reasoning.
 
 `python3 -m tools.probe_dialogue` compares saved frozen requests with bounded local calls and retained outputs. Its source-derived records must remain private. `python3 -m tools.import_movie PRIVATE_SOURCE PRIVATE_OUTPUT --partners 4` creates an experimental schedule with four distinct partners for every guest; omitting the option preserves the original adapter. `python3 -m dojo.metrics EVENTS --out NEW_REPORT` measures exact same-speaker repeats and conversation opportunities, not factual correctness.
+
+## Deterministic information baseline
+
+`dojo.symbolic` runs a separate, seeded fact-packet simulation without a language model. It is a reference for information access and rule interpretation, not a prediction of human behavior. `fixtures/symbolic_museum.json` is an original four-player example; it is distinct from the earlier natural-language museum fixtures.
+
+Each fact packet has an owner, subject and source-backed boolean assertions. A packet can contain no relevant assertions (background information still consumes conversation space) or several consequences of one fact. Derived assertions can require other received packet IDs. Clues have explicit hard or soft force. Unknown and conflicting values cannot silently become exclusions; duplicate clues and repeated sources are retained without multiplying clue counts. A private innocence fact excludes only that player's own character.
+
+Mingling uses distinct partners and bounded packet budgets; both players select their transmissions before either receives the other's. Clues arrive afterward. Optional group rounds share packets from the knowledge available at the start of each round. The novelty scheduler knows the recipients' ledgers to avoid redundant delivery: this is an optimistic information-transport assumption, not a model of what human speakers know. Relay is off by default. No claim is made that these exchanges feel like natural conversation.
+
+A required vote selects a remaining candidate with the most supported hard-clue matches, breaking ties by seed. This is a declared heuristic, not a probability. Match counts can overweight correlated clues; distinct source counts are also reported. When no candidates remain, the fallback is explicitly marked and still respects private exclusions. The evaluator's culprit label is read only after decisions and transport are fixed. Default CLI scoring excludes that privileged character.
+
+Run the original example:
+
+```bash
+python3 tools/symbolic_sweep.py fixtures/symbolic_museum.json --partners 0,1,2,3 --group-rounds 1
+```
+
+The current-game results and follow-up decisions are in [the required-guess and baseline memo](CHOICE_BASELINE.md). `tools/required_guess.py`, `choice_only_probe.py` and `packet_assessment.py` are frozen bounded experiment methods requiring the ignored source journals, rather than general-purpose commands. The eight-player `symbolic_study.py` runs a bounded sharing sweep and fingerprints its input and code. Private source mappings are deliberately not distributed with the public synthetic fixture.

@@ -1,0 +1,38 @@
+{
+  "records": [
+    {
+      "player": "p5",
+      "condition": "clarification",
+      "choice": "p3",
+      "correct": false,
+      "valid": true,
+      "self_accusation": false,
+      "source_sha256": "d87ea3e85ad14d260b514787e338b2e950c56b8ba495288f0e8eb855adf668e0",
+      "journal_sha256": "add4641f3960f823e10f097dcf6075e365a24f10e42d724af57086e538964319",
+      "wall_seconds": 40.089
+    },
+    {
+      "player": "p6",
+      "condition": "clarification",
+      "choice": "p5",
+      "correct": false,
+      "valid": true,
+      "self_accusation": false,
+      "source_sha256": "4b6eef6ef0ba0545c641213d144261fa8e43148819ed702882e9571f1ccb0980",
+      "journal_sha256": "f8aff08e1593238e4962f39987d7d7f6bd5935936cb374b4ad0787770508c5a9",
+      "wall_seconds": 57.497
+    },
+    {
+      "player": "p6",
+      "condition": "expanded",
+      "choice": "p5",
+      "correct": false,
+      "valid": true,
+      "self_accusation": false,
+      "source_sha256": "f26a81bf2c8bda70163fc6a78644d54cfb5e948b1dac79238a8d237db75d2de8",
+      "journal_sha256": "b7ac3ce7afcb8156c689ff2e04000666cf76b7de30b0ffff03bcea4d9f5d5220",
+      "wall_seconds": 53.633
+    }
+  ],
+  "result": "All three self-votes replaced with legal but incorrect choices."
+}

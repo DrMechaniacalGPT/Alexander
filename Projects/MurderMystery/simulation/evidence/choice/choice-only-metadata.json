@@ -1,0 +1,160 @@
+{
+  "complete": true,
+  "records": [
+    {
+      "condition": "clarification",
+      "player": "p2",
+      "choice": "p4",
+      "correct": false,
+      "self_accusation": false,
+      "valid": true,
+      "wall_seconds": 39.562,
+      "source_sha256": "9b4e99a3e46c25761dac20b1df17eff74481e969a4e996df12561b675c410a30",
+      "journal_sha256": "06ffa247e4ae539a888bd179d35062e52ab101c3961e8c9d0be23bdd4c94a489"
+    },
+    {
+      "condition": "clarification",
+      "player": "p3",
+      "choice": "p1",
+      "correct": true,
+      "self_accusation": false,
+      "valid": true,
+      "wall_seconds": 57.085,
+      "source_sha256": "360f650d40de1fa468b1bbd8fd8fea0f65058b2968ead95577069dea21c2878e",
+      "journal_sha256": "5a78ff8940cbb5649c4c51f4c3ce0970500af7cd7850ce342b4e954569dd3075"
+    },
+    {
+      "condition": "clarification",
+      "player": "p4",
+      "choice": "p1",
+      "correct": true,
+      "self_accusation": false,
+      "valid": true,
+      "wall_seconds": 39.1,
+      "source_sha256": "2ec53e66e098ece1e45264343755f17027d0afafbe5700daae52b357ceeb0741",
+      "journal_sha256": "b0a7231c9fb2ee3c8346ba66aad13f10dec58f684e5147ae91fec62b68462569"
+    },
+    {
+      "condition": "clarification",
+      "player": "p5",
+      "choice": "p5",
+      "correct": false,
+      "self_accusation": true,
+      "valid": true,
+      "wall_seconds": 49.623,
+      "source_sha256": "3644d95e988815175e164581be8366468dd08e69bf7b9e6fff2f4bfb9a783c58",
+      "journal_sha256": "d87ea3e85ad14d260b514787e338b2e950c56b8ba495288f0e8eb855adf668e0"
+    },
+    {
+      "condition": "clarification",
+      "player": "p6",
+      "choice": "p6",
+      "correct": false,
+      "self_accusation": true,
+      "valid": true,
+      "wall_seconds": 38.447,
+      "source_sha256": "da065c0f0ffeddb9c59bfd550933a1c3ca2ba6b8d7f73cd5887edf27cba97f54",
+      "journal_sha256": "4b6eef6ef0ba0545c641213d144261fa8e43148819ed702882e9571f1ccb0980"
+    },
+    {
+      "condition": "clarification",
+      "player": "p7",
+      "choice": "p1",
+      "correct": true,
+      "self_accusation": false,
+      "valid": true,
+      "wall_seconds": 45.051,
+      "source_sha256": "6a621c58a678d00cf576ee28ce75fd9ba057c0564e106addb9482f9d55aeff62",
+      "journal_sha256": "3b9081e1b5416673fe174f9c2948b5aacedc85f6d95aee00e2827e55a3699f73"
+    },
+    {
+      "condition": "clarification",
+      "player": "p8",
+      "choice": "p1",
+      "correct": true,
+      "self_accusation": false,
+      "valid": true,
+      "wall_seconds": 48.236,
+      "source_sha256": "849bf1d079d85f42839c90e55ba37514db73fc6c159426bd2893eb58bb77bd21",
+      "journal_sha256": "121f65db03d5751480adfcfb026f0c4a2a1814043602654b5bb67de315014721"
+    },
+    {
+      "condition": "expanded",
+      "player": "p2",
+      "choice": "p5",
+      "correct": false,
+      "self_accusation": false,
+      "valid": true,
+      "wall_seconds": 45.337,
+      "source_sha256": "02fb7b9bbceaf8c40fd4b49ffb6ffc15394ce15d115979703364e0bfafcdbbfb",
+      "journal_sha256": "ce1302d79057026193ff1f7dd7c2915446c83cbde175d2ecd0ab8342c2ea918d"
+    },
+    {
+      "condition": "expanded",
+      "player": "p3",
+      "choice": "p5",
+      "correct": false,
+      "self_accusation": false,
+      "valid": true,
+      "wall_seconds": 61.219,
+      "source_sha256": "9e24656894caf9356ea5c7a9aa28b9594716c3d555c51b16d9e4223862ce00d1",
+      "journal_sha256": "60f76a5c6c8761f0bcd170036caf143844b8a17f24ea38c24bccb2876a79d258"
+    },
+    {
+      "condition": "expanded",
+      "player": "p4",
+      "choice": "p1",
+      "correct": true,
+      "self_accusation": false,
+      "valid": true,
+      "wall_seconds": 57.25,
+      "source_sha256": "f4efb3493dc41f4c13ee24dfa887f4db1da6d3427b0e82b0b4abd4c7aa81a85d",
+      "journal_sha256": "1b42574c3cdcb3dbd39acf1d463ac3f085fc5b5e3a4cc81f1fe471e58eb0e88e"
+    },
+    {
+      "condition": "expanded",
+      "player": "p5",
+      "choice": "p1",
+      "correct": true,
+      "self_accusation": false,
+      "valid": true,
+      "wall_seconds": 50.754,
+      "source_sha256": "a68e4d03765260e7a49a45494573f4334aa5f9e7f0dfe72800add8fb8c61dc2c",
+      "journal_sha256": "d25c2e620ddc492c15cfecc2452fb076a9bd8669fe3828d6aed4311df543cf2e"
+    },
+    {
+      "condition": "expanded",
+      "player": "p6",
+      "choice": "p6",
+      "correct": false,
+      "self_accusation": true,
+      "valid": true,
+      "wall_seconds": 37.047,
+      "source_sha256": "49b48af950895e5f4b1b9e285ce8dd7c8b2fc587e3ad0e12d050187c5c6a15a4",
+      "journal_sha256": "f26a81bf2c8bda70163fc6a78644d54cfb5e948b1dac79238a8d237db75d2de8"
+    },
+    {
+      "condition": "expanded",
+      "player": "p7",
+      "choice": "p1",
+      "correct": true,
+      "self_accusation": false,
+      "valid": true,
+      "wall_seconds": 39.504,
+      "source_sha256": "25ffbde182e51231a1b40664758271ce0890a1da1fa4b2e1a3002423a277f706",
+      "journal_sha256": "bd9069ee011062681926540a517d2851c8b761d3678c726422692f6335ae531c"
+    },
+    {
+      "condition": "expanded",
+      "player": "p8",
+      "choice": "p3",
+      "correct": false,
+      "self_accusation": false,
+      "valid": true,
+      "wall_seconds": 34.525,
+      "source_sha256": "4f174de4fb185975f516180f542928ab9f931ef99913677240f31202705e627d",
+      "journal_sha256": "574b9164fdb577d3bfcddd37e8a7bae8eddb8ffccbe714bfb31e60ad799e09fb"
+    }
+  ],
+  "limitation": "One-field votes have no explanation to grade. Same original dialogue contexts, not newly simulated parties."
+}
