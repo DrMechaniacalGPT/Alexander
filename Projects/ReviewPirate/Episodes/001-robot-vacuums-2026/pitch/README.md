@@ -1,3 +1,5 @@
+**Listen scene by scene:** [image + narration storyboard](listening/index.html), 16 clips / 158 seconds, neutral draft voice.
+
 # Current review: script and unfolding viewer experience
 
 Start with [the revised script and viewer journey](VIEWER_STORY.md), then [three visual treatments of one passage](story-comparison.html). The [four underlying arcs](FOUR_ARCS.md) and [creative comparison](CREATIVE_COMPARISON.md) explain the choices. These are development materials, not a generated film. The otter and house remain the approved visual direction.

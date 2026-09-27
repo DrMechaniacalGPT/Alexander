@@ -35,3 +35,12 @@ Create one single cinematic landscape 16:9 production reference frame, NOT a col
 ## Cable consequence reference
 
 Local-only `assets/cable-consequence-reference.png`: generated to match the approved otter/house, floor-level ordinary cable across rug/wood, otter considering the household condition, no robot. This illustrates floor preparation; it is not product-test evidence. Used in the three-treatment comparison. Generated raster is not committed or uploaded.
+
+
+## Listening storyboard evidence-card still
+
+Built-in image generation; local project asset `assets/otter-evidence-cards.png`, based on the approved M02 reference. No media uploaded.
+
+Prompt:
+
+Create one cinematic landscape 16:9 storyboard still. Reference image establishes exact otter identity, olive-brown jacket, realistic fur, warm oak-floor home, teal door trim and late-afternoon light. Same otter now seated at a low wooden coffee table in this same living room, left third of frame, thoughtfully comparing two separate plain cream paper cards with his paws, one card in each paw laid apart on table. Small open unbranded laptop at side. Natural expressive uncertainty, not caricature, beautifully photographic lighting and shallow depth, tactile wood and paper. Camera medium-wide at table height; retain warm house context. Leave right third of frame visually quiet for separately typeset editorial overlays. No text, logos, numbers, robot vacuum, additional characters or watermarks. This is a narrative illustration of comparing published evidence, not a laboratory test.

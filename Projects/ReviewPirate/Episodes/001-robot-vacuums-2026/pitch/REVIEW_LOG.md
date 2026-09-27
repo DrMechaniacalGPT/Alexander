@@ -49,3 +49,8 @@ The owner approved the otter/house visuals but identified that cinematic domesti
 ## Continuous viewer experience correction
 
 Replaced endpoint-criteria scoring with a script-led viewer journey. Opening pairs a checkable finding with early otter/house reveal. Subsequent beats build trust through explained weighting, contrary evidence, unresolved methods and bounded decisions. Added independent arcs, three passage treatments and a new unbranded cable reference. Still images do not prove pacing or performance.
+
+
+## Scene-by-scene listening storyboard
+
+Sixteen separately playable local Kokoro WAV clips, 157.92 seconds total. Existing script split into listening beats; RTINGS spoken as another testing lab and credited visually. Added an evidence-card still using the approved otter reference. Native playback reached the end of scene 1; all WAVs decode, are non-silent and have no sample clipping. All sixteen scene selections exercised; no panel/source overlap at the inspected desktop width. Voice performance has not received subjective listening approval. No vidIQ credits, subscription or media upload.
