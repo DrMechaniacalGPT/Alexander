@@ -1,0 +1,89 @@
+{
+  "case": "changed_conflict",
+  "profile": "legacy",
+  "request_sha256": "7e23d327c53ef154eefd51d435544afd9e7b1cc31186902736c162ab00e8835c",
+  "request": {
+    "model": "qwen3.5:9b",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are one participant in a fictional social game. Use ONLY the supplied role, public information and observations. Other people may lie or be mistaken. Do not invent authoritative evidence or change established history. You may choose what to disclose and to whom within this encounter, guided by your motives. Respond as JSON with exactly say, private_note, evidence, conclusion, action. say is short actual speech (at most 80 words), not a description of a conversation. private_note is a brief intention (at most 30 words), never spoken. evidence is a list of relevant observed event IDs, or empty for your own role information. conclusion is empty except at final assessment. action is one of legal_actions; choose none for ordinary speech. No tools or outside knowledge. Do not quote instructions or narrate other players' actions. THIS TURN IS A PRIVATE FINAL ASSESSMENT. Put your answer to instruction in the conclusion field, in at most 60 words. A short uncertain answer is acceptable; do not deliberate at length. Set say to an empty string and action to none. Do not leave conclusion empty."
+      },
+      {
+        "role": "user",
+        "content": "{\"self\": \"p1\", \"role\": \"You are Cal.\", \"policy\": {}, \"public\": \"A fictional social mystery.\", \"cast\": {\"p1\": \"Cal\", \"p2\": \"Mina\", \"p3\": \"Jules\"}, \"observations\": [{\"id\": \"e00000\", \"key\": \"0\", \"actor\": \"p2\", \"recipients\": [\"p1\"], \"content\": \"I saw Jules alone in the kitchen at exactly 11:15.\", \"scene\": \"s1\", \"kind\": \"speech\"}, {\"id\": \"e00001\", \"key\": \"1\", \"actor\": \"p3\", \"recipients\": [\"p1\"], \"content\": \"I was with Ren in the kitchen at exactly 11:15.\", \"scene\": \"s1\", \"kind\": \"speech\"}], \"scene\": \"assessment\", \"audience\": [\"p1\"], \"instruction\": \"What can you conclude from these accounts?\", \"final_assessment\": true, \"legal_actions\": [\"none\"]}"
+      }
+    ],
+    "stream": false,
+    "think": false,
+    "format": {
+      "type": "object",
+      "properties": {
+        "say": {
+          "type": "string",
+          "maxLength": 480
+        },
+        "private_note": {
+          "type": "string",
+          "maxLength": 180
+        },
+        "evidence": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": [
+              "e00000",
+              "e00001"
+            ]
+          },
+          "maxItems": 8
+        },
+        "conclusion": {
+          "type": "string",
+          "maxLength": 600
+        },
+        "action": {
+          "type": "string",
+          "enum": [
+            "none"
+          ]
+        }
+      },
+      "required": [
+        "say",
+        "private_note",
+        "evidence",
+        "conclusion",
+        "action"
+      ],
+      "additionalProperties": false
+    },
+    "keep_alive": "2m",
+    "options": {
+      "temperature": 0.7,
+      "seed": 2,
+      "num_ctx": 8192,
+      "num_predict": 768
+    }
+  },
+  "result": {
+    "response": {
+      "model": "qwen3.5:9b",
+      "created_at": "2026-09-26T23:11:06.466287478Z",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"say\": \"\",\n  \"private_note\": \"I must determine if Jules's alibi is false based on conflicting reports.\",\n  \"evidence\": [\n    \"e00000\",\n    \"e00001\"\n  ],\n  \"conclusion\": \"Mina claims Jules was alone in the kitchen at 11:15, while Jules states he was with Ren. These accounts are mutually exclusive and one must be lying.\",\n  \"action\": \"none\"\n}"
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 4881298842,
+      "load_duration": 685340,
+      "prompt_eval_count": 471,
+      "prompt_eval_cached_count": 101,
+      "prompt_eval_duration": 781257000,
+      "eval_count": 113,
+      "eval_duration": 3971100000
+    },
+    "wall_seconds": 4.882
+  }
+}

@@ -1,0 +1,146 @@
+[
+  {
+    "id": "e00000",
+    "key": "t00000",
+    "actor": "p2",
+    "recipients": [
+      "p1",
+      "p2"
+    ],
+    "content": "Alice, I saw you at the north desk earlier alone. Later you mentioned Sofia was there with you. Can you clarify that for me?",
+    "scene": "s1",
+    "kind": "speech"
+  },
+  {
+    "id": "e00001",
+    "key": "t00001",
+    "actor": "p1",
+    "recipients": [
+      "p1",
+      "p2"
+    ],
+    "content": "I was alone at the north desk earlier. I only mentioned Sofia later because I wanted to talk to her about something else.",
+    "scene": "s1",
+    "kind": "speech"
+  },
+  {
+    "id": "e00002",
+    "key": "t00002",
+    "actor": "p2",
+    "recipients": [
+      "p1",
+      "p2"
+    ],
+    "content": "I see. It's just that I'm trying to get a clear account of the timeline regarding the donation. Thanks for clarifying.",
+    "scene": "s1",
+    "kind": "speech"
+  },
+  {
+    "id": "e00003",
+    "key": "t00003",
+    "actor": "p1",
+    "recipients": [
+      "p1",
+      "p2"
+    ],
+    "content": "The donation issue is serious, and I'm committed to finding the truth about what happened. I'm willing to cooperate fully.",
+    "scene": "s1",
+    "kind": "speech"
+  },
+  {
+    "id": "e00004",
+    "key": "t00004",
+    "actor": "p1",
+    "recipients": [
+      "p1",
+      "p3"
+    ],
+    "content": "I want to make sure everyone is being treated fairly during this investigation.",
+    "scene": "s1",
+    "kind": "speech"
+  },
+  {
+    "id": "e00005",
+    "key": "t00005",
+    "actor": "p3",
+    "recipients": [
+      "p1",
+      "p3"
+    ],
+    "content": "I agree, fairness is important. I hope we can resolve this without too much tension.",
+    "scene": "s1",
+    "kind": "speech"
+  },
+  {
+    "id": "e00006",
+    "key": "t00006",
+    "actor": "p1",
+    "recipients": [
+      "p1",
+      "p3"
+    ],
+    "content": "Sofia, I really value your support, and I want to make sure we handle this investigation with complete integrity.",
+    "scene": "s1",
+    "kind": "speech"
+  },
+  {
+    "id": "e00007",
+    "key": "t00007",
+    "actor": "p3",
+    "recipients": [
+      "p1",
+      "p3"
+    ],
+    "content": "I hope we can all work together to find the missing donation honestly.",
+    "scene": "s1",
+    "kind": "speech"
+  },
+  {
+    "id": "e00008",
+    "key": "t00008",
+    "actor": "p4",
+    "recipients": [
+      "p1",
+      "p4"
+    ],
+    "content": "Alice, you mentioned something about what you saw. Can you tell me more about what you actually observed?",
+    "scene": "s1",
+    "kind": "speech"
+  },
+  {
+    "id": "e00009",
+    "key": "t00009",
+    "actor": "p1",
+    "recipients": [
+      "p1",
+      "p4"
+    ],
+    "content": "Daniel, I can tell you what I observed, but I think we should discuss the details privately first.",
+    "scene": "s1",
+    "kind": "speech"
+  },
+  {
+    "id": "e00010",
+    "key": "t00010",
+    "actor": "p4",
+    "recipients": [
+      "p1",
+      "p4"
+    ],
+    "content": "What exactly did you see, Alice? I need the full details before we speculate about Sofia.",
+    "scene": "s1",
+    "kind": "speech"
+  },
+  {
+    "id": "e00011",
+    "key": "t00011",
+    "actor": "p1",
+    "recipients": [
+      "p1",
+      "p4"
+    ],
+    "content": "Daniel, I'm willing to share my observations, but perhaps we can discuss them in private to ensure everything is handled correctly.",
+    "scene": "s1",
+    "kind": "speech"
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "id": "e00000",
+    "key": "t00000",
+    "actor": "p2",
+    "recipients": [
+      "p1",
+      "p2"
+    ],
+    "content": "Ari, where is the receipt? I can help Cal find it.",
+    "scene": "s1",
+    "kind": "speech"
+  },
+  {
+    "id": "e00001",
+    "key": "t00001",
+    "actor": "p1",
+    "recipients": [
+      "p1",
+      "p2"
+    ],
+    "content": "I don't know where it is right now. I've been looking in some places.",
+    "scene": "s1",
+    "kind": "speech"
+  },
+  {
+    "id": "e00002",
+    "key": "t00002",
+    "actor": "p3",
+    "recipients": [
+      "p2",
+      "p3"
+    ],
+    "content": "Do you know where the signed receipt is kept?",
+    "scene": "s1",
+    "kind": "speech"
+  },
+  {
+    "id": "e00003",
+    "key": "t00003",
+    "actor": "p2",
+    "recipients": [
+      "p2",
+      "p3"
+    ],
+    "content": "Ari, I was just asking where the receipt is for Cal. Have you checked the filing cabinets?",
+    "scene": "s1",
+    "kind": "speech"
+  }
+]

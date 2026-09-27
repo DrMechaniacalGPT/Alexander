@@ -1,6 +1,6 @@
 # Local mystery simulator
 
-A small Python runner that calls installed Ollama models with a separate context for each participant. Start with [RESULTS.md](RESULTS.md) for what actually happened, including failures. This is a working experimental instrument, not a calibrated model of party guests.
+A small Python runner that calls installed Ollama models with a separate context for each participant. Start with the [reasoning checkpoint](REASONING.md) for the latest comparison, and [RESULTS.md](RESULTS.md) for the initial implementation and failures. This is a working experimental instrument, not a calibrated model of party guests.
 
 ## Run it
 
@@ -20,6 +20,12 @@ Each run writes `report.md`, `summary.json`, immutable per-turn request/response
 Repeat the exact command to resume an interrupted run. Accepted turns are reconstructed without further inference. A journaled successful raw response is validated without regenerating it. A failed/invalid attempt is retained; explicit resume may retry, within the original cumulative call/time caps. No automatic semantic repair or silent retries occur. Changing a cap requires a new run directory. To avoid repeating accepted conversations, pass `--continue-from OLD_RUN` with the same case, engine, backend, model and seed. Use `--reuse-turns N` to explicitly reuse a shorter prefix when revising later prompts. This copies only the selected contiguous accepted prefix, revalidates its player messages/actions, and records parent provenance. The old failed run is preserved. Call caps include inherited attempts; wall-time caps apply to the new branch. Reports distinguish inherited turns and new requests. A continuation is not an independent repeat. Repeat the complete continuation command when resuming/replaying that branch.
 
 Add `--replay` to reconstruct a completed compatible run using recorded responses, without contacting Ollama. Replay checks that the current player messages match the recorded ones and revalidates actions; it is not a rerun with the same seed. Schemas may become stricter while recorded messages/actions remain compatible. Historical `0.1.0` trials predate the final-answer contract; some intermediate `0.2.0` trials also predate the current final prompt. They are preserved for audit, not promised compatible with current replay. The latest relay and completed external trajectories were replay-checked. Exact-message validation deliberately rejects incompatible prompt revisions.
+
+## Experimental reasoning profiles
+
+`--prompt-profile grounded-v2` adds evidence guidance and explicit public speaker/audience names. It is an experimental candidate, not a claim of generally better reasoning. `legacy` remains the default; `grounded-v1` is retained for the first recorded comparison and should not be preferred for new public dialogue because its secret-possession guidance is too broad. See [the comparison and limits](REASONING.md).
+
+Use `python3 -m dojo.benchmark --help` for frozen single-turn comparisons and `python3 -m dojo.audit --help` for recorded output-contract checks. Offline rubrics never enter player prompts. Contract checks validate format and citation availability, not the truth or support of a conclusion. Private assessments do not deliver a model's stray `say` field to other players; the audit flags it as a contract failure.
 
 ## Incremental fixtures
 

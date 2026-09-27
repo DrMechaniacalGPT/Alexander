@@ -1,0 +1,60 @@
+{
+  "status": "complete",
+  "failure": null,
+  "scenario": "03-permitted-disclosure",
+  "manifest": {
+    "engine": "0.2.0",
+    "case_sha256": "63cd72af97066ed9ecb50a01083f49c70976724e2508cf068164844f19ae9f56",
+    "config": {
+      "backend": "ollama",
+      "model": "gemma4:e4b-it-qat",
+      "seed": 1,
+      "context": 16384,
+      "tokens": 768,
+      "max_calls": 17,
+      "max_seconds": 500.0
+    }
+  },
+  "usage": {
+    "requests": 16,
+    "new_requests": 16,
+    "inherited_turns": 0,
+    "wall_seconds": 45.677,
+    "prompt_tokens": 11915,
+    "output_tokens": 1549
+  },
+  "field_limit_hits": [],
+  "events": 12,
+  "contacts": {
+    "p1": [
+      "p2",
+      "p3",
+      "p4"
+    ],
+    "p2": [
+      "p1"
+    ],
+    "p3": [
+      "p1"
+    ],
+    "p4": [
+      "p1"
+    ]
+  },
+  "transitions": [
+    {
+      "scene": "s1",
+      "reason": "schedule_budget",
+      "contact_trigger": null,
+      "contact_count": null
+    }
+  ],
+  "conclusions": {
+    "p1": "I chose to withhold the promise about Sofia being with me at 10, as it complicates the narrative and could harm Daniel. I believe my testimony is currently just observation, not proof of wrongdoing.",
+    "p2": "Alice's testimony confirms she was alone initially and later spoke of Sofia for unrelated reasons. This is still just testimony, not proof of theft. I should now consider sharing this with Daniel.",
+    "p3": "I chose to withhold the full truth about the false alibi given to Alice for 10, protecting the family's privacy. I will maintain a limited disclosure with Sofia to preserve our bond.",
+    "p4": "I believe Alice's testimony is key to clearing my name. I have pushed for details without making accusations against Sofia. I must now press Alice for specific details to distinguish testimony from proof."
+  },
+  "actions": [],
+  "limitation": "Synthetic participants; delivery is not belief. No human validity claim."
+}

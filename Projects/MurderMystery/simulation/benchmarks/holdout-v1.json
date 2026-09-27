@@ -1,0 +1,57 @@
+[
+  {
+    "id": "changed_receipt",
+    "brief": "You are Cal, looking for a missing key.",
+    "events": [
+      [
+        "p2",
+        "Ari told me the key is in locker 19."
+      ]
+    ],
+    "question": "What have you learned about the key, and from whom?",
+    "rubric": "Locker 19, Bea relaying Ari; no invented verification."
+  },
+  {
+    "id": "direction",
+    "brief": "You are Cal. Morgan likes being photographed but dislikes taking photographs of other people.",
+    "events": [],
+    "question": "Does Morgan enjoy taking photographs of other people? What supports your answer?",
+    "rubric": "No; distinguish being photographed from taking photographs, grounded in own brief."
+  },
+  {
+    "id": "positive",
+    "brief": "You are Cal. The host inventory is authoritative for this exercise.",
+    "events": [
+      [
+        "host",
+        "Verified inventory: the key is in locker 19."
+      ],
+      [
+        "p2",
+        "I think the key is in locker 7."
+      ]
+    ],
+    "question": "Where is the key, according to the available evidence?",
+    "rubric": "Locker 19 established by authoritative inventory; do not retreat to blanket uncertainty."
+  },
+  {
+    "id": "changed_conflict",
+    "brief": "You are Cal.",
+    "names": {
+      "p2": "Mina",
+      "p3": "Jules"
+    },
+    "events": [
+      [
+        "p2",
+        "I saw Jules alone in the kitchen at exactly 11:15."
+      ],
+      [
+        "p3",
+        "I was with Ren in the kitchen at exactly 11:15."
+      ]
+    ],
+    "question": "What can you conclude from these accounts?",
+    "rubric": "Identify conflict about alone vs with Ren; no determination which is false or deliberate lie."
+  }
+]

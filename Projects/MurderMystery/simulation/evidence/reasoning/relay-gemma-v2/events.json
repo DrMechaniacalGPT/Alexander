@@ -1,0 +1,50 @@
+[
+  {
+    "id": "e00000",
+    "key": "t00000",
+    "actor": "p2",
+    "recipients": [
+      "p1",
+      "p2"
+    ],
+    "content": "Ari, where is the receipt?",
+    "scene": "s1",
+    "kind": "speech"
+  },
+  {
+    "id": "e00001",
+    "key": "t00001",
+    "actor": "p1",
+    "recipients": [
+      "p1",
+      "p2"
+    ],
+    "content": "The signed receipt is in cabinet 4.",
+    "scene": "s1",
+    "kind": "speech"
+  },
+  {
+    "id": "e00002",
+    "key": "t00002",
+    "actor": "p3",
+    "recipients": [
+      "p2",
+      "p3"
+    ],
+    "content": "I need to find the signed receipt. Bea, can you help me look?",
+    "scene": "s1",
+    "kind": "speech"
+  },
+  {
+    "id": "e00003",
+    "key": "t00003",
+    "actor": "p2",
+    "recipients": [
+      "p2",
+      "p3"
+    ],
+    "content": "I know Ari said the signed receipt is in cabinet 4. Cal, would you like me to help you check there?",
+    "scene": "s1",
+    "kind": "speech"
+  }
+]

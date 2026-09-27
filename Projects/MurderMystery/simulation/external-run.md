@@ -35,3 +35,7 @@ The public adapter contains our mechanics, not source-owned role or clue text. [
 ## Interpretation
 
 A bad outcome can originate in the original design, our encoding, the encounter/hunt abstraction, the participant prompt, or the model. Source discrepancies belong in the source record; model inventions belong in the behavioral audit; scheduling assumptions belong in the adapter record. None should be silently assigned to the game's author.
+
+## Evidence-guidance transfer checkpoint
+
+A fresh run of the same adaptation with the experimental `grounded-v2` profile completed 42 turns. None of seven nonculprit players accused correctly: five wrong, two abstentions. The culprit is excluded from the inference measure because its role has privileged solution information. These outcomes do not establish anything about human performance or source-game quality. See [the reasoning checkpoint](REASONING.md) for the negative findings, comparison limitations and next work; [aggregate metadata](evidence/reasoning/external-transfer.json) records settings and verification without redistributing the scenario. Source-owned inputs and traces remain private.

@@ -1,0 +1,89 @@
+{
+  "case": "choice",
+  "profile": "legacy",
+  "request_sha256": "7090f9539eea3f40de7c5ab5780caa0bb129215af9c86f5609fc1114282a8f50",
+  "request": {
+    "model": "gemma4:e4b-it-qat",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are one participant in a fictional social game. Use ONLY the supplied role, public information and observations. Other people may lie or be mistaken. Do not invent authoritative evidence or change established history. You may choose what to disclose and to whom within this encounter, guided by your motives. Respond as JSON with exactly say, private_note, evidence, conclusion, action. say is short actual speech (at most 80 words), not a description of a conversation. private_note is a brief intention (at most 30 words), never spoken. evidence is a list of relevant observed event IDs, or empty for your own role information. conclusion is empty except at final assessment. action is one of legal_actions; choose none for ordinary speech. No tools or outside knowledge. Do not quote instructions or narrate other players' actions. THIS TURN IS A PRIVATE FINAL ASSESSMENT. Put your answer to instruction in the conclusion field, in at most 60 words. A short uncertain answer is acceptable; do not deliberate at length. Set say to an empty string and action to none. Do not leave conclusion empty."
+      },
+      {
+        "role": "user",
+        "content": "{\"self\": \"p1\", \"role\": \"You are Daniel. You did not steal the donation. You want to clear your name but also care about protecting people in hardship.\", \"policy\": {}, \"public\": \"A fictional social mystery.\", \"cast\": {\"p1\": \"Daniel\", \"p2\": \"Alice\", \"p3\": \"Sofia\"}, \"observations\": [{\"id\": \"e00000\", \"key\": \"0\", \"actor\": \"p2\", \"recipients\": [\"p1\"], \"content\": \"I am Alice. My alibi for Sofia was false; I was alone.\", \"scene\": \"s1\", \"kind\": \"speech\"}, {\"id\": \"e00001\", \"key\": \"1\", \"actor\": \"p3\", \"recipients\": [\"p1\"], \"content\": \"I am Sofia. I was helping a family get medicine. Please forgive us.\", \"scene\": \"s1\", \"kind\": \"speech\"}], \"scene\": \"assessment\", \"audience\": [\"p1\"], \"instruction\": \"What do you know, and what would you choose to do next?\", \"final_assessment\": true, \"legal_actions\": [\"none\"]}"
+      }
+    ],
+    "stream": false,
+    "think": false,
+    "format": {
+      "type": "object",
+      "properties": {
+        "say": {
+          "type": "string",
+          "maxLength": 480
+        },
+        "private_note": {
+          "type": "string",
+          "maxLength": 180
+        },
+        "evidence": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": [
+              "e00000",
+              "e00001"
+            ]
+          },
+          "maxItems": 8
+        },
+        "conclusion": {
+          "type": "string",
+          "maxLength": 600
+        },
+        "action": {
+          "type": "string",
+          "enum": [
+            "none"
+          ]
+        }
+      },
+      "required": [
+        "say",
+        "private_note",
+        "evidence",
+        "conclusion",
+        "action"
+      ],
+      "additionalProperties": false
+    },
+    "keep_alive": "2m",
+    "options": {
+      "temperature": 0.7,
+      "seed": 1,
+      "num_ctx": 8192,
+      "num_predict": 768
+    }
+  },
+  "result": {
+    "response": {
+      "model": "gemma4:e4b-it-qat",
+      "created_at": "2026-09-26T23:11:52.362344396Z",
+      "message": {
+        "role": "assistant",
+        "content": "{\n\"say\": \"\",\n\"private_note\": \"Determine the best course of action to clear my name while being compassionate.\",\n\"evidence\": [\n\"e00000\",\n\"e00001\"\n],\n\"conclusion\": \"Alice's alibi is false, but Sofia claims to have helped a family. I must navigate this carefully to clear my name without unjustly accusing others.\",\n\"action\": \"none\"\n}"
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 2632245635,
+      "load_duration": 719004,
+      "prompt_eval_count": 494,
+      "prompt_eval_cached_count": 92,
+      "prompt_eval_duration": 507483000,
+      "eval_count": 98,
+      "eval_duration": 2110483000
+    },
+    "wall_seconds": 2.633
+  }
+}

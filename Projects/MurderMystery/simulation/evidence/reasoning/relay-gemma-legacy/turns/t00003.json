@@ -1,0 +1,105 @@
+{
+  "key": "t00003",
+  "player": "p2",
+  "request": {
+    "model": "gemma4:e4b-it-qat",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are one participant in a fictional social game. Use ONLY the supplied role, public information and observations. Other people may lie or be mistaken. Do not invent authoritative evidence or change established history. You may choose what to disclose and to whom within this encounter, guided by your motives. Respond as JSON with exactly say, private_note, evidence, conclusion, action. say is short actual speech (at most 80 words), not a description of a conversation. private_note is a brief intention (at most 30 words), never spoken. evidence is a list of relevant observed event IDs, or empty for your own role information. conclusion is empty except at final assessment. action is one of legal_actions; choose none for ordinary speech. No tools or outside knowledge. Do not quote instructions or narrate other players' actions."
+      },
+      {
+        "role": "user",
+        "content": "{\"self\": \"p2\", \"role\": \"Ask Ari where the receipt is, then help Cal locate it. Do not invent access codes.\", \"policy\": {}, \"public\": \"An organizer must learn which cabinet contains a signed receipt. Other details may be confidential.\", \"cast\": {\"p1\": \"Ari\", \"p2\": \"Bea\", \"p3\": \"Cal\"}, \"observations\": [{\"id\": \"e00000\", \"key\": \"t00000\", \"actor\": \"p2\", \"recipients\": [\"p1\", \"p2\"], \"content\": \"Ari, where is the receipt? I can help Cal find it.\", \"scene\": \"s1\", \"kind\": \"speech\"}, {\"id\": \"e00001\", \"key\": \"t00001\", \"actor\": \"p1\", \"recipients\": [\"p1\", \"p2\"], \"content\": \"I don't know where it is right now. I've been looking in some places.\", \"scene\": \"s1\", \"kind\": \"speech\"}, {\"id\": \"e00002\", \"key\": \"t00002\", \"actor\": \"p3\", \"recipients\": [\"p2\", \"p3\"], \"content\": \"Do you know where the signed receipt is kept?\", \"scene\": \"s1\", \"kind\": \"speech\"}], \"scene\": \"s1\", \"audience\": [\"p3\", \"p2\"], \"instruction\": \"What do you say next?\", \"final_assessment\": false, \"legal_actions\": [\"none\"]}"
+      }
+    ],
+    "stream": false,
+    "think": false,
+    "format": {
+      "type": "object",
+      "properties": {
+        "say": {
+          "type": "string",
+          "maxLength": 480
+        },
+        "private_note": {
+          "type": "string",
+          "maxLength": 180
+        },
+        "evidence": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": [
+              "e00000",
+              "e00001",
+              "e00002"
+            ]
+          },
+          "maxItems": 8
+        },
+        "conclusion": {
+          "type": "string",
+          "maxLength": 600
+        },
+        "action": {
+          "type": "string",
+          "enum": [
+            "none"
+          ]
+        }
+      },
+      "required": [
+        "say",
+        "private_note",
+        "evidence",
+        "conclusion",
+        "action"
+      ],
+      "additionalProperties": false
+    },
+    "keep_alive": "2m",
+    "options": {
+      "temperature": 0.7,
+      "seed": 1,
+      "num_ctx": 8192,
+      "num_predict": 768
+    }
+  },
+  "attempts": [
+    {
+      "started": 1790464462.8165548,
+      "result": {
+        "response": {
+          "model": "gemma4:e4b-it-qat",
+          "created_at": "2026-09-26T23:14:25.526132744Z",
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"say\": \"Ari, I was just asking where the receipt is for Cal. Have you checked the filing cabinets?\",\n  \"private_note\": \"Gently guide Ari towards the cabinets as per the organizer's task.\",\n  \"evidence\": [\n    \"e00000\",\n    \"e00001\",\n    \"e00002\"\n  ],\n  \"conclusion\": \"\",\n  \"action\": \"none\"\n}"
+          },
+          "done": true,
+          "done_reason": "stop",
+          "total_duration": 2709095463,
+          "load_duration": 837678,
+          "prompt_eval_count": 528,
+          "prompt_eval_cached_count": 0,
+          "prompt_eval_duration": 569704000,
+          "eval_count": 106,
+          "eval_duration": 2133962000
+        },
+        "wall_seconds": 2.71
+      }
+    }
+  ],
+  "accepted": {
+    "say": "Ari, I was just asking where the receipt is for Cal. Have you checked the filing cabinets?",
+    "private_note": "Gently guide Ari towards the cabinets as per the organizer's task.",
+    "evidence": [
+      "e00000",
+      "e00001",
+      "e00002"
+    ],
+    "conclusion": "",
+    "action": "none"
+  }
+}

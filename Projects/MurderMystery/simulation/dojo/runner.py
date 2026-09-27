@@ -122,7 +122,7 @@ def _run(case, out, backend, config, replay=False, continue_from=None, reuse_tur
     def turn(pid, audience, scene, instruction, final=False, legal_actions=('none',)):
         nonlocal counter
         key = f't{counter:05d}'; counter += 1
-        messages = messages_for(state, pid, audience, scene, instruction, final, legal_actions)
+        messages = messages_for(state, pid, audience, scene, instruction, final, legal_actions, config.get('prompt_profile', 'legacy'))
         payload = backend.payload(messages)
         path = out/'turns'/f'{key}.json'
         record = json.loads(path.read_text()) if path.exists() else {'key': key, 'player': pid, 'request': payload, 'attempts': []}
@@ -244,12 +244,15 @@ def main():
     p.add_argument('--model', default='qwen3.5:9b'); p.add_argument('--seed', type=int, default=1)
     p.add_argument('--context', type=int, default=4096); p.add_argument('--tokens', type=int, default=256)
     p.add_argument('--max-calls', type=int, default=32); p.add_argument('--max-seconds', type=float, default=1800)
+    p.add_argument('--prompt-profile', choices=['legacy','grounded-v1','grounded-v2'], default='legacy')
     p.add_argument('--replay', action='store_true')
     p.add_argument('--reuse-turns', type=int, help='Limit inherited accepted prefix when explicitly revising later prompts')
     p.add_argument('--continue-from', type=Path, help='Explicitly reuse a compatible accepted prefix in a new run directory')
     args = p.parse_args()
     case = json.loads(args.case.read_text())
     config = {k:v for k,v in vars(args).items() if k not in ('case','out','replay','continue_from','reuse_turns')}
+    if config['prompt_profile'] == 'legacy':
+        del config['prompt_profile']  # Preserve historical manifest and replay compatibility.
     backend = Ollama(args.model, context=args.context, tokens=args.tokens, seed=args.seed) if args.backend=='ollama' else Stub(case.get('stub', {}))
     summary = run(case, args.out, backend, config, args.replay, args.continue_from, args.reuse_turns)
     print(json.dumps({k:summary[k] for k in ('status','failure','usage')}, indent=2))

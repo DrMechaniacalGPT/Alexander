@@ -1,0 +1,56 @@
+{
+  "status": "complete",
+  "failure": null,
+  "scenario": "02-private-relay",
+  "manifest": {
+    "engine": "0.2.0",
+    "case_sha256": "00656ab60afe8ffaf75846367462190b7322def2025d8a1b313932f93176e07d",
+    "config": {
+      "backend": "ollama",
+      "model": "gemma4:e4b-it-qat",
+      "seed": 1,
+      "context": 8192,
+      "tokens": 768,
+      "max_calls": 8,
+      "max_seconds": 300.0,
+      "prompt_profile": "grounded-v2"
+    }
+  },
+  "usage": {
+    "requests": 7,
+    "new_requests": 7,
+    "inherited_turns": 0,
+    "wall_seconds": 17.485,
+    "prompt_tokens": 5615,
+    "output_tokens": 547
+  },
+  "field_limit_hits": [],
+  "events": 4,
+  "contacts": {
+    "p1": [
+      "p2"
+    ],
+    "p2": [
+      "p1",
+      "p3"
+    ],
+    "p3": [
+      "p2"
+    ]
+  },
+  "transitions": [
+    {
+      "scene": "s1",
+      "reason": "schedule_budget",
+      "contact_trigger": null,
+      "contact_count": null
+    }
+  ],
+  "conclusions": {
+    "p1": "I know the receipt is in cabinet 4 because I saw it there. I do not know any private access marker.",
+    "p2": "I learned the receipt is in cabinet 4 because Ari stated it in response to my question. I do not know any private access markers.",
+    "p3": "I do not know where the receipt is definitively; Bea mentioned Ari said it is in cabinet 4. I have no knowledge of any private access markers."
+  },
+  "actions": [],
+  "limitation": "Synthetic participants; delivery is not belief. No human validity claim."
+}

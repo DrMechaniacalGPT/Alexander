@@ -1,0 +1,105 @@
+{
+  "key": "t00003",
+  "player": "p1",
+  "request": {
+    "model": "qwen3.5:9b",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are one participant in a fictional social game. Use ONLY the supplied role, public information and observations. Other people may lie or be mistaken. Do not invent authoritative evidence or change established history. You may choose what to disclose and to whom within this encounter, guided by your motives. Respond as JSON with exactly say, private_note, evidence, conclusion, action. say is short actual speech (at most 80 words), not a description of a conversation. private_note is a brief intention (at most 30 words), never spoken. evidence is a list of relevant observed event IDs, or empty for your own role information. conclusion is empty except at final assessment. action is one of legal_actions; choose none for ordinary speech. No tools or outside knowledge. Do not quote instructions or narrate other players' actions.\nEVIDENCE DISCIPLINE: Your role sheet is not the whole of your knowledge: use the supplied observations too. Answer the actual question with concrete values and names when available. Distinguish your own supplied facts, what someone said, and your inferences. Hearing a statement establishes that it was said, not that its contents are true. Keep the source chain when someone repeats another person. Conflicting reports are unresolved unless evidence resolves them. Missing information is unknown, not a negative fact; a clue matching one trait does not establish all other traits. Read negations, directions, times and coverage literally. Do not substitute stereotypes for missing facts. A motive, kindness, apology or accusation is not proof of guilt or innocence. Choices may change cooperation without resolving the mystery. You can forgive or protect someone while remaining uncertain. Public speech may withhold or mislead when your role and rules permit; the fixed history does not change. A private assessment reports what you know or have heard and its limits, separately from what you would disclose. In public speech, whether to acknowledge possessing a secret remains your choice under the role rules. In private assessments, distinguish possessing information from choosing to reveal it; obey the requested limits on repeating secrets. Do not claim not to have heard a report merely because you cannot verify it. You speak only as self_name to the current audience. An observation is its named speaker's speech, not your own line to repeat. Do not address yourself or someone absent from the encounter."
+      },
+      {
+        "role": "user",
+        "content": "{\"self\": \"p1\", \"self_name\": \"Alice\", \"role\": \"Sofia helped you when you were struggling. You promised to claim she was with you at 10, but you were alone. You now know Daniel may lose his volunteer position because this account shifts suspicion to him. You want to protect Sofia and prevent injustice. If challenged specifically, address the discrepancy; you may confess, bargain, seek privacy or choose another response. You may reveal the promise when it serves your goals, but are not compelled. You can still repair harm or seek an explanation afterward.\", \"policy\": {}, \"public\": \"A missing donation has led to accusations at a small charity. This is an original social dilemma, not a complete murder mystery. History is fixed; cooperation and disclosure are your choices.\", \"cast\": {\"p1\": \"Alice\", \"p2\": \"Bob\", \"p3\": \"Sofia\", \"p4\": \"Daniel\"}, \"observations\": [{\"id\": \"e00000\", \"key\": \"t00000\", \"actor\": \"p2\", \"recipients\": [\"p1\", \"p2\"], \"content\": \"Alice, I saw you alone at the north desk at 10. You claimed Sofia was with you. Can you explain this inconsistency without fear?\", \"scene\": \"s1\", \"kind\": \"speech\", \"actor_name\": \"Bob\"}, {\"id\": \"e00001\", \"key\": \"t00001\", \"actor\": \"p1\", \"recipients\": [\"p1\", \"p2\"], \"content\": \"Bob, I promised Sofia she was with me at 10 to protect her when she helped me earlier. I was alone then. If this shifts suspicion unfairly, I'll address it directly.\", \"scene\": \"s1\", \"kind\": \"speech\", \"actor_name\": \"Alice\"}, {\"id\": \"e00002\", \"key\": \"t00002\", \"actor\": \"p2\", \"recipients\": [\"p1\", \"p2\"], \"content\": \"I see now why I misunderstood. You protected Sofia when she helped earlier, which is kind. If others doubt your honesty because of this lie, I will defend you against that unfair suspicion.\", \"scene\": \"s1\", \"kind\": \"speech\", \"actor_name\": \"Bob\"}], \"audience_names\": {\"p2\": \"Bob\", \"p1\": \"Alice\"}, \"scene\": \"s1\", \"audience\": [\"p2\", \"p1\"], \"instruction\": \"What do you say next?\", \"final_assessment\": false, \"legal_actions\": [\"none\"]}"
+      }
+    ],
+    "stream": false,
+    "think": false,
+    "format": {
+      "type": "object",
+      "properties": {
+        "say": {
+          "type": "string",
+          "maxLength": 480
+        },
+        "private_note": {
+          "type": "string",
+          "maxLength": 180
+        },
+        "evidence": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": [
+              "e00000",
+              "e00001",
+              "e00002"
+            ]
+          },
+          "maxItems": 8
+        },
+        "conclusion": {
+          "type": "string",
+          "maxLength": 600
+        },
+        "action": {
+          "type": "string",
+          "enum": [
+            "none"
+          ]
+        }
+      },
+      "required": [
+        "say",
+        "private_note",
+        "evidence",
+        "conclusion",
+        "action"
+      ],
+      "additionalProperties": false
+    },
+    "keep_alive": "2m",
+    "options": {
+      "temperature": 0.7,
+      "seed": 1,
+      "num_ctx": 16384,
+      "num_predict": 768
+    }
+  },
+  "attempts": [
+    {
+      "started": 1790464871.950824,
+      "result": {
+        "response": {
+          "model": "qwen3.5:9b",
+          "created_at": "2026-09-26T23:21:17.357481053Z",
+          "message": {
+            "role": "assistant",
+            "content": "{\"say\": \"Bob, I told Sofia I was with her at 10 because she helped me earlier. It wasn't a lie to hide something; it was to protect her kindness. I stand by my promise.\", \"private_note\": \"Protect Sofia's reputation while owning my protective lie to prevent Daniel from taking the fall.\", \"evidence\": [\"e00000\", \"e00001\", \"e00002\"], \"conclusion\": \"\", \"action\": \"none\"}"
+          },
+          "done": true,
+          "done_reason": "stop",
+          "total_duration": 5406222027,
+          "load_duration": 740158,
+          "prompt_eval_count": 1049,
+          "prompt_eval_cached_count": 390,
+          "prompt_eval_duration": 1361186000,
+          "eval_count": 107,
+          "eval_duration": 3939288000
+        },
+        "wall_seconds": 5.407
+      }
+    }
+  ],
+  "accepted": {
+    "say": "Bob, I told Sofia I was with her at 10 because she helped me earlier. It wasn't a lie to hide something; it was to protect her kindness. I stand by my promise.",
+    "private_note": "Protect Sofia's reputation while owning my protective lie to prevent Daniel from taking the fall.",
+    "evidence": [
+      "e00000",
+      "e00001",
+      "e00002"
+    ],
+    "conclusion": "",
+    "action": "none"
+  }
+}

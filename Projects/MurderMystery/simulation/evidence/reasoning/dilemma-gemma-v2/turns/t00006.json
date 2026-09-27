@@ -1,0 +1,107 @@
+{
+  "key": "t00006",
+  "player": "p1",
+  "request": {
+    "model": "gemma4:e4b-it-qat",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are one participant in a fictional social game. Use ONLY the supplied role, public information and observations. Other people may lie or be mistaken. Do not invent authoritative evidence or change established history. You may choose what to disclose and to whom within this encounter, guided by your motives. Respond as JSON with exactly say, private_note, evidence, conclusion, action. say is short actual speech (at most 80 words), not a description of a conversation. private_note is a brief intention (at most 30 words), never spoken. evidence is a list of relevant observed event IDs, or empty for your own role information. conclusion is empty except at final assessment. action is one of legal_actions; choose none for ordinary speech. No tools or outside knowledge. Do not quote instructions or narrate other players' actions.\nEVIDENCE DISCIPLINE: Your role sheet is not the whole of your knowledge: use the supplied observations too. Answer the actual question with concrete values and names when available. Distinguish your own supplied facts, what someone said, and your inferences. Hearing a statement establishes that it was said, not that its contents are true. Keep the source chain when someone repeats another person. Conflicting reports are unresolved unless evidence resolves them. Missing information is unknown, not a negative fact; a clue matching one trait does not establish all other traits. Read negations, directions, times and coverage literally. Do not substitute stereotypes for missing facts. A motive, kindness, apology or accusation is not proof of guilt or innocence. Choices may change cooperation without resolving the mystery. You can forgive or protect someone while remaining uncertain. Public speech may withhold or mislead when your role and rules permit; the fixed history does not change. A private assessment reports what you know or have heard and its limits, separately from what you would disclose. In public speech, whether to acknowledge possessing a secret remains your choice under the role rules. In private assessments, distinguish possessing information from choosing to reveal it; obey the requested limits on repeating secrets. Do not claim not to have heard a report merely because you cannot verify it. You speak only as self_name to the current audience. An observation is its named speaker's speech, not your own line to repeat. Do not address yourself or someone absent from the encounter."
+      },
+      {
+        "role": "user",
+        "content": "{\"self\": \"p1\", \"self_name\": \"Alice\", \"role\": \"Sofia helped you when you were struggling. You promised to claim she was with you at 10, but you were alone. You now know Daniel may lose his volunteer position because this account shifts suspicion to him. You want to protect Sofia and prevent injustice. If challenged specifically, address the discrepancy; you may confess, bargain, seek privacy or choose another response. You may reveal the promise when it serves your goals, but are not compelled. You can still repair harm or seek an explanation afterward.\", \"policy\": {}, \"public\": \"A missing donation has led to accusations at a small charity. This is an original social dilemma, not a complete murder mystery. History is fixed; cooperation and disclosure are your choices.\", \"cast\": {\"p1\": \"Alice\", \"p2\": \"Bob\", \"p3\": \"Sofia\", \"p4\": \"Daniel\"}, \"observations\": [{\"id\": \"e00000\", \"key\": \"t00000\", \"actor\": \"p2\", \"recipients\": [\"p1\", \"p2\"], \"content\": \"Alice, I saw you at the north desk around ten by yourself. You mentioned Sofia was with you later. Can you clarify that for me?\", \"scene\": \"s1\", \"kind\": \"speech\", \"actor_name\": \"Bob\"}, {\"id\": \"e00001\", \"key\": \"t00001\", \"actor\": \"p1\", \"recipients\": [\"p1\", \"p2\"], \"content\": \"Bob, I was at the north desk, but I was by myself at ten. I remember mentioning Sofia later, but I wasn't with her then.\", \"scene\": \"s1\", \"kind\": \"speech\", \"actor_name\": \"Alice\"}, {\"id\": \"e00002\", \"key\": \"t00002\", \"actor\": \"p2\", \"recipients\": [\"p1\", \"p2\"], \"content\": \"Thank you for clarifying, Alice. I just wanted to make sure the timeline was accurate.\", \"scene\": \"s1\", \"kind\": \"speech\", \"actor_name\": \"Bob\"}, {\"id\": \"e00003\", \"key\": \"t00003\", \"actor\": \"p1\", \"recipients\": [\"p1\", \"p2\"], \"content\": \"I'm just trying to clear things up since the donation is missing. It's hard to track everything.\", \"scene\": \"s1\", \"kind\": \"speech\", \"actor_name\": \"Alice\"}, {\"id\": \"e00004\", \"key\": \"t00004\", \"actor\": \"p1\", \"recipients\": [\"p1\", \"p3\"], \"content\": \"Bob, I was alone at ten, as I said. I am trying to help clarify the situation regarding the missing donation.\", \"scene\": \"s1\", \"kind\": \"speech\", \"actor_name\": \"Alice\"}, {\"id\": \"e00005\", \"key\": \"t00005\", \"actor\": \"p3\", \"recipients\": [\"p1\", \"p3\"], \"content\": \"I was delivering medicine to a family who requested privacy at ten.\", \"scene\": \"s1\", \"kind\": \"speech\", \"actor_name\": \"Sofia\"}], \"audience_names\": {\"p1\": \"Alice\", \"p3\": \"Sofia\"}, \"scene\": \"s1\", \"audience\": [\"p1\", \"p3\"], \"instruction\": \"What do you say next?\", \"final_assessment\": false, \"legal_actions\": [\"none\"]}"
+      }
+    ],
+    "stream": false,
+    "think": false,
+    "format": {
+      "type": "object",
+      "properties": {
+        "say": {
+          "type": "string",
+          "maxLength": 480
+        },
+        "private_note": {
+          "type": "string",
+          "maxLength": 180
+        },
+        "evidence": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": [
+              "e00000",
+              "e00001",
+              "e00002",
+              "e00003",
+              "e00004",
+              "e00005"
+            ]
+          },
+          "maxItems": 8
+        },
+        "conclusion": {
+          "type": "string",
+          "maxLength": 600
+        },
+        "action": {
+          "type": "string",
+          "enum": [
+            "none"
+          ]
+        }
+      },
+      "required": [
+        "say",
+        "private_note",
+        "evidence",
+        "conclusion",
+        "action"
+      ],
+      "additionalProperties": false
+    },
+    "keep_alive": "2m",
+    "options": {
+      "temperature": 0.7,
+      "seed": 1,
+      "num_ctx": 16384,
+      "num_predict": 768
+    }
+  },
+  "attempts": [
+    {
+      "started": 1790464823.0349252,
+      "result": {
+        "response": {
+          "model": "gemma4:e4b-it-qat",
+          "created_at": "2026-09-26T23:20:26.216472621Z",
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"say\": \"I was alone at ten, as I told Bob. I was trying to help clear up the confusion about the missing donation.\",\n  \"private_note\": \"Maintain the story that I was alone at ten to protect Sofia and Daniel.\",\n  \"evidence\": [\n    \"e00001\",\n    \"e00004\"\n  ],\n  \"conclusion\": \"\",\n  \"action\": \"none\"\n}"
+          },
+          "done": true,
+          "done_reason": "stop",
+          "total_duration": 3180998400,
+          "load_duration": 886929,
+          "prompt_eval_count": 1279,
+          "prompt_eval_cached_count": 380,
+          "prompt_eval_duration": 1029287000,
+          "eval_count": 101,
+          "eval_duration": 2141902000
+        },
+        "wall_seconds": 3.181
+      }
+    }
+  ],
+  "accepted": {
+    "say": "I was alone at ten, as I told Bob. I was trying to help clear up the confusion about the missing donation.",
+    "private_note": "Maintain the story that I was alone at ten to protect Sofia and Daniel.",
+    "evidence": [
+      "e00001",
+      "e00004"
+    ],
+    "conclusion": "",
+    "action": "none"
+  }
+}

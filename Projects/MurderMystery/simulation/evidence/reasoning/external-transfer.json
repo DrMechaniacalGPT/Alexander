@@ -1,0 +1,38 @@
+{
+  "case_sha256": "a2609bc323ba2dd44df51150d70ad30a47970819535305921b7eb31effe8ca03",
+  "config": {
+    "backend": "ollama",
+    "model": "qwen3.5:9b",
+    "seed": 17,
+    "context": 16384,
+    "tokens": 768,
+    "max_calls": 48,
+    "max_seconds": 600.0,
+    "prompt_profile": "grounded-v2"
+  },
+  "status": "complete",
+  "usage": {
+    "requests": 42,
+    "new_requests": 42,
+    "inherited_turns": 0,
+    "wall_seconds": 289.755,
+    "prompt_tokens": 75766,
+    "output_tokens": 4892
+  },
+  "field_limit_hits": [
+    {
+      "turn": "t00033",
+      "field": "private_note",
+      "length": 180
+    }
+  ],
+  "contract_failures": 0,
+  "replay_verified": true,
+  "nonculprit_accusations": {
+    "correct": 0,
+    "wrong": 5,
+    "abstain": 2,
+    "total": 7
+  },
+  "limitation": "One synthetic trajectory. Culprit excluded because its role contains privileged solution knowledge. Original external data and reconstructive traces remain private."
+}

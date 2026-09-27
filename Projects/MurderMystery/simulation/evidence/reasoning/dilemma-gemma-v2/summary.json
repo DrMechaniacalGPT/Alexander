@@ -1,0 +1,61 @@
+{
+  "status": "complete",
+  "failure": null,
+  "scenario": "03-permitted-disclosure",
+  "manifest": {
+    "engine": "0.2.0",
+    "case_sha256": "63cd72af97066ed9ecb50a01083f49c70976724e2508cf068164844f19ae9f56",
+    "config": {
+      "backend": "ollama",
+      "model": "gemma4:e4b-it-qat",
+      "seed": 1,
+      "context": 16384,
+      "tokens": 768,
+      "max_calls": 17,
+      "max_seconds": 500.0,
+      "prompt_profile": "grounded-v2"
+    }
+  },
+  "usage": {
+    "requests": 16,
+    "new_requests": 16,
+    "inherited_turns": 0,
+    "wall_seconds": 48.606,
+    "prompt_tokens": 17600,
+    "output_tokens": 1433
+  },
+  "field_limit_hits": [],
+  "events": 12,
+  "contacts": {
+    "p1": [
+      "p2",
+      "p3",
+      "p4"
+    ],
+    "p2": [
+      "p1"
+    ],
+    "p3": [
+      "p1"
+    ],
+    "p4": [
+      "p1"
+    ]
+  },
+  "transitions": [
+    {
+      "scene": "s1",
+      "reason": "schedule_budget",
+      "contact_trigger": null,
+      "contact_count": null
+    }
+  ],
+  "conclusions": {
+    "p1": "I have withheld the promise to Sofia to protect her and Daniel, as revealing it could shift suspicion unfairly. My current stance is to maintain my denials about her whereabouts while trying to clear the general confusion.",
+    "p2": "Alice stated she was alone at the north desk at 10, contradicting her later implication of being with Sofia. I disclosed my observation to her to seek clarification, not to accuse. I still lack proof of theft.",
+    "p3": "I believe Alice provided a false alibi for 10. I disclosed my own account of medicine delivery to Alice. I will remain private for now to protect the family and Alice's friendship.",
+    "p4": "Alice stated she saw nothing specific and did not observe Sofia during the relevant time frame. This fails to corroborate any suspicion against me or Sofia, leaving the situation unresolved."
+  },
+  "actions": [],
+  "limitation": "Synthetic participants; delivery is not belief. No human validity claim."
+}

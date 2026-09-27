@@ -1,0 +1,146 @@
+[
+  {
+    "id": "e00000",
+    "key": "t00000",
+    "actor": "p2",
+    "recipients": [
+      "p1",
+      "p2"
+    ],
+    "content": "Alice, I saw you at the north desk earlier alone. I later heard you say Sofia was with you. Can you clarify that for me?",
+    "scene": "s1",
+    "kind": "speech"
+  },
+  {
+    "id": "e00001",
+    "key": "t00001",
+    "actor": "p1",
+    "recipients": [
+      "p1",
+      "p2"
+    ],
+    "content": "Bob, I was at the north desk alone, but I have spoken with Sofia.",
+    "scene": "s1",
+    "kind": "speech"
+  },
+  {
+    "id": "e00002",
+    "key": "t00002",
+    "actor": "p2",
+    "recipients": [
+      "p1",
+      "p2"
+    ],
+    "content": "Bob, I was at the north desk alone, but I have spoken with Sofia.",
+    "scene": "s1",
+    "kind": "speech"
+  },
+  {
+    "id": "e00003",
+    "key": "t00003",
+    "actor": "p1",
+    "recipients": [
+      "p1",
+      "p2"
+    ],
+    "content": "Bob, I was at the north desk alone at the time of the incident.",
+    "scene": "s1",
+    "kind": "speech"
+  },
+  {
+    "id": "e00004",
+    "key": "t00004",
+    "actor": "p1",
+    "recipients": [
+      "p1",
+      "p3"
+    ],
+    "content": "I was at the north desk alone at the time of the incident.",
+    "scene": "s1",
+    "kind": "speech"
+  },
+  {
+    "id": "e00005",
+    "key": "t00005",
+    "actor": "p3",
+    "recipients": [
+      "p1",
+      "p3"
+    ],
+    "content": "Alice, I understand you were at the north desk, but I was delivering medicine to a family who needed privacy.",
+    "scene": "s1",
+    "kind": "speech"
+  },
+  {
+    "id": "e00006",
+    "key": "t00006",
+    "actor": "p1",
+    "recipients": [
+      "p1",
+      "p3"
+    ],
+    "content": "Bob, I was at the north desk alone, but I spoke with Sofia earlier.",
+    "scene": "s1",
+    "kind": "speech"
+  },
+  {
+    "id": "e00007",
+    "key": "t00007",
+    "actor": "p3",
+    "recipients": [
+      "p1",
+      "p3"
+    ],
+    "content": "Sofia, I was delivering medicine to a family who required privacy during the time in question.",
+    "scene": "s1",
+    "kind": "speech"
+  },
+  {
+    "id": "e00008",
+    "key": "t00008",
+    "actor": "p4",
+    "recipients": [
+      "p1",
+      "p4"
+    ],
+    "content": "Alice, you mentioned an alibi for Sofia. Can you tell me exactly what you saw that led to that conclusion?",
+    "scene": "s1",
+    "kind": "speech"
+  },
+  {
+    "id": "e00009",
+    "key": "t00009",
+    "actor": "p1",
+    "recipients": [
+      "p1",
+      "p4"
+    ],
+    "content": "Daniel, I stated Sofia was with me at ten, but I was actually alone. I promised her that, and I want to protect her.",
+    "scene": "s1",
+    "kind": "speech"
+  },
+  {
+    "id": "e00010",
+    "key": "t00010",
+    "actor": "p4",
+    "recipients": [
+      "p1",
+      "p4"
+    ],
+    "content": "Alice, you said you were alone, but you initially claimed to have seen Sofia with you at ten. What exactly did you see?",
+    "scene": "s1",
+    "kind": "speech"
+  },
+  {
+    "id": "e00011",
+    "key": "t00011",
+    "actor": "p1",
+    "recipients": [
+      "p1",
+      "p4"
+    ],
+    "content": "I was mistaken about seeing her with me at ten, Daniel. I was alone at the north desk.",
+    "scene": "s1",
+    "kind": "speech"
+  }
+]

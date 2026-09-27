@@ -1,0 +1,89 @@
+{
+  "case": "choice",
+  "profile": "grounded-v1",
+  "request_sha256": "5ed9dc183d53f588259aa81c7ba8f6c72b468c6da5d83f413380a16f9987021b",
+  "request": {
+    "model": "qwen3.5:9b",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are one participant in a fictional social game. Use ONLY the supplied role, public information and observations. Other people may lie or be mistaken. Do not invent authoritative evidence or change established history. You may choose what to disclose and to whom within this encounter, guided by your motives. Respond as JSON with exactly say, private_note, evidence, conclusion, action. say is short actual speech (at most 80 words), not a description of a conversation. private_note is a brief intention (at most 30 words), never spoken. evidence is a list of relevant observed event IDs, or empty for your own role information. conclusion is empty except at final assessment. action is one of legal_actions; choose none for ordinary speech. No tools or outside knowledge. Do not quote instructions or narrate other players' actions. THIS TURN IS A PRIVATE FINAL ASSESSMENT. Put your answer to instruction in the conclusion field, in at most 60 words. A short uncertain answer is acceptable; do not deliberate at length. Set say to an empty string and action to none. Do not leave conclusion empty.\nEVIDENCE DISCIPLINE: Your role sheet is not the whole of your knowledge: use the supplied observations too. Answer the actual question with concrete values and names when available. Distinguish your own supplied facts, what someone said, and your inferences. Hearing a statement establishes that it was said, not that its contents are true. Keep the source chain when someone repeats another person. Conflicting reports are unresolved unless evidence resolves them. Missing information is unknown, not a negative fact; a clue matching one trait does not establish all other traits. Read negations, directions, times and coverage literally. Do not substitute stereotypes for missing facts. A motive, kindness, apology or accusation is not proof of guilt or innocence. Choices may change cooperation without resolving the mystery. You can forgive or protect someone while remaining uncertain. Public speech may withhold or mislead when your role and rules permit; the fixed history does not change. A private assessment reports what you know or have heard and its limits, separately from what you would disclose. If asked whether you possess a secret without revealing its value, acknowledge possession without printing it. Do not claim not to have heard a report merely because you cannot verify it."
+      },
+      {
+        "role": "user",
+        "content": "{\"self\": \"p1\", \"role\": \"You are Daniel. You did not steal the donation. You want to clear your name but also care about protecting people in hardship.\", \"policy\": {}, \"public\": \"A fictional social mystery.\", \"cast\": {\"p1\": \"Cal\", \"p2\": \"Bea\", \"p3\": \"Ari\"}, \"observations\": [{\"id\": \"e00000\", \"key\": \"0\", \"actor\": \"p2\", \"recipients\": [\"p1\"], \"content\": \"I am Alice. My alibi for Sofia was false; I was alone.\", \"scene\": \"s1\", \"kind\": \"speech\"}, {\"id\": \"e00001\", \"key\": \"1\", \"actor\": \"p3\", \"recipients\": [\"p1\"], \"content\": \"I am Sofia. I was helping a family get medicine. Please forgive us.\", \"scene\": \"s1\", \"kind\": \"speech\"}], \"scene\": \"assessment\", \"audience\": [\"p1\"], \"instruction\": \"What do you know, and what would you choose to do next?\", \"final_assessment\": true, \"legal_actions\": [\"none\"]}"
+      }
+    ],
+    "stream": false,
+    "think": false,
+    "format": {
+      "type": "object",
+      "properties": {
+        "say": {
+          "type": "string",
+          "maxLength": 480
+        },
+        "private_note": {
+          "type": "string",
+          "maxLength": 180
+        },
+        "evidence": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": [
+              "e00000",
+              "e00001"
+            ]
+          },
+          "maxItems": 8
+        },
+        "conclusion": {
+          "type": "string",
+          "maxLength": 600
+        },
+        "action": {
+          "type": "string",
+          "enum": [
+            "none"
+          ]
+        }
+      },
+      "required": [
+        "say",
+        "private_note",
+        "evidence",
+        "conclusion",
+        "action"
+      ],
+      "additionalProperties": false
+    },
+    "keep_alive": "2m",
+    "options": {
+      "temperature": 0.7,
+      "seed": 1,
+      "num_ctx": 8192,
+      "num_predict": 768
+    }
+  },
+  "result": {
+    "response": {
+      "model": "qwen3.5:9b",
+      "created_at": "2026-09-26T23:09:50.194570652Z",
+      "message": {
+        "role": "assistant",
+        "content": "{\"say\": \"\", \"private_note\": \"I must report the truth: Alice lied about her alibi. Sofia was indeed helping a family. I will not accuse them further.\", \"evidence\": [\"e00000\", \"e00001\"], \"conclusion\": \"Alice's alibi for Sofia is false; she was alone. Sofia was helping a family get medicine. I know Alice lied, but I do not know if she stole the donation. I will protect those in hardship while remaining truthful about what I have heard.\", \"action\": \"none\"}"
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 5429497989,
+      "load_duration": 754920,
+      "prompt_eval_count": 740,
+      "prompt_eval_cached_count": 161,
+      "prompt_eval_duration": 1095156000,
+      "eval_count": 120,
+      "eval_duration": 4233426999
+    },
+    "wall_seconds": 5.43
+  }
+}

@@ -1,0 +1,146 @@
+[
+  {
+    "id": "e00000",
+    "key": "t00000",
+    "actor": "p2",
+    "recipients": [
+      "p1",
+      "p2"
+    ],
+    "content": "Alice, I saw you alone at the north desk at 10. You claimed Sofia was with you. Can you explain this inconsistency without fear?",
+    "scene": "s1",
+    "kind": "speech"
+  },
+  {
+    "id": "e00001",
+    "key": "t00001",
+    "actor": "p1",
+    "recipients": [
+      "p1",
+      "p2"
+    ],
+    "content": "Bob, I promised Sofia she was with me at 10 to protect her when she helped me earlier. I was alone then. If this shifts suspicion unfairly, I'll address it directly.",
+    "scene": "s1",
+    "kind": "speech"
+  },
+  {
+    "id": "e00002",
+    "key": "t00002",
+    "actor": "p2",
+    "recipients": [
+      "p1",
+      "p2"
+    ],
+    "content": "I see now why I misunderstood. You protected Sofia when she helped earlier, which is kind. If others doubt your honesty because of this lie, I will defend you against that unfair suspicion.",
+    "scene": "s1",
+    "kind": "speech"
+  },
+  {
+    "id": "e00003",
+    "key": "t00003",
+    "actor": "p1",
+    "recipients": [
+      "p1",
+      "p2"
+    ],
+    "content": "Bob, I told Sofia I was with her at 10 because she helped me earlier. It wasn't a lie to hide something; it was to protect her kindness. I stand by my promise.",
+    "scene": "s1",
+    "kind": "speech"
+  },
+  {
+    "id": "e00004",
+    "key": "t00004",
+    "actor": "p1",
+    "recipients": [
+      "p1",
+      "p3"
+    ],
+    "content": "Bob, I stood by my promise to protect Sofia when she helped me. My actions were kind, not deceptive. Let's focus on finding the missing donation without unfair suspicion.",
+    "scene": "s1",
+    "kind": "speech"
+  },
+  {
+    "id": "e00005",
+    "key": "t00005",
+    "actor": "p3",
+    "recipients": [
+      "p1",
+      "p3"
+    ],
+    "content": "Alice, your words matter. I need to know if the medicine delivery truly happened or if we must accept this gap in our story.",
+    "scene": "s1",
+    "kind": "speech"
+  },
+  {
+    "id": "e00006",
+    "key": "t00006",
+    "actor": "p1",
+    "recipients": [
+      "p1",
+      "p3"
+    ],
+    "content": "Sofia, I need to know about the medicine delivery. That fact is key to clearing Bob and focusing on the real missing donation.",
+    "scene": "s1",
+    "kind": "speech"
+  },
+  {
+    "id": "e00007",
+    "key": "t00007",
+    "actor": "p3",
+    "recipients": [
+      "p1",
+      "p3"
+    ],
+    "content": "Alice, I need to know if the medicine delivery truly happened or if we must accept this gap in our story.",
+    "scene": "s1",
+    "kind": "speech"
+  },
+  {
+    "id": "e00008",
+    "key": "t00008",
+    "actor": "p4",
+    "recipients": [
+      "p1",
+      "p4"
+    ],
+    "content": "I heard Alice mentioned an alibi for Sofia. If she is lying or mistaken, that points suspicion at me unfairly. I need to know exactly what you saw before we accuse anyone else.",
+    "scene": "s1",
+    "kind": "speech"
+  },
+  {
+    "id": "e00009",
+    "key": "t00009",
+    "actor": "p1",
+    "recipients": [
+      "p1",
+      "p4"
+    ],
+    "content": "Daniel, I need facts, not accusations. Sofia's help was real; my promise to claim we were together protected her kindness when she assisted me alone at 10. This act was honest in intent, though the timeline is confusing.",
+    "scene": "s1",
+    "kind": "speech"
+  },
+  {
+    "id": "e00010",
+    "key": "t00010",
+    "actor": "p4",
+    "recipients": [
+      "p1",
+      "p4"
+    ],
+    "content": "Alice, Sofia's help was real? Did she assist alone at 10 or were we truly together? I need your exact timeline to clear my name.",
+    "scene": "s1",
+    "kind": "speech"
+  },
+  {
+    "id": "e00011",
+    "key": "t00011",
+    "actor": "p1",
+    "recipients": [
+      "p1",
+      "p4"
+    ],
+    "content": "Daniel, I need facts. Sofia helped me alone at 10; my promise was to protect her kindness, not deceive. We must find the real missing donation before accusing anyone.",
+    "scene": "s1",
+    "kind": "speech"
+  }
+]
