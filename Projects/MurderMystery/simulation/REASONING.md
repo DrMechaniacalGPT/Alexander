@@ -1,5 +1,7 @@
 # Factual recall and evidence reasoning
 
+**Follow-up:** [Strict output and reasoning budget](REASONING-BUDGET.md) adds output enforcement and records the next bounded experiment, including its truncation failure.
+
 **We improved the small relay, but have not solved full mystery reasoning.** Explicit evidence and speaker cues let both local models carry a receipt location through a complete conversation chain. In the longer existing-game adaptation, the revised Qwen configuration still produced **0 correct accusations out of 7 nonculprit players**. Keep using this as an experimental instrument; do not use its outcomes to rank game quality yet.
 
 This checkpoint adds reproducible probes, opt-in context profiles and stronger audit/review tools. It records **218 new local generation calls**: 84 single-turn probes (including four excluded pilot outputs), 92 turns across eight original synthetic trajectories, and 42 turns in one private external trajectory. **40 software tests pass; all nine complete trajectories replay without inference.** No model was downloaded, paid API used, or third-party packet published.

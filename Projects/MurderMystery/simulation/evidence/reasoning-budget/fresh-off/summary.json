@@ -1,0 +1,59 @@
+{
+  "status": "complete",
+  "failure": null,
+  "scenario": "04-selective-disclosure",
+  "manifest": {
+    "engine": "0.2.0",
+    "case_sha256": "42aff09204fd100e07f0a3af26b2bceace747b38ed5c53c59f441f87abaea705",
+    "config": {
+      "backend": "ollama",
+      "model": "qwen3.5:9b",
+      "seed": 1,
+      "context": 16384,
+      "tokens": 2048,
+      "max_calls": 14,
+      "max_seconds": 900.0,
+      "prompt_profile": "grounded-v2",
+      "strict_output": true
+    }
+  },
+  "usage": {
+    "requests": 13,
+    "new_requests": 13,
+    "inherited_turns": 0,
+    "wall_seconds": 82.79,
+    "prompt_tokens": 17412,
+    "output_tokens": 1546
+  },
+  "field_limit_hits": [],
+  "events": 10,
+  "contacts": {
+    "p1": [
+      "p2",
+      "p3"
+    ],
+    "p2": [
+      "p1",
+      "p3"
+    ],
+    "p3": [
+      "p1",
+      "p2"
+    ]
+  },
+  "transitions": [
+    {
+      "scene": "s1",
+      "reason": "schedule_budget",
+      "contact_trigger": null,
+      "contact_count": null
+    }
+  ],
+  "conclusions": {
+    "p1": "I know the room was open for Dax at 16:20, but Leena observed water damage then. I chose to withhold Dax's identity from Omar while confirming the room was empty. The conflict between 'free room' status and existing water remains unresolved. My next step is to inspect the piano immediately before the caretaker arrives.",
+    "p2": "I know the room was free at 16:20 per Neri and water existed then per Leena, implying no late session. Authorization beyond Neri's discretion remains unconfirmed publicly. I chose to withhold specific authorization details in public speech. Next step: check for damage before caretaker arrives.",
+    "p3": "I know water was there at 16:25 (my own sight). Omar infers no late session and that Neri had no authorization; I cannot verify this. I chose to withhold Neri's promise of silence. My next step is to check for piano damage immediately."
+  },
+  "actions": [],
+  "limitation": "Synthetic participants; delivery is not belief. No human validity claim."
+}

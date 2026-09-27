@@ -1,6 +1,6 @@
 # Local mystery simulator
 
-A small Python runner that calls installed Ollama models with a separate context for each participant. Start with the [reasoning checkpoint](REASONING.md) for the latest comparison, and [RESULTS.md](RESULTS.md) for the initial implementation and failures. This is a working experimental instrument, not a calibrated model of party guests.
+A small Python runner that calls installed Ollama models with a separate context for each participant. Start with the [strict-output and reasoning-budget checkpoint](REASONING-BUDGET.md), then the [earlier reasoning comparison](REASONING.md) for the latest comparison, and [RESULTS.md](RESULTS.md) for the initial implementation and failures. This is a working experimental instrument, not a calibrated model of party guests.
 
 ## Run it
 
@@ -27,12 +27,19 @@ Add `--replay` to reconstruct a completed compatible run using recorded response
 
 Use `python3 -m dojo.benchmark --help` for frozen single-turn comparisons and `python3 -m dojo.audit --help` for recorded output-contract checks. Offline rubrics never enter player prompts. Contract checks validate format and citation availability, not the truth or support of a conclusion. Private assessments do not deliver a model's stray `say` field to other players; the audit flags it as a contract failure.
 
+`--strict-output` adds phase-specific schema constraints and independent validation; rejected text stays in the journal. `--thinking` enables supported local model reasoning and needs an explicit output budget. Both are opt-in so historical default payloads and manifests remain compatible. The latest 2,048-token thinking configuration failed during a fresh conversation; see [the budget results](REASONING-BUDGET.md) before running expensive sweeps. Thinking controls are model-specific; our tested installed models report boolean support.
+
+Benchmark calls accept `--context`, `--tokens`, `--thinking` and `--strict-output`. They retain all generated results, mark contract violations, count failures and return a nonzero exit status after a batch with violations. Structural validity is still separate from reasoning quality.
+
+`python3 -m dojo.export PRIVATE_SOURCE NEW_EXPORT` publishes an inspectable copy of original synthetic evidence with model-returned reasoning text omitted and hashed. It retains prompts, speech and private notes; it is not a privacy or copyright sanitizer. Full local journals remain available separately. Export never overwrites its source or an existing destination.
+
 ## Incremental fixtures
 
 1. `01_exchange.json`: two players locate an envelope.
 2. `02_private_relay.json`: a third player learns through an intermediary, while an unrelated private marker should remain undisclosed.
 3. `03_dilemma.json`: Alice can decide how to respond to a challenged alibi and then talk to people affected by it. It is deliberately incomplete as a mystery.
-4. A private external adaptation exercises a longer sequence. See [external-run.md](external-run.md). Source-owned role/clue materials and reconstructive traces are not in the public repository.
+4. `04_selective_disclosure.json`: three volunteers choose what to reveal across changing audiences; an offline rubric distinguishes withholding, self-knowledge, testimony and unsupported discoveries.
+5. A private external adaptation exercises a longer sequence. See [external-run.md](external-run.md). Source-owned role/clue materials and reconstructive traces are not in the public repository.
 
 ## The model boundary
 

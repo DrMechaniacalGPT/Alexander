@@ -1,0 +1,44 @@
+{
+  "status": "incomplete",
+  "failure": "ValueError: Truncated generation; inspect raw output and explicitly revise limits",
+  "scenario": "04-selective-disclosure",
+  "manifest": {
+    "engine": "0.2.0",
+    "case_sha256": "42aff09204fd100e07f0a3af26b2bceace747b38ed5c53c59f441f87abaea705",
+    "config": {
+      "backend": "ollama",
+      "model": "qwen3.5:9b",
+      "seed": 1,
+      "context": 16384,
+      "tokens": 2048,
+      "max_calls": 14,
+      "max_seconds": 900.0,
+      "prompt_profile": "grounded-v2",
+      "thinking": true,
+      "strict_output": true
+    }
+  },
+  "usage": {
+    "requests": 3,
+    "new_requests": 3,
+    "inherited_turns": 0,
+    "wall_seconds": 186.652,
+    "prompt_tokens": 3096,
+    "output_tokens": 4523
+  },
+  "field_limit_hits": [],
+  "events": 2,
+  "contacts": {
+    "p1": [
+      "p2"
+    ],
+    "p2": [
+      "p1"
+    ],
+    "p3": []
+  },
+  "transitions": [],
+  "conclusions": {},
+  "actions": [],
+  "limitation": "Synthetic participants; delivery is not belief. No human validity claim."
+}

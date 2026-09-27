@@ -16,10 +16,12 @@ def violations(request, result):
         value=action[name]
         if rule['type']=='string':
             if not isinstance(value,str): errors.append(name+': not a string');continue
+            if len(value)<rule.get('minLength',0): errors.append(name+': minimum length')
             if len(value)>rule.get('maxLength',float('inf')): errors.append(name+': length limit')
             if 'enum' in rule and value not in rule['enum']: errors.append(name+': unavailable value')
         elif rule['type']=='array':
             if not isinstance(value,list): errors.append(name+': not an array');continue
+            if len(value)<rule.get('minLength',0): errors.append(name+': minimum length')
             if len(value)>rule.get('maxItems',float('inf')): errors.append(name+': item limit')
             if any(not isinstance(v,str) for v in value): errors.append(name+': non-string item')
             if 'enum' in rule['items'] and any(v not in rule['items']['enum'] for v in value): errors.append(name+': unseen citation')

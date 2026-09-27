@@ -1,0 +1,122 @@
+[
+  {
+    "id": "e00000",
+    "key": "t00000",
+    "actor": "p2",
+    "recipients": [
+      "p1",
+      "p2"
+    ],
+    "content": "Neri, did anyone authorize keeping the practice room open past 16:00? I need to know if the piano was scheduled for use at 16:20 so I can arrange protection.",
+    "scene": "s1",
+    "kind": "speech"
+  },
+  {
+    "id": "e00001",
+    "key": "t00001",
+    "actor": "p1",
+    "recipients": [
+      "p1",
+      "p2"
+    ],
+    "content": "No one authorized it beyond my discretion for Dax's specific need. Omar, I asked for silence on that part. Can we focus on the piano now?",
+    "scene": "s1",
+    "kind": "speech"
+  },
+  {
+    "id": "e00002",
+    "key": "t00002",
+    "actor": "p2",
+    "recipients": [
+      "p1",
+      "p2"
+    ],
+    "content": "I'm told no one authorized it beyond Neri's discretion for Dax. Does that mean the room was free at 16:20? I need to know if protection is needed.",
+    "scene": "s1",
+    "kind": "speech"
+  },
+  {
+    "id": "e00003",
+    "key": "t00003",
+    "actor": "p1",
+    "recipients": [
+      "p1",
+      "p2"
+    ],
+    "content": "I said it was free at 16:20. The room is empty now. We must check for water before the caretaker arrives at 17:00.",
+    "scene": "s1",
+    "kind": "speech"
+  },
+  {
+    "id": "e00004",
+    "key": "t00004",
+    "actor": "p3",
+    "recipients": [
+      "p2",
+      "p3"
+    ],
+    "content": "I saw water by the piano at 16:25 when looking through the doorway. Did anyone book a late session? I don't want to blame anyone unfairly.",
+    "scene": "s1",
+    "kind": "speech"
+  },
+  {
+    "id": "e00005",
+    "key": "t00005",
+    "actor": "p2",
+    "recipients": [
+      "p2",
+      "p3"
+    ],
+    "content": "Leena, did the water appear before or after 16:00? If it was already there at 16:25, no late session occurred. Neri said the room was free then. We must check for damage now.",
+    "scene": "s1",
+    "kind": "speech"
+  },
+  {
+    "id": "e00006",
+    "key": "t00006",
+    "actor": "p3",
+    "recipients": [
+      "p2",
+      "p3"
+    ],
+    "content": "Omar, the water was there at 16:25 when I checked. If Neri said the room was free then, no late session happened. I don't want to blame anyone yet. Let's just check for damage now.",
+    "scene": "s1",
+    "kind": "speech"
+  },
+  {
+    "id": "e00007",
+    "key": "t00007",
+    "actor": "p2",
+    "recipients": [
+      "p2",
+      "p3"
+    ],
+    "content": "Leena, water at 16:25 confirms the room wasn't used late. Neri's silence on authorization means no official booking existed then. We must check for damage before the caretaker arrives.",
+    "scene": "s1",
+    "kind": "speech"
+  },
+  {
+    "id": "e00008",
+    "key": "t00008",
+    "actor": "p1",
+    "recipients": [
+      "p1",
+      "p3"
+    ],
+    "content": "Omar, I cannot confirm Dax's presence due to my promise. However, the room is currently empty and safe. Let us proceed with checking for water damage before the caretaker arrives.",
+    "scene": "s1",
+    "kind": "speech"
+  },
+  {
+    "id": "e00009",
+    "key": "t00009",
+    "actor": "p3",
+    "recipients": [
+      "p1",
+      "p3"
+    ],
+    "content": "Omar, the water was there at 16:25 when I checked. Since Neri said the room was free then, no late session occurred. We must check for damage now without blaming anyone.",
+    "scene": "s1",
+    "kind": "speech"
+  }
+]

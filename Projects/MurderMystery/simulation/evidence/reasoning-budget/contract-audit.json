@@ -1,0 +1,179 @@
+{
+  "generation_attempts": 24,
+  "wall_seconds": 406.151,
+  "contract_failures": 1,
+  "records": [
+    {
+      "record": "fresh-off/turns/t00000.json",
+      "attempt": 0,
+      "model": "qwen3.5:9b",
+      "wall_seconds": 5.391,
+      "violations": []
+    },
+    {
+      "record": "fresh-off/turns/t00001.json",
+      "attempt": 0,
+      "model": "qwen3.5:9b",
+      "wall_seconds": 4.412,
+      "violations": []
+    },
+    {
+      "record": "fresh-off/turns/t00002.json",
+      "attempt": 0,
+      "model": "qwen3.5:9b",
+      "wall_seconds": 6.152,
+      "violations": []
+    },
+    {
+      "record": "fresh-off/turns/t00003.json",
+      "attempt": 0,
+      "model": "qwen3.5:9b",
+      "wall_seconds": 5.649,
+      "violations": []
+    },
+    {
+      "record": "fresh-off/turns/t00004.json",
+      "attempt": 0,
+      "model": "qwen3.5:9b",
+      "wall_seconds": 4.293,
+      "violations": []
+    },
+    {
+      "record": "fresh-off/turns/t00005.json",
+      "attempt": 0,
+      "model": "qwen3.5:9b",
+      "wall_seconds": 5.837,
+      "violations": []
+    },
+    {
+      "record": "fresh-off/turns/t00006.json",
+      "attempt": 0,
+      "model": "qwen3.5:9b",
+      "wall_seconds": 6.733,
+      "violations": []
+    },
+    {
+      "record": "fresh-off/turns/t00007.json",
+      "attempt": 0,
+      "model": "qwen3.5:9b",
+      "wall_seconds": 5.544,
+      "violations": []
+    },
+    {
+      "record": "fresh-off/turns/t00008.json",
+      "attempt": 0,
+      "model": "qwen3.5:9b",
+      "wall_seconds": 5.289,
+      "violations": []
+    },
+    {
+      "record": "fresh-off/turns/t00009.json",
+      "attempt": 0,
+      "model": "qwen3.5:9b",
+      "wall_seconds": 6.686,
+      "violations": []
+    },
+    {
+      "record": "fresh-off/turns/t00010.json",
+      "attempt": 0,
+      "model": "qwen3.5:9b",
+      "wall_seconds": 10.006,
+      "violations": []
+    },
+    {
+      "record": "fresh-off/turns/t00011.json",
+      "attempt": 0,
+      "model": "qwen3.5:9b",
+      "wall_seconds": 8.7,
+      "violations": []
+    },
+    {
+      "record": "fresh-off/turns/t00012.json",
+      "attempt": 0,
+      "model": "qwen3.5:9b",
+      "wall_seconds": 8.098,
+      "violations": []
+    },
+    {
+      "record": "fresh-on/turns/t00000.json",
+      "attempt": 0,
+      "model": "qwen3.5:9b",
+      "wall_seconds": 38.137,
+      "violations": []
+    },
+    {
+      "record": "fresh-on/turns/t00001.json",
+      "attempt": 0,
+      "model": "qwen3.5:9b",
+      "wall_seconds": 66.117,
+      "violations": []
+    },
+    {
+      "record": "fresh-on/turns/t00002.json",
+      "attempt": 0,
+      "model": "qwen3.5:9b",
+      "wall_seconds": 82.398,
+      "violations": [
+        "generation truncated",
+        "invalid JSON response"
+      ]
+    },
+    {
+      "record": "thinking-off/changed_conflict-grounded-v2.json",
+      "attempt": 0,
+      "model": "qwen3.5:9b",
+      "wall_seconds": 6.029,
+      "violations": []
+    },
+    {
+      "record": "thinking-off/choice-grounded-v2.json",
+      "attempt": 0,
+      "model": "qwen3.5:9b",
+      "wall_seconds": 5.156,
+      "violations": []
+    },
+    {
+      "record": "thinking-off/positive-grounded-v2.json",
+      "attempt": 0,
+      "model": "qwen3.5:9b",
+      "wall_seconds": 4.79,
+      "violations": []
+    },
+    {
+      "record": "thinking-off/secret-grounded-v2.json",
+      "attempt": 0,
+      "model": "qwen3.5:9b",
+      "wall_seconds": 19.666,
+      "violations": []
+    },
+    {
+      "record": "thinking-on/changed_conflict-grounded-v2.json",
+      "attempt": 0,
+      "model": "qwen3.5:9b",
+      "wall_seconds": 29.445,
+      "violations": []
+    },
+    {
+      "record": "thinking-on/choice-grounded-v2.json",
+      "attempt": 0,
+      "model": "qwen3.5:9b",
+      "wall_seconds": 24.309,
+      "violations": []
+    },
+    {
+      "record": "thinking-on/positive-grounded-v2.json",
+      "attempt": 0,
+      "model": "qwen3.5:9b",
+      "wall_seconds": 27.501,
+      "violations": []
+    },
+    {
+      "record": "thinking-on/secret-grounded-v2.json",
+      "attempt": 0,
+      "model": "qwen3.5:9b",
+      "wall_seconds": 19.813,
+      "violations": []
+    }
+  ],
+  "limitation": "Syntactic citation availability is not evidential support. Semantic judgments require separate review."
+}
