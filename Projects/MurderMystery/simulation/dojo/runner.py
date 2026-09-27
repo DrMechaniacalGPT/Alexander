@@ -252,7 +252,7 @@ def main():
     p.add_argument('--model', default='qwen3.5:9b'); p.add_argument('--seed', type=int, default=1)
     p.add_argument('--context', type=int, default=4096); p.add_argument('--tokens', type=int, default=256)
     p.add_argument('--max-calls', type=int, default=32); p.add_argument('--max-seconds', type=float, default=1800)
-    p.add_argument('--prompt-profile', choices=['legacy','grounded-v1','grounded-v2'], default='legacy')
+    p.add_argument('--prompt-profile', choices=['legacy','grounded-v1','grounded-v2','dialogue-v1'], default='legacy')
     p.add_argument('--thinking', action='store_true', help='Enable local model reasoning; budget enough output tokens')
     p.add_argument('--strict-output', action='store_true', help='Constrain phase-specific fields and reject violations')
     p.add_argument('--replay', action='store_true')

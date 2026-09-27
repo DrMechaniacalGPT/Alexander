@@ -7,10 +7,14 @@ original pages. This adapter implements selected mechanics, not physical realism
 import argparse
 import json
 import random
+import sys
 from pathlib import Path
 
+if __package__ in (None, ""):
+    sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 
-def adapt(source, seed=17):
+
+def adapt(source, seed=17, partners=None):
     roles = source['roles']
     if len(roles) != 8 or len({r['id'] for r in roles}) != 8:
         raise ValueError('This bounded adaptation requires eight distinct guest cards')
@@ -54,14 +58,23 @@ def adapt(source, seed=17):
         'epilogue':[{'participants':ids,'speakers':[culprit],
                     'instruction':'Accusations are locked. It is now the scheduled confession. Follow your role and confess in your own words. This speech is your generated performance, not text from the author. Use action confess.',
                     'legal_actions':['none','confess'],'required_action':'confess'}]}
+    if partners is not None:
+        from dojo.schedule import distinct_encounters
+        scene = case['scenes'][0]
+        scene['encounters'] = distinct_encounters(ids, partners, seed, scene['turns_each'], scene['instruction'])
+        scene['mode'] = 'fixed'
+        scene.pop('windows')
+        case['provenance']['assumptions'][1] = f'{partners} distinct partners each; two utterances per player per encounter'
     return case
 
 
 def main():
     p=argparse.ArgumentParser(description=__doc__)
     p.add_argument('source_json',type=Path);p.add_argument('output',type=Path)
-    p.add_argument('--seed',type=int,default=17);a=p.parse_args()
-    result=adapt(json.loads(a.source_json.read_text()),a.seed)
+    p.add_argument('--seed',type=int,default=17)
+    p.add_argument('--partners',type=int,help='Experimental distinct-partner mingling schedule')
+    a=p.parse_args()
+    result=adapt(json.loads(a.source_json.read_text()),a.seed,a.partners)
     a.output.parent.mkdir(parents=True,exist_ok=True)
     a.output.write_text(json.dumps(result,indent=2)+'\n');a.output.chmod(0o600)
     print('Wrote private adaptation:',a.output)

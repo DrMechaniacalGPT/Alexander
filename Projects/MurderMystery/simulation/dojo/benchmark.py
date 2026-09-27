@@ -74,7 +74,7 @@ def main():
     p.add_argument('--tokens',type=int,default=768)
     p.add_argument('--thinking',action='store_true')
     p.add_argument('--strict-output',action='store_true')
-    p.add_argument('--profiles',nargs='+',choices=['legacy','grounded-v1','grounded-v2'],default=['legacy','grounded-v1'])
+    p.add_argument('--profiles',nargs='+',choices=['legacy','grounded-v1','grounded-v2','dialogue-v1'],default=['legacy','grounded-v1'])
     a=p.parse_args()
     backend=Ollama(a.model,context=a.context,tokens=a.tokens,seed=a.seed,thinking=a.thinking,strict_output=a.strict_output)
     summary=collect(json.loads(a.cases.read_text()), a.out, backend, a.profiles)

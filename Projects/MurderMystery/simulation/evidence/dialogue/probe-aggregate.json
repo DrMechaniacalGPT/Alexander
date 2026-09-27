@@ -1,0 +1,306 @@
+{
+  "calls": 30,
+  "method": "Selected frozen failures, two seeds; all raw source-derived records retained privately. Pilot diagnostic parser errors occurred after generation and the unchanged schema/phase re-audit passed all 18 pilot responses.",
+  "records": [
+    {
+      "trial": "dialogue-format-probes",
+      "record": "t00002-17-chat.json",
+      "record_sha256": "9a737394d3ee244e7156a75f8a46cfff8034d81486bd273e243df02a9a459006",
+      "wall_seconds": 5.421,
+      "prompt_tokens": 1354,
+      "output_tokens": 109,
+      "generation_truncated": false,
+      "diagnostic_error": true
+    },
+    {
+      "trial": "dialogue-format-probes",
+      "record": "t00002-17-original.json",
+      "record_sha256": "5403bddc46c5207b7e6fb1a6ff54af8453f2ea4f54655ea31c0032f2a97239dc",
+      "wall_seconds": 12.343,
+      "prompt_tokens": 1343,
+      "output_tokens": 94,
+      "generation_truncated": false,
+      "diagnostic_error": false
+    },
+    {
+      "trial": "dialogue-format-probes",
+      "record": "t00002-17-readable.json",
+      "record_sha256": "ed258a9d001d6993e290e9a5cec322c73f24ae3a965769f4c388955d1d557987",
+      "wall_seconds": 6.795,
+      "prompt_tokens": 1350,
+      "output_tokens": 103,
+      "generation_truncated": false,
+      "diagnostic_error": true
+    },
+    {
+      "trial": "dialogue-format-probes",
+      "record": "t00002-23-chat.json",
+      "record_sha256": "f3ad1b862633d2b2b5e7d824a6800511673b73ac5ad4d93244737f9c12a3a454",
+      "wall_seconds": 6.226,
+      "prompt_tokens": 1354,
+      "output_tokens": 129,
+      "generation_truncated": false,
+      "diagnostic_error": true
+    },
+    {
+      "trial": "dialogue-format-probes",
+      "record": "t00002-23-original.json",
+      "record_sha256": "ce6f26754e634d5c0844647769916ac15f42232f1e15236491bc1b4ae3c5d722",
+      "wall_seconds": 4.055,
+      "prompt_tokens": 1343,
+      "output_tokens": 97,
+      "generation_truncated": false,
+      "diagnostic_error": false
+    },
+    {
+      "trial": "dialogue-format-probes",
+      "record": "t00002-23-readable.json",
+      "record_sha256": "a8fcc5aebed2d0bcc9975ef2b3e884a8ec51fb46c9c826445aae9a9e71f99d34",
+      "wall_seconds": 4.658,
+      "prompt_tokens": 1350,
+      "output_tokens": 89,
+      "generation_truncated": false,
+      "diagnostic_error": true
+    },
+    {
+      "trial": "dialogue-format-probes",
+      "record": "t00013-17-chat.json",
+      "record_sha256": "a73afe7e7a7559f5b2333777df245803413fc3c32578dc2bcd4744f31f16a576",
+      "wall_seconds": 6.52,
+      "prompt_tokens": 1287,
+      "output_tokens": 136,
+      "generation_truncated": false,
+      "diagnostic_error": true
+    },
+    {
+      "trial": "dialogue-format-probes",
+      "record": "t00013-17-original.json",
+      "record_sha256": "b3db18953b91f62f5d950af4766a0b4a664c844c0570baa0e3d7304101e465dd",
+      "wall_seconds": 6.368,
+      "prompt_tokens": 1237,
+      "output_tokens": 96,
+      "generation_truncated": false,
+      "diagnostic_error": false
+    },
+    {
+      "trial": "dialogue-format-probes",
+      "record": "t00013-17-readable.json",
+      "record_sha256": "40b96177cca91467c7afa23c629c452498a4b0e6ee62e1aaaf9fcc96820d1112",
+      "wall_seconds": 7.841,
+      "prompt_tokens": 1287,
+      "output_tokens": 131,
+      "generation_truncated": false,
+      "diagnostic_error": true
+    },
+    {
+      "trial": "dialogue-format-probes",
+      "record": "t00013-23-chat.json",
+      "record_sha256": "1f06d6c94c152b287fd9fb1b2adb6cdc7087b9e8755c0ab532bbe5015557b6b5",
+      "wall_seconds": 5.469,
+      "prompt_tokens": 1287,
+      "output_tokens": 110,
+      "generation_truncated": false,
+      "diagnostic_error": true
+    },
+    {
+      "trial": "dialogue-format-probes",
+      "record": "t00013-23-original.json",
+      "record_sha256": "45f1f6ad878ec7b64e10cebfa608b22fc705bea7d57369ece3822ea8d12bd591",
+      "wall_seconds": 5.033,
+      "prompt_tokens": 1237,
+      "output_tokens": 120,
+      "generation_truncated": false,
+      "diagnostic_error": false
+    },
+    {
+      "trial": "dialogue-format-probes",
+      "record": "t00013-23-readable.json",
+      "record_sha256": "c139303477bb2bddc9ea2251f1c197c0b189aae70938a9135631ee8c5feff2e5",
+      "wall_seconds": 5.277,
+      "prompt_tokens": 1287,
+      "output_tokens": 103,
+      "generation_truncated": false,
+      "diagnostic_error": true
+    },
+    {
+      "trial": "dialogue-format-probes",
+      "record": "t00020-17-chat.json",
+      "record_sha256": "d289ba582fc15d11f5bb5457933feccb536be21b9e71be010918eceafa6c9edd",
+      "wall_seconds": 5.628,
+      "prompt_tokens": 1491,
+      "output_tokens": 110,
+      "generation_truncated": false,
+      "diagnostic_error": true
+    },
+    {
+      "trial": "dialogue-format-probes",
+      "record": "t00020-17-original.json",
+      "record_sha256": "3981a4e0bcfdc95f0bdc729fb2b863220f6c6ccf8cb8d3dd6a90800f473c7b1f",
+      "wall_seconds": 7.65,
+      "prompt_tokens": 1558,
+      "output_tokens": 111,
+      "generation_truncated": false,
+      "diagnostic_error": false
+    },
+    {
+      "trial": "dialogue-format-probes",
+      "record": "t00020-17-readable.json",
+      "record_sha256": "8dc8410098da31de7bdce3a1fd21fd54b8bac70a352ded4198d1d105d85b235c",
+      "wall_seconds": 7.727,
+      "prompt_tokens": 1481,
+      "output_tokens": 114,
+      "generation_truncated": false,
+      "diagnostic_error": true
+    },
+    {
+      "trial": "dialogue-format-probes",
+      "record": "t00020-23-chat.json",
+      "record_sha256": "cacc59c1a26825ad6cb3bf7128440a00b16f8f622d0cf20a891a7d3524eb1708",
+      "wall_seconds": 5.247,
+      "prompt_tokens": 1491,
+      "output_tokens": 102,
+      "generation_truncated": false,
+      "diagnostic_error": true
+    },
+    {
+      "trial": "dialogue-format-probes",
+      "record": "t00020-23-original.json",
+      "record_sha256": "632cf6b7d127536808ff9e5f3c586fee44de4f433e379495b1e8648f0983646e",
+      "wall_seconds": 5.64,
+      "prompt_tokens": 1558,
+      "output_tokens": 134,
+      "generation_truncated": false,
+      "diagnostic_error": false
+    },
+    {
+      "trial": "dialogue-format-probes",
+      "record": "t00020-23-readable.json",
+      "record_sha256": "4e13a56d5520925412295ab28543b2503e7ffa86545ff9db7d860a060a844841",
+      "wall_seconds": 7.335,
+      "prompt_tokens": 1481,
+      "output_tokens": 151,
+      "generation_truncated": false,
+      "diagnostic_error": true
+    },
+    {
+      "trial": "dialogue-integrated-probes",
+      "record": "t00002-17.json",
+      "record_sha256": "820ba6e9106077dcd16238261cd59043b77c9e333e3fadf3c16b1734b8a03df4",
+      "wall_seconds": 5.599,
+      "prompt_tokens": 1522,
+      "output_tokens": 69,
+      "generation_truncated": false,
+      "diagnostic_error": false
+    },
+    {
+      "trial": "dialogue-integrated-probes",
+      "record": "t00002-23.json",
+      "record_sha256": "faee5b43628719f34f21be2a554bc607f297597878a5fb1a1a38ebbb3d757df3",
+      "wall_seconds": 3.476,
+      "prompt_tokens": 1522,
+      "output_tokens": 89,
+      "generation_truncated": false,
+      "diagnostic_error": false
+    },
+    {
+      "trial": "dialogue-integrated-probes",
+      "record": "t00013-17.json",
+      "record_sha256": "db8c91f834dc181c7d9d74d9989d2750f7461d7c2f08c1fabd078e4ba7ed118b",
+      "wall_seconds": 7.281,
+      "prompt_tokens": 1402,
+      "output_tokens": 120,
+      "generation_truncated": false,
+      "diagnostic_error": false
+    },
+    {
+      "trial": "dialogue-integrated-probes",
+      "record": "t00013-23.json",
+      "record_sha256": "5a43d9e8317e3889b79926a32b694992268829d0c09ce6043b58fc21b241283f",
+      "wall_seconds": 5.592,
+      "prompt_tokens": 1402,
+      "output_tokens": 142,
+      "generation_truncated": false,
+      "diagnostic_error": false
+    },
+    {
+      "trial": "dialogue-integrated-probes",
+      "record": "t00020-17.json",
+      "record_sha256": "a40adb1da70fb0d6b7f3b988fff4421f78f918c6abff5a652cd8e487f21168f3",
+      "wall_seconds": 8.086,
+      "prompt_tokens": 1771,
+      "output_tokens": 122,
+      "generation_truncated": false,
+      "diagnostic_error": false
+    },
+    {
+      "trial": "dialogue-integrated-probes",
+      "record": "t00020-23.json",
+      "record_sha256": "a0897eb348c88957095d02a4fc4739948e9e31863bc67dbfb81862f9e3ce61ac",
+      "wall_seconds": 3.338,
+      "prompt_tokens": 1771,
+      "output_tokens": 85,
+      "generation_truncated": false,
+      "diagnostic_error": false
+    },
+    {
+      "trial": "dialogue-integrated-probes-v2",
+      "record": "t00002-17.json",
+      "record_sha256": "9cc3bde04642bbf90e63b31ad71c24cdda176a3277b308d3813a9741bdb716ea",
+      "wall_seconds": 5.143,
+      "prompt_tokens": 1454,
+      "output_tokens": 107,
+      "generation_truncated": false,
+      "diagnostic_error": false
+    },
+    {
+      "trial": "dialogue-integrated-probes-v2",
+      "record": "t00002-23.json",
+      "record_sha256": "f73218b2a522bc44a4aefc398dfc7b551172859d750f1492fe6cb559964e33a0",
+      "wall_seconds": 3.949,
+      "prompt_tokens": 1454,
+      "output_tokens": 101,
+      "generation_truncated": false,
+      "diagnostic_error": false
+    },
+    {
+      "trial": "dialogue-integrated-probes-v2",
+      "record": "t00013-17.json",
+      "record_sha256": "968b55a1aaccc004482a3dccaf95b38de8acab9ffa30d6645e1df17ad058768e",
+      "wall_seconds": 5.208,
+      "prompt_tokens": 1376,
+      "output_tokens": 107,
+      "generation_truncated": false,
+      "diagnostic_error": false
+    },
+    {
+      "trial": "dialogue-integrated-probes-v2",
+      "record": "t00013-23.json",
+      "record_sha256": "066b64167593135010ca31045fe8ea4d2bbf536f17067d75af05821ed5db77a1",
+      "wall_seconds": 4.746,
+      "prompt_tokens": 1376,
+      "output_tokens": 122,
+      "generation_truncated": false,
+      "diagnostic_error": false
+    },
+    {
+      "trial": "dialogue-integrated-probes-v2",
+      "record": "t00020-17.json",
+      "record_sha256": "95461e4311145a6de4aa513ede6436747249b48b8aa6a4c7c729ad01adf02d2a",
+      "wall_seconds": 8.297,
+      "prompt_tokens": 1619,
+      "output_tokens": 133,
+      "generation_truncated": false,
+      "diagnostic_error": false
+    },
+    {
+      "trial": "dialogue-integrated-probes-v2",
+      "record": "t00020-23.json",
+      "record_sha256": "588a4e563d8ecc142c3f0cbf8b3ba4dd33b037fe9d41319d8f39a482425aad1b",
+      "wall_seconds": 3.972,
+      "prompt_tokens": 1619,
+      "output_tokens": 102,
+      "generation_truncated": false,
+      "diagnostic_error": false
+    }
+  ]
+}

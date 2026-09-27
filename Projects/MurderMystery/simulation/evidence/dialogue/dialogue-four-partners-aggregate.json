@@ -1,0 +1,108 @@
+{
+  "case_sha256": "ae7c58c15fc04937920faf901fccabf4fa28717c0295423d39d4f5c65f5112c9",
+  "config": {
+    "backend": "ollama",
+    "model": "qwen3.5:9b",
+    "seed": 17,
+    "context": 16384,
+    "tokens": 768,
+    "max_calls": 80,
+    "max_seconds": 1200.0,
+    "prompt_profile": "dialogue-v1",
+    "strict_output": true
+  },
+  "status": "complete",
+  "usage": {
+    "requests": 74,
+    "new_requests": 74,
+    "inherited_turns": 0,
+    "wall_seconds": 527.133,
+    "prompt_tokens": 157731,
+    "output_tokens": 9277
+  },
+  "metrics": {
+    "scene": "mingling",
+    "speech_turns": 64,
+    "exact_repeated_turns": 2,
+    "by_player": {
+      "p4": {
+        "turns": 8,
+        "exact_repeated_turns": 0,
+        "words": 317,
+        "distinct_utterances": 8,
+        "other_speech_received": 8,
+        "distinct_partners": 4
+      },
+      "p7": {
+        "turns": 8,
+        "exact_repeated_turns": 0,
+        "words": 259,
+        "distinct_utterances": 8,
+        "other_speech_received": 8,
+        "distinct_partners": 4
+      },
+      "p2": {
+        "turns": 8,
+        "exact_repeated_turns": 1,
+        "words": 297,
+        "distinct_utterances": 7,
+        "other_speech_received": 8,
+        "distinct_partners": 4
+      },
+      "p8": {
+        "turns": 8,
+        "exact_repeated_turns": 0,
+        "words": 297,
+        "distinct_utterances": 8,
+        "other_speech_received": 8,
+        "distinct_partners": 4
+      },
+      "p1": {
+        "turns": 8,
+        "exact_repeated_turns": 0,
+        "words": 289,
+        "distinct_utterances": 8,
+        "other_speech_received": 8,
+        "distinct_partners": 4
+      },
+      "p3": {
+        "turns": 8,
+        "exact_repeated_turns": 0,
+        "words": 219,
+        "distinct_utterances": 8,
+        "other_speech_received": 8,
+        "distinct_partners": 4
+      },
+      "p5": {
+        "turns": 8,
+        "exact_repeated_turns": 0,
+        "words": 326,
+        "distinct_utterances": 8,
+        "other_speech_received": 8,
+        "distinct_partners": 4
+      },
+      "p6": {
+        "turns": 8,
+        "exact_repeated_turns": 1,
+        "words": 287,
+        "distinct_utterances": 7,
+        "other_speech_received": 8,
+        "distinct_partners": 4
+      }
+    },
+    "limitation": "Exact same-speaker string repetition only. A unique line can still be false, repetitive in meaning, irrelevant, or addressed to the wrong person. Contacts are opportunities, not proof of exchanged facts."
+  },
+  "contracts": {
+    "generation_attempts": 74,
+    "wall_seconds": 527.133,
+    "contract_failures": 0,
+    "limitation": "Syntactic citation availability is not evidential support. Semantic judgments require separate review."
+  },
+  "nonculprit_assessments": {
+    "correct_name": 1,
+    "wrong_name": 1,
+    "abstain": 3,
+    "inconsistent": 2
+  },
+  "assessment_caveat": "Correct identity is not sufficient justification; contradictions are a separate category. Source-derived per-player review stays non-reconstructive in benchmarks/reviews/accusation-review.md."
+}

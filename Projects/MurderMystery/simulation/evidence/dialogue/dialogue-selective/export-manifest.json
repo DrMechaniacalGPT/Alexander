@@ -1,0 +1,95 @@
+{
+  "omission": "Only model-returned thinking text is omitted; prompts and structured action fields remain.",
+  "files": [
+    {
+      "path": "budget.json",
+      "local_original_sha256": "e674147721aa6d410ecf58ee8c387f691bd18e7911813789fecb6d4bf0313522",
+      "published_sha256": "e674147721aa6d410ecf58ee8c387f691bd18e7911813789fecb6d4bf0313522"
+    },
+    {
+      "path": "events.json",
+      "local_original_sha256": "015b3b2d56fb29af69e93e87a0db94e5786e0345063bf2ea0023fab58b05f98d",
+      "published_sha256": "015b3b2d56fb29af69e93e87a0db94e5786e0345063bf2ea0023fab58b05f98d"
+    },
+    {
+      "path": "manifest.json",
+      "local_original_sha256": "3f26cf84f5bab9668ce5cbae936c906d925cb4202a21a513e0c2afc332dbca41",
+      "published_sha256": "3f26cf84f5bab9668ce5cbae936c906d925cb4202a21a513e0c2afc332dbca41"
+    },
+    {
+      "path": "report.md",
+      "local_original_sha256": "93c25230e9a9c4a5c38ad912f9d5ff42f49f5345f965165789d1feed29a0a704",
+      "published_sha256": "93c25230e9a9c4a5c38ad912f9d5ff42f49f5345f965165789d1feed29a0a704"
+    },
+    {
+      "path": "summary.json",
+      "local_original_sha256": "acfc652fdf2e94dd4a6ae47193b2ef1206e614089f4839155545dc2a9dbd95f8",
+      "published_sha256": "acfc652fdf2e94dd4a6ae47193b2ef1206e614089f4839155545dc2a9dbd95f8"
+    },
+    {
+      "path": "turns/t00000.json",
+      "local_original_sha256": "bd99e62c83870011748f4655f552654acf1765e2688a1b0b8164404799ae4810",
+      "published_sha256": "bd99e62c83870011748f4655f552654acf1765e2688a1b0b8164404799ae4810"
+    },
+    {
+      "path": "turns/t00001.json",
+      "local_original_sha256": "5c4309fc4b78293ea55d48ffd57957615299f328662ce36f9365fb5ad8a5b2e8",
+      "published_sha256": "5c4309fc4b78293ea55d48ffd57957615299f328662ce36f9365fb5ad8a5b2e8"
+    },
+    {
+      "path": "turns/t00002.json",
+      "local_original_sha256": "958be35ea11c1b79815096c82537b7b30fd6f1e560fb3fa99b351946907a9953",
+      "published_sha256": "958be35ea11c1b79815096c82537b7b30fd6f1e560fb3fa99b351946907a9953"
+    },
+    {
+      "path": "turns/t00003.json",
+      "local_original_sha256": "4999ffb0634437f231e4d987a8a629b68f6b435cc0c75af8ad2cbdf7061c563b",
+      "published_sha256": "4999ffb0634437f231e4d987a8a629b68f6b435cc0c75af8ad2cbdf7061c563b"
+    },
+    {
+      "path": "turns/t00004.json",
+      "local_original_sha256": "553c926687172786bf8640506461c1d2575a20c36c6c4ea5ada7f32eac365ce6",
+      "published_sha256": "553c926687172786bf8640506461c1d2575a20c36c6c4ea5ada7f32eac365ce6"
+    },
+    {
+      "path": "turns/t00005.json",
+      "local_original_sha256": "072c2e0ecaae424a266c6e442cccff6aa930919609b49b2790b42340311861d2",
+      "published_sha256": "072c2e0ecaae424a266c6e442cccff6aa930919609b49b2790b42340311861d2"
+    },
+    {
+      "path": "turns/t00006.json",
+      "local_original_sha256": "f2d7c8e1337cb7a5ad80b4966d2bc661ab28dc389ae9054b8be66e0ada2fb224",
+      "published_sha256": "f2d7c8e1337cb7a5ad80b4966d2bc661ab28dc389ae9054b8be66e0ada2fb224"
+    },
+    {
+      "path": "turns/t00007.json",
+      "local_original_sha256": "914b3a06e7644bc704e1585a44b93d4eca7d35d25ed1adddd51a3d150257f191",
+      "published_sha256": "914b3a06e7644bc704e1585a44b93d4eca7d35d25ed1adddd51a3d150257f191"
+    },
+    {
+      "path": "turns/t00008.json",
+      "local_original_sha256": "ed9d89c626db9508afb487b1c030ede3cebacc2a7dd7f0c7d533afb9b9d64d2a",
+      "published_sha256": "ed9d89c626db9508afb487b1c030ede3cebacc2a7dd7f0c7d533afb9b9d64d2a"
+    },
+    {
+      "path": "turns/t00009.json",
+      "local_original_sha256": "e93cbe349fe39f34d811ea9f665cca71f9b4d083a5ea5987f79c69b19c575dc3",
+      "published_sha256": "e93cbe349fe39f34d811ea9f665cca71f9b4d083a5ea5987f79c69b19c575dc3"
+    },
+    {
+      "path": "turns/t00010.json",
+      "local_original_sha256": "52405e4faf5ac373e7b9813714e3750c5d8edb82b9f3cf95ed0c278f4ec6ef84",
+      "published_sha256": "52405e4faf5ac373e7b9813714e3750c5d8edb82b9f3cf95ed0c278f4ec6ef84"
+    },
+    {
+      "path": "turns/t00011.json",
+      "local_original_sha256": "bc0892ed8ecbdcc9f89bf1e75c9e574cc09a4a5a42671b24d71198ddcbeb797f",
+      "published_sha256": "bc0892ed8ecbdcc9f89bf1e75c9e574cc09a4a5a42671b24d71198ddcbeb797f"
+    },
+    {
+      "path": "turns/t00012.json",
+      "local_original_sha256": "260042976e309601cd9289e5b189e2a8b351074a8764d5ff54ad9e4095e9ad2a",
+      "published_sha256": "260042976e309601cd9289e5b189e2a8b351074a8764d5ff54ad9e4095e9ad2a"
+    }
+  ]
+}
